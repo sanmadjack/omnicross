@@ -1,0 +1,31 @@
+:root {
+  --background-color: #2e3436;
+  --text-color: #eeeeec;
+  --spacing: 6pt;
+  --link-color: #73d216;
+}
+
+body {
+    background-color: black;
+    color: var(--text-color);
+}
+footer {
+    position: fixed;
+    bottom: var(--spacing);
+    left: var(--spacing);
+}
+a {
+    color: var(--link-color) !important;
+}
+
+[draggable] * {pointer-events: none;}
+
+#series-browser {
+}
+
+#compilation-browser {
+}
+
+.mainTable td {
+    vertical-align: top;
+}

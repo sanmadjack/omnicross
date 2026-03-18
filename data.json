@@ -1,0 +1,180 @@
+[
+	{
+		"id": "019cbb8c-6e18-72d9-8bf6-ab76deee9766",
+		"title": "Adam Warlock Omnibus",
+		"format": "omnibus",
+		"issues": {
+			"Fantastic Four (1961)": "66-67",
+			"Thor (1966)": "165-166",
+			"Marvel Premiere": "1-2",
+			"Warlock (1972)": "1-15",
+			"Incredible Hulk (1968)": "176-178",
+			"Incredible Hulk (1968) Annual": "6",
+			"Strange Tales (1951)": "178-181",
+			"Marvel Team-Up (1972)": "55",
+			"Avengers Annual (1967)": "7",
+			"Marvel Two-in-one (1972)": "61-63",
+			"Marvel Two-in-one Annual (1976)": "2"
+		}
+	},
+	{
+		"id": "019d0135-1c93-705b-aacc-faadb3d551fd",
+		"title": "She-Hulk by Charles Soule: The Complete Collection",
+		"format": "tpb",
+		"issues": {
+			"She-Hulk (2014)": "1-12",
+			"Wolverines": "13"
+		},
+		"partials": {
+			"Gwenpool Special": "1"
+		}
+	},
+	{
+		"id": "019d0137-1fb2-77ce-875f-ed604640ab43",
+		"title": "She-Hulk by Dan Slott Omnibus",
+		"format": "omnibus",
+		"issues": {
+			"She-Hulk (2004)": "1-12",
+			"She-Hulk (2005)": "1-21",
+			"Marvel Westerns: Two-Gun Kid": "1"
+		}
+	},
+	{
+		"id": "019d0138-81e5-723b-ba09-b4e6a9a3bc63",
+		"title": "She-Hulk by Peter David Omnibus",
+		"format": "omnibus",
+		"issues": {
+			"She-Hulk (2005)": "22-38",
+			"She-Hulk Cosmic Collision": "1",
+			"X-Factor (2005)": "33-34",
+			"Sensational She-Hulk (1989)": "12"
+		},
+		"partials": {
+			"She-Hulk Sensational": "1"
+		}
+	},
+	{
+		"id": "019d013a-0ee3-73c9-9375-03c8e54534af",
+		"title": "She-Hulk by Rainbow Rowell Omnibus",
+		"format": "omnibus",
+		"issues": {
+			"She-Hulk (2022)": "1-15",
+			"Sensational She-Hulk (2023)": "1-10"
+		},
+		"partials": {
+			"Marvel Comics": "1000"
+		}
+	},
+	{
+		"id": "019d013b-5124-73e0-ad1b-c9531735a8a6",
+		"title": "The Savage She-Hulk Omnibus",
+		"format": "omnibus",
+		"issues": {
+			"The Savage She-Hulk": "1-25",
+			"Marvel Two-In-One": "88"
+		}
+	},
+	{
+		"id": "019d013c-1ba8-763e-99ce-3f33a90fe642",
+		"title": "The Sensational She-Hulk Omnibus",
+		"format": "omnibus",
+		"issues": {
+			"Marvel Graphic Novel (1982)": "18",
+			"Sensational She-Hulk (1989)": "1-8,31-46,48-50"
+		},
+		"partials": {
+			"Marvel Comics Presents (1988)": "18"
+		}
+	},
+	{
+		"id": "019cbb89-193b-70fc-a729-9155633466c0",
+		"title": "The Thanos War: Infinity Origin Omnibus",
+		"format": "omnibus",
+		"issues": {
+			"Iron Man (1968)": "55",
+			"Captain Marvel (1968)": "25-34",
+			"Marvel Feature (1971)": "12",
+			"Avengers (1963)": "125",
+			"Strange Tales (1951)": "178-181",
+			"Warlock (1972)": "9-15",
+			"Marvel Team-Up (1972)": "55",
+			"Avengers Annual (1967)": "7",
+			"Marvel Two-in-one Annual (1976)": "2",
+			"Marvel Graphic Novel (1982)": "1",
+			"Daredevil (1964)": "105",
+			"Logan's Run (1977)": "6"
+		}
+	},
+	{
+		"id": "019cbb17-eef4-7579-86bc-f4ffa314e96b",
+		"title": "The Uncanny X-Men Omnibus Volume 1",
+		"format": "omnibus",
+		"issues": {
+			"Giant-Size X-Men": "1",
+			"X-Men (1963)": "94-131",
+			"X-Men Annual (1970)": "3"
+		}
+	},
+	{
+		"id": "019cbb85-3e46-779a-95a0-d2fc14411d80",
+		"title": "The Uncanny X-Men Omnibus Volume 2",
+		"format": "omnibus",
+		"issues": {
+			"X-Men (1963)": "132-141",
+			"X-Men Annual (1970)": "4-5",
+			"Uncanny X-Men (1981)": "142-153",
+			"Avengers Annual": "10",
+			"Marvel Fanfare": "1-4",
+			"Marvel Treasury Edition": "26-27",
+			"Marvel Team-Up (1972)": "100",
+			"Bizarre Adventures": "27",
+			"Phoenix: The Untold Story": "1"
+		}
+	},
+	{
+		"id": "019cca9f-193f-744a-86b6-49be35379f84",
+		"title": "X-Factor: The Original X-Men Volume 2",
+		"format": "omnibus",
+		"issues": {
+			"X-Factor (1986)": "27-50",
+			"X-Factor Annual (1986)": "3-4",
+			"X-Terminators (1988)": "1-4",
+			"Uncanny X-Men (1981)": "240-243",
+			"New Mutants (1983)": "76",
+			"Fantastic Four (1961)": "342"
+		},
+		"partials": {
+			"New Mutants Annual (1984)": "6",
+			"Marvel Comics Presents (1988)": "15,17-24"
+		}
+	},
+	{
+		"id": "019ccb27-506b-754c-ad66-a08faeeb09ae",
+		"title": "X-Men: Inferno Prologue Omnibus",
+		"format": "omnibus",
+		"issues": {
+			"X-Factor (1986)": "27-32",
+			"X-Factor Annual (1986)": "3",
+			"Uncanny X-Men (1981)": "228-238",
+			"New Mutants (1983)": "62-70",
+			"New Mutans (1983) Annual": "4",
+			"X-Men Annual (1970)": "12"
+		},
+		"partials": {
+			"Marvel Age Annual": "4",
+			"Marvel Fanfare (1982)": "40"
+		}
+	},
+	{
+		"id": "019ccb27-506b-754c-ad66-a08faeeb09ae",
+		"title": "Aphrodite IX: The Complete Series",
+		"format": "omnibus",
+        "upc": [ "9781631153685" ],
+		"issues": {
+			"Aphrodite IX: Repirth": "1-11",
+			"Aphrodite IX/Cyberforce": "1",
+			"Aphrodite IX: Hidden Files": "1",
+			"Aphrodite IX: Time Out of Mind": "0-4"
+		}
+	}
+]

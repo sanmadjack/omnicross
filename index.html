@@ -1,0 +1,211 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Omnicross</title>
+    <script src="main.js" type="module" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Omnicross - Comic book compilation overlap checker</h1>
+    <button id="selectCompilationsButton">Open Compilations List</button>
+    <button id="browseSeriesButton">Browse Series</button>
+    <button id="createComparisonButton">Create Comparison</button>
+    <div id="comparisonList">
+
+    </div>
+    <popup-window id="compilation-browser" height="600px" visible="false">
+        <b slot="title">Compilations</b>
+        Search:<filterable-list search-placeholder="Search for compilation"></filterable-list>
+    </popup-window>
+    <popup-window id="series-browser" height="600px">
+        <b slot="title">Series browser</b>
+        Search:<filterable-list search-placeholder="Search for series"></filterable-list>
+    </popup-window>
+    <footer>
+        Report problems or contribute changes on <a href="https://github.com/sanmadjack/omnicross" target="_blank">github</a>.
+    </footer>
+    <template id="card-template">
+        <style>
+            div.card-root {
+                background-color: var(--background-color);
+                border: solid 1px black;
+                border-radius: var(--spacing);
+                padding: var(--spacing);
+            }
+        </style>
+        <div class="card-root">
+            <slot></slot>
+        </div>
+    </template>
+    <template id="popup-window-template">
+        <style>
+            :host {
+                position: absolute;
+                display:none;
+                background-color: var(--background-color);
+                z-index: 100;
+            }
+
+            header {
+                font-size: 14pt;
+                font-weight: bold;
+                cursor: move;
+            }
+
+            header button {
+                float: right;
+            }
+
+            div.content {
+                overflow-y: auto;
+            }
+        </style>
+        <card-box>
+            <header class="windowHeader">
+                <slot name="title"></slot>
+                <button class="popup-window-close-button">Close</button>
+            </header>
+            <div class="content">
+                <slot></slot>
+            </div>
+        </card-box>
+    </template>
+    <template id="filterable-list-template">
+        <input type="text" name="filterValue" />
+        <span></span>
+    </template>
+    <template id="collapsible-entry-template">
+        <style>
+            /* Acquire from https://www.w3schools.com/howto/howto_js_collapsible.asp */
+            .collapsible {
+                background-color: #eee;
+                color: #444;
+                cursor: pointer;
+                padding: 4pt;
+                border: none;
+                text-align: left;
+                outline: none;
+                font-size: 15px;
+            }
+
+            /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+            .active,
+            .collapsible:hover {
+                background-color: #ccc;
+            }
+
+            /* Style the collapsible content. Note: hidden by default */
+            .content {
+                padding: 0 18px;
+                display: none;
+                overflow: hidden;
+                background-color: var(--background-color);
+            }
+        </style>
+        <button type="button" class="collapsible">
+            <slot name="title"></slot>
+        </button>
+        <div class="content">
+            <slot></slot>
+        </div>
+    </template>
+    <template id="series-browser-entry-template">
+        <style>
+            :host {
+                cursor: pointer;
+            }
+        </style>
+        <card-box background-color="#5c3566">
+            <slot name="name"></slot>
+        </card-box>
+    </template>
+    <template id="compilation-browser-entry-template">
+        <style>
+            :host {
+                cursor: pointer;
+            }
+
+            button.addCompilationButton {
+                float: right;
+            }
+
+            button.removeCompilationButton {
+                float: right;
+                display: none;
+            }
+
+            :host.selected {
+                background-color: red;
+            }
+
+            collapsible-entry {
+                width: 80%;
+            }
+
+            button {
+                width: 20%;
+            }
+        </style>
+        <card-box background-color="#204a87" draggable="true">
+            <slot name="name"></slot>
+        </card-box>
+    </template>
+    <template id="comparison-viewer-template">
+        <style>
+            :host {
+                margin: var(--spacing);
+            }
+            div.emptyBox {
+                font-size: 8pt;
+            }
+            ul.compilationList li {
+                font-size: 8pt;
+            }
+            table {
+            }
+            td {
+                vertical-align: top;
+            }
+            a {
+                color: var(--link-color) !important;
+            }
+        </style>
+        <card-box>
+            <b>
+                <slot name="name">New Comparison</slot>
+            </b>
+            <button class="renameButton">Rename</button>
+            <button class="deleteButton">Delete</button>
+            <div class="emptyBox">Drag a compilation here from the compilation list to add to comparison</div>
+            <table class="layoutTable">
+                <tr>
+                    <td>
+                        <b>Compilations:</b>
+                        <ul class="compilationList"></ul>
+                    </td>
+                    <td>
+                        <table class="overlapList"></table>
+                    </td>
+                </tr>
+            </table>
+        </card-box>
+    </template>
+    <template id="compilation-viewer-template">
+        <popup-window>
+            <b slot="title">
+                <slot name="name"></slot>
+            </b>
+        </popup-window>
+    </template>
+    <template id="issue-viewer-template">
+        <popup-window>
+            <b slot="title">
+                <slot name="name"></slot>
+            </b>
+        </popup-window>
+    </template>
+</body>
+
+</html>
