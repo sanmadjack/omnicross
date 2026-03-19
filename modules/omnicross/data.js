@@ -1,5 +1,7 @@
 "use strict";
 
+import { calculateSortableName, sortByName, sortMapByName, sortSetByName } from "../tools.js";
+
 export class Parser {
     constructor() {
    }
@@ -55,40 +57,21 @@ export class Parser {
     }
 }
 
-function sortByName(a,b) {
-    return a.sortableName.localeCompare(b.sortableName);
-}
-function calculateSortableName(input) {
-    let output = input.toLowerCase();
-    if(output.startsWith("the ")) {
-        output = output.substring(4) + ", " + output.substring(0, 4);
-    }
-    return output;
-}
 
 export class Database {
+    /** @type {Map<string, Compilation>} */
     #compilations = new Map();
+    /** @type {Map<string, Series>} */
     #series = new Map();
+    /** @type {Map<string, Issue>} */
     #issues = new Map();
    
     sortData() {
-        this.#compilations = this.#sortMapByName(this.#compilations);
-        this.#series = this.#sortMapByName(this.#series);
+        this.#compilations = sortMapByName(this.#compilations);
+        this.#series = sortMapByName(this.#series);
         //this.#issues = this.#sortMapByName(this.#issues);
     }
     
-    /**
-     * 
-     * @param {Map} input 
-     * @returns {Map}
-     */
-    #sortMapByName(input) {
-        let output = new Map();
-        Array.from(input.values()).sort(sortByName).forEach(v=>{
-            output.set(v.id, v);
-        });
-        return output;
-    }
     /**
      * 
      * @param {Compilation} c 
@@ -190,6 +173,45 @@ export class Database {
     getAllSeries() {
         return this.#series.values();
     }
+    /** 
+     * @param {Iterable<string>} idList 
+     * @returns {Iterable<Series>} */
+    getSeriesByIds(idList) {
+        const output = new Set();
+        idList.forEach(e=>output.add(this.getSeriesById(e)));
+        return sortSetByName(output);
+    }
+    /**
+     * 
+     * @param {string} issueId 
+     * @returns {Set<Compilation>}
+     */
+    getCompilationsWithIssue(issueId) 
+    {
+        let output = new Set();
+        this.#compilations.forEach((v,k)=> {
+            if(v.issues.has(issueId)) {
+                output.add(v);
+            }
+        });
+        return sortSetByName(output);
+    }
+    /**
+     * 
+     * @param {string} seriesId 
+     * @returns {Set<Series>}
+     */
+    getCompilationsWithSeries(seriesId) 
+    {
+        let output = new Set();
+
+        this.#compilations.forEach((v,k)=> {
+            if(v.series.has(seriesId)) {
+                output.add(v);
+            }
+        });
+        return sortSetByName(output);
+    }
 }
 
 // Represents a collection of issues, an omnibus or other book thing.
@@ -203,7 +225,7 @@ export class Compilation {
     // A list of uuids of issues within this series
     /** @type {Set<string>} */
     issues = new Set();
-    // A list of series in the comilaction, along with the issue for that series
+    // A list of series in the compilation, along with the issues for that series
     /** @type {Map<string, Set<string>>} */
     series = new Map();
 

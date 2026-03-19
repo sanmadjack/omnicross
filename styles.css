@@ -13,6 +13,7 @@ footer {
     position: fixed;
     bottom: var(--spacing);
     left: var(--spacing);
+    background-color: rgba(0,0,0,0.5);
 }
 a {
     color: var(--link-color) !important;

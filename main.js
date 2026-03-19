@@ -1,21 +1,25 @@
 "use strict";
 
-import { bootstrapComponents, CompilationBrowserEntryElement, SeriesBrowserEntryElement, openComparisonViewer } from "./modules/components.js";
-import { Comparison, Comparitor, Parser } from "./modules/omnicross.js";
+import { bootstrapComponents } from "./modules/components.js";
+import { bootstrapOmnicrossComponents, SeriesBrowserEntryElement } from "./modules/omnicross/components.js";
+import { createDraggableCompilationEntry, openComparisonViewer } from "./modules/omnicross/tools.js";
+import { Comparison, Database, Parser } from "./modules/omnicross/data.js";
 
 
 window.addEventListener("load", async (event) => {
     bootstrapComponents();
-    const parser = new Parser();
-    const data = await parser.parse("data.json");
+    bootstrapOmnicrossComponents();
 
-    console.log(data);
+    const parser = new Parser();
+    const database = await parser.parse("data.json");
+
+    console.log(database);
 
     const seriesBrowserElement = document.getElementById("series-browser");
     const seriesBrowserFilterElement = document.querySelector("#series-browser filterable-list");
     seriesBrowserFilterElement.clearElements();
-    data.getAllSeries().forEach(e => {
-        const ele = new SeriesBrowserEntryElement(data, e);
+    database.getAllSeries().forEach(e => {
+        const ele = new SeriesBrowserEntryElement(database, e);
         seriesBrowserFilterElement.addElement(ele);
     });
     seriesBrowserFilterElement.updateFiltering();
@@ -23,13 +27,11 @@ window.addEventListener("load", async (event) => {
     const compilationBrowserElement = document.getElementById("compilation-browser");
     const compilationBrowserFilterElement = document.querySelector("#compilation-browser filterable-list");
     compilationBrowserFilterElement.clearElements();
-    data.getAllCompilations().forEach(e => {
-        const ele = new CompilationBrowserEntryElement(data, e);
+    database.getAllCompilations().forEach(e => {
+        const ele = createDraggableCompilationEntry(database, e);
         compilationBrowserFilterElement.addElement(ele);
     });
     compilationBrowserFilterElement.updateFiltering();
-
-    const comparitor = new Comparitor();
 
     document.getElementById("selectCompilationsButton").onclick = (e) => {
         compilationBrowserElement.show(e.clientX, e.clientY);
@@ -40,7 +42,7 @@ window.addEventListener("load", async (event) => {
     document.getElementById("createComparisonButton").onclick = (e) => {
         const comparison = new Comparison();
         comparison.save();
-        openComparisonViewer(data, comparison, e.clientX, e.clientY);
+        openComparisonViewer(database, comparison, e.clientX, e.clientY);
     };
 
     // Load saved items, yaahhhh
@@ -48,7 +50,7 @@ window.addEventListener("load", async (event) => {
     for (let i = 0; i < localStorage.length; i++) {
         const key = localStorage.key(i);
         const comparison = Comparison.load(key);
-        openComparisonViewer(data, comparison);
+        openComparisonViewer(database, comparison);
     }
 
 });

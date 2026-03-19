@@ -156,6 +156,7 @@
         <style>
             :host {
                 margin: var(--spacing);
+                font-size: 8pt;
             }
             div.emptyBox {
                 font-size: 8pt;
@@ -183,27 +184,70 @@
                 <tr>
                     <td>
                         <b>Compilations:</b>
-                        <ul class="compilationList"></ul>
+                        <div id="compilationList"></ul>
                     </td>
                     <td>
-                        <table class="overlapList"></table>
+                        <table id="overlapTable"></table>
+                        <h2 id="noOverlaps">No overlaps found</h2>
                     </td>
                 </tr>
             </table>
         </card-box>
     </template>
     <template id="compilation-viewer-template">
-        <popup-window>
+        <style>
+            .subTitle {
+                font-size: 8pt;
+            }
+            a {
+                color: var(--link-color) !important;
+            }
+        </style>
+        <popup-window width="600px">
             <b slot="title">
+                <div class="subTitle">Compilation</div>
                 <slot name="name"></slot>
             </b>
+            <h3>Contained issues:</h3>
+            <table id="issueTable"></table>
         </popup-window>
     </template>
     <template id="issue-viewer-template">
-        <popup-window>
+        <style>
+            .subTitle {
+                font-size: 8pt;
+            }
+            a {
+                color: var(--link-color) !important;
+            }
+        </style>
+        <popup-window width="600px">
             <b slot="title">
+                <div class="subTitle">Issue</div>
                 <slot name="name"></slot>
             </b>
+            <h3>Compilations with this issue:</h3>
+            <div id="compilationList"></div>
+        </popup-window>
+    </template>
+    <template id="series-viewer-template">
+        <style>
+            .subTitle {
+                font-size: 8pt;
+            }
+            a {
+                color: var(--link-color) !important;
+            }
+        </style>
+        <popup-window width="600px">
+            <b slot="title">
+                <div class="subTitle">Series</div>
+                <slot name="name"></slot>
+            </b>
+            <h3>Issues:</h3>
+            <div class="issueList"></div>
+            <h3>Compilations with this series:</h3>
+            <div id="compilationList"></div>
         </popup-window>
     </template>
 </body>
