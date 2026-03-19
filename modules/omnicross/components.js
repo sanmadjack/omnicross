@@ -331,7 +331,7 @@ export class CompilationViewerElement extends HTMLElement {
             const tr = document.createElement("tr");
             const nameTd = document.createElement("td");
             tr.appendChild(nameTd);
-            nameTd.innerText = series.name;
+            nameTd.appendChild(createSeriesLink(database, series));
             const issuesTd = document.createElement("td");
             tr.appendChild(issuesTd);
             createIssueLinkListById(database, issuesTd, series.issues);

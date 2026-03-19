@@ -21,7 +21,7 @@ export class Parser {
                 }
                 const issueRanges = e.issues[key].split(",");
                 const issueRangeRegex = /^(\d+)-(\d+)$/;
-                const issueNumberRegex = /^(\d+)$/;
+                const issueNumberRegex = /^([0-9\.]+)$/;
                 issueRanges.forEach(e=> {
                     const m = e.match(issueRangeRegex);
                     if(m) {
@@ -39,7 +39,7 @@ export class Parser {
                     } else  {
                         const m = e.match(issueNumberRegex);
                         if(m) {
-                            const issueNumber = parseInt(e);
+                            const issueNumber = parseFloat(e);
                             const issue = output.getOrAddIssue(series.id, issueNumber);
                             compilation.addIssue(issue);
                         } else  {

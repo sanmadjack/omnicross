@@ -39,7 +39,7 @@ export function areSetsSame(a,b) {
     if(a.size!==b.size) {
         return false
     }
-    const same = true;
+    let same = true;
     a.forEach(aValue=> {
         if(!b.has(aValue)) {
             same = false;

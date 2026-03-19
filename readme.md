@@ -6,6 +6,8 @@ There are many collected editions of comic books out there, and making sure you 
 
 ## Usage
 
+Go to https://omnicross.isnotan.app/
+
 ## Contributing
 
 Contributing should be done by creating issues or pull requests.
@@ -26,6 +28,7 @@ Data on each compilation is stored in the data.json file. The file contains JSON
 	"id": "019d013c-1ba8-763e-99ce-3f33a90fe642",
 	"title": "The Sensational She-Hulk Omnibus",
 	"format": "omnibus",
+"reference": "https://marvel.fandom.com/wiki/Sensational_She-Hulk_by_John_Byrne_Omnibus_Vol_1_1",
 	"issues": {
 		"Marvel Graphic Novel (1982)": "18",
 		"Sensational She-Hulk (1989)": "1-8,31-46,48-50"
@@ -35,10 +38,11 @@ Data on each compilation is stored in the data.json file. The file contains JSON
 	}
 }
 ````
-| Field    | Description                                                                                                                                                                                                                                                                                                                                                   | Allowed values    |
-| ----------| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| -------------------|
-| id       | A unique randomly generated UUID. This is set statically so as to allow users to save lists of compilations without losing htem when there's an update.                                                                                                                                                                                                       |                   |
-| title    | The title of the compilation                                                                                                                                                                                                                                                                                                                                  |                   |
-| format   | The type of compilation. To be used in future filtering.                                                                                                                                                                                                                                                                                                      | omnibus, tpb, ohc |
-| issues   | The issues contained in the compilation. Sepecified as a JSON object, with the fields specifying the names of the series the issues are for, and the value specifying the issue ranges. Issue ranges are a comma-seperated list of number ranges or whole numbers. Series names must be consistent between all compilations, or the overlap check won't work. |                   |
-| partials | Issues that are contained in part in the compilation. Usually described as "material from". This isn't currently used in the overlap calculations, but I'm gathering it anyway so that it can eventually be made usfeul. Uses the same format as the issues field.                                                                                            |                   |
+| Field     | Description                                                                                                                                                                                                                                                                                                                                                   | Allowed values              |
+| -----------| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| -----------------------------|
+| id        | A unique randomly generated UUID. This is set statically so as to allow users to save lists of compilations without losing htem when there's an update.                                                                                                                                                                                                       |                             |
+| title     | The title of the compilation                                                                                                                                                                                                                                                                                                                                  |                             |
+| format    | The type of compilation. To be used in future filtering.                                                                                                                                                                                                                                                                                                      | omnibus, tpb, ohc, absolute |
+| reference | A URL source for information about the compilation.                                                                                                                                                                                                                                                                                                           |                             |
+| issues    | The issues contained in the compilation. Sepecified as a JSON object, with the fields specifying the names of the series the issues are for, and the value specifying the issue ranges. Issue ranges are a comma-seperated list of number ranges or whole numbers. Issues with fraction numbers cannot be in a range and must be specified on their own, i.e "1-2,0.5". Series names must be consistent between all compilations, or the overlap check won't work. |                             |
+| partials  | Issues that are contained in part in the compilation. Usually described as "material from". This isn't currently used in the overlap calculations, but I'm gathering it anyway so that it can eventually be made usfeul. Uses the same format as the issues field.                                                                                            |                             |
