@@ -75,6 +75,23 @@
 		}
 	},
 	{
+		"id": "019d25fe-ea64-7796-9467-fc3750bcf41c",
+		"title": "Astonishing X-Men Volume 1",
+		"format": "ohc",
+		"issues": {
+			"Astonishing X-Men": "1-12"
+		}
+	},
+	{
+		"id": "019d2600-1372-71ac-bcd0-9b0bd6e2fa25",
+		"title": "Astonishing X-Men Volume 2",
+		"format": "ohc",
+		"issues": {
+			"Astonishing X-Men": "13-24",
+			"Giant-Size Astonishing X-Men": "1"
+		}
+	},
+	{
 		"id": "019d25fa-20b3-745b-af01-8c4587c3cb06",
 		"title": "Avengers vs. X-Men Omnibus",
 		"format": "omnibus",
