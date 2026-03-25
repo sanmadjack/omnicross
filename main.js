@@ -1,9 +1,9 @@
 "use strict";
 
-import { bootstrapComponents } from "./modules/components.js";
+import { bootstrapComponents, PopupWindowElement } from "./modules/components.js";
 import { bootstrapOmnicrossComponents, SeriesBrowserEntryElement } from "./modules/omnicross/components.js";
 import { createDraggableCompilationEntry, openComparisonViewer } from "./modules/omnicross/tools.js";
-import { Comparison, Database, Parser } from "./modules/omnicross/data.js";
+import { Comparison, Database, Parser, SavedData } from "./modules/omnicross/data.js";
 
 
 window.addEventListener("load", async (event) => {
@@ -33,6 +33,11 @@ window.addEventListener("load", async (event) => {
     });
     compilationBrowserFilterElement.updateFiltering();
 
+    const saveData = new SavedData();
+    
+    document.getElementById("cascadeWindowsButton").onclick = (e) => {
+        PopupWindowElement.arrangeWindows();
+    };
     document.getElementById("selectCompilationsButton").onclick = (e) => {
         compilationBrowserElement.show(e.clientX, e.clientY);
     };
@@ -41,16 +46,13 @@ window.addEventListener("load", async (event) => {
     };
     document.getElementById("createComparisonButton").onclick = (e) => {
         const comparison = new Comparison();
-        comparison.save();
-        openComparisonViewer(database, comparison, e.clientX, e.clientY);
+        saveData.addComparison(comparison);
+        saveData.save();
+        openComparisonViewer(database, comparison, saveData, e.clientX, e.clientY);
     };
 
-    // Load saved items, yaahhhh
-    // It's been a long road to this working
-    for (let i = 0; i < localStorage.length; i++) {
-        const key = localStorage.key(i);
-        const comparison = Comparison.load(key);
-        openComparisonViewer(database, comparison);
-    }
+    saveData.comparisons.values().forEach(e=> {
 
+        openComparisonViewer(database, e, saveData);
+    });
 });

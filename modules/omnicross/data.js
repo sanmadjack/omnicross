@@ -1,6 +1,63 @@
 "use strict";
 
 import { calculateSortableName, sortByName, sortMapByName, sortSetByName } from "../tools.js";
+import { idRegex } from "./tools.js";
+
+export class SavedData {
+    static #key = "omnicross.savedData";
+
+    comparisons = new Map();
+
+    constructor() {
+        const jsonString = localStorage.getItem(SavedData.#key);
+
+        const data = JSON.parse(jsonString);
+
+        if(data) {
+            if(data.comparisons) {
+                data.comparisons.forEach(e=>{
+                    const comparison = Comparison.load(e);
+                    if(comparison!=null) {
+                        this.addComparison(comparison);
+                    }
+                })
+            }
+        }
+    }
+
+    addComparison(comparison)
+    {
+        if(idRegex.test(comparison.id)) {
+            throw Error("Invalid comparison ID: " + comparison.id);
+        }
+        this.comparisons.set(comparison.id, comparison);
+    }
+    removeComparison(id) {
+        this.comparisons.delete(id);
+    }
+
+    save() {
+        const saveData = {};
+        saveData.comparisons = [];
+        this.comparisons.forEach(c=> {
+            saveData.comparisons.push(c);
+        });
+
+        localStorage.setItem(SavedData.#key, JSON.stringify(saveData, (key, value) => {
+            if (value instanceof Set) {
+                if(value.size>0) {
+                    return [...value]; 
+                }
+                return [];
+            }
+            return value;
+        }));        
+    }
+
+    clear() {
+        localStorage.removeItem(this.id);
+    }
+}
 
 export class Parser {
     constructor() {
@@ -281,7 +338,7 @@ export class Issue {
     }
 }
 
-const defaultComparisonNamePrefix = "New Comparison ";
+const defaultComparisonNamePrefix = "New ";
 /**
  * 
  * @returns {string}
@@ -329,28 +386,12 @@ export class Comparison {
         Comparison.#comparisonNames.add(name);
     }
 
-    save() {
-        localStorage.setItem(this.id, JSON.stringify(this, (key, value) => {
-            if (value instanceof Set) {
-                if(value.size>0) {
-                    return [...value]; 
-                }
-                return [];
-            }
-            return value;
-        }));
-    }
-    delete() {
-        localStorage.removeItem(this.id);
-    }
     /**
      * 
-     * @param {string} id 
+     * @param {string} stringData 
      * @returns {Comparison}
      */
-    static load(id) {
-        const stringData = localStorage.getItem(id);
-        const data = JSON.parse(stringData);
+    static load(data) {
         const output = new Comparison(data.name);
         output.id = data.id;
         output.compilations = new Set(data.compilations);
@@ -368,7 +409,7 @@ export class ComparitorResult {
 
     /** @type {Map<Series, Map<Issue, Set<Compilation>>>} */
     overlaps = new Map();
-    /** @type {Map<Series, Map<Issue, Compilation>>} */
+    /** @type {Map<Compilation, Map<Series, Set<Issue>>>} */
     uniques = new Map();
 
     /**
@@ -401,12 +442,18 @@ export class ComparitorResult {
      */
     addUniqueIssue(series, issue, compilation)
     {
-        if(!this.uniques.has(series))  {
-            this.uniques.set(series, new Map());
+        if(!this.uniques.has(compilation))  {
+            this.uniques.set(compilation, new Map());
         }
-        const issueMap = this.uniques.get(series);
+        const compilationMap = this.uniques.get(compilation);
 
-        issueMap.set(issue, compilation);
+        if(!compilationMap.has(series))  {
+            compilationMap.set(series, new Set());
+        }
+
+        const issueSet = compilationMap.get(series);
+
+        issueSet.add(issue);
 
         this.series.add(series);
         this.issues.add(issue);

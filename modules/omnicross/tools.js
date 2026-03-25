@@ -2,11 +2,15 @@
 
 import { count } from "../tools.js";
 import { SeriesViewerElement, IssueViewerElement, CompilationViewerElement, ComparisonViewerElement, CompilationBrowserEntryElement } from "./components.js";
-import { Compilation, Database, Issue } from "./data.js";
+import { Compilation, Database, Issue, SavedData } from "./data.js";
+
+
+export const idRegex = /[0-9a-f]{9}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}/
 
 
 /** @type {Map<string,SeriesViewerElement>} */
 let windowCache = new Map();
+
 /**
  * 
  * @param {Database} database 
@@ -76,15 +80,17 @@ export function openCompilationViewer(database, data, x, y) {
  * 
  * @param {Database} database 
  * @param {ComparitorResult} data 
+ * @param {SavedData} saveData 
  * @param {number} x 
  * @param {number} y 
  * @returns {ComparisonViewerElement}
  */
-export function openComparisonViewer(database, data, x, y) {
-    const element = new ComparisonViewerElement(database, data);
+export function openComparisonViewer(database, data, saveData, x, y) {
+    const element = new ComparisonViewerElement(database, data, saveData);
     /** @type {HTMLDivElement} */
     const parent = document.getElementById("comparisonList");
     parent.appendChild(element);
+    element.popup.show();
     return element;
 }
 

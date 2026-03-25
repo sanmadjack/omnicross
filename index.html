@@ -12,6 +12,7 @@
     <button id="selectCompilationsButton">Open Compilations List</button>
     <button id="browseSeriesButton">Browse Series</button>
     <button id="createComparisonButton">Create Comparison</button>
+    <button id="cascadeWindowsButton">Cascade Windows</button>
     <div id="comparisonList">
 
     </div>
@@ -44,7 +45,6 @@
             :host {
                 position: fixed;
                 display:none;
-                background-color: var(--background-color);
                 z-index: 100;
             }
 
@@ -64,8 +64,8 @@
         </style>
         <card-box>
             <header class="windowHeader">
-                <slot name="title"></slot>
-                <button class="popup-window-close-button">Close</button>
+                <slot name="title"></slot>                
+                <slot name="titleButtons"><button class="popup-window-close-button">Close</button></slot>
             </header>
             <div class="content">
                 <slot></slot>
@@ -116,10 +116,11 @@
             :host {
                 cursor: pointer;
             }
-        </style>
-        <card-box background-color="#5c3566">
-            <slot name="name"></slot>
-        </card-box>
+            a {
+                color: var(--link-color) !important;
+            }
+
+        </style>        
     </template>
     <template id="compilation-browser-entry-template">
         <style>
@@ -147,6 +148,9 @@
             button {
                 width: 20%;
             }
+            a {
+                color: var(--link-color) !important;
+            }
         </style>
         <card-box background-color="#204a87" draggable="true">
             <slot name="name"></slot>
@@ -172,27 +176,42 @@
             a {
                 color: var(--link-color) !important;
             }
+            .resultTable 
+            {
+                border:solid 1px gray;
+            }
         </style>
-        <card-box>
-            <b>
-                <slot name="name">New Comparison</slot>
+        <popup-window>
+            <b slot="title">
+                Comparison: <slot name="name">NEW</slot>
             </b>
-            <button class="renameButton">Rename</button>
-            <button class="deleteButton">Delete</button>
+            <span slot="titleButtons">
+                <button class="renameButton">Rename</button>
+                <button class="deleteButton">Delete</button>
+            </span>
             <div class="emptyBox">Drag a compilation here from the compilation list to add to comparison</div>
             <table class="layoutTable">
                 <tr>
                     <td>
-                        <b>Compilations:</b>
-                        <div id="compilationList"></ul>
+                        <table  class="resultTable">
+                            <tr>
+                                <th>Selected Compilation(s):</th>
+                            </tr>
+                            <tr>
+                                <td id="compilationList" >
+                                </td>
+                            </tr>
+                        </table>
                     </td>
                     <td>
-                        <table id="overlapTable"></table>
+                        <table id="overlapTable" class="resultTable"></table>
                         <h2 id="noOverlaps">No overlaps found</h2>
+                        <table id="uniqueTable" class="resultTable"></table>
+                        <h2 id="noUniques">No unique issues</h2>
                     </td>
                 </tr>
             </table>
-        </card-box>
+        </popup-window>
     </template>
     <template id="compilation-viewer-template">
         <style>

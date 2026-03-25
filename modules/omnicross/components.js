@@ -1,7 +1,7 @@
 "use strict";
 
-import { FilterableElement, COLLAPSIBLE_ENTRY_EXPANING_EVENT } from "../components.js";
-import { Database, Comparitor, Issue, Series, Compilation, Comparison } from "./data.js";
+import { FilterableElement, COLLAPSIBLE_ENTRY_EXPANING_EVENT, PopupWindowElement } from "../components.js";
+import { Database, Comparitor, Issue, Series, Compilation, Comparison, SavedData } from "./data.js";
 import { areSetsSame } from "../tools.js";
 import { createSeriesLink, createIssueLink, createIssueLinkListById, createCompilationLink, createDraggableCompilationEntry, createIssueLinkList } from "./tools.js";
 
@@ -23,29 +23,28 @@ export class SeriesBrowserEntryElement extends FilterableElement {
         const shadowRoot = this.attachShadow({ mode: "open" });
         shadowRoot.appendChild(document.importNode(templateContent, true));
 
-        const setName = document.createElement("b");
-        setName.slot = "name";
-        setName.innerText = data.name;
-        this.appendChild(setName);
+        const setName = document.createElement("div");
+        setName.appendChild(createSeriesLink(database, data));
+        this.shadowRoot.appendChild(setName);
 
-        let rendered = false;
-        this.addEventListener(COLLAPSIBLE_ENTRY_EXPANING_EVENT,
-            function (event) {
-                if (rendered) {
-                    return;
-                }
-                rendered = true;
-                const issuesList = document.createElement("ul");
-                issuesList.slot = "issues";
-                data.issues.forEach((v, k) => {
-                    const issueElement = document.createElement("li");
-                    const issue = database.getIssueById(v);
-                    issueElement.appendChild(createIssueLink(database, issue));
-                    issuesList.appendChild(issueElement);
-                });
-                thisElement.appendChild(issuesList);
-                event.stopPropagation();
-            });
+        // let rendered = false;
+        // this.addEventListener(COLLAPSIBLE_ENTRY_EXPANING_EVENT,
+        //     function (event) {
+        //         if (rendered) {
+        //             return;
+        //         }
+        //         rendered = true;
+        //         const issuesList = document.createElement("ul");
+        //         issuesList.slot = "issues";
+        //         data.issues.forEach((v, k) => {
+        //             const issueElement = document.createElement("li");
+        //             const issue = database.getIssueById(v);
+        //             issueElement.appendChild(createIssueLink(database, issue));
+        //             issuesList.appendChild(issueElement);
+        //         });
+        //         thisElement.appendChild(issuesList);
+        //         event.stopPropagation();
+        //     });
     }
 
     attributeChangedCallback(name, oldValue, newValue) {
@@ -74,7 +73,7 @@ export class CompilationBrowserEntryElement extends FilterableElement {
 
         const setName = document.createElement("b");
         setName.slot = "name";
-        setName.innerText = data.name;
+        setName.appendChild(createCompilationLink(database, data));
         this.appendChild(setName);
 
         let rendered = false;
@@ -121,12 +120,16 @@ export class ComparisonViewerElement extends HTMLElement {
     /** @type {Comparison} */
     #data;
     
+    /** @type {PopupWindowElement} */
+    popup;
+
     /**
      * 
      * @param {Database} database 
      * @param {Comparison} data 
+     * @param {SavedData} saveData 
      */
-    constructor(database, data) {
+    constructor(database, data, saveData) {
         super();
 
         this.#data = data;
@@ -136,9 +139,11 @@ export class ComparisonViewerElement extends HTMLElement {
         const shadowRoot = this.attachShadow({ mode: "open" });
         shadowRoot.appendChild(document.importNode(templateContent, true));
 
+        this.popup = shadowRoot.querySelector("popup-window");
         const nameElement = document.createElement("span");
         nameElement.innerText = data.name;
         nameElement.slot = "name";
+
         this.appendChild(nameElement);
 
         this.addEventListener("dragover", (event) => {
@@ -154,7 +159,7 @@ export class ComparisonViewerElement extends HTMLElement {
             // Append the dragged element to the drop target
 
             this.#data.compilations.add(id);
-            this.#data.save();
+            saveData.save();
             this.#refreshView(database);
         }, false);
 
@@ -165,14 +170,16 @@ export class ComparisonViewerElement extends HTMLElement {
             if(response!==null) {
                 nameElement.innerText = response;
                 data.name = response;
-                data.save();
+                saveData.save();
             }
         };
         /** @type {HTMLButtonElement} */
         const deleteButton = shadowRoot.querySelector("button.deleteButton");
         deleteButton.onclick = (e) => {
             if(confirm("Are you sure you want to delete " + data.name + "?")) {
-                data.delete();
+                saveData.removeComparison(data.id);
+                saveData.save();
+                this.popup.hide();
                 this.parentElement.removeChild(this);
             }
         };
@@ -191,9 +198,18 @@ export class ComparisonViewerElement extends HTMLElement {
 
         compilationList.innerHTML = "";
 
-        const noOverlapsMessage = this.shadowRoot.getElementById("noOverlaps");
+
+        /** @type {HTMLTableElement} */
+        const layoutTable = this.shadowRoot.querySelector(".layoutTable");
 
         const result = ComparisonViewerElement.#comparitor.process(database, this.#data);
+
+        if(result.compilations.size==0) {
+            layoutTable.style.display = "none";
+            return;
+        } else {
+            layoutTable.style.display = "block";
+        }
 
         this.#data.compilations.forEach((id)=> {
             const compilation = database.getCompilationById(id);
@@ -203,7 +219,7 @@ export class ComparisonViewerElement extends HTMLElement {
             removeElement.innerText = "Remove";
             removeElement.onclick = (e) => {
                 this.#data.compilations.delete(id);
-                this.#data.save();
+                saveData.save();
                 this.#refreshView(database);
 
             };
@@ -211,9 +227,8 @@ export class ComparisonViewerElement extends HTMLElement {
             compilationList.appendChild(ul);
         });     
 
-        /** @type {HTMLTableElement} */
-        const layoutTable = this.shadowRoot.querySelector(".layoutTable");
 
+        const noOverlapsMessage = this.shadowRoot.getElementById("noOverlaps");
         const overlapTable = this.shadowRoot.getElementById("overlapTable");
         overlapTable.innerHTML = "";
         if(result.overlaps.size>0) {
@@ -223,7 +238,7 @@ export class ComparisonViewerElement extends HTMLElement {
             let tr = document.createElement("tr");
             let th = document.createElement("th");
             th.colSpan = 3;
-            th.innerText = "Overlaps";
+            th.innerText = "Overlap(s)";
             tr.appendChild(th);
             overlapTable.appendChild(tr);
 
@@ -235,7 +250,7 @@ export class ComparisonViewerElement extends HTMLElement {
             th.innerText = "Issue(s)";
             tr.appendChild(th);
             th = document.createElement("th");
-            th.innerText = "Compilations";
+            th.innerText = "Compilation(s)";
             tr.appendChild(th);
             overlapTable.appendChild(tr);
 
@@ -297,6 +312,64 @@ export class ComparisonViewerElement extends HTMLElement {
             });
         } else {
             noOverlapsMessage.style.display = "block";
+        }
+
+        const noUniquesMessage = this.shadowRoot.getElementById("noUniques");
+        const uniquesTable = this.shadowRoot.getElementById("uniqueTable");
+        uniquesTable.innerHTML = "";
+        if(result.uniques.size>0) {
+            noUniquesMessage.style.display = "none";
+            /** @type {HTMLTableElement} */
+
+            let tr = document.createElement("tr");
+            let th = document.createElement("th");
+            th.colSpan = 3;
+            th.innerText = "Unique(s)";
+            tr.appendChild(th);
+            uniquesTable.appendChild(tr);
+
+            tr = document.createElement("tr");
+            th = document.createElement("th");
+            th.innerText = "Compilation(s)";
+            tr.appendChild(th);
+            th = document.createElement("th");
+            th.innerText = "Series";
+            tr.appendChild(th);
+            th = document.createElement("th");
+            th.innerText = "Issue(s)";
+            tr.appendChild(th);
+            uniquesTable.appendChild(tr);
+
+
+            result.uniques.forEach((seriesMap, compilation)=> {
+                /** @type {HTMLTableCellElement} */
+                const compilationTd = document.createElement("td");
+                compilationTd.appendChild(createCompilationLink(database, compilation));
+                compilationTd.rowSpan = seriesMap.size;
+                let seriesRows = [];
+
+                seriesMap.forEach((issues, series)=> {
+
+                    /** @type {HTMLTableRowElement} */
+                    const tr = document.createElement("tr");
+                    /** @type {HTMLTableCellElement} */
+                    const seriesTd = document.createElement("td");
+                    seriesTd.appendChild(createSeriesLink(database, series));
+                    tr.appendChild(seriesTd);                    
+                    const issueTd = document.createElement("td");
+                    createIssueLinkList(database, issueTd, issues);
+                    tr.appendChild(issueTd);                                        
+                    seriesRows.push(tr);
+                });
+
+                
+                compilationTd.rowSpan = seriesRows.length;
+                seriesRows[0].insertBefore(compilationTd, seriesRows[0].firstChild);
+
+                seriesRows.forEach(e=>uniquesTable.appendChild(e));
+            });
+        } else {
+            noUniquesMessage.style.display = "block";
         }
     }
 }

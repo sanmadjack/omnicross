@@ -92,12 +92,12 @@ export class PopupWindowElement extends HTMLElement {
                 if(top<0) {
                     top = 0;
                 } else if(top >maxBottom) {
-                    top = maxBottom;
+                    //top = maxBottom;
                 }
                 if(left<0) {
                     left = 0;
                 } else if(left>maxRight) {
-                    left = maxRight;
+                    //left = maxRight;
                 }
                 // set the element's new position:
                 this.#hostElement.style.top = top + "px";
@@ -140,6 +140,16 @@ export class PopupWindowElement extends HTMLElement {
         }
         return true;
     }
+    static arrangeWindows() {
+        const windows = [...PopupWindowElement.#visibleWindows];
+        windows.forEach(e=> {
+            e.hide();
+        });
+        windows.forEach(e=> {
+            e.bringToFront();
+            e.show();
+        });
+    }
     
     /**
      * 
@@ -168,7 +178,7 @@ export class PopupWindowElement extends HTMLElement {
             if(this.offsetWidth>window.innerWidth) {
                 break;
             }
-            if(x+this.offsetWidth > window.innerWidth ) {
+            if(x > window.innerWidth ) {
                 i++;
                 // Too wide for the screen, move it down and go again
                 x = minX;
