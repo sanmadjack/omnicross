@@ -114,6 +114,23 @@
 		}
 	},
 	{
+		"id": "019d2601-013b-75e8-add8-79e10bfab111",
+		"title": "Dazzler Omnibus",
+		"format": "omnibus",
+		"issues": {
+			"Dazzler (1980)": "1-42",
+			"The X-Men (1963)": "130-131",
+			"The Amazing Spider-man": "203",
+			"Marvel Graphic Novel (1982)": "12",
+			"Beauty and the Beast (1984)": "1-4",
+			"Secret Wars II": "4"
+		},
+		"partials": {
+			"What If? (1977)": "33",
+			"Marvel Fanfare (1982)": "38"
+		}
+	},
+	{
 		"id": "019d0874-e1bf-7344-8fb8-369a615d72d9",
 		"title": "Fantastic Four by David Byrne Omnibus Volume 2",
 		"format": "omnibus",
