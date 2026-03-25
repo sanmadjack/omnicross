@@ -120,7 +120,7 @@
 		"issues": {
 			"Dazzler (1980)": "1-42",
 			"The X-Men (1963)": "130-131",
-			"The Amazing Spider-man": "203",
+			"The Amazing Spider-Man (1963)": "203",
 			"Marvel Graphic Novel (1982)": "12",
 			"Beauty and the Beast (1984)": "1-4",
 			"Secret Wars II": "4"
@@ -140,6 +140,23 @@
 		},
 		"partials": {
 			"Deadpool (2012)": "27"
+		}
+	},
+	{
+		"id": "019d26ee-4f45-738e-8ff6-9aba1eee29dc",
+		"title": "Deadpool & Co.",
+		"format": "omnibus",
+		"issues": {
+			"Marvel Zombies 4": "1-4",
+			"Deadpool: Merc with a Mouth": "1-13",
+			"Lady Deadpool": "1",
+			"Prelude to Deadpool Corps": "1-5",
+			"Deadpool Corps": "1-12",
+			"Deadpool Family": "1",
+			"Deadpool Team-Up (2010)": "883-899"
+		},
+		"partials": {
+			"Marvel Zombies 3": "1"
 		}
 	},
 	{
@@ -236,6 +253,45 @@
 			"Deadpool & Cable: Split Second": "1-3",
 			"Deadpool V Gambit": "1-5",
 			"Deadpool: Too Soon?": "1-4"
+		}
+	},
+	{
+		"id": "019d26ea-9d95-748d-9214-b93082373b1e",
+		"title": "Deadpool by Daniel Way The Complete Collection Volume 1",
+		"format": "omnibus",
+		"issues": {
+			"Wolverine: Origins": "21-25",
+			"Deadpool (2008)": "1-26",
+			"Thunderbolts (1997)": "130-131",
+			"Hit-Monkey (2010A)": "1",
+			"Hit-Monkey (2010B)": "1-3",
+			"Deadpool Saga": "1"
+		}
+	},
+	{
+		"id": "019d26ed-054e-70fc-aad8-b6b1a13f93d5",
+		"title": "Deadpool by Daniel Way The Complete Collection Volume 2",
+		"format": "omnibus",
+		"issues": {
+			"Deadpool (2008)": "27-63,33.1,49.1"
+		},
+		"partials": {
+			"Deadpool (2012)": "27"
+		}
+	},
+	{
+		"id": "019d26f1-6a06-77e7-8555-ee343d9703c7",
+		"title": "Deadpool by Joe Kelly Omnibus",
+		"format": "omnibus",
+		"issues": {
+			"Deadpool (1997)": "1-33,-1,0",
+			"Daredevil/Deadpool Annual '97": "1",
+			"Deadpool & Death Annual '98": "1",
+			"Baby's First Deadpool Book": "1",
+			"The Amazing Spider-Man (1963)": "47,611"
+		},
+		"partials": {
+			"Deadpool (2008)": "900"
 		}
 	},
 	{
