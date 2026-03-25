@@ -110,7 +110,7 @@
 			"A-Babies vs. X-Babies": "1"
 		},
 		"partials": {
-			"Point One": "1"
+			"Point One (2011)": "1"
 		}
 	},
 	{
@@ -413,6 +413,23 @@
 		"partials": {
 			"DC Retroactive: JLA-The '90s": "1",
 			"JLA 80-Page Giant": "1"
+		}
+	},
+	{
+		"id": "019d26fe-32e2-75da-9a9f-44497cb640f0",
+		"title": "Phoenix: The Death & Rebirth of Jean Grey",
+		"format": "omnibus",
+		"issues": {
+			"New X-Men (2001)": "128,139-141,146-154",
+			"X-Men: Phoenix - Endsong": "1-5",
+			"X-Men: Phoenix - Warsong": "1-5",
+			"Avengers vs. X-Men": "0-12",
+			"Jean Grey (2017)": "1-11",
+			"Generations: Phoenix & Jean Grey": "1",
+			"Phoenix Resurrection: The Return of Jean Grey": "1-5"
+		},
+		"partials": {
+			"Point One (2011)": "1"
 		}
 	},
 	{
@@ -796,6 +813,27 @@
 			"Tomb Raider: Takeover": "1",
 			"Tomb Raider: Arabian Nights": "1",
 			"Tomb Raider: The Greatest Treasure of All": "1"
+		}
+	},
+	{
+		"id": "019d26f6-0e33-7762-b018-31e94c9c42a1",
+		"title": "Uncanny X-Men by Kieron Gillen Omnibus",
+		"format": "omnibus",
+		"issues": {
+			"S.W.O.R.D. (2009)": "1-5",
+			"The Uncanny X-Men (1981)": "534.1,535-544",
+			"X-Men: Regenesis (2011)": "1",
+			"Uncanny X-Men (2011)": "1-20",
+			"AVX: Consequences": "1-5"
+		}
+	},
+	{
+		"id": "019d26f9-7c45-76dc-90c1-be09da80ce5d",
+		"title": "Wolverine and the X-Men Omnibus",
+		"format": "omnibus",
+		"issues": {
+			"Wolverine & the X-Men (2011)": "1-35,38-42",
+			"Wolverine & the X-Men Annual (2011)": "1"
 		}
 	},
 	{
