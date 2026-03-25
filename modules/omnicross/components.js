@@ -430,7 +430,35 @@ export class CompilationViewerElement extends HTMLElement {
         const nameField = document.createElement("span");
         nameField.slot = "name";
         nameField.innerText = data.name;
+        const formatElement = document.createElement("span");
+        formatElement.slot = "format";
+        switch (data.format) {
+            case "tpb":
+                formatElement.innerText = "Trade Paperback";
+                break;
+            case "omnibus":
+                formatElement.innerText = "Omnibus";
+                break;
+            case "ohc":
+                formatElement.innerText = "Oversized Hardcover";
+                break;
+            case "absolute":
+                formatElement.innerText = "Absolute Edition";
+                break;
+            default:
+                formatElement.innerText = data.type;
+                break;
+        }
+        this.appendChild(formatElement)
         this.appendChild(nameField);
+        if (data.reference) {
+            const referenceElement = document.createElement("a");
+            referenceElement.innerText = "Open reference";
+            referenceElement.target = "_blank";
+            referenceElement.href = data.reference;
+            referenceElement.slot = "reference";
+            this.appendChild(referenceElement);
+        }
 
         const issueTable = this.shadowRoot.getElementById("issueTable");
 

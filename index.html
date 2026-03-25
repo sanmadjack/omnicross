@@ -57,8 +57,8 @@
         </style>
         <card-box>
             <header class="windowHeader">
-                <slot name="title"></slot>
                 <slot name="titleButtons"><button class="popup-window-close-button">Close</button></slot>
+                <slot name="title"></slot>
             </header>
             <div>
                 <slot name="staticTop"></slot>
@@ -189,6 +189,10 @@
             .redundantCompilation {
                 color: #ef2929;
             }
+
+            span button {
+                float: right;
+            }
         </style>
         <popup-window height="600px" width="800px">
             <b slot="title">
@@ -245,11 +249,18 @@
             a {
                 color: var(--link-color) !important;
             }
+
+            div#compilationReference {
+                font-size: 8pt;
+            }
         </style>
         <popup-window width="600px">
             <b slot="title">
-                <div class="subTitle">Compilation</div>
+                <div class="subTitle">Compilation (<slot name="format"></slot>)</div>
                 <slot name="name"></slot>
+                <div id="compilationReference">
+                    <slot name="reference"></slot>
+                </div>
             </b>
             <h3>Contents:</h3>
             <table id="issueTable"></table>

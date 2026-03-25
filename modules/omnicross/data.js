@@ -82,6 +82,12 @@ export class Parser {
         const data = await response.json();
         data.forEach(e => {
             var compilation = new Compilation(e.id, e.title);
+            if (e.format) {
+                compilation.format = e.format;
+            }
+            if (e.reference) {
+                compilation.reference = e.reference;
+            }
 
             if (!e.issues) {
                 console.error(e);
@@ -310,10 +316,17 @@ export class Compilation {
     /** @type {string} */
     name;
     /** @type {string} */
+    type;
+    /** @type {string} */
+    reference;
+    /** @type {string} */
     sortableName;
-    // A list of uuids of issues within this series
+    // A list of uuids of issues within this compilation
     /** @type {Set<string>} */
     issues = new Set();
+    // A list of uuids of partial issues within the compilation
+    /** @type {Set<string>} */
+    partials = new Set();
     // A list of series in the compilation, along with the issues for that series
     /** @type {Map<string, Set<string>>} */
     series = new Map();
