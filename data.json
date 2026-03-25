@@ -52,7 +52,7 @@
 			"Marvel Premiere": "1-2",
 			"Warlock (1972)": "1-15",
 			"Incredible Hulk (1968)": "176-178",
-			"Incredible Hulk (1968) Annual": "6",
+			"Incredible Hulk Annual (1968)": "6",
 			"Strange Tales (1951)": "178-181",
 			"Marvel Team-Up (1972)": "55",
 			"Avengers Annual (1967)": "7",
@@ -68,7 +68,7 @@
 			"9781631153685"
 		],
 		"issues": {
-			"Aphrodite IX: Repirth": "1-11",
+			"Aphrodite IX: Rebirth": "1-11",
 			"Aphrodite IX/Cyberforce": "1",
 			"Aphrodite IX: Hidden Files": "1",
 			"Aphrodite IX: Time Out of Mind": "0-4"
@@ -83,7 +83,7 @@
 			"Fantastic Four Annual (1961)": "18-19",
 			"Alpha Flight (1983)": "4",
 			"Thing (1983)": "10,19",
-			"Avengers Annual": "14"
+			"Avengers Annual (1967)": "14"
 		},
 		"partials": {
 			"Secret Wars II": "2",
@@ -387,7 +387,7 @@
 		"format": "omnibus",
 		"issues": {
 			"The Savage She-Hulk": "1-25",
-			"Marvel Two-In-One": "88"
+			"Marvel Two-In-One (1972)": "88"
 		}
 	},
 	{
@@ -440,7 +440,7 @@
 			"X-Men (1963)": "132-141",
 			"X-Men Annual (1970)": "4-5",
 			"Uncanny X-Men (1981)": "142-153",
-			"Avengers Annual": "10",
+			"Avengers Annual (1967)": "10",
 			"Marvel Fanfare": "1-4",
 			"Marvel Treasury Edition": "26-27",
 			"Marvel Team-Up (1972)": "100",
@@ -512,7 +512,7 @@
 			"X-Factor Annual (1986)": "3",
 			"Uncanny X-Men (1981)": "228-238",
 			"New Mutants (1983)": "62-70",
-			"New Mutans (1983) Annual": "4",
+			"New Mutants Annual (1983)": "4",
 			"X-Men Annual (1970)": "12"
 		},
 		"partials": {
