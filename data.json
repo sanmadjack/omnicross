@@ -61,7 +61,7 @@
 		}
 	},
 	{
-		"id": "019ccb27-506b-754c-ad66-a08faeeb09ae",
+		"id": "019d2707-438f-757c-86d8-62fb1c1cf543",
 		"title": "Aphrodite IX: The Complete Series",
 		"format": "omnibus",
 		"upc": [
@@ -295,6 +295,90 @@
 		}
 	},
 	{
+		"id": "019d2714-a33f-723c-a87d-013afe00148c",
+		"title": "Excalibur Omnibus Volume 1",
+		"format": "omnibus",
+		"issues": {
+			"Excalibur Special Edition": "1",
+			"Excalibur (1988)": "1-34",
+			"Excalibur: Mojo Mayhem": "1",
+			"Quasar": "11",
+			"Thor (1966)": "427-429"
+		},
+		"partials": {
+			"Marvel Comics Presents (1988)": "31-38"
+		}
+	},
+	{
+		"id": "019d2705-9f95-72f8-b49f-8f6f962681cd",
+		"title": "Excalibur Omnibus Volume 2",
+		"format": "omnibus",
+		"issues": {
+			"Excalibur (1988)": "35-67",
+			"Excalibur: Weird War Three": "1",
+			"Excalibur: The Possession": "1",
+			"Excalibur: Air Apparent": "1",
+			"Excalibur: XX Crossing": "1",
+			"Sensational She-Hulk (1989)": "26"
+		},
+		"partials": {
+			"Marvel Comics Presents (1988)": "75,110"
+		}
+	},
+	{
+		"id": "019d271a-eb2f-735d-8e1c-6adcc58d2f33",
+		"title": "Excalibur Omnibus Volume 3",
+		"format": "omnibus",
+		"issues": {
+			"Excalibur (1988)": "68-103",
+			"Excalibur Annual (1988)": "1-2",
+			"X-Men Unlimited (1993)": "4",
+			"X-Factor (1986)": "106",
+			"X-Force (1991)": "38",
+			"X-Man": "12",
+			"Pryde and Wisdom": "1-3"
+		},
+		"partials": {
+			"Marvel Comics Presents (1988)": "174",
+			"Marvel Holiday Special 1996": "1"
+		}
+	},
+	{
+		"id": "019d271c-cd40-769f-9089-bb8abea1e6e6",
+		"title": "Excalibur Omnibus Volume 4",
+		"format": "omnibus",
+		"issues": {
+			"Excalibur (1988)": "104-125,-1",
+			"Colossus": "1",
+			"New Mutants: Truth or Death": "1-3",
+			"Kitty Pryde, Agent of S.H.I.E.L.D.": "1-3",
+			"X-Men Unlimited (1993)": "19",
+			"X-Men: True Friends": "1-3",
+			"Excalibur (2001)": "1-4"
+		},
+		"partials": {
+			"Marvel Comics Presents (1988)": "174",
+			"Marvel Holiday Special 1996": "1"
+		}
+	},
+	{
+		"id": "019d2725-f914-740b-896f-e76b98388917",
+		"title": "Fall of the House of X/Rise of the Powers of X Omnibus",
+		"format": "omnibus",
+		"issues": {
+			"Fall of the House of X": "1-5",
+			"Rise of the Powers of X": "1-5",
+			"X-Men (2021)": "30-34",
+			"Resurrection of Magneto": "1-4",
+			"Dead X-Men": "1-4",
+			"X-Men Forever (2024)": "1-4",
+			"Invincible Iron Man (2022)": "13-20",
+			"Avengers (2023)": "12-13",
+			"Ms. Marvel: Mutant Menace": "1-4",
+			"Cable (2024)": "1-4"
+		}
+	},
+	{
 		"id": "019d0874-e1bf-7344-8fb8-369a615d72d9",
 		"title": "Fantastic Four by David Byrne Omnibus Volume 2",
 		"format": "omnibus",
@@ -490,7 +574,7 @@
 		}
 	},
 	{
-		"id": "019d2619-3596-767e-8e97-7d38f49d27dd",
+		"id": "019d2706-e7b0-739a-bf35-2d7c994a64e8",
 		"title": "Power Girl: More Than a Crush",
 		"format": "tpb",
 		"issues": {
