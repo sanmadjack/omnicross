@@ -55,7 +55,7 @@
 			"Incredible Hulk Annual (1968)": "6",
 			"Strange Tales (1951)": "178-181",
 			"Marvel Team-Up (1972)": "55",
-			"Avengers Annual (1967)": "7",
+			"The Avengers Annual (1967)": "7",
 			"Marvel Two-in-one (1972)": "61-63",
 			"Marvel Two-in-one Annual (1976)": "2"
 		}
@@ -83,7 +83,7 @@
 			"Fantastic Four Annual (1961)": "18-19",
 			"Alpha Flight (1983)": "4",
 			"Thing (1983)": "10,19",
-			"Avengers Annual (1967)": "14"
+			"The Avengers Annual (1967)": "14"
 		},
 		"partials": {
 			"Secret Wars II": "2",
@@ -411,11 +411,11 @@
 			"Iron Man (1968)": "55",
 			"Captain Marvel (1968)": "25-34",
 			"Marvel Feature (1971)": "12",
-			"Avengers (1963)": "125",
+			"The Avengers (1963)": "125",
 			"Strange Tales (1951)": "178-181",
 			"Warlock (1972)": "9-15",
 			"Marvel Team-Up (1972)": "55",
-			"Avengers Annual (1967)": "7",
+			"The Avengers Annual (1967)": "7",
 			"Marvel Two-in-one Annual (1976)": "2",
 			"Marvel Graphic Novel (1982)": "1",
 			"Daredevil (1964)": "105",
@@ -428,24 +428,55 @@
 		"format": "omnibus",
 		"issues": {
 			"Giant-Size X-Men": "1",
-			"X-Men (1963)": "94-131",
-			"X-Men Annual (1970)": "3"
+			"The X-Men (1963)": "94-131",
+			"The X-Men Annual (1970)": "3"
 		}
 	},
 	{
 		"id": "019cbb85-3e46-779a-95a0-d2fc14411d80",
 		"title": "The Uncanny X-Men Omnibus Volume 2",
 		"format": "omnibus",
-		"issues": {
-			"X-Men (1963)": "132-141",
-			"X-Men Annual (1970)": "4-5",
-			"Uncanny X-Men (1981)": "142-153",
-			"Avengers Annual (1967)": "10",
+		"issThe Uncanny X-Men (1981)ues": {
+			"The X-Men (1963)": "132-141",
+			"The X-Men Annual (1970)": "4-5",
+			"The Uncanny X-Men (1981)": "142-153",
+			"The Avengers Annual (1967)": "10",
 			"Marvel Fanfare": "1-4",
 			"Marvel Treasury Edition": "26-27",
 			"Marvel Team-Up (1972)": "100",
 			"Bizarre Adventures": "27",
 			"Phoenix: The Untold Story": "1"
+		}
+	},
+	{
+		"id": "019d2546-08fc-73ba-ae86-b65550ed5365",
+		"title": "The Uncanny X-Men Omnibus Volume 3",
+		"format": "omnibus",
+		"issues": {
+			"The X-Men Annual (1970)": "6-7",
+			"The Uncanny X-Men (1981)": "154-175",
+			"Special Edition X-Men": "1",
+			"Marvel Fanfare": "1-4",
+			"Marvel Graphic Novel (1982)": "5",
+			"Wolverine (1982)": "1-4",
+			"Magik (1983)": "1-4"
+		}
+	},
+	{
+		"id": "019d253d-7528-73fc-b847-2880c44dc2f1",
+		"title": "The X-Men Omnibus Volume 1",
+		"format": "omnibus",
+		"issues": {
+			"The X-Men (1963)": "1-31"
+		}
+	},
+	{
+		"id": "019d253e-7121-75e6-bc6b-4b9a977b9362",
+		"title": "The X-Men Omnibus Volume 2",
+		"format": "omnibus",
+		"issues": {
+			"The X-Men (1963)": "32-66",
+			"The Avengers (1963)": "53"
 		}
 	},
 	{
@@ -494,7 +525,7 @@
 			"X-Factor (1986)": "27-50",
 			"X-Factor Annual (1986)": "3-4",
 			"X-Terminators (1988)": "1-4",
-			"Uncanny X-Men (1981)": "240-243",
+			"The Uncanny X-Men (1981)": "240-243",
 			"New Mutants (1983)": "76",
 			"Fantastic Four (1961)": "342"
 		},
@@ -504,16 +535,29 @@
 		}
 	},
 	{
+		"id": "019d253f-f4f2-76f9-97a0-2c8b53bd0ce9",
+		"title": "X-Men By Hickman Omnibus",
+		"format": "omnibus",
+		"issues": {
+			"X-Men (2019)": "1-12,16-21",
+			"Giant-Size X-Men: Jean Grey & Emma Frost (2020)": "1",
+			"Giant-Size X-Men: Nightcrawler (2020)": "1",
+			"Giant-Size X-Men: Magneto (2020)": "1",
+			"Giant-Size X-Men: Fantomex (2020)": "1",
+			"Giant-Size X-Men: Storm (2020)": "1"
+		}
+	},
+	{
 		"id": "019ccb27-506b-754c-ad66-a08faeeb09ae",
 		"title": "X-Men: Inferno Prologue Omnibus",
 		"format": "omnibus",
 		"issues": {
 			"X-Factor (1986)": "27-32",
 			"X-Factor Annual (1986)": "3",
-			"Uncanny X-Men (1981)": "228-238",
+			"The Uncanny X-Men (1981)": "228-238",
 			"New Mutants (1983)": "62-70",
 			"New Mutants Annual (1983)": "4",
-			"X-Men Annual (1970)": "12"
+			"The X-Men Annual (1970)": "12"
 		},
 		"partials": {
 			"Marvel Age Annual": "4",
