@@ -8,6 +8,8 @@ There are many collected editions of comic books out there, and making sure you 
 
 Go to https://omnicross.isnotan.app/
 
+Comparisons are automatically saved to your local browser session, so they will not transfer to another computer.
+
 ## Contributing
 
 Contributing should be done by creating issues or pull requests.
