@@ -263,6 +263,17 @@
 		}
 	},
 	{
+		"id": "019d2617-7d06-7045-8d7c-332d0b267231",
+		"title": "Power Girl Returns",
+		"format": "tpb",
+		"issues": {
+			"Lazarus Planet: Assault on Krypton": "1",
+			"Action Comics": "1051-1053",
+			"Power Girl Special (2023)": "1",
+			"Knight Terrors: Action Comics": "1-2"
+		}
+	},
+	{
 		"id": "019d0864-b7c9-73bd-b063-b770998324f1",
 		"title": "Power Girl: A New Beginning",
 		"reference": "https://dc.fandom.com/wiki/Power_Girl:_A_New_Beginning_(Collected)",
@@ -290,6 +301,22 @@
 		}
 	},
 	{
+		"id": "019d2619-3596-767e-8e97-7d38f49d27dd",
+		"title": "Power Girl: Electric Dreams",
+		"format": "tpb",
+		"issues": {
+			"Power Girl (2023)": "1-7"
+		}
+	},
+	{
+		"id": "019d2619-3596-767e-8e97-7d38f49d27dd",
+		"title": "Power Girl: More Than a Crush",
+		"format": "tpb",
+		"issues": {
+			"Power Girl (2023)": "8-13"
+		}
+	},
+	{
 		"id": "019d0865-5ea0-71e8-96f8-63041bad825e",
 		"title": "Power Girl: Old Friends",
 		"reference": "https://dc.fandom.com/wiki/Power_Girl:_Old_Friends_(Collected)",
@@ -306,6 +333,14 @@
 		"issues": {
 			"Power Girl (2009)": "1-12",
 			"JSA Classified (2005)": "1-4"
+		}
+	},
+	{
+		"id": "019d261a-6090-70ab-9f91-7e29b04deb69",
+		"title": "Power Girl: The Star",
+		"format": "tpb",
+		"issues": {
+			"Power Girl (2023)": "14-20"
 		}
 	},
 	{
