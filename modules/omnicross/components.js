@@ -1,9 +1,13 @@
 "use strict";
 
-import { FilterableElement, COLLAPSIBLE_ENTRY_EXPANING_EVENT, PopupWindowElement } from "../components.js";
+import { FilterableElement, FilterableListElement, COLLAPSIBLE_ENTRY_EXPANING_EVENT, PopupWindowElement } from "../components.js";
 import { Database, Comparitor, Issue, Series, Compilation, Comparison, SavedData, ComparitorResult } from "./data.js";
 import { areSetsSame } from "../tools.js";
 import { createSeriesLink, createIssueLink, createIssueLinkListById, createCompilationLink, createDraggableCompilationEntry, createIssueLinkList } from "./tools.js";
+
+const COMPILATIONS_HEADER = "Compilation(s)";
+const SERIES_HEADER = "Series(s)";
+const ISSUES_HEADER = "Issue(s)";
 
 export class SeriesBrowserEntryElement extends FilterableElement {
     /** @type {Series} */
@@ -237,6 +241,10 @@ export class ComparisonViewerElement extends HTMLElement {
 
         this.#data.compilations.forEach((id) => {
             const compilation = database.getCompilationById(id);
+            if (compilation == null) {
+                this.#data.compilations.delete(id);
+                return;
+            }
             const ul = document.createElement("div");
             const link = ComparisonViewerElement.#createCompilationLink(database, result, compilation);
             ul.appendChild(link);
@@ -269,13 +277,13 @@ export class ComparisonViewerElement extends HTMLElement {
 
             tr = document.createElement("tr");
             th = document.createElement("th");
-            th.innerText = "Series";
+            th.innerText = SERIES_HEADER;
             tr.appendChild(th);
             th = document.createElement("th");
-            th.innerText = "Issue(s)";
+            th.innerText = ISSUES_HEADER;
             tr.appendChild(th);
             th = document.createElement("th");
-            th.innerText = "Compilation(s)";
+            th.innerText = COMPILATIONS_HEADER;
             tr.appendChild(th);
             overlapTable.appendChild(tr);
 
@@ -355,13 +363,13 @@ export class ComparisonViewerElement extends HTMLElement {
 
             tr = document.createElement("tr");
             th = document.createElement("th");
-            th.innerText = "Compilation(s)";
+            th.innerText = COMPILATIONS_HEADER;
             tr.appendChild(th);
             th = document.createElement("th");
-            th.innerText = "Series";
+            th.innerText = SERIES_HEADER;
             tr.appendChild(th);
             th = document.createElement("th");
-            th.innerText = "Issue(s)";
+            th.innerText = ISSUES_HEADER;
             tr.appendChild(th);
             uniquesTable.appendChild(tr);
 
@@ -425,6 +433,15 @@ export class CompilationViewerElement extends HTMLElement {
         this.appendChild(nameField);
 
         const issueTable = this.shadowRoot.getElementById("issueTable");
+
+        const tr = document.createElement("tr");
+        let th = document.createElement("th");
+        th.innerText = COMPILATIONS_HEADER;
+        tr.appendChild(th);
+        th = document.createElement("th");
+        th.innerText = ISSUES_HEADER;
+        tr.appendChild(th);
+        issueTable.appendChild(tr);
         database.getSeriesByIds(data.series.keys()).forEach(series => {
             const tr = document.createElement("tr");
             const nameTd = document.createElement("td");
@@ -516,6 +533,47 @@ export class IssueViewerElement extends HTMLElement {
     }
 }
 
+export class SeriesBrowserElement extends FilterableListElement {
+    /** @type {PopupWindowElement} */
+    popup;
+
+    /**
+     * 
+     * @param {Database} database 
+     */
+    constructor(database) {
+        super("series-browser-template");
+        this.popup = this.shadowRoot.querySelector("popup-window");
+        const element = this;
+        database.getAllSeries().forEach(e => {
+            const ele = new SeriesBrowserEntryElement(database, e);
+            element.add(ele);
+        });
+        this.refresh();
+
+    }
+}
+export class CompilationBrowserElement extends FilterableListElement {
+    /** @type {PopupWindowElement} */
+    popup;
+
+    /**
+     * 
+     * @param {Database} database 
+     */
+    constructor(database) {
+        super("compilation-browser-template");
+        this.popup = this.shadowRoot.querySelector("popup-window");
+        const element = this;
+        database.getAllCompilations().forEach(e => {
+            const ele = createDraggableCompilationEntry(database, e);
+            element.add(ele);
+        });
+        this.refresh();
+
+    }
+}
+
 export function bootstrapOmnicrossComponents() {
     customElements.define("series-browser-entry", SeriesBrowserEntryElement);
     customElements.define("compilation-browser-entry", CompilationBrowserEntryElement);
@@ -523,4 +581,6 @@ export function bootstrapOmnicrossComponents() {
     customElements.define("compilation-viewer", CompilationViewerElement);
     customElements.define("issue-viewer", IssueViewerElement);
     customElements.define("series-viewer", SeriesViewerElement);
+    customElements.define("series-browser", SeriesBrowserElement);
+    customElements.define("compilation-browser", CompilationBrowserElement);
 }

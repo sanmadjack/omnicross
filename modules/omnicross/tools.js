@@ -2,7 +2,7 @@
 
 import { count } from "../tools.js";
 import { SeriesViewerElement, IssueViewerElement, CompilationViewerElement, ComparisonViewerElement, CompilationBrowserEntryElement } from "./components.js";
-import { Compilation, Database, Issue, SavedData } from "./data.js";
+import { Compilation, Database, Issue, SavedData, Comparison } from "./data.js";
 
 
 export const idRegex = /[0-9a-f]{9}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}/

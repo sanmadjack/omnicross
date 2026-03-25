@@ -78,6 +78,7 @@ export class Parser {
     async parse(path) {
         const output = new Database();
         const response = await fetch(path);
+        output.lastModified = response.headers.get('Last-Modified');
         const data = await response.json();
         data.forEach(e => {
             var compilation = new Compilation(e.id, e.title);
@@ -132,6 +133,8 @@ export class Parser {
 
 
 export class Database {
+    lastModified;
+
     /** @type {Map<string, Compilation>} */
     #compilations = new Map();
     /** @type {Map<string, Series>} */
@@ -163,6 +166,21 @@ export class Database {
         this.#series.set(s.id, s);
         return s;
     }
+    /**
+     * 
+     * @returns {number}
+     */
+    countSeries() {
+        return this.#series.size;
+    }
+    /**
+     * 
+     * @returns {number}
+     */
+    countCompilations() {
+        return this.#compilations.size;
+    }
+
     /** @returns {Issue} */
     getOrAddIssue(seriesId, issueNumber) {
         const series = this.getSeriesById(seriesId);

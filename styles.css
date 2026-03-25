@@ -1,31 +1,34 @@
 :root {
-  --background-color: #2e3436;
-  --text-color: #eeeeec;
-  --spacing: 6pt;
-  --link-color: #73d216;
+    --background-color: #2e3436;
+    --text-color: #eeeeec;
+    --spacing: 6pt;
+    --link-color: #73d216;
 }
 
 body {
     background-color: black;
     color: var(--text-color);
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 footer {
     position: fixed;
     bottom: var(--spacing);
     left: var(--spacing);
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
+
 a {
     color: var(--link-color) !important;
 }
 
-[draggable] * {pointer-events: none;}
-
-#series-browser {
+[draggable] * {
+    pointer-events: none;
 }
 
-#compilation-browser {
-}
+#series-browser {}
+
+#compilation-browser {}
 
 .mainTable td {
     vertical-align: top;

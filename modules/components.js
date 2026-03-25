@@ -24,7 +24,7 @@ export class CardBoxElement extends HTMLElement {
 }
 
 export class PopupWindowElement extends HTMLElement {
-    static observedAttributes = ["height", "width"];
+    static observedAttributes = ["height", "width", "scrolling"];
     /** @type {Array<PopupWindowElement>} */
     static #visibleWindows = [];
     /** @type {Array<HTMLElement>} */
@@ -89,14 +89,14 @@ export class PopupWindowElement extends HTMLElement {
 
                 let top = (this.#hostElement.offsetTop - pos2);
                 let left = (this.#hostElement.offsetLeft - pos1);
-                if(top<0) {
+                if (top < 0) {
                     top = 0;
-                } else if(top >maxBottom) {
+                } else if (top > maxBottom) {
                     //top = maxBottom;
                 }
-                if(left<0) {
+                if (left < 0) {
                     left = 0;
-                } else if(left>maxRight) {
+                } else if (left > maxRight) {
                     //left = maxRight;
                 }
                 // set the element's new position:
@@ -117,6 +117,12 @@ export class PopupWindowElement extends HTMLElement {
                 this.#contentElement.style.width = newValue;
                 this.style.width = newValue;
                 break;
+            case "scrolling":
+                if (newValue == true) {
+                    this.#contentElement.style.overflowY = "scroll";
+                } else {
+                    this.#contentElement.style.overflowY = "none";
+                }
         }
     }
 
@@ -127,30 +133,27 @@ export class PopupWindowElement extends HTMLElement {
      * @param {number} y 
      * @returns {boolean}
      */
-    static #checkIfLocationIsClear(x,y)
-    {
-        for(let i = 0; i < PopupWindowElement.#visibleWindows.length; i++)
-        {
+    static #checkIfLocationIsClear(x, y) {
+        for (let i = 0; i < PopupWindowElement.#visibleWindows.length; i++) {
             const window = PopupWindowElement.#visibleWindows[i];
-            if(Math.abs(window.offsetLeft-x) < this.#windowSpacingIncrement
-                && Math.abs(window.offsetTop-y) < this.#windowSpacingIncrement) 
-                {
-                    return false;
-                }
+            if (Math.abs(window.offsetLeft - x) < this.#windowSpacingIncrement
+                && Math.abs(window.offsetTop - y) < this.#windowSpacingIncrement) {
+                return false;
+            }
         }
         return true;
     }
     static arrangeWindows() {
         const windows = [...PopupWindowElement.#visibleWindows];
-        windows.forEach(e=> {
+        windows.forEach(e => {
             e.hide();
         });
-        windows.forEach(e=> {
+        windows.forEach(e => {
             e.bringToFront();
             e.show();
         });
     }
-    
+
     /**
      * 
     * @param {number} x 
@@ -158,7 +161,7 @@ export class PopupWindowElement extends HTMLElement {
      */
     show(x, y) {
         this.bringToFront();
-        if(this.#visible===true) {
+        if (this.#visible === true) {
             return;
         }
         this.style.display = "block";
@@ -170,21 +173,21 @@ export class PopupWindowElement extends HTMLElement {
         y = minY;
 
         let i = 1;
-        while(true) {
-            while(!PopupWindowElement.#checkIfLocationIsClear(x,y)) {
+        while (true) {
+            while (!PopupWindowElement.#checkIfLocationIsClear(x, y)) {
                 x += increments;
                 y += increments;
             }
-            if(this.offsetWidth>window.innerWidth) {
+            if (this.offsetWidth > window.innerWidth) {
                 break;
             }
-            if(x > window.innerWidth ) {
+            if (x > window.innerWidth) {
                 i++;
                 // Too wide for the screen, move it down and go again
                 x = minX;
                 y = minY * i;
                 continue;
-            } 
+            }
             else {
                 break;
             }
@@ -198,7 +201,7 @@ export class PopupWindowElement extends HTMLElement {
         this.style.display = "none";
         PopupWindowElement.#removeWindow(this);
         this.#visible = false;
-        if(this.onhide) {
+        if (this.onhide) {
             this.onhide(this);
         }
     }
@@ -270,28 +273,31 @@ export class FilterableListElement extends HTMLElement {
     #searchElement;
     /** @type {Array} */
     #elements;
-    constructor() {
+    constructor(templateName) {
         super();
-        const template = document.getElementById("filterable-list-template");
+
+        const template = document.getElementById(templateName);
         const templateContent = template.content;
         const shadowRoot = this.attachShadow({ mode: "open" });
         shadowRoot.appendChild(document.importNode(templateContent, true));
+
+
         this.#elements = [];
-        this.#searchElement = shadowRoot.querySelector("input");
-        this.#elementsContainer = shadowRoot.querySelector("span");
+        this.#searchElement = shadowRoot.querySelector("input[name=filterValue]");
+        this.#elementsContainer = shadowRoot.querySelector("div#itemList");
         this.#searchElement.onkeyup = (e) => {
-            this.updateFiltering();
+            this.refresh();
         };
     }
 
-    addElement(element) {
+    add(element) {
         this.#elements.push(element);
     }
-    clearElements() {
+    clear() {
         this.#elements = [];
         this.#searchElement.innerHTML = "";
     }
-    updateFiltering() {
+    refresh() {
         this.#elementsContainer.innerHTML = "";
         const filterValue = this.#searchElement.value.toLowerCase().trim();
         this.#elements.forEach(e => {
@@ -307,7 +313,6 @@ export class FilterableElement extends HTMLElement {
 }
 export function bootstrapComponents() {
     customElements.define("card-box", CardBoxElement);
-    customElements.define("filterable-list", FilterableListElement);
     customElements.define("collapsible-entry", CollapsibleEntryElement);
     customElements.define("popup-window", PopupWindowElement);
 }

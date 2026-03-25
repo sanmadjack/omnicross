@@ -16,14 +16,6 @@
     <div id="comparisonList">
 
     </div>
-    <popup-window id="compilation-browser" height="600px" visible="false">
-        <b slot="title">Compilations</b>
-        Search:<filterable-list search-placeholder="Search for compilation"></filterable-list>
-    </popup-window>
-    <popup-window id="series-browser" height="600px">
-        <b slot="title">Series browser</b>
-        Search:<filterable-list search-placeholder="Search for series"></filterable-list>
-    </popup-window>
     <footer>
         Report problems or contribute changes on <a href="https://github.com/sanmadjack/omnicross"
             target="_blank">github</a>.
@@ -68,14 +60,13 @@
                 <slot name="title"></slot>
                 <slot name="titleButtons"><button class="popup-window-close-button">Close</button></slot>
             </header>
+            <div>
+                <slot name="staticTop"></slot>
+            </div>
             <div class="content">
                 <slot></slot>
             </div>
         </card-box>
-    </template>
-    <template id="filterable-list-template">
-        <input type="text" name="filterValue" />
-        <span></span>
     </template>
     <template id="collapsible-entry-template">
         <style>
@@ -199,7 +190,7 @@
                 color: #ef2929;
             }
         </style>
-        <popup-window>
+        <popup-window height="600px" width="800px">
             <b slot="title">
                 Comparison: <slot name="name">NEW</slot>
             </b>
@@ -260,7 +251,7 @@
                 <div class="subTitle">Compilation</div>
                 <slot name="name"></slot>
             </b>
-            <h3>Contained issues:</h3>
+            <h3>Contents:</h3>
             <table id="issueTable"></table>
         </popup-window>
     </template>
@@ -304,6 +295,35 @@
             <div id="compilationList"></div>
         </popup-window>
     </template>
+    <template id="compilation-browser-template">
+        <style>
+            a {
+                color: var(--link-color) !important;
+            }
+        </style>
+        <popup-window height="600px" visible="false">
+            <b slot="title">Compilations</b>
+            <span slot="staticTop">Search:<input type="text" placeholder="Search for compilation"
+                    name="filterValue" /></span>
+            <div id="itemList"></div>
+        </popup-window>
+    </template>
+    <template id="series-browser-template">
+        <style>
+            a {
+                color: var(--link-color) !important;
+            }
+        </style>
+        <popup-window height="600px">
+            <b slot="title">Series browser</b>
+
+            <span slot="staticTop">Search:<input type="text" placeholder="Search for series"
+                    name="filterValue" /></span>
+            <div id="itemList"></div>
+        </popup-window>
+    </template>
+
+
 </body>
 
 </html>
