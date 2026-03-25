@@ -25,7 +25,8 @@
         Search:<filterable-list search-placeholder="Search for series"></filterable-list>
     </popup-window>
     <footer>
-        Report problems or contribute changes on <a href="https://github.com/sanmadjack/omnicross" target="_blank">github</a>.
+        Report problems or contribute changes on <a href="https://github.com/sanmadjack/omnicross"
+            target="_blank">github</a>.
     </footer>
     <template id="card-template">
         <style>
@@ -44,7 +45,7 @@
         <style>
             :host {
                 position: fixed;
-                display:none;
+                display: none;
                 z-index: 100;
             }
 
@@ -64,7 +65,7 @@
         </style>
         <card-box>
             <header class="windowHeader">
-                <slot name="title"></slot>                
+                <slot name="title"></slot>
                 <slot name="titleButtons"><button class="popup-window-close-button">Close</button></slot>
             </header>
             <div class="content">
@@ -116,11 +117,11 @@
             :host {
                 cursor: pointer;
             }
+
             a {
                 color: var(--link-color) !important;
             }
-
-        </style>        
+        </style>
     </template>
     <template id="compilation-browser-entry-template">
         <style>
@@ -148,6 +149,7 @@
             button {
                 width: 20%;
             }
+
             a {
                 color: var(--link-color) !important;
             }
@@ -162,23 +164,39 @@
                 margin: var(--spacing);
                 font-size: 8pt;
             }
+
             div.emptyBox {
                 font-size: 8pt;
             }
+
             ul.compilationList li {
                 font-size: 8pt;
             }
-            table {
-            }
+
+            table {}
+
             td {
                 vertical-align: top;
             }
+
             a {
-                color: var(--link-color) !important;
+                color: var(--link-color);
             }
-            .resultTable 
-            {
-                border:solid 1px gray;
+
+            .resultTable {
+                border: solid 1px gray;
+            }
+
+            .uniqueCompilation {
+                color: #8ae234;
+            }
+
+            .overlapCompilation {
+                color: #fce94f;
+            }
+
+            .redundantCompilation {
+                color: #ef2929;
             }
         </style>
         <popup-window>
@@ -193,19 +211,33 @@
             <table class="layoutTable">
                 <tr>
                     <td>
-                        <table  class="resultTable">
+                        <table class="resultTable">
                             <tr>
                                 <th>Selected Compilation(s):</th>
                             </tr>
                             <tr>
-                                <td id="compilationList" >
+                                <td id="compilationList">
                                 </td>
+                            </tr>
+                            <tr>
+                                <th>Compilation color Key:</th>
+                            </tr>
+                            <tr>
+                                <td class="uniqueCompilation">Unique</td>
+                            </tr>
+                            <tr>
+                                <td class="overlapCompilation">Overlap</td>
+                            </tr>
+                            <tr>
+                                <td class="redundantCompilation">Redundant</td>
                             </tr>
                         </table>
                     </td>
                     <td>
                         <table id="overlapTable" class="resultTable"></table>
                         <h2 id="noOverlaps">No overlaps found</h2>
+                        <table id="uniqueTable" class="resultTable"></table>
+                        <h2 id="noUniques">No unique issues</h2>
                         <table id="uniqueTable" class="resultTable"></table>
                         <h2 id="noUniques">No unique issues</h2>
                     </td>
@@ -218,6 +250,7 @@
             .subTitle {
                 font-size: 8pt;
             }
+
             a {
                 color: var(--link-color) !important;
             }
@@ -236,6 +269,7 @@
             .subTitle {
                 font-size: 8pt;
             }
+
             a {
                 color: var(--link-color) !important;
             }
@@ -254,6 +288,7 @@
             .subTitle {
                 font-size: 8pt;
             }
+
             a {
                 color: var(--link-color) !important;
             }

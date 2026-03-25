@@ -1,7 +1,7 @@
 "use strict";
 
 import { FilterableElement, COLLAPSIBLE_ENTRY_EXPANING_EVENT, PopupWindowElement } from "../components.js";
-import { Database, Comparitor, Issue, Series, Compilation, Comparison, SavedData } from "./data.js";
+import { Database, Comparitor, Issue, Series, Compilation, Comparison, SavedData, ComparitorResult } from "./data.js";
 import { areSetsSame } from "../tools.js";
 import { createSeriesLink, createIssueLink, createIssueLinkListById, createCompilationLink, createDraggableCompilationEntry, createIssueLinkList } from "./tools.js";
 
@@ -119,9 +119,12 @@ export class ComparisonViewerElement extends HTMLElement {
 
     /** @type {Comparison} */
     #data;
-    
+
     /** @type {PopupWindowElement} */
     popup;
+
+    /** @type {SavedData} */
+    #saveData;
 
     /**
      * 
@@ -133,6 +136,7 @@ export class ComparisonViewerElement extends HTMLElement {
         super();
 
         this.#data = data;
+        this.#saveData = saveData;
 
         const template = document.getElementById("comparison-viewer-template");
         const templateContent = template.content;
@@ -167,7 +171,7 @@ export class ComparisonViewerElement extends HTMLElement {
         const renameButton = shadowRoot.querySelector("button.renameButton");
         renameButton.onclick = (e) => {
             const response = window.prompt("Please specify name", data.name);
-            if(response!==null) {
+            if (response !== null) {
                 nameElement.innerText = response;
                 data.name = response;
                 saveData.save();
@@ -176,7 +180,7 @@ export class ComparisonViewerElement extends HTMLElement {
         /** @type {HTMLButtonElement} */
         const deleteButton = shadowRoot.querySelector("button.deleteButton");
         deleteButton.onclick = (e) => {
-            if(confirm("Are you sure you want to delete " + data.name + "?")) {
+            if (confirm("Are you sure you want to delete " + data.name + "?")) {
                 saveData.removeComparison(data.id);
                 saveData.save();
                 this.popup.hide();
@@ -187,6 +191,26 @@ export class ComparisonViewerElement extends HTMLElement {
 
     }
 
+    /**
+     * 
+     * @param {Database} database 
+     * @param {ComparitorResult} result 
+     * @param {Compilation} compilation 
+     * @returns {HTMLAnchorElement}
+     */
+    static #createCompilationLink(database, result, compilation) {
+        const link = createCompilationLink(database, compilation);
+        if (result.uniqueCompilations.has(compilation)) {
+            link.classList.add("uniqueCompilation");
+        }
+        if (result.overlappingCompilations.has(compilation)) {
+            link.classList.add("overlapCompilation");
+        }
+        if (result.redundantCompilations.has(compilation)) {
+            link.classList.add("redundantCompilation");
+        }
+        return link;
+    }
 
     /**
      * 
@@ -204,41 +228,42 @@ export class ComparisonViewerElement extends HTMLElement {
 
         const result = ComparisonViewerElement.#comparitor.process(database, this.#data);
 
-        if(result.compilations.size==0) {
+        if (result.compilations.size == 0) {
             layoutTable.style.display = "none";
             return;
         } else {
             layoutTable.style.display = "block";
         }
 
-        this.#data.compilations.forEach((id)=> {
+        this.#data.compilations.forEach((id) => {
             const compilation = database.getCompilationById(id);
             const ul = document.createElement("div");
-            ul.appendChild(createCompilationLink(database, compilation));
+            const link = ComparisonViewerElement.#createCompilationLink(database, result, compilation);
+            ul.appendChild(link);
             const removeElement = document.createElement("button");
             removeElement.innerText = "Remove";
             removeElement.onclick = (e) => {
                 this.#data.compilations.delete(id);
-                saveData.save();
+                this.#saveData.save();
                 this.#refreshView(database);
 
             };
             ul.appendChild(removeElement);
             compilationList.appendChild(ul);
-        });     
+        });
 
 
         const noOverlapsMessage = this.shadowRoot.getElementById("noOverlaps");
         const overlapTable = this.shadowRoot.getElementById("overlapTable");
         overlapTable.innerHTML = "";
-        if(result.overlaps.size>0) {
+        if (result.overlaps.size > 0) {
             noOverlapsMessage.style.display = "none";
             /** @type {HTMLTableElement} */
 
             let tr = document.createElement("tr");
             let th = document.createElement("th");
             th.colSpan = 3;
-            th.innerText = "Overlap(s)";
+            th.innerText = "Duplicated Issue(s)";
             tr.appendChild(th);
             overlapTable.appendChild(tr);
 
@@ -255,17 +280,17 @@ export class ComparisonViewerElement extends HTMLElement {
             overlapTable.appendChild(tr);
 
 
-            result.overlaps.forEach((issues, series)=> {
+            result.overlaps.forEach((issues, series) => {
                 let remainingIssueMaps = new Map(issues);
 
                 /** @type {HTMLTableCellElement} */
                 const seriesTd = document.createElement("td");
                 seriesTd.appendChild(createSeriesLink(database, series));
                 seriesTd.rowSpan = issues.size;
-                
+
                 let compilationRows = [];
 
-                while(remainingIssueMaps.size>0) {
+                while (remainingIssueMaps.size > 0) {
                     let currentCompilationSet = remainingIssueMaps.values().next().value;
 
                     /** @type {HTMLTableRowElement} */
@@ -273,7 +298,7 @@ export class ComparisonViewerElement extends HTMLElement {
                     compilationRows.push(tr);
                     /** @type {HTMLTableCellElement} */
                     const issueTd = document.createElement("td");
-                    tr.appendChild(issueTd);                    
+                    tr.appendChild(issueTd);
 
 
                     /** @type {HTMLTableCellElement} */
@@ -281,9 +306,9 @@ export class ComparisonViewerElement extends HTMLElement {
                     tr.appendChild(compilationsTd);
                     const compilationList = document.createElement("ul");
                     compilationsTd.appendChild(compilationList);
-                    currentCompilationSet.forEach(c=> {
+                    currentCompilationSet.forEach(c => {
                         const li = document.createElement("li");
-                        li.appendChild(createCompilationLink(database,c));
+                        li.appendChild(ComparisonViewerElement.#createCompilationLink(database, result, c));
                         compilationList.appendChild(li);
                     });
 
@@ -291,24 +316,24 @@ export class ComparisonViewerElement extends HTMLElement {
                     let filteredIssues = new Set();
 
                     remainingIssueMaps.forEach((compilations, issue) => {
-                        if(areSetsSame(currentCompilationSet, compilations)) {
+                        if (areSetsSame(currentCompilationSet, compilations)) {
                             filteredIssues.add(issue);
-                        }                        
+                        }
                     });
 
-                    if(filteredIssues.size==0) {
+                    if (filteredIssues.size == 0) {
                         throw Error("Something went wrong, there should always be at least one value in remainingIssueMaps");
                     }
                     createIssueLinkList(database, issueTd, filteredIssues);
-                    filteredIssues.forEach(e=> {
+                    filteredIssues.forEach(e => {
                         remainingIssueMaps.delete(e);
                     });
                 }
-                
+
                 seriesTd.rowSpan = compilationRows.length;
                 compilationRows[0].insertBefore(seriesTd, compilationRows[0].firstChild);
 
-                compilationRows.forEach(e=>overlapTable.appendChild(e));
+                compilationRows.forEach(e => overlapTable.appendChild(e));
             });
         } else {
             noOverlapsMessage.style.display = "block";
@@ -317,14 +342,14 @@ export class ComparisonViewerElement extends HTMLElement {
         const noUniquesMessage = this.shadowRoot.getElementById("noUniques");
         const uniquesTable = this.shadowRoot.getElementById("uniqueTable");
         uniquesTable.innerHTML = "";
-        if(result.uniques.size>0) {
+        if (result.uniques.size > 0) {
             noUniquesMessage.style.display = "none";
             /** @type {HTMLTableElement} */
 
             let tr = document.createElement("tr");
             let th = document.createElement("th");
             th.colSpan = 3;
-            th.innerText = "Unique(s)";
+            th.innerText = "Unique issue(s)";
             tr.appendChild(th);
             uniquesTable.appendChild(tr);
 
@@ -341,32 +366,32 @@ export class ComparisonViewerElement extends HTMLElement {
             uniquesTable.appendChild(tr);
 
 
-            result.uniques.forEach((seriesMap, compilation)=> {
+            result.uniques.forEach((seriesMap, compilation) => {
                 /** @type {HTMLTableCellElement} */
                 const compilationTd = document.createElement("td");
-                compilationTd.appendChild(createCompilationLink(database, compilation));
+                compilationTd.appendChild(ComparisonViewerElement.#createCompilationLink(database, result, compilation));
                 compilationTd.rowSpan = seriesMap.size;
                 let seriesRows = [];
 
-                seriesMap.forEach((issues, series)=> {
+                seriesMap.forEach((issues, series) => {
 
                     /** @type {HTMLTableRowElement} */
                     const tr = document.createElement("tr");
                     /** @type {HTMLTableCellElement} */
                     const seriesTd = document.createElement("td");
                     seriesTd.appendChild(createSeriesLink(database, series));
-                    tr.appendChild(seriesTd);                    
+                    tr.appendChild(seriesTd);
                     const issueTd = document.createElement("td");
                     createIssueLinkList(database, issueTd, issues);
-                    tr.appendChild(issueTd);                                        
+                    tr.appendChild(issueTd);
                     seriesRows.push(tr);
                 });
 
-                
+
                 compilationTd.rowSpan = seriesRows.length;
                 seriesRows[0].insertBefore(compilationTd, seriesRows[0].firstChild);
 
-                seriesRows.forEach(e=>uniquesTable.appendChild(e));
+                seriesRows.forEach(e => uniquesTable.appendChild(e));
             });
         } else {
             noUniquesMessage.style.display = "block";
@@ -400,7 +425,7 @@ export class CompilationViewerElement extends HTMLElement {
         this.appendChild(nameField);
 
         const issueTable = this.shadowRoot.getElementById("issueTable");
-        database.getSeriesByIds(data.series.keys()).forEach(series=>{
+        database.getSeriesByIds(data.series.keys()).forEach(series => {
             const tr = document.createElement("tr");
             const nameTd = document.createElement("td");
             tr.appendChild(nameTd);
@@ -446,7 +471,7 @@ export class SeriesViewerElement extends HTMLElement {
 
         const compilationList = this.shadowRoot.getElementById("compilationList");
         const compilations = database.getCompilationsWithSeries(data.id);
-        compilations.forEach(e=> {
+        compilations.forEach(e => {
             const element = createDraggableCompilationEntry(database, e);
             compilationList.appendChild(element);
         })
@@ -484,7 +509,7 @@ export class IssueViewerElement extends HTMLElement {
 
         const compilationList = this.shadowRoot.getElementById("compilationList");
         const compilations = database.getCompilationsWithIssue(data.id);
-        compilations.forEach(e=> {
+        compilations.forEach(e => {
             const element = createDraggableCompilationEntry(database, e);
             compilationList.appendChild(element);
         });

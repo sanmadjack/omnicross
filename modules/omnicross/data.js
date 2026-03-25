@@ -1,7 +1,7 @@
 "use strict";
 
 import { calculateSortableName, sortByName, sortMapByName, sortSetByName } from "../tools.js";
-import { idRegex } from "./tools.js";
+import { idRegex, generateComparisonName } from "./tools.js";
 
 export class SavedData {
     static #key = "omnicross.savedData";
@@ -13,11 +13,11 @@ export class SavedData {
 
         const data = JSON.parse(jsonString);
 
-        if(data) {
-            if(data.comparisons) {
-                data.comparisons.forEach(e=>{
+        if (data) {
+            if (data.comparisons) {
+                data.comparisons.forEach(e => {
                     const comparison = Comparison.load(e);
-                    if(comparison!=null) {
+                    if (comparison != null) {
                         this.addComparison(comparison);
                     }
                 })
@@ -25,13 +25,20 @@ export class SavedData {
         }
     }
 
-    addComparison(comparison)
-    {
-        if(idRegex.test(comparison.id)) {
+    /**
+     * 
+     * @param {Comparison} comparison 
+     */
+    addComparison(comparison) {
+        if (idRegex.test(comparison.id)) {
             throw Error("Invalid comparison ID: " + comparison.id);
         }
         this.comparisons.set(comparison.id, comparison);
     }
+    /**
+     * 
+     * @param {string} id 
+     */
     removeComparison(id) {
         this.comparisons.delete(id);
     }
@@ -39,19 +46,19 @@ export class SavedData {
     save() {
         const saveData = {};
         saveData.comparisons = [];
-        this.comparisons.forEach(c=> {
+        this.comparisons.forEach(c => {
             saveData.comparisons.push(c);
         });
 
         localStorage.setItem(SavedData.#key, JSON.stringify(saveData, (key, value) => {
             if (value instanceof Set) {
-                if(value.size>0) {
-                    return [...value]; 
+                if (value.size > 0) {
+                    return [...value];
                 }
                 return [];
             }
             return value;
-        }));        
+        }));
     }
 
     clear() {
@@ -61,8 +68,13 @@ export class SavedData {
 
 export class Parser {
     constructor() {
-   }
+    }
 
+    /**
+     * 
+     * @param {string} path 
+     * @returns {Database}
+     */
     async parse(path) {
         const output = new Database();
         const response = await fetch(path);
@@ -70,36 +82,40 @@ export class Parser {
         data.forEach(e => {
             var compilation = new Compilation(e.id, e.title);
 
-            Object.keys(e.issues).forEach(function(key,index) {               
+            if (!e.issues) {
+                console.error(e);
+                throw Error("issues property not found for compilation");
+            }
+            Object.keys(e.issues).forEach(function (key, index) {
                 let series = output.getSeriesNyName(key);
-                if(series===undefined) {
+                if (series === undefined) {
                     series = new Series(key);
                     output.addSeries(series);
                 }
                 const issueRanges = e.issues[key].split(",");
                 const issueRangeRegex = /^(\d+)-(\d+)$/;
                 const issueNumberRegex = /^([0-9\.]+)$/;
-                issueRanges.forEach(e=> {
+                issueRanges.forEach(e => {
                     const m = e.match(issueRangeRegex);
-                    if(m) {
+                    if (m) {
                         const startNumber = parseInt(m[1]);
                         const endNumber = parseInt(m[2]);
-                        if(endNumber<startNumber) {
+                        if (endNumber < startNumber) {
                             console.error(e);
                             console.error("End number smaller than start number");
                             return;
                         }
-                        for(let i=startNumber; i <=endNumber; i++) {
+                        for (let i = startNumber; i <= endNumber; i++) {
                             const issue = output.getOrAddIssue(series.id, i);
                             compilation.addIssue(issue);
                         }
-                    } else  {
+                    } else {
                         const m = e.match(issueNumberRegex);
-                        if(m) {
+                        if (m) {
                             const issueNumber = parseFloat(e);
                             const issue = output.getOrAddIssue(series.id, issueNumber);
                             compilation.addIssue(issue);
-                        } else  {
+                        } else {
                             console.error("Could not parse issue range: " + e);
                             return;
                         }
@@ -122,20 +138,20 @@ export class Database {
     #series = new Map();
     /** @type {Map<string, Issue>} */
     #issues = new Map();
-   
+
     sortData() {
         this.#compilations = sortMapByName(this.#compilations);
         this.#series = sortMapByName(this.#series);
         //this.#issues = this.#sortMapByName(this.#issues);
     }
-    
+
     /**
      * 
      * @param {Compilation} c 
      * @returns {Compilation}
      */
     addCompilation(c) {
-        this.#compilations.set(c.id,c);
+        this.#compilations.set(c.id, c);
         return c;
     }
     /**
@@ -144,19 +160,19 @@ export class Database {
      * @returns {Series}
      */
     addSeries(s) {
-        this.#series.set(s.id,s);
+        this.#series.set(s.id, s);
         return s;
     }
     /** @returns {Issue} */
     getOrAddIssue(seriesId, issueNumber) {
         const series = this.getSeriesById(seriesId);
-        if(series.issues.has(issueNumber)) {
+        if (series.issues.has(issueNumber)) {
             return this.getIssueById(series.issues.get(issueNumber));
         }
-        const issue = new Issue(seriesId, issueNumber);     
+        const issue = new Issue(seriesId, issueNumber);
         issue.name = series.name + " #" + issueNumber;
-        this.#issues.set(issue.id,issue);
-        series.issues.set(issueNumber,issue.id);
+        this.#issues.set(issue.id, issue);
+        series.issues.set(issueNumber, issue.id);
         return issue;
     }
     /**
@@ -166,7 +182,7 @@ export class Database {
      */
     getIssueNumbers(issueIds) {
         var output = new Set();
-        issueIds.forEach(e=>output.add(this.getIssueById(e).number));
+        issueIds.forEach(e => output.add(this.getIssueById(e).number));
         return output;
     }
 
@@ -207,7 +223,7 @@ export class Database {
         name = name.toLowerCase().trim();
         let result = undefined;
         for (const [key, value] of this.#series.entries()) {
-            if(value.lowerName==name) {
+            if (value.lowerName == name) {
                 result = value;
                 break;
             }
@@ -235,7 +251,7 @@ export class Database {
      * @returns {Iterable<Series>} */
     getSeriesByIds(idList) {
         const output = new Set();
-        idList.forEach(e=>output.add(this.getSeriesById(e)));
+        idList.forEach(e => output.add(this.getSeriesById(e)));
         return sortSetByName(output);
     }
     /**
@@ -243,11 +259,10 @@ export class Database {
      * @param {string} issueId 
      * @returns {Set<Compilation>}
      */
-    getCompilationsWithIssue(issueId) 
-    {
+    getCompilationsWithIssue(issueId) {
         let output = new Set();
-        this.#compilations.forEach((v,k)=> {
-            if(v.issues.has(issueId)) {
+        this.#compilations.forEach((v, k) => {
+            if (v.issues.has(issueId)) {
                 output.add(v);
             }
         });
@@ -258,12 +273,11 @@ export class Database {
      * @param {string} seriesId 
      * @returns {Set<Series>}
      */
-    getCompilationsWithSeries(seriesId) 
-    {
+    getCompilationsWithSeries(seriesId) {
         let output = new Set();
 
-        this.#compilations.forEach((v,k)=> {
-            if(v.series.has(seriesId)) {
+        this.#compilations.forEach((v, k) => {
+            if (v.series.has(seriesId)) {
                 output.add(v);
             }
         });
@@ -297,7 +311,7 @@ export class Compilation {
      */
     addIssue(issue) {
         this.issues.add(issue.id);
-        if(!this.series.has(issue.seriesId)) {
+        if (!this.series.has(issue.seriesId)) {
             this.series.set(issue.seriesId, new Set());
         }
         this.series.get(issue.seriesId).add(issue.id);
@@ -338,22 +352,6 @@ export class Issue {
     }
 }
 
-const defaultComparisonNamePrefix = "New ";
-/**
- * 
- * @returns {string}
- */
-export function generateComparisonName()
-{
-    let i = 1;
-    let name = defaultComparisonNamePrefix + i;
-    while(Comparison.checkNames(name)) {
-        i++;
-        name = defaultComparisonNamePrefix + i;
-    }
-    return name;
-}
-
 export class Comparison {
     static #comparisonNames = new Set();
 
@@ -378,7 +376,7 @@ export class Comparison {
      * @param {string} name 
      */
     constructor(name) {
-        if(name==null) {
+        if (name == null) {
             name = generateComparisonName();
         }
         this.id = crypto.randomUUID();
@@ -402,6 +400,14 @@ export class Comparison {
 export class ComparitorResult {
     /** @type {Set<Compilation>} */
     compilations = new Set();
+
+    /** @type {Set<Compilation>} */
+    uniqueCompilations = new Set();
+    /** @type {Set<Compilation>} */
+    overlappingCompilations = new Set();
+    /** @type {Set<Compilation>} */
+    redundantCompilations = new Set();
+
     /** @type {Set<Series>} */
     series = new Set();
     /** @type {Set<Issue>} */
@@ -414,40 +420,54 @@ export class ComparitorResult {
 
     /**
      * 
+     * @param {Compilation} compilation 
+     */
+    addUniqueCompilation(compilation) {
+        this.uniqueCompilations.add(compilation);
+    }
+    /**
+     * 
+     * @param {Compilation} compilation 
+     */
+    addRedundantCompilation(compilation) {
+        this.redundantCompilations.add(compilation);
+    }
+
+    /**
+     * 
      * @param {Issue} issue 
      * @param {Compilation} compilation 
      */
-    addOverlapIssue(series, issue, compilation)
-    {
-        if(!this.overlaps.has(series))  {
+    addOverlapIssue(series, issue, compilation) {
+        if (!this.overlaps.has(series)) {
             this.overlaps.set(series, new Map());
         }
         const issueMap = this.overlaps.get(series);
 
-        if(!issueMap.has(issue)) {
+        if (!issueMap.has(issue)) {
             issueMap.set(issue, new Set())
         }
         const compilationSet = issueMap.get(issue);
-        
+
         compilationSet.add(compilation);
 
         this.series.add(series);
         this.issues.add(issue);
         this.compilations.add(compilation);
+        this.overlappingCompilations.add(compilation);
     }
     /**
      * 
      * @param {Issue} issue 
      * @param {Compilation} compilation 
      */
-    addUniqueIssue(series, issue, compilation)
-    {
-        if(!this.uniques.has(compilation))  {
+    addUniqueIssue(series, issue, compilation) {
+        if (!this.uniques.has(compilation)) {
             this.uniques.set(compilation, new Map());
         }
         const compilationMap = this.uniques.get(compilation);
 
-        if(!compilationMap.has(series))  {
+        if (!compilationMap.has(series)) {
             compilationMap.set(series, new Set());
         }
 
@@ -468,36 +488,47 @@ export class Comparitor {
      * @param {Comparison} comparison 
      * @returns {ComparitorResult}
      */
-    process(database, comparison)
-    {
+    process(database, comparison) {
         /** @type {ComparitorResult} */
         const output = new ComparitorResult();
 
         /** @type {Array<Compilation>} */
-        output.compilations = new Set([...comparison.compilations].map(id=>database.getCompilationById(id)).sort(sortByName));
+        output.compilations = new Set([...comparison.compilations].map(id => database.getCompilationById(id)).sort(sortByName));
 
-        output.compilations.forEach(a=> {
-            if(a==undefined) {
+        output.compilations.forEach(a => {
+            if (a == undefined) {
                 return;
             }
-            a.issues.forEach(i=>{
+            let redundant = true;
+            let unique = true;
+
+            a.issues.forEach(i => {
                 const issue = database.getIssueById(i);
                 const series = database.getSeriesById(issue.seriesId);
                 let found = false;
-                output.compilations.forEach(b=> {
-                    if(b==undefined || b.id===a.id) {
+                output.compilations.forEach(b => {
+                    if (b == undefined || b.id === a.id) {
                         return;
                     }
-                    if(b.issues.has(i)) {
+                    if (b.issues.has(i)) {
                         output.addOverlapIssue(series, issue, a);
                         output.addOverlapIssue(series, issue, b);
                         found = true;
                     }
                 });
-                if(found===false) {
+                if (found === false) {
+                    redundant = false;
                     output.addUniqueIssue(series, issue, a);
+                } else {
+                    unique = false;
                 }
             });
+            if (unique === true) {
+                output.addUniqueCompilation(a);
+            }
+            if (redundant === true) {
+                output.addRedundantCompilation(a);
+            }
         });
         return output;
     }

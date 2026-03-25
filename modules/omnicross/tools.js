@@ -21,7 +21,7 @@ let windowCache = new Map();
  */
 export function openSeriesViewer(database, data, x, y) {
     let element;
-    if(windowCache.has(data.id)) {
+    if (windowCache.has(data.id)) {
         element = windowCache.get(data.id);
     }
     else {
@@ -43,7 +43,7 @@ export function openSeriesViewer(database, data, x, y) {
  */
 export function openIssueViewer(database, data, x, y) {
     let element;
-    if(windowCache.has(data.id)) {
+    if (windowCache.has(data.id)) {
         element = windowCache.get(data.id);
     }
     else {
@@ -65,7 +65,7 @@ export function openIssueViewer(database, data, x, y) {
  */
 export function openCompilationViewer(database, data, x, y) {
     let element;
-    if(windowCache.has(data.id)) {
+    if (windowCache.has(data.id)) {
         element = windowCache.get(data.id);
     }
     else {
@@ -150,8 +150,7 @@ export function createIssueLinkList(database, parentElement, issues) {
  * @param {Compilation} data 
  * @returns {CompilationBrowserEntryElement}
  */
-export function createDraggableCompilationEntry(database, data)
-{
+export function createDraggableCompilationEntry(database, data) {
     const ele = new CompilationBrowserEntryElement(database, data);
     return ele;
 }
@@ -185,4 +184,19 @@ export function createSeriesLink(database, data) {
         openSeriesViewer(database, data, e.clientX, e.clientY);
     };
     return anchorElement;
+}
+
+const defaultComparisonNamePrefix = "New ";
+/**
+ * 
+ * @returns {string}
+ */
+export function generateComparisonName() {
+    let i = 1;
+    let name = defaultComparisonNamePrefix + i;
+    while (Comparison.checkNames(name)) {
+        i++;
+        name = defaultComparisonNamePrefix + i;
+    }
+    return name;
 }
