@@ -1,6 +1,6 @@
 "use strict";
 
-import { count } from "../tools.js";
+import { count, sortByName, sortSetByNumber } from "../tools.js";
 import { SeriesViewerElement, IssueViewerElement, CompilationViewerElement, ComparisonViewerElement, CompilationBrowserEntryElement } from "./components.js";
 import { Compilation, Database, Issue, SavedData, Comparison } from "./data.js";
 
@@ -116,16 +116,14 @@ export function createIssueLink(database, issue) {
  * @param {Set<string>} issueIds 
  */
 export function createIssueLinkListById(database, parentElement, issueIds) {
-    let i = 0;
-    issueIds.forEach(v => {
-        i++;
-        const issue = database.getIssueById(v);
-        parentElement.appendChild(createIssueLink(database, issue));
-        if (i < count(issueIds)) {
-            parentElement.appendChild(document.createTextNode(", "));
-        }
 
+    /** @type {Set<Issue>} */
+    let issues = new Set();
+    issueIds.forEach(v => {
+        const issue = database.getIssueById(v);
+        issues.add(issue);
     });
+    createIssueLinkList(database, parentElement, issues);
 }
 /**
  * 
@@ -135,7 +133,7 @@ export function createIssueLinkListById(database, parentElement, issueIds) {
  */
 export function createIssueLinkList(database, parentElement, issues) {
     let i = 0;
-    issues.forEach(issue => {
+    sortSetByNumber(issues).forEach(issue => {
         i++;
         parentElement.appendChild(createIssueLink(database, issue));
         if (i < count(issues)) {

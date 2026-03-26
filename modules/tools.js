@@ -14,12 +14,11 @@ export function isString(value) {
  * @param {*} input 
  * @returns {number}}
  */
-export function count(input)
-{
-    if(input instanceof Set || input instanceof Map) {
+export function count(input) {
+    if (input instanceof Set || input instanceof Map) {
         return input.size;
     }
-    if(Array.isArray(input)) {
+    if (Array.isArray(input)) {
         return input.length;
     }
     return input.length;
@@ -31,17 +30,17 @@ export function count(input)
  * @param {Set} b 
  * @returns {boolean}
  */
-export function areSetsSame(a,b) {
-    if(a===b) {
+export function areSetsSame(a, b) {
+    if (a === b) {
         // These are the same set object
         return true;
     }
-    if(a.size!==b.size) {
+    if (a.size !== b.size) {
         return false
     }
     let same = true;
-    a.forEach(aValue=> {
-        if(!b.has(aValue)) {
+    a.forEach(aValue => {
+        if (!b.has(aValue)) {
             same = false;
         }
     });
@@ -55,7 +54,7 @@ export function areSetsSame(a,b) {
  */
 export function sortMapByName(input) {
     let output = new Map();
-    Array.from(input.values()).sort(sortByName).forEach(v=>{
+    Array.from(input.values()).sort(sortByName).forEach(v => {
         output.set(v.id, v);
     });
     return output;
@@ -67,6 +66,14 @@ export function sortMapByName(input) {
  */
 export function sortSetByName(input) {
     return new Set([...input].sort(sortByName));
+}
+/**
+ * 
+ * @param {Set} input 
+ * @returns {Set}
+ */
+export function sortSetByNumber(input) {
+    return new Set([...input].sort(sortByNumber));
 }
 /**
  * 
@@ -83,8 +90,17 @@ export function sortArrayByName(input) {
  * @param {*} b 
  * @returns {number}
  */
-export function sortByName(a,b) {    
+export function sortByName(a, b) {
     return a.sortableName.localeCompare(b.sortableName);
+}
+/**
+ * 
+ * @param {*} a 
+ * @param {*} b 
+ * @returns {number}
+ */
+export function sortByNumber(a, b) {
+    return a.number - b.number;
 }
 /**
  * 
@@ -93,7 +109,7 @@ export function sortByName(a,b) {
  */
 export function calculateSortableName(input) {
     let output = input.toLowerCase();
-    if(output.startsWith("the ")) {
+    if (output.startsWith("the ")) {
         output = output.substring(4) + ", " + output.substring(0, 4);
     }
     return output;
