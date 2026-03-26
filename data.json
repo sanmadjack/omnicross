@@ -500,6 +500,9 @@
 		"title": "Harley Quinn Omnibus Volume 1",
 		"reference": "https://www.dc.com/graphic-novels/harley-quinn-by-amanda-conner-and-jimmy-palmiotti-omnibus-2017/harley-quinn-by-amanda-conner-and-jimmy-palmiotti-omnibus-vol-1",
 		"format": "omnibus",
+		"upc": [
+			"9781401276430"
+		],
 		"issues": {
 			"Harley Quinn (2014)": "0-16",
 			"Harley Quinn: Future's End (2014)": "1",
@@ -517,6 +520,83 @@
 		"format": "tpb",
 		"issues": {
 			"Harley Quinn and Power Girl (2015)": "19-27"
+		}
+	},
+	{
+		"id": "019d2b24-0d5d-77dd-97ea-fa4f161ec6bf",
+		"title": "Harley Quinn: 30 Years of the Maid of Mischief",
+		"format": "ohc",
+		"upc": [
+			"9781779517180"
+		],
+		"issues": {
+			"The Batman Adventures (1992)": "12",
+			"The Batman and Robin Adventures (1995)": "18",
+			"Batman: Gotham Adventures (1998)": "10",
+			"Harley Quinn (2000)": "3",
+			"Batman: Gotham Knights (2000)": "14",
+			"Detective Comics": "831",
+			"Gotham City Sirens (2009)": "20-21",
+			"Harley Quinn Holiday Special (2015)": "1",
+			"Harley Quinn 25th Anniversary Special": "1",
+			"Harley Quinn: Be Careful What You Wish For Special Edition": "1",
+			"Harley Quinn: Make 'em Laugh": "3",
+			"Harley Quinn Black + White + Red": "14",
+			"Batman (2016)": "98",
+			"Harley Quinn 30th Anniversary Special": "1"
+		}
+	},
+	{
+		"id": "019d2b23-2a4b-7228-85e7-0780d371021d",
+		"title": "Harley Quinn: Angry Bird",
+		"format": "tpb",
+		"upc": [
+			"9781401281526"
+		],
+		"issues": {
+			"Harley Quinn (2016)": "35-42"
+		}
+	},
+	{
+		"id": "019d2b1e-d1c7-71d6-8fd6-7c898e00bcba",
+		"title": "Harley Quinn: Black, White and Red all over",
+		"format": "tpb",
+		"upc": [
+			"9781401271985"
+		],
+		"issues": {
+			"Harley Quinn (2014)": "26-30"
+		}
+	},
+	{
+		"id": "019d2b20-6440-702a-a7d6-af3a3fa7cb8a",
+		"title": "Harley Quinn: Red Meat",
+		"format": "tpb",
+		"upc": [
+			"9781401273699"
+		],
+		"issues": {
+			"Harley Quinn (2016)": "14-21"
+		}
+	},
+	{
+		"id": "019d2b21-4828-702a-8cc7-5e77c4ded465",
+		"title": "Harley Quinn: Surprise, Surprise",
+		"format": "tpb",
+		"issues": {
+			"Harley Quinn (2016)": "22-27",
+			"Harley Quinn 25th Anniversary Special": "1"
+		}
+	},
+	{
+		"id": "019d2b22-92ca-774a-9ae1-31a52fa4e040",
+		"title": "Harley Quinn: Vote Harley",
+		"format": "tpb",
+		"upc": [
+			"9781401278823"
+		],
+		"issues": {
+			"Harley Quinn (2016)": "28-34"
 		}
 	},
 	{
