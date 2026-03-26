@@ -81,6 +81,10 @@ export class Parser {
         output.lastModified = response.headers.get('Last-Modified');
         const data = await response.json();
         data.forEach(e => {
+            if (output.getCompilationById(e.id) != null) {
+                throw Error("Duplicate compilation ID: " + e.id);
+            }
+
             var compilation = new Compilation(e.id, e.title);
             if (e.format) {
                 compilation.format = e.format;
@@ -100,8 +104,8 @@ export class Parser {
                     output.addSeries(series);
                 }
                 const issueRanges = e.issues[key].split(",");
-                const issueRangeRegex = /^(\d+)-(\d+)$/;
-                const issueNumberRegex = /^([0-9\.]+)$/;
+                const issueRangeRegex = /^(-?\d+)-(-?\d+)$/;
+                const issueNumberRegex = /^(-?[0-9\.]+)$/;
                 issueRanges.forEach(e => {
                     const m = e.match(issueRangeRegex);
                     if (m) {
