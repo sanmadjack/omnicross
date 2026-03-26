@@ -600,6 +600,71 @@
 		}
 	},
 	{
+		"id": "019d2b2e-545c-70ba-a8cc-273fcf830fd9",
+		"title": "House of M Companion Omnibus",
+		"format": "omnibus",
+		"upc": [
+			"9781302953768"
+		],
+		"issues": {
+			"Excalibur (2004)": "16-20",
+			"House of M: Avengers": "1-5",
+			"Civil War: House of M": "1-5",
+			"House of M: Masters of Evil": "1-4",
+			"What If? Spider-Man: House of M": "1",
+			"House of M (2015)": "1-4"
+		},
+		"partials": {
+			"What If? House of M": "1"
+		}
+	},
+	{
+		"id": "019d2b31-1ac6-708e-aaa3-2fa86e195570",
+		"title": "House of M Omnibus",
+		"format": "omnibus",
+		"upc": [
+			"9781302948221"
+		],
+		"issues": {
+			"House of M (2005)": "1-8",
+			"Spider-Man: House of M": "1-5",
+			"Fantastic Four: House of M": "1-3",
+			"Iron Man: House of M": "1-3",
+			"New Thunderbolts": "11",
+			"Black Panther (2005)": "7",
+			"The Uncanny X-Men (1981)": "462-465",
+			"Wolverine (2003)": "33-35",
+			"Captain America (2004)": "10",
+			"Pulse (2004)": "10",
+			"Cable & Deadpool": "17",
+			"Incredible Hulk (2000)": "83-87",
+			"New X-Men (2004)": "16-19",
+			"Exiles (2001)": "69-71",
+			"Mutopia X": "1-5",
+			"Descimation: House of M - The Day After": "1",
+			"Giant-Size Ms. Marvel": "1",
+			"secrets of the House of M": "1",
+			"Pulse: House of M Special": "1",
+			"House of M Director's Cut": "1",
+			"House of M Sketchbook": "1"
+		},
+		"partials": {
+			"Hulk: Broken Worlds Book One": "1"
+		}
+	},
+	{
+		"id": "019d2b36-cde7-7044-b945-d0581ef86bf9",
+		"title": "House of X/Powers of X",
+		"format": "ohc",
+		"upc": [
+			"9781302915704"
+		],
+		"issues": {
+			"House of X": "1-6",
+			"Powers of X": "1-6"
+		}
+	},
+	{
 		"id": "019d087a-cf42-70bd-9d47-1f5705517c60",
 		"title": "Howard the Duck Omnibus",
 		"format": "omnibus",
