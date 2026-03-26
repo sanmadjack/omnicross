@@ -605,6 +605,9 @@
 		"id": "019d0858-06d9-72df-be68-90e1af392353",
 		"title": "Power Girl",
 		"format": "tpb",
+		"upc": [
+			"9781401209681"
+		],
 		"issues": {
 			"Showcase (1956)": "97-99",
 			"Secret Origins (1986)": "11",
@@ -616,6 +619,9 @@
 		"id": "019d2617-7d06-7045-8d7c-332d0b267231",
 		"title": "Power Girl Returns",
 		"format": "tpb",
+		"upc": [
+			"9781779524072"
+		],
 		"issues": {
 			"Lazarus Planet: Assault on Krypton": "1",
 			"Action Comics": "1051-1053",
@@ -646,6 +652,9 @@
 		"title": "Power Girl: Bomb Squad",
 		"reference": "https://dc.fandom.com/wiki/Power_Girl:_Bomb_Squad_(Collected)",
 		"format": "tpb",
+		"upc": [
+			"9781401231620"
+		],
 		"issues": {
 			"Power Girl (2009)": "13-18"
 		}
@@ -654,6 +663,9 @@
 		"id": "019d2619-3596-767e-8e97-7d38f49d27dd",
 		"title": "Power Girl: Electric Dreams",
 		"format": "tpb",
+		"upc": [
+			"9781779528148"
+		],
 		"issues": {
 			"Power Girl (2023)": "1-7"
 		}
@@ -662,6 +674,9 @@
 		"id": "019d2706-e7b0-739a-bf35-2d7c994a64e8",
 		"title": "Power Girl: More Than a Crush",
 		"format": "tpb",
+		"upc": [
+			"9781799500513"
+		],
 		"issues": {
 			"Power Girl (2023)": "8-13"
 		}
@@ -680,6 +695,9 @@
 		"title": "Power Girl: Power Trip",
 		"reference": "https://dc.fandom.com/wiki/Power_Girl:_Power_Trip_(Collected)",
 		"format": "tpb",
+		"upc": [
+			"9781401243074"
+		],
 		"issues": {
 			"Power Girl (2009)": "1-12",
 			"JSA Classified (2005)": "1-4"
@@ -689,6 +707,9 @@
 		"id": "019d261a-6090-70ab-9f91-7e29b04deb69",
 		"title": "Power Girl: The Star",
 		"format": "tpb",
+		"upc": [
+			"9781799501701"
+		],
 		"issues": {
 			"Power Girl (2023)": "14-20"
 		}
@@ -750,6 +771,19 @@
 		},
 		"partials": {
 			"Marvel Comics": "1000"
+		}
+	},
+	{
+		"id": "019d2af9-5e35-7676-a25b-df221533cd42",
+		"title": "Showcase Presents All-Star Comics 1",
+		"format": "tpb",
+		"upc": [
+			"9781401233037"
+		],
+		"issues": {
+			"All-Star Comics": "58-74",
+			"DC Comics Special": "29",
+			"Adventure Comics": "461-466"
 		}
 	},
 	{
