@@ -400,6 +400,25 @@
 		}
 	},
 	{
+		"id": "019d2ae8-5c77-70bb-9c46-74a62cf36422",
+		"title": "Giant Size X-Men",
+		"format": "ohc",
+		"upc": [
+			"9780785197775"
+		],
+		"issues": {
+			"Giant-Size X-Men": "1,3-4",
+			"Classic X-Men": "1",
+			"X-Men Oirigins: Colossus": "1",
+			"X-Men Oirigins: Wolverine": "1",
+			"X-Men: Deadly Genesis": "1-6",
+			"What If? (1989)": "9,23"
+		},
+		"partials": {
+			"X-Men Gold": "1"
+		}
+	},
+	{
 		"id": "019d086a-d12d-77af-9893-04386e24d245",
 		"title": "Harley Quinn Omnibus Volume 1",
 		"reference": "https://www.dc.com/graphic-novels/harley-quinn-by-amanda-conner-and-jimmy-palmiotti-omnibus-2017/harley-quinn-by-amanda-conner-and-jimmy-palmiotti-omnibus-vol-1",
