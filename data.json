@@ -98,6 +98,17 @@
 		}
 	},
 	{
+		"id": "019d2b15-da48-733f-81f8-cb3839c0e56a",
+		"title": "Astonishing X-Men: Xenogenesis",
+		"format": "tpb",
+		"upc": [
+			"9780785144915"
+		],
+		"issues": {
+			"Astonishing X-Men: Xenogenesis": "1-5"
+		}
+	},
+	{
 		"id": "019d25fa-20b3-745b-af01-8c4587c3cb06",
 		"title": "Avengers vs. X-Men Omnibus",
 		"format": "omnibus",
@@ -585,6 +596,28 @@
 		}
 	},
 	{
+		"id": "019d2b16-94ce-77ff-9692-77808f2ea4fc",
+		"title": "NYX: No Way Home",
+		"format": "tpb",
+		"upc": [
+			"9780785128328"
+		],
+		"issues": {
+			"NYX: No Way Home": "1-6"
+		}
+	},
+	{
+		"id": "019d2b11-ee99-7789-aa4e-be1c1c5d15c7",
+		"title": "New X-Men: Childhood's End",
+		"format": "tpb",
+		"upc": [
+			"9780785122388"
+		],
+		"issues": {
+			"New X-Men (2001)": "33-36"
+		}
+	},
+	{
 		"id": "019d26fe-32e2-75da-9a9f-44497cb640f0",
 		"title": "Phoenix: The Death & Rebirth of Jean Grey",
 		"format": "omnibus",
@@ -712,6 +745,17 @@
 		],
 		"issues": {
 			"Power Girl (2023)": "14-20"
+		}
+	},
+	{
+		"id": "019d2b12-e265-7397-b1b5-d93409f02793",
+		"title": "Rogue",
+		"format": "tpb",
+		"upc": [
+			"9780785101406"
+		],
+		"issues": {
+			"Rogue (1996)": "1-4"
 		}
 	},
 	{
@@ -1022,6 +1066,17 @@
 		}
 	},
 	{
+		"id": "019d2b10-f382-7580-9acf-061a900fbc66",
+		"title": "Uncanny X-Men - The New Age: The Cruelest Cut",
+		"format": "tpb",
+		"upc": [
+			"9780785116455"
+		],
+		"issues": {
+			"The Uncanny X-Men (1981)": "450-454"
+		}
+	},
+	{
 		"id": "019d26f6-0e33-7762-b018-31e94c9c42a1",
 		"title": "Uncanny X-Men by Kieron Gillen Omnibus",
 		"format": "omnibus",
@@ -1060,6 +1115,17 @@
 		}
 	},
 	{
+		"id": "019d2b15-2822-72cf-99b2-24b8c6f469c2",
+		"title": "X-Infernus",
+		"format": "tpb",
+		"upc": [
+			"9780785139478"
+		],
+		"issues": {
+			"X-Infernus": "1-4"
+		}
+	},
+	{
 		"id": "019d253f-f4f2-76f9-97a0-2c8b53bd0ce9",
 		"title": "X-Men By Hickman Omnibus",
 		"format": "omnibus",
@@ -1070,6 +1136,46 @@
 			"Giant-Size X-Men: Magneto (2020)": "1",
 			"Giant-Size X-Men: Fantomex (2020)": "1",
 			"Giant-Size X-Men: Storm (2020)": "1"
+		}
+	},
+	{
+		"id": "019d2b19-43e5-77b8-94f9-62a6c63eb52b",
+		"title": "X-Men: Beauty and the Beast",
+		"format": "tpb",
+		"upc": [
+			"9780785162735"
+		],
+		"issues": {
+			"Marvel Graphic Novel (1982)": "12",
+			"Beauty and the Beast (1984)": "1-4"
+		},
+		"partials": {
+			"Marvel Heartbreakers": "1"
+		}
+	},
+	{
+		"id": "019d2b18-917e-703d-b88f-67349e5a808e",
+		"title": "X-Men: God Loves, Man Kills",
+		"format": "tpb",
+		"upc": [
+			"9780785127611"
+		],
+		"issues": {
+			"Marvel Graphic Novel (1982)": "5"
+		}
+	},
+	{
+		"id": "019d2b0e-2b67-75f3-8d46-830502e9440e",
+		"title": "X-Men: Iceman",
+		"format": "tpb",
+		"upc": [
+			"9780785162759"
+		],
+		"issues": {
+			"Iceman (1984)": "1-4"
+		},
+		"partials": {
+			"Bizarre Adventures": "27"
 		}
 	},
 	{
@@ -1087,6 +1193,69 @@
 		"partials": {
 			"Marvel Age Annual": "4",
 			"Marvel Fanfare (1982)": "40"
+		}
+	},
+	{
+		"id": "019d2b07-2247-7638-8249-5ff9192b1d31",
+		"title": "X-Men: Lifedeath",
+		"format": "tpb",
+		"issues": {
+			"The Uncanny X-Men (1981)": "186,198,205,214"
+		},
+		"partials": {
+			"The X-Men (1963)": "53"
+		}
+	},
+	{
+		"id": "019d2b17-b4a5-73bb-82e3-f5b12b50971f",
+		"title": "X-Men: Longshot",
+		"format": "tpb",
+		"upc": [
+			"759606130917"
+		],
+		"issues": {
+			"Longshot (1985)": "1-6"
+		}
+	},
+	{
+		"id": "019d2b04-6bba-720b-aa4b-cdd522130eac",
+		"title": "X-Men: Phoenix Rising",
+		"format": "tpb",
+		"upc": [
+			"759606139484"
+		],
+		"issues": {
+			"The Avengers (1963)": "293",
+			"Fantastic Four (1961)": "286",
+			"X-Factor (1986)": "1"
+		},
+		"partials": {
+			"Classic X-Men": "8,34"
+		}
+	},
+	{
+		"id": "019d2b14-1207-722f-a62f-39d016cc33d1",
+		"title": "X-Terminators",
+		"format": "tpb",
+		"upc": [
+			"9781302946999"
+		],
+		"issues": {
+			"X-Terminators (2022)": "1-5"
+		}
+	},
+	{
+		"id": "019d2b0f-5a6f-7028-b729-71f9cfe67a50",
+		"title": "X-Women",
+		"format": "tpb",
+		"upc": [
+			"9780785162797"
+		],
+		"issues": {
+			"X-Women": "1",
+			"Women of Marvel: X-23": "1",
+			"Women of Marvel: Cloak & Dagger": "1",
+			"Women of Marvel: Dazzler": "1"
 		}
 	}
 ]
