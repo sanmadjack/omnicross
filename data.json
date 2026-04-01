@@ -162,6 +162,23 @@
 		}
 	},
 	{
+		"id": "019d4a2a-df70-724d-af70-f1bbd8505649",
+		"title": "Cable & X-Force Omnibus",
+		"format": "omnibus",
+		"upc": [
+			"9781302917777"
+		],
+		"issues": {
+			"X-Force (1991)": "32-43",
+			"X-Force Annual (1992)": "3",
+			"Cable (1993)": "9-20",
+			"New Warriors (1990)": "45-46",
+			"X-Factor (1986)": "106",
+			"Excalibur (1988)": "82",
+			"Wolverine (1988)": "85"
+		}
+	},
+	{
 		"id": "019d2601-013b-75e8-add8-79e10bfab111",
 		"title": "Dazzler Omnibus",
 		"format": "omnibus",
@@ -1468,6 +1485,20 @@
 		}
 	},
 	{
+		"id": "019d4a26-a839-770b-bdf1-c4207236f914",
+		"title": "Uncanny X-Force Omnibus",
+		"format": "omnibus",
+		"upc": [
+			"9781302957735"
+		],
+		"issues": {
+			"Uncanny X-Force": "1-35,5.1,19.1"
+		},
+		"partials": {
+			"Wolverine: The Road to Hell": "1"
+		}
+	},
+	{
 		"id": "019d2b10-f382-7580-9acf-061a900fbc66",
 		"title": "Uncanny X-Men - The New Age: The Cruelest Cut",
 		"format": "tpb",
@@ -1839,6 +1870,27 @@
 		}
 	},
 	{
+		"id": "019d4a27-d9e4-73cd-84a6-dae1617cec66",
+		"title": "X-Force Omnibus",
+		"format": "omnibus",
+		"upc": [
+			"9780785165958"
+		],
+		"issues": {
+			"New Mutants (1983)": "98-100",
+			"New Mutants Annual (1983)": "7",
+			"The X-Men Annual (1970)": "15",
+			"X-Factor Annual (1986)": "6",
+			"X-Force (1991)": "1-15",
+			"Spider-Man (1990)": "16",
+			"Cable: Blood & Metal": "1-2"
+		},
+		"partials": {
+			"New Warriors Annuak": "1",
+			"X-Force Annual (1992)": "1"
+		}
+	},
+	{
 		"id": "019d2b15-2822-72cf-99b2-24b8c6f469c2",
 		"title": "X-Infernus",
 		"format": "tpb",
@@ -1853,6 +1905,9 @@
 		"id": "019d253f-f4f2-76f9-97a0-2c8b53bd0ce9",
 		"title": "X-Men By Hickman Omnibus",
 		"format": "omnibus",
+		"upc": [
+			"9781302929985"
+		],
 		"issues": {
 			"X-Men (2019)": "1-12,16-21",
 			"Giant-Size X-Men: Jean Grey & Emma Frost (2020)": "1",
