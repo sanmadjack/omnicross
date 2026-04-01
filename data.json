@@ -76,6 +76,19 @@
 		}
 	},
 	{
+		"id": "019d495f-3e77-720a-b902-3a2bf5fd12ca",
+		"title": "All-New Wolverine Omnibus",
+		"format": "omnibus",
+		"upc": [
+			"9781302926441"
+		],
+		"issues": {
+			"All-New Wolverine": "1-35",
+			"All-New Wolverine Annual": "1",
+			"Generations: Wolverine & All-New Wolverine": "1"
+		}
+	},
+	{
 		"id": "019d2707-438f-757c-86d8-62fb1c1cf543",
 		"title": "Aphrodite IX: The Complete Series",
 		"format": "omnibus",
@@ -366,6 +379,30 @@
 		},
 		"partials": {
 			"Deadpool (2008)": "900"
+		}
+	},
+	{
+		"id": "019d4985-3087-72ab-8a71-9e7ec6dd062d",
+		"title": "Death of Wolverine Omnibus",
+		"format": "omnibus",
+		"upc": [
+			"9781302959876"
+		],
+		"issues": {
+			"Wolverine (2013)": "1-13",
+			"Wolverine (2014)": "1-12",
+			"Wolverine Annual (2014)": "1",
+			"Death of Wolverine": "1-4",
+			"Death of Wolverine: The Weapon X Program": "1-5",
+			"Death of Wolverine: The Logan Legacy": "1-7",
+			"Death of Wolverine: Deadpool & Captain Ameria": "1",
+			"Death of Wolverine: Life after Logan": "1",
+			"Nightcrawler (2014)": "7",
+			"Wolverine & the X-Men (2014)": "10-11",
+			"Storm (2014)": "4-5"
+		},
+		"partials": {
+			"Marvel 75th Anniversary Celebration": "1"
 		}
 	},
 	{
@@ -962,6 +999,28 @@
 		}
 	},
 	{
+		"id": "019d4988-c404-74db-a898-1f797647fde0",
+		"title": "Return of Wolverine Omnibus",
+		"format": "omnibus",
+		"upc": [
+			"9781302965877"
+		],
+		"issues": {
+			"Wolverines (2015)": "1-20",
+			"Hunt for Wolverine (2018)": "1",
+			"Hunt for Wolverine: Weapon Lost (2018)": "1-4",
+			"Hunt for Wolverine: The Adamantium Agenda (2018)": "1-4",
+			"Hunt for Wolverine: The Claws of a Killer (2018)": "1-4",
+			"Hunt for Wolverine: Mystery in Madripoor (2018)": "1-4",
+			"Hunt for Wolverine: Dead Ends (2018)": "1",
+			"Return of Wolverine (2018)": "1-5",
+			"Wolverine: Infinity Watch (2019)": "1-5"
+		},
+		"partials": {
+			"Marvel Legacy (2017)": "1"
+		}
+	},
+	{
 		"id": "019d2b12-e265-7397-b1b5-d93409f02793",
 		"title": "Rogue",
 		"format": "tpb",
@@ -1447,12 +1506,213 @@
 		}
 	},
 	{
+		"id": "019d4960-f20b-740e-94d4-8a4579e836cf",
+		"title": "Weapon X: The Return Omnibus",
+		"format": "omnibus",
+		"upc": [
+			"9781302911829"
+		],
+		"issues": {
+			"Wolverine (1988)": "162-166,173-174,176",
+			"Deadpool (1997)": "57-60",
+			"Weapon X (2002)": "0.5,1-28",
+			"Weapon X: The Draft - Sauron": "1",
+			"Weapon X: The Draft - Wild Child": "1",
+			"Weapon X: The Draft - Kane": "1",
+			"Weapon X: The Draft - Marrow": "1",
+			"Weapon X: The Draft - Agent Zero": "1",
+			"Weapon X: Days of Future Now": "1-5"
+		},
+		"partials": {
+			"Wolverine (1988)": "175",
+			"Deadpool (2012)": "27"
+		}
+	},
+	{
+		"id": "019d4965-2cf9-7291-ae5e-0b661aa0062f",
+		"title": "Wolverine Omnibus Volume 1",
+		"format": "omnibus",
+		"upc": [
+			"9780785134770"
+		],
+		"issues": {
+			"Marvel Comics Presents (1988)": "1-10,72-84",
+			"Incredible Hulk (1968)": "180-182",
+			"Marvel Treasury Edition": "26",
+			"Best of Marvel Comics: Wolverine (1982)": "1-4",
+			"The Uncanny X-Men (1981)": "172-173",
+			"Kitty Pryde and Wolverine": "1-6",
+			"Captain America Annual": "8",
+			"Spider-Man Versus Wolverine": "1",
+			"Marvel Age Annual": "4",
+			"Wolverine (1988)": "1-10",
+			"Punnisher War Journal": "6-7"
+		}
+	},
+	{
+		"id": "019d4968-5875-7119-a492-67bc0a4569c1",
+		"title": "Wolverine Omnibus Volume 2",
+		"format": "omnibus",
+		"upc": [
+			"9781302929954"
+		],
+		"issues": {
+			"Wolverine (1988)": "11-30",
+			"Havok & Wolverine: Meltdown": "1-4",
+			"Wolverine/Nick Fury: The Scorpio Connection": "1",
+			"Wolverine: The Jungle Adventure": "1",
+			"Wolverins: Bloodlust": "1"
+		},
+		"partials": {
+			"Marvel Comics Presents (1988)": "38-71"
+		}
+	},
+	{
+		"id": "019d496a-772a-771a-afac-2de328932e9d",
+		"title": "Wolverine Omnibus Volume 3",
+		"format": "omnibus",
+		"upc": [
+			"9781302946524"
+		],
+		"issues": {
+			"Wolverine (1988)": "31-59",
+			"Wolverine: Bloody Choices": "1",
+			"Wolverine: Rahne of Terra": "1",
+			"Ghost Rider/Wolverine/Punisher: Hearts of Darkness": "1",
+			"X-Men (1991)": "4-7"
+		},
+		"partials": {
+			"Marvel Fanfare (1982)": "54-55",
+			"Marvel Comics Presents (1988)": "85-108"
+		}
+	},
+	{
+		"id": "019d496c-e07e-77d1-9635-da8401f2359c",
+		"title": "Wolverine Omnibus Volume 4",
+		"format": "omnibus",
+		"upc": [
+			"9781302954000"
+		],
+		"issues": {
+			"Wolverine (1988)": "60-75",
+			"Wolverine: Inner Fury": "1",
+			"Wolverine: Killing": "1",
+			"Wolverine: Global Jeopardy": "1",
+			"Wolverine: and the Punisher: Damaging Evidence": "1-3",
+			"Sabretooth (1993)": "1-4",
+			"Spider-Man/Punisher/Sabretooth: Designer Genes:": "1",
+			"X-Men (1991)": "25"
+		},
+		"partials": {
+			"Marvel Holiday Special (1991)": "2",
+			"Marvel Comics Presents (1988)": "109-142"
+		}
+	},
+	{
+		"id": "019d497a-206f-7472-8d83-2d6add3940bd",
+		"title": "Wolverine Omnibus Volume 5",
+		"format": "omnibus",
+		"upc": [
+			"9781302958060"
+		],
+		"issues": {
+			"Wolverine (1988)": "76-101",
+			"Wolverine Annual '95": "1",
+			"Marvel Comics Presents (1988)": "150-151",
+			"Cable (1993)": "16",
+			"Wolverine: Evilution": "1",
+			"Wolverine & Nick Fury: Scorpio Rising": "1",
+			"Ghost Rider/Wolverine/Punisher: The Dark Design": "1",
+			"Wolverine: Knight of Terra": "1",
+			"Wolverine/Gambit: Victims": "1-4",
+			"The Uncanny X-Men (1981)": "332",
+			"Logan: Path of the Warlord": "1"
+		},
+		"partials": {
+			"Marvel Comics Presents (1988)": "152-155"
+		}
+	},
+	{
+		"id": "019d497d-91e5-775c-a26f-8a52b547c08b",
+		"title": "Wolverine Omnibus Volume 6",
+		"format": "omnibus",
+		"upc": [
+			"9781302964313"
+		],
+		"issues": {
+			"Wolverine (1988)": "102-118,-1,0.5,102.5",
+			"Wolverine Annual '96": "1",
+			"Wolverine Annual '97": "1",
+			"Venom: Tooth and Claw": "1-3",
+			"Maverick (1997A)": "1",
+			"Logan: Shadow Society": "1",
+			"Kitty Pryde, Agent of S.H.I.E.L.D.": "1-3",
+			"Wolverine: Doombringer": "1",
+			"Before the Fantastic Four: Ben Grimm and Logan": "1-3",
+			"Wolverine: Days of Future Past": "1-3",
+			"Wolverine Encyclopedia": "1-2"
+		},
+		"partials": {
+			"Marvel: Shadows and Light": "1"
+		}
+	},
+	{
 		"id": "019d26f9-7c45-76dc-90c1-be09da80ce5d",
 		"title": "Wolverine and the X-Men Omnibus",
 		"format": "omnibus",
+		"upc": [
+			"9780785190240"
+		],
 		"issues": {
 			"Wolverine & the X-Men (2011)": "1-35,38-42",
 			"Wolverine & the X-Men Annual (2011)": "1"
+		}
+	},
+	{
+		"id": "019d4975-aa1b-7179-9c45-0b34450386c3",
+		"title": "Wolverine by Jason Aaron Omnibus",
+		"format": "omnibus",
+		"upc": [
+			"9780785156390"
+		],
+		"issues": {
+			"Wolverine (2003)": "56,62-65",
+			"Wolverine: Manifest Destiny": "1-4",
+			"Wolverine Weapon X": "1-16",
+			"Dark Reign: The List - Wolverine": "1"
+		},
+		"partials": {
+			"Wolverine (2003)": "73-74",
+			"Dark X-Men: The Beginning": "3",
+			"Wolverine (1988)": "175"
+		}
+	},
+	{
+		"id": "019d4982-41e1-743d-b055-65d96fd36789",
+		"title": "Wolverine by Mark Millar Omnibus",
+		"format": "omnibus",
+		"upc": [
+			"9780785167969"
+		],
+		"issues": {
+			"Wolverine (2003)": "20-32,66-72",
+			"Wolverine: Old Man Logan Giant-Size": "1"
+		}
+	},
+	{
+		"id": "019d4983-633e-77cb-bb06-d5a417d3dfd8",
+		"title": "Wolverine goes to Hell Omnibus",
+		"format": "omnibus",
+		"upc": [
+			"9781302911591"
+		],
+		"issues": {
+			"Astonshing Spider-Man & Wolverine": "1-6",
+			"Wolverine (2010)": "1-20,5.1,300-304",
+			"X-Men: Schism": "1-5"
+		},
+		"partials": {
+			"Wolverine: The Road to Hell": "1"
 		}
 	},
 	{
