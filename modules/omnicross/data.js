@@ -80,62 +80,64 @@ export class Parser {
         const response = await fetch(path);
         output.lastModified = response.headers.get('Last-Modified');
         const data = await response.json();
-        data.forEach(e => {
-            if (output.getCompilationById(e.id) != null) {
-                throw Error("Duplicate compilation ID: " + e.id);
-            }
-
-            var compilation = new Compilation(e.id, e.title);
-            if (e.format) {
-                compilation.format = e.format;
-            }
-            if (e.reference) {
-                compilation.reference = e.reference;
-            }
-
-            if (!e.issues) {
-                console.error(e);
-                throw Error("issues property not found for compilation");
-            }
-            Object.keys(e.issues).forEach(function (key, index) {
-                let series = output.getSeriesNyName(key);
-                if (series === undefined) {
-                    series = new Series(key);
-                    output.addSeries(series);
+        if (data.compilations) {
+            data.compilations.forEach(e => {
+                if (output.getCompilationById(e.id) != null) {
+                    throw Error("Duplicate compilation ID: " + e.id);
                 }
-                const issueRanges = e.issues[key].split(",");
-                const issueRangeRegex = /^(-?\d+)-(-?\d+)$/;
-                const issueNumberRegex = /^(-?[0-9\.]+)$/;
-                issueRanges.forEach(e => {
-                    const m = e.match(issueRangeRegex);
-                    if (m) {
-                        const startNumber = parseInt(m[1]);
-                        const endNumber = parseInt(m[2]);
-                        if (endNumber < startNumber) {
-                            console.error(e);
-                            console.error("End number smaller than start number");
-                            return;
-                        }
-                        for (let i = startNumber; i <= endNumber; i++) {
-                            const issue = output.getOrAddIssue(series.id, i);
-                            compilation.addIssue(issue);
-                        }
-                    } else {
-                        const m = e.match(issueNumberRegex);
-                        if (m) {
-                            const issueNumber = parseFloat(e);
-                            const issue = output.getOrAddIssue(series.id, issueNumber);
-                            compilation.addIssue(issue);
-                        } else {
-                            console.error("Could not parse issue range: " + e);
-                            return;
-                        }
-                    }
-                });
-            });
 
-            output.addCompilation(compilation);
-        });
+                var compilation = new Compilation(e.id, e.title);
+                if (e.format) {
+                    compilation.format = e.format;
+                }
+                if (e.reference) {
+                    compilation.reference = e.reference;
+                }
+
+                if (!e.issues) {
+                    console.error(e);
+                    throw Error("issues property not found for compilation");
+                }
+                Object.keys(e.issues).forEach(function (key, index) {
+                    let series = output.getSeriesNyName(key);
+                    if (series === undefined) {
+                        series = new Series(key);
+                        output.addSeries(series);
+                    }
+                    const issueRanges = e.issues[key].split(",");
+                    const issueRangeRegex = /^(-?\d+)-(-?\d+)$/;
+                    const issueNumberRegex = /^(-?[0-9\.]+)$/;
+                    issueRanges.forEach(e => {
+                        const m = e.match(issueRangeRegex);
+                        if (m) {
+                            const startNumber = parseInt(m[1]);
+                            const endNumber = parseInt(m[2]);
+                            if (endNumber < startNumber) {
+                                console.error(e);
+                                console.error("End number smaller than start number");
+                                return;
+                            }
+                            for (let i = startNumber; i <= endNumber; i++) {
+                                const issue = output.getOrAddIssue(series.id, i);
+                                compilation.addIssue(issue);
+                            }
+                        } else {
+                            const m = e.match(issueNumberRegex);
+                            if (m) {
+                                const issueNumber = parseFloat(e);
+                                const issue = output.getOrAddIssue(series.id, issueNumber);
+                                compilation.addIssue(issue);
+                            } else {
+                                console.error("Could not parse issue range: " + e);
+                                return;
+                            }
+                        }
+                    });
+                });
+
+                output.addCompilation(compilation);
+            });
+        }
         output.sortData();
         return output;
     }

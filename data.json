@@ -1,2100 +1,2102 @@
-[
-	{
-		"id": "019d0818-a821-716a-90c7-64cff9c74898",
-		"title": "Absolute Infinite Crisis",
-		"format": "absolute",
-		"upc": [
-			"9781401265359"
-		],
-		"reference": "https://www.dc.com/graphic-novels/infinite-crisis-2005/absolute-infinite-crisis",
-		"issues": {
-			"Infinite Crisis": "1-7"
-		}
-	},
-	{
-		"id": "019d081a-25f6-72af-8d6b-05f7cc41dca4",
-		"title": "Absolute Kingdom Come",
-		"format": "absolute",
-		"upc": [
-			"9781401284626"
-		],
-		"issues": {
-			"Kingdom Come": "1-4"
-		}
-	},
-	{
-		"id": "019d0811-20c6-763c-9917-882fab4fb0ab",
-		"title": "Absolute Swamp Thing By Alan Moore Volume One",
-		"format": "absolute",
-		"upc": [
-			"9781779506955"
-		],
-		"issues": {
-			"The Saga of the Swamp Thing": "20-34",
-			"The Saga of the Swamp Thing Annual": "2"
-		}
-	},
-	{
-		"id": "019d0812-fe68-7288-b4cd-05010d70299e",
-		"title": "Absolute Swamp Thing By Alan Moore Volume Three",
-		"format": "absolute",
-		"upc": [
-			"9781779512192"
-		],
-		"issues": {
-			"The Saga of the Swamp Thing": "51-64",
-			"DC Comics Presents": "85"
-		}
-	},
-	{
-		"id": "019d0812-e5e7-736e-8775-9e4eb4c0eb65",
-		"title": "Absolute Swamp Thing By Alan Moore Volume Two",
-		"format": "absolute",
-		"upc": [
-			"9781779502827"
-		],
-		"issues": {
-			"The Saga of the Swamp Thing": "35-50"
-		}
-	},
-	{
-		"id": "019cbb8c-6e18-72d9-8bf6-ab76deee9766",
-		"title": "Adam Warlock Omnibus",
-		"format": "omnibus",
-		"issues": {
-			"Fantastic Four (1961)": "66-67",
-			"Thor (1966)": "165-166",
-			"Marvel Premiere": "1-2",
-			"Warlock (1972)": "1-15",
-			"Incredible Hulk (1968)": "176-178",
-			"Incredible Hulk Annual (1968)": "6",
-			"Strange Tales (1951)": "178-181",
-			"Marvel Team-Up (1972)": "55",
-			"The Avengers Annual (1967)": "7",
-			"Marvel Two-in-one (1972)": "61-63",
-			"Marvel Two-in-one Annual (1976)": "2"
-		}
-	},
-	{
-		"id": "019d495f-3e77-720a-b902-3a2bf5fd12ca",
-		"title": "All-New Wolverine Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9781302926441"
-		],
-		"issues": {
-			"All-New Wolverine": "1-35",
-			"All-New Wolverine Annual": "1",
-			"Generations: Wolverine & All-New Wolverine": "1"
-		}
-	},
-	{
-		"id": "019d2707-438f-757c-86d8-62fb1c1cf543",
-		"title": "Aphrodite IX: The Complete Series",
-		"format": "omnibus",
-		"upc": [
-			"9781631153685"
-		],
-		"issues": {
-			"Aphrodite IX: Rebirth": "1-11",
-			"Aphrodite IX/Cyberforce": "1",
-			"Aphrodite IX: Hidden Files": "1",
-			"Aphrodite IX: Time Out of Mind": "0-4"
-		}
-	},
-	{
-		"id": "019d25fe-ea64-7796-9467-fc3750bcf41c",
-		"title": "Astonishing X-Men Volume 1",
-		"format": "ohc",
-		"upc": [
-			"9780785117339"
-		],
-		"issues": {
-			"Astonishing X-Men": "1-12"
-		}
-	},
-	{
-		"id": "019d2600-1372-71ac-bcd0-9b0bd6e2fa25",
-		"title": "Astonishing X-Men Volume 2",
-		"format": "ohc",
-		"upc": [
-			"9780785122531"
-		],
-		"issues": {
-			"Astonishing X-Men": "13-24",
-			"Giant-Size Astonishing X-Men": "1"
-		}
-	},
-	{
-		"id": "019d2b15-da48-733f-81f8-cb3839c0e56a",
-		"title": "Astonishing X-Men: Xenogenesis",
-		"format": "tpb",
-		"upc": [
-			"9780785144915"
-		],
-		"issues": {
-			"Astonishing X-Men: Xenogenesis": "1-5"
-		}
-	},
-	{
-		"id": "019d25fa-20b3-745b-af01-8c4587c3cb06",
-		"title": "Avengers vs. X-Men Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9781302946777"
-		],
-		"issues": {
-			"Avengers vs. X-Men": "0-12",
-			"AVX: Vs": "1-6",
-			"Avengers vs. X-Men: Infinite": "1,6,10",
-			"Avengers Academy": "29-33",
-			"Secret Avengers (2010)": "26-28",
-			"Avengers (2010)": "25-30",
-			"New Avengers (2010)": "24-30",
-			"X-Men Legacy (2008)": "266-270",
-			"Wolverine & the X-Men (2011)": "9-16,18",
-			"AVX: Consequences": "1-5",
-			"Uncanny X-Men (2011)": "11-20",
-			"A-Babies vs. X-Babies": "1"
+{
+	"compilations": [
+		{
+			"id": "019d0818-a821-716a-90c7-64cff9c74898",
+			"title": "Absolute Infinite Crisis",
+			"format": "absolute",
+			"upc": [
+				"9781401265359"
+			],
+			"reference": "https://www.dc.com/graphic-novels/infinite-crisis-2005/absolute-infinite-crisis",
+			"issues": {
+				"Infinite Crisis": "1-7"
+			}
 		},
-		"partials": {
-			"Point One (2011)": "1"
-		}
-	},
-	{
-		"id": "019d4a2a-df70-724d-af70-f1bbd8505649",
-		"title": "Cable & X-Force Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9781302917777"
-		],
-		"issues": {
-			"X-Force (1991)": "32-43",
-			"X-Force Annual (1992)": "3",
-			"Cable (1993)": "9-20",
-			"New Warriors (1990)": "45-46",
-			"X-Factor (1986)": "106",
-			"Excalibur (1988)": "82",
-			"Wolverine (1988)": "85"
-		}
-	},
-	{
-		"id": "019d2601-013b-75e8-add8-79e10bfab111",
-		"title": "Dazzler Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9781302959609"
-		],
-		"issues": {
-			"Dazzler (1980)": "1-42",
-			"The X-Men (1963)": "130-131",
-			"The Amazing Spider-Man (1963)": "203",
-			"Marvel Graphic Novel (1982)": "12",
-			"Beauty and the Beast (1984)": "1-4",
-			"Secret Wars II": "4"
+		{
+			"id": "019d081a-25f6-72af-8d6b-05f7cc41dca4",
+			"title": "Absolute Kingdom Come",
+			"format": "absolute",
+			"upc": [
+				"9781401284626"
+			],
+			"issues": {
+				"Kingdom Come": "1-4"
+			}
 		},
-		"partials": {
-			"What If? (1977)": "33",
-			"Marvel Fanfare (1982)": "38"
-		}
-	},
-	{
-		"id": "019d261c-dc79-74ae-8fdb-7771f1b5c84f",
-		"title": "Deadpool & Cable Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9780785192763"
-		],
-		"issues": {
-			"Cable & Deadpool": "1-50",
-			"Deadpool/GLI Summer Fun Spectacular": "1"
+		{
+			"id": "019d0811-20c6-763c-9917-882fab4fb0ab",
+			"title": "Absolute Swamp Thing By Alan Moore Volume One",
+			"format": "absolute",
+			"upc": [
+				"9781779506955"
+			],
+			"issues": {
+				"The Saga of the Swamp Thing": "20-34",
+				"The Saga of the Swamp Thing Annual": "2"
+			}
 		},
-		"partials": {
-			"Deadpool (2012)": "27"
-		}
-	},
-	{
-		"id": "019d26ee-4f45-738e-8ff6-9aba1eee29dc",
-		"title": "Deadpool & Co.",
-		"format": "omnibus",
-		"upc": [
-			"9781302910051"
-		],
-		"issues": {
-			"Marvel Zombies 4": "1-4",
-			"Deadpool: Merc with a Mouth": "1-13",
-			"Lady Deadpool": "1",
-			"Prelude to Deadpool Corps": "1-5",
-			"Deadpool Corps": "1-12",
-			"Deadpool Family": "1",
-			"Deadpool Team-Up (2010)": "883-899"
+		{
+			"id": "019d0812-fe68-7288-b4cd-05010d70299e",
+			"title": "Absolute Swamp Thing By Alan Moore Volume Three",
+			"format": "absolute",
+			"upc": [
+				"9781779512192"
+			],
+			"issues": {
+				"The Saga of the Swamp Thing": "51-64",
+				"DC Comics Presents": "85"
+			}
 		},
-		"partials": {
-			"Marvel Zombies 3": "1"
-		}
-	},
-	{
-		"id": "019d2629-25d2-7025-8b44-ee4ef10c992a",
-		"title": "Deadpool Beginings Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9781302904296"
-		],
-		"issues": {
-			"New Mutants (1983)": "98",
-			"X-Force (1991)": "2,11,15,47,56",
-			"Nomad (1992)": "4",
-			"Deadpool: The Circle Chase (2012)": "1-4",
-			"Secreft Defenders": "15-17",
-			"Deadpool (1994)": "1-4",
-			"Wolverine (1988)": "88,154-155",
-			"Heroes for Hire (1997)": "10-11",
-			"Deadpool Team-Up (1998)": "1"
+		{
+			"id": "019d0812-e5e7-736e-8775-9e4eb4c0eb65",
+			"title": "Absolute Swamp Thing By Alan Moore Volume Two",
+			"format": "absolute",
+			"upc": [
+				"9781779502827"
+			],
+			"issues": {
+				"The Saga of the Swamp Thing": "35-50"
+			}
 		},
-		"partials": {
-			"The Avengers (1963)": "366",
-			"Silver Sable & the Wild Pack": "23",
-			"Wolverine Annual '95": "1",
-			"Wolverine Annual '99": "1"
-		}
-	},
-	{
-		"id": "019d2627-70c7-7176-b355-04881d67b8af",
-		"title": "Deadpool By Posehn & Duggan Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9781302902285"
-		],
-		"issues": {
-			"Deadpool (2012)": "1-45",
-			"Deadpool: Dracula's Gauntlet": "1-7",
-			"Death of Wolverine: Deadpool & Captain Ameria": "1"
-		}
-	},
-	{
-		"id": "019d2625-5c57-701b-86dc-938792ee770e",
-		"title": "Deadpool Classic Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9780785196747"
-		],
-		"issues": {
-			"Deadpool (1977)": "34-69",
-			"Black Panther (1998)": "23",
-			"Agent X": "1-15",
-			"Fight-Man": "1"
+		{
+			"id": "019cbb8c-6e18-72d9-8bf6-ab76deee9766",
+			"title": "Adam Warlock Omnibus",
+			"format": "omnibus",
+			"issues": {
+				"Fantastic Four (1961)": "66-67",
+				"Thor (1966)": "165-166",
+				"Marvel Premiere": "1-2",
+				"Warlock (1972)": "1-15",
+				"Incredible Hulk (1968)": "176-178",
+				"Incredible Hulk Annual (1968)": "6",
+				"Strange Tales (1951)": "178-181",
+				"Marvel Team-Up (1972)": "55",
+				"The Avengers Annual (1967)": "7",
+				"Marvel Two-in-one (1972)": "61-63",
+				"Marvel Two-in-one Annual (1976)": "2"
+			}
 		},
-		"partials": {
-			"X-Men Unlimited (1993)": "28"
-		}
-	},
-	{
-		"id": "019d2621-f2f3-76ea-8b0b-198db3718e47",
-		"title": "Deadpool Minibus",
-		"format": "omnibus",
-		"upc": [
-			"9780785190301"
-		],
-		"issues": {
-			"Deadpool Kills the Marvel Universe": "1-4",
-			"Deadpool Killustrated": "1-4",
-			"Deadpool Kills Deadpool": "1-4",
-			"Night of the Living Deadpool": "1-4",
-			"Deadpool vs. Carnage": "1-4"
-		}
-	},
-	{
-		"id": "019d261e-6299-74bb-a1fb-df5f537c6b0a",
-		"title": "Deadpool Minibus 0",
-		"format": "omnibus",
-		"upc": [
-			"9781302910112"
-		],
-		"issues": {
-			"Deadpool: Suicide Kings": "1-5",
-			"Deadpool: Wade Wilson's War": "1-4",
-			"Deadpool Pulp": "1-4",
-			"Amazing Spider-Man Annual (2009)": "38",
-			"Deadpool Annual (2011)": "1",
-			"Incredible Hulks Annual": "1",
-			"Fear Itself: Deadpool": "1-3"
-		}
-	},
-	{
-		"id": "019d2622-350f-762b-a85c-e23a17a954d0",
-		"title": "Deadpool Minibus 2",
-		"format": "omnibus",
-		"upc": [
-			"9781302901974"
-		],
-		"issues": {
-			"Deadpool vs. X-Force": "1-4",
-			"Hawkeye vs. Deadpool": "0-4",
-			"Deadpool's Art of War'": "1-4",
-			"Return of the Living Deadpool": "1-4",
-			"Deadpool's Secret Secret Wars'": "1-4"
-		}
-	},
-	{
-		"id": "019d2623-49c6-73af-bc77-473fbb503fa0",
-		"title": "Deadpool Minibus 3",
-		"format": "omnibus",
-		"upc": [
-			"9781302915926"
-		],
-		"issues": {
-			"Mrs. Deadpool and the Howling Commandos": "1-4",
-			"Deadpool vs. Thanos": "1-4",
-			"Deadpool & Cable: Split Second": "1-3",
-			"Deadpool V Gambit": "1-5",
-			"Deadpool: Too Soon?": "1-4"
-		}
-	},
-	{
-		"id": "019d26ea-9d95-748d-9214-b93082373b1e",
-		"title": "Deadpool by Daniel Way The Complete Collection Volume 1",
-		"format": "omnibus",
-		"upc": [
-			"9781302910068"
-		],
-		"issues": {
-			"Wolverine: Origins": "21-25",
-			"Deadpool (2008)": "1-26",
-			"Thunderbolts (1997)": "130-131",
-			"Hit-Monkey (2010A)": "1",
-			"Hit-Monkey (2010B)": "1-3",
-			"Deadpool Saga": "1"
-		}
-	},
-	{
-		"id": "019d26ed-054e-70fc-aad8-b6b1a13f93d5",
-		"title": "Deadpool by Daniel Way The Complete Collection Volume 2",
-		"format": "omnibus",
-		"upc": [
-			"9781302911416"
-		],
-		"issues": {
-			"Deadpool (2008)": "27-63,33.1,49.1"
+		{
+			"id": "019d495f-3e77-720a-b902-3a2bf5fd12ca",
+			"title": "All-New Wolverine Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302926441"
+			],
+			"issues": {
+				"All-New Wolverine": "1-35",
+				"All-New Wolverine Annual": "1",
+				"Generations: Wolverine & All-New Wolverine": "1"
+			}
 		},
-		"partials": {
-			"Deadpool (2012)": "27"
-		}
-	},
-	{
-		"id": "019d26f1-6a06-77e7-8555-ee343d9703c7",
-		"title": "Deadpool by Joe Kelly Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9780785185598"
-		],
-		"issues": {
-			"Deadpool (1997)": "1-33,-1,0",
-			"Daredevil/Deadpool Annual '97": "1",
-			"Deadpool & Death Annual '98": "1",
-			"Baby's First Deadpool Book": "1",
-			"The Amazing Spider-Man (1963)": "47,611"
+		{
+			"id": "019d2707-438f-757c-86d8-62fb1c1cf543",
+			"title": "Aphrodite IX: The Complete Series",
+			"format": "omnibus",
+			"upc": [
+				"9781631153685"
+			],
+			"issues": {
+				"Aphrodite IX: Rebirth": "1-11",
+				"Aphrodite IX/Cyberforce": "1",
+				"Aphrodite IX: Hidden Files": "1",
+				"Aphrodite IX: Time Out of Mind": "0-4"
+			}
 		},
-		"partials": {
-			"Deadpool (2008)": "900"
-		}
-	},
-	{
-		"id": "019d4985-3087-72ab-8a71-9e7ec6dd062d",
-		"title": "Death of Wolverine Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9781302959876"
-		],
-		"issues": {
-			"Wolverine (2013)": "1-13",
-			"Wolverine (2014)": "1-12",
-			"Wolverine Annual (2014)": "1",
-			"Death of Wolverine": "1-4",
-			"Death of Wolverine: The Weapon X Program": "1-5",
-			"Death of Wolverine: The Logan Legacy": "1-7",
-			"Death of Wolverine: Deadpool & Captain Ameria": "1",
-			"Death of Wolverine: Life after Logan": "1",
-			"Nightcrawler (2014)": "7",
-			"Wolverine & the X-Men (2014)": "10-11",
-			"Storm (2014)": "4-5"
+		{
+			"id": "019d25fe-ea64-7796-9467-fc3750bcf41c",
+			"title": "Astonishing X-Men Volume 1",
+			"format": "ohc",
+			"upc": [
+				"9780785117339"
+			],
+			"issues": {
+				"Astonishing X-Men": "1-12"
+			}
 		},
-		"partials": {
-			"Marvel 75th Anniversary Celebration": "1"
-		}
-	},
-	{
-		"id": "019d2714-a33f-723c-a87d-013afe00148c",
-		"title": "Excalibur Omnibus Volume 1",
-		"format": "omnibus",
-		"upc": [
-			"9781302926663"
-		],
-		"issues": {
-			"Excalibur Special Edition": "1",
-			"Excalibur (1988)": "1-34",
-			"Excalibur: Mojo Mayhem": "1",
-			"Quasar": "11",
-			"Thor (1966)": "427-429"
+		{
+			"id": "019d2600-1372-71ac-bcd0-9b0bd6e2fa25",
+			"title": "Astonishing X-Men Volume 2",
+			"format": "ohc",
+			"upc": [
+				"9780785122531"
+			],
+			"issues": {
+				"Astonishing X-Men": "13-24",
+				"Giant-Size Astonishing X-Men": "1"
+			}
 		},
-		"partials": {
-			"Marvel Comics Presents (1988)": "31-38"
-		}
-	},
-	{
-		"id": "019d2705-9f95-72f8-b49f-8f6f962681cd",
-		"title": "Excalibur Omnibus Volume 2",
-		"format": "omnibus",
-		"upc": [
-			"9781302932282"
-		],
-		"issues": {
-			"Excalibur (1988)": "35-67",
-			"Excalibur: Weird War Three": "1",
-			"Excalibur: The Possession": "1",
-			"Excalibur: Air Apparent": "1",
-			"Excalibur: XX Crossing": "1",
-			"Sensational She-Hulk (1989)": "26"
+		{
+			"id": "019d2b15-da48-733f-81f8-cb3839c0e56a",
+			"title": "Astonishing X-Men: Xenogenesis",
+			"format": "tpb",
+			"upc": [
+				"9780785144915"
+			],
+			"issues": {
+				"Astonishing X-Men: Xenogenesis": "1-5"
+			}
 		},
-		"partials": {
-			"Marvel Comics Presents (1988)": "75,110"
-		}
-	},
-	{
-		"id": "019d271a-eb2f-735d-8e1c-6adcc58d2f33",
-		"title": "Excalibur Omnibus Volume 3",
-		"format": "omnibus",
-		"upc": [
-			"9781302953744"
-		],
-		"issues": {
-			"Excalibur (1988)": "68-103",
-			"Excalibur Annual (1988)": "1-2",
-			"X-Men Unlimited (1993)": "4",
-			"X-Factor (1986)": "106",
-			"X-Force (1991)": "38",
-			"X-Man": "12",
-			"Pryde and Wisdom": "1-3"
+		{
+			"id": "019d25fa-20b3-745b-af01-8c4587c3cb06",
+			"title": "Avengers vs. X-Men Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302946777"
+			],
+			"issues": {
+				"Avengers vs. X-Men": "0-12",
+				"AVX: Vs": "1-6",
+				"Avengers vs. X-Men: Infinite": "1,6,10",
+				"Avengers Academy": "29-33",
+				"Secret Avengers (2010)": "26-28",
+				"Avengers (2010)": "25-30",
+				"New Avengers (2010)": "24-30",
+				"X-Men Legacy (2008)": "266-270",
+				"Wolverine & the X-Men (2011)": "9-16,18",
+				"AVX: Consequences": "1-5",
+				"Uncanny X-Men (2011)": "11-20",
+				"A-Babies vs. X-Babies": "1"
+			},
+			"partials": {
+				"Point One (2011)": "1"
+			}
 		},
-		"partials": {
-			"Marvel Comics Presents (1988)": "174",
-			"Marvel Holiday Special 1996": "1"
-		}
-	},
-	{
-		"id": "019d271c-cd40-769f-9089-bb8abea1e6e6",
-		"title": "Excalibur Omnibus Volume 4",
-		"format": "omnibus",
-		"upc": [
-			"9781302965426"
-		],
-		"issues": {
-			"Excalibur (1988)": "104-125,-1",
-			"Colossus": "1",
-			"New Mutants: Truth or Death": "1-3",
-			"Kitty Pryde, Agent of S.H.I.E.L.D.": "1-3",
-			"X-Men Unlimited (1993)": "19",
-			"X-Men: True Friends": "1-3",
-			"Excalibur (2001)": "1-4"
+		{
+			"id": "019d4a2a-df70-724d-af70-f1bbd8505649",
+			"title": "Cable & X-Force Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302917777"
+			],
+			"issues": {
+				"X-Force (1991)": "32-43",
+				"X-Force Annual (1992)": "3",
+				"Cable (1993)": "9-20",
+				"New Warriors (1990)": "45-46",
+				"X-Factor (1986)": "106",
+				"Excalibur (1988)": "82",
+				"Wolverine (1988)": "85"
+			}
 		},
-		"partials": {
-			"Marvel Comics Presents (1988)": "174",
-			"Marvel Holiday Special 1996": "1"
-		}
-	},
-	{
-		"id": "019d2725-f914-740b-896f-e76b98388917",
-		"title": "Fall of the House of X/Rise of the Powers of X Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9781302956578"
-		],
-		"issues": {
-			"Fall of the House of X": "1-5",
-			"Rise of the Powers of X": "1-5",
-			"X-Men (2021)": "30-34",
-			"Resurrection of Magneto": "1-4",
-			"Dead X-Men": "1-4",
-			"X-Men Forever (2024)": "1-4",
-			"Invincible Iron Man (2022)": "13-20",
-			"Avengers (2023)": "12-13",
-			"Ms. Marvel: Mutant Menace": "1-4",
-			"Cable (2024)": "1-4"
-		}
-	},
-	{
-		"id": "019d0874-e1bf-7344-8fb8-369a615d72d9",
-		"title": "Fantastic Four by John Byrne Omnibus Volume 2",
-		"format": "omnibus",
-		"upc": [
-			"9781302945558"
-		],
-		"issues": {
-			"Fantastic Four (1961)": "261-295",
-			"Fantastic Four Annual (1961)": "18-19",
-			"Alpha Flight (1983)": "4",
-			"Thing (1983)": "10,19",
-			"The Avengers Annual (1967)": "14"
+		{
+			"id": "019d2601-013b-75e8-add8-79e10bfab111",
+			"title": "Dazzler Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302959609"
+			],
+			"issues": {
+				"Dazzler (1980)": "1-42",
+				"The X-Men (1963)": "130-131",
+				"The Amazing Spider-Man (1963)": "203",
+				"Marvel Graphic Novel (1982)": "12",
+				"Beauty and the Beast (1984)": "1-4",
+				"Secret Wars II": "4"
+			},
+			"partials": {
+				"What If? (1977)": "33",
+				"Marvel Fanfare (1982)": "38"
+			}
 		},
-		"partials": {
-			"Secret Wars II": "2",
-			"Epic Illustrated": "26-34",
-			"What If? (1977)": "36",
-			"What The--?!": "2, 10",
-			"Thing (1983)": "7",
-			"Fantastic Four Roast": "1",
-			"Fantastic Four Special Edition": "1"
-		}
-	},
-	{
-		"id": "019d2ae8-5c77-70bb-9c46-74a62cf36422",
-		"title": "Giant Size X-Men",
-		"format": "ohc",
-		"upc": [
-			"9780785197775"
-		],
-		"issues": {
-			"Giant-Size X-Men": "1,3-4",
-			"Classic X-Men": "1",
-			"X-Men Origins: Colossus": "1",
-			"X-Men Origins: Wolverine": "1",
-			"X-Men: Deadly Genesis": "1-6",
-			"What If? (1989)": "9,23"
+		{
+			"id": "019d261c-dc79-74ae-8fdb-7771f1b5c84f",
+			"title": "Deadpool & Cable Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9780785192763"
+			],
+			"issues": {
+				"Cable & Deadpool": "1-50",
+				"Deadpool/GLI Summer Fun Spectacular": "1"
+			},
+			"partials": {
+				"Deadpool (2012)": "27"
+			}
 		},
-		"partials": {
-			"X-Men Gold (2017)": "1"
-		}
-	},
-	{
-		"id": "019d086a-d12d-77af-9893-04386e24d245",
-		"title": "Harley Quinn Omnibus Volume 1",
-		"reference": "https://www.dc.com/graphic-novels/harley-quinn-by-amanda-conner-and-jimmy-palmiotti-omnibus-2017/harley-quinn-by-amanda-conner-and-jimmy-palmiotti-omnibus-vol-1",
-		"format": "omnibus",
-		"upc": [
-			"9781401276430"
-		],
-		"issues": {
-			"Harley Quinn (2014)": "0-16",
-			"Harley Quinn: Future's End (2014)": "1",
-			"Harley Quinn Invades Comic-con International: San Diego (2014)": "1",
-			"Harley Quinn Annual (2014)": "1",
-			"Harley Quinn Holiday Special (2015)": "1",
-			"Harley Quinn Valentine's Day Special (2015)": "1",
-			"Harley Quinn and Power Girl (2015)": "1-6"
-		}
-	},
-	{
-		"id": "019d0872-6233-71e8-8b04-b9258aa15495",
-		"title": "Harley Quinn and Power Girl",
-		"reference": "https://dc.fandom.com/wiki/Harley_Quinn_and_Power_Girl_(Collected)",
-		"format": "tpb",
-		"issues": {
-			"Harley Quinn and Power Girl (2015)": "19-27"
-		}
-	},
-	{
-		"id": "019d2b24-0d5d-77dd-97ea-fa4f161ec6bf",
-		"title": "Harley Quinn: 30 Years of the Maid of Mischief",
-		"format": "ohc",
-		"upc": [
-			"9781779517180"
-		],
-		"issues": {
-			"The Batman Adventures (1992)": "12",
-			"The Batman and Robin Adventures (1995)": "18",
-			"Batman: Gotham Adventures (1998)": "10",
-			"Harley Quinn (2000)": "3",
-			"Batman: Gotham Knights (2000)": "14",
-			"Detective Comics": "831",
-			"Gotham City Sirens (2009)": "20-21",
-			"Harley Quinn Holiday Special (2015)": "1",
-			"Harley Quinn 25th Anniversary Special": "1",
-			"Harley Quinn: Be Careful What You Wish For Special Edition": "1",
-			"Harley Quinn: Make 'em Laugh": "3",
-			"Harley Quinn Black + White + Red": "14",
-			"Batman (2016)": "98",
-			"Harley Quinn 30th Anniversary Special": "1"
-		}
-	},
-	{
-		"id": "019d2b23-2a4b-7228-85e7-0780d371021d",
-		"title": "Harley Quinn: Angry Bird",
-		"format": "tpb",
-		"upc": [
-			"9781401281526"
-		],
-		"issues": {
-			"Harley Quinn (2016)": "35-42"
-		}
-	},
-	{
-		"id": "019d2b1e-d1c7-71d6-8fd6-7c898e00bcba",
-		"title": "Harley Quinn: Black, White and Red all over",
-		"format": "tpb",
-		"upc": [
-			"9781401271985"
-		],
-		"issues": {
-			"Harley Quinn (2014)": "26-30"
-		}
-	},
-	{
-		"id": "019d2b20-6440-702a-a7d6-af3a3fa7cb8a",
-		"title": "Harley Quinn: Red Meat",
-		"format": "tpb",
-		"upc": [
-			"9781401273699"
-		],
-		"issues": {
-			"Harley Quinn (2016)": "14-21"
-		}
-	},
-	{
-		"id": "019d2b21-4828-702a-8cc7-5e77c4ded465",
-		"title": "Harley Quinn: Surprise, Surprise",
-		"format": "tpb",
-		"issues": {
-			"Harley Quinn (2016)": "22-27",
-			"Harley Quinn 25th Anniversary Special": "1"
-		}
-	},
-	{
-		"id": "019d2b22-92ca-774a-9ae1-31a52fa4e040",
-		"title": "Harley Quinn: Vote Harley",
-		"format": "tpb",
-		"upc": [
-			"9781401278823"
-		],
-		"issues": {
-			"Harley Quinn (2016)": "28-34"
-		}
-	},
-	{
-		"id": "019d2b2e-545c-70ba-a8cc-273fcf830fd9",
-		"title": "House of M Companion Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9781302953768"
-		],
-		"issues": {
-			"Excalibur (2004)": "16-20",
-			"House of M: Avengers": "1-5",
-			"Civil War: House of M": "1-5",
-			"House of M: Masters of Evil": "1-4",
-			"What If? Spider-Man: House of M": "1",
-			"House of M (2015)": "1-4"
+		{
+			"id": "019d26ee-4f45-738e-8ff6-9aba1eee29dc",
+			"title": "Deadpool & Co.",
+			"format": "omnibus",
+			"upc": [
+				"9781302910051"
+			],
+			"issues": {
+				"Marvel Zombies 4": "1-4",
+				"Deadpool: Merc with a Mouth": "1-13",
+				"Lady Deadpool": "1",
+				"Prelude to Deadpool Corps": "1-5",
+				"Deadpool Corps": "1-12",
+				"Deadpool Family": "1",
+				"Deadpool Team-Up (2010)": "883-899"
+			},
+			"partials": {
+				"Marvel Zombies 3": "1"
+			}
 		},
-		"partials": {
-			"What If? House of M": "1"
-		}
-	},
-	{
-		"id": "019d2b31-1ac6-708e-aaa3-2fa86e195570",
-		"title": "House of M Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9781302948221"
-		],
-		"issues": {
-			"House of M (2005)": "1-8",
-			"Spider-Man: House of M": "1-5",
-			"Fantastic Four: House of M": "1-3",
-			"Iron Man: House of M": "1-3",
-			"New Thunderbolts": "11",
-			"Black Panther (2005)": "7",
-			"The Uncanny X-Men (1981)": "462-465",
-			"Wolverine (2003)": "33-35",
-			"Captain America (2004)": "10",
-			"Pulse (2004)": "10",
-			"Cable & Deadpool": "17",
-			"Incredible Hulk (2000)": "83-87",
-			"New X-Men (2004)": "16-19",
-			"Exiles (2001)": "69-71",
-			"Mutopia X": "1-5",
-			"Descimation: House of M - The Day After": "1",
-			"Giant-Size Ms. Marvel": "1",
-			"secrets of the House of M": "1",
-			"Pulse: House of M Special": "1",
-			"House of M Director's Cut": "1",
-			"House of M Sketchbook": "1"
+		{
+			"id": "019d2629-25d2-7025-8b44-ee4ef10c992a",
+			"title": "Deadpool Beginings Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302904296"
+			],
+			"issues": {
+				"New Mutants (1983)": "98",
+				"X-Force (1991)": "2,11,15,47,56",
+				"Nomad (1992)": "4",
+				"Deadpool: The Circle Chase (2012)": "1-4",
+				"Secreft Defenders": "15-17",
+				"Deadpool (1994)": "1-4",
+				"Wolverine (1988)": "88,154-155",
+				"Heroes for Hire (1997)": "10-11",
+				"Deadpool Team-Up (1998)": "1"
+			},
+			"partials": {
+				"The Avengers (1963)": "366",
+				"Silver Sable & the Wild Pack": "23",
+				"Wolverine Annual '95": "1",
+				"Wolverine Annual '99": "1"
+			}
 		},
-		"partials": {
-			"Hulk: Broken Worlds Book One": "1"
-		}
-	},
-	{
-		"id": "019d2b36-cde7-7044-b945-d0581ef86bf9",
-		"title": "House of X/Powers of X",
-		"format": "ohc",
-		"upc": [
-			"9781302915704"
-		],
-		"issues": {
-			"House of X": "1-6",
-			"Powers of X": "1-6"
-		}
-	},
-	{
-		"id": "019d087a-cf42-70bd-9d47-1f5705517c60",
-		"title": "Howard the Duck Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9780785130239"
-		],
-		"issues": {
-			"Adventure into Fear (2014)": "19",
-			"Man-Thing (1973)": "1",
-			"Giant-Size Man-Thing (1974)": "4-5",
-			"Howard the Duck (1976)": "1-33",
-			"Howard the Duck Annual (1977)": "1",
-			"Marvel Treasury Edition": "12",
-			"Marvel Team-Up (1972)": "96"
-		}
-	},
-	{
-		"id": "019d0853-7f12-741d-9d89-2c4079bf927e",
-		"title": "JSA All-Stars: Constellations",
-		"format": "tpb",
-		"issues": {
-			"JSA All-Stars (2010)": "1-6"
-		}
-	},
-	{
-		"id": "019d0857-fb13-76b8-8b5e-72f1c2bd39fb",
-		"title": "JSA All-Stars: Glory Days",
-		"format": "tpb",
-		"issues": {
-			"JSA All-Stars (2010)": "7-13"
-		}
-	},
-	{
-		"id": "019d082f-835b-736f-a01e-a331dfb5a926",
-		"title": "Justice League International Omnibus Volume 1",
-		"format": "omnibus",
-		"upc": [
-			"9781401273866"
-		],
-		"reference": "https://dc.fandom.com/wiki/Justice_League_International_Omnibus_Volume_1_(Collected)",
-		"issues": {
-			"Justice League (1987)": "1-6",
-			"Justice League Annual (1987)": "1",
-			"Justice League International (1987)": "7-25",
-			"Justice League International Annual (1987)": "7-25",
-			"Justice League America (1989)": "26-30",
-			"Justice League Europe (1989)": "1-6",
-			"Suicide Squad (1987)": "13"
-		}
-	},
-	{
-		"id": "019d0838-8941-746a-92f5-416a792d7eda",
-		"title": "Justice League International Omnibus Volume 2",
-		"format": "omnibus",
-		"upc": [
-			"9781779502964"
-		],
-		"issues": {
-			"Justice League America (1989)": "31-50",
-			"Justice League Europe (1989)": "7-25",
-			"Justice League America Annual (1989)": "4",
-			"Justice League Europe Annual (1989)": "1",
-			"Justice League International Special (1990)": "1",
-			"Justice League Quarterly (1990)": "1"
-		}
-	},
-	{
-		"id": "019d0838-a6bb-764e-a835-4881336a620e",
-		"title": "Justice League International Omnibus Volume 3",
-		"format": "omnibus",
-		"upc": [
-			"9781779525642"
-		],
-		"issues": {
-			"Justice League America (1989)": "51-60",
-			"Justice League Europe (1989)": "26-36",
-			"Justice League America Annual (1989)": "5",
-			"Justice League Europe Annual (1989)": "2",
-			"Justice League Quarterly (1990)": "2-5",
-			"Formerly known as the Justice League (2003)": "1-6",
-			"JLA Classified (2005)": "33-35"
+		{
+			"id": "019d2627-70c7-7176-b355-04881d67b8af",
+			"title": "Deadpool By Posehn & Duggan Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302902285"
+			],
+			"issues": {
+				"Deadpool (2012)": "1-45",
+				"Deadpool: Dracula's Gauntlet": "1-7",
+				"Death of Wolverine: Deadpool & Captain Ameria": "1"
+			}
 		},
-		"partials": {
-			"DC Retroactive: JLA-The '90s": "1",
-			"JLA 80-Page Giant": "1"
-		}
-	},
-	{
-		"id": "019d494d-47b8-748b-b83f-061dbf7b1943",
-		"title": "NYX/X-23",
-		"format": "ohc",
-		"upc": [
-			"9780785118251"
-		],
-		"issues": {
-			"NYX": "1-7",
-			"X-23 (2005)": "1-6"
-		}
-	},
-	{
-		"id": "019d2b16-94ce-77ff-9692-77808f2ea4fc",
-		"title": "NYX: No Way Home",
-		"format": "tpb",
-		"upc": [
-			"9780785128328"
-		],
-		"issues": {
-			"NYX: No Way Home": "1-6"
-		}
-	},
-	{
-		"id": "019d494b-6b13-77eb-b4ea-69fe0f3410de",
-		"title": "New X-Men Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9780785165057"
-		],
-		"issues": {
-			"New X-Men (2001)": "114-154",
-			"New X-Men 2001": "1"
-		}
-	},
-	{
-		"id": "019d2b11-ee99-7789-aa4e-be1c1c5d15c7",
-		"title": "New X-Men: Childhood's End",
-		"format": "tpb",
-		"upc": [
-			"9780785122388"
-		],
-		"issues": {
-			"New X-Men (2001)": "33-36"
-		}
-	},
-	{
-		"id": "019d26fe-32e2-75da-9a9f-44497cb640f0",
-		"title": "Phoenix: The Death & Rebirth of Jean Grey",
-		"format": "omnibus",
-		"upc": [
-			"9781302965501"
-		],
-		"issues": {
-			"New X-Men (2001)": "128,139-141,146-154",
-			"X-Men: Phoenix - Endsong": "1-5",
-			"X-Men: Phoenix - Warsong": "1-5",
-			"Avengers vs. X-Men": "0-12",
-			"Jean Grey (2017)": "1-11",
-			"Generations: Phoenix & Jean Grey": "1",
-			"Phoenix Resurrection: The Return of Jean Grey": "1-5"
+		{
+			"id": "019d2625-5c57-701b-86dc-938792ee770e",
+			"title": "Deadpool Classic Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9780785196747"
+			],
+			"issues": {
+				"Deadpool (1977)": "34-69",
+				"Black Panther (1998)": "23",
+				"Agent X": "1-15",
+				"Fight-Man": "1"
+			},
+			"partials": {
+				"X-Men Unlimited (1993)": "28"
+			}
 		},
-		"partials": {
-			"Point One (2011)": "1"
-		}
-	},
-	{
-		"id": "019d0858-06d9-72df-be68-90e1af392353",
-		"title": "Power Girl",
-		"format": "tpb",
-		"upc": [
-			"9781401209681"
-		],
-		"issues": {
-			"Showcase (1956)": "97-99",
-			"Secret Origins (1986)": "11",
-			"JSA (1999)": "32,39",
-			"JSA Classified (2005)": "1-4"
-		}
-	},
-	{
-		"id": "019d2617-7d06-7045-8d7c-332d0b267231",
-		"title": "Power Girl Returns",
-		"format": "tpb",
-		"upc": [
-			"9781779524072"
-		],
-		"issues": {
-			"Lazarus Planet: Assault on Krypton": "1",
-			"Action Comics": "1051-1053",
-			"Power Girl Special (2023)": "1",
-			"Knight Terrors: Action Comics": "1-2"
-		}
-	},
-	{
-		"id": "019d0864-b7c9-73bd-b063-b770998324f1",
-		"title": "Power Girl: A New Beginning",
-		"reference": "https://dc.fandom.com/wiki/Power_Girl:_A_New_Beginning_(Collected)",
-		"format": "tpb",
-		"issues": {
-			"Power Girl (2009)": "1-6"
-		}
-	},
-	{
-		"id": "019d0865-1769-732e-83ad-4c5ef804f894",
-		"title": "Power Girl: Aliens and Apes",
-		"reference": "https://dc.fandom.com/wiki/Power_Girl:_Aliens_and_Apes_(Collected)",
-		"format": "tpb",
-		"issues": {
-			"Power Girl (2009)": "7-12"
-		}
-	},
-	{
-		"id": "019d0866-7dca-7755-86c6-addd4c1bb795",
-		"title": "Power Girl: Bomb Squad",
-		"reference": "https://dc.fandom.com/wiki/Power_Girl:_Bomb_Squad_(Collected)",
-		"format": "tpb",
-		"upc": [
-			"9781401231620"
-		],
-		"issues": {
-			"Power Girl (2009)": "13-18"
-		}
-	},
-	{
-		"id": "019d2619-3596-767e-8e97-7d38f49d27dd",
-		"title": "Power Girl: Electric Dreams",
-		"format": "tpb",
-		"upc": [
-			"9781779528148"
-		],
-		"issues": {
-			"Power Girl (2023)": "1-7"
-		}
-	},
-	{
-		"id": "019d2706-e7b0-739a-bf35-2d7c994a64e8",
-		"title": "Power Girl: More Than a Crush",
-		"format": "tpb",
-		"upc": [
-			"9781799500513"
-		],
-		"issues": {
-			"Power Girl (2023)": "8-13"
-		}
-	},
-	{
-		"id": "019d4942-2bc1-7399-8d71-c49cba933e8b",
-		"title": "Power Girl: New Beginnings and Old Friends Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9781401225100"
-		],
-		"issues": {
-			"JSA Classified (2005)": "1-4",
-			"Supergirl (2005)": "12",
-			"Terra (2009)": "1-4",
-			"Power Girl (2009)": "1-27",
-			"Wonder Woman (1942)": "600"
-		}
-	},
-	{
-		"id": "019d0865-5ea0-71e8-96f8-63041bad825e",
-		"title": "Power Girl: Old Friends",
-		"reference": "https://dc.fandom.com/wiki/Power_Girl:_Old_Friends_(Collected)",
-		"format": "tpb",
-		"issues": {
-			"Power Girl (2009)": "19-27"
-		}
-	},
-	{
-		"id": "019d0861-88ae-71ad-9c1d-2b9aeb611120",
-		"title": "Power Girl: Power Trip",
-		"reference": "https://dc.fandom.com/wiki/Power_Girl:_Power_Trip_(Collected)",
-		"format": "tpb",
-		"upc": [
-			"9781401243074"
-		],
-		"issues": {
-			"Power Girl (2009)": "1-12",
-			"JSA Classified (2005)": "1-4"
-		}
-	},
-	{
-		"id": "019d261a-6090-70ab-9f91-7e29b04deb69",
-		"title": "Power Girl: The Star",
-		"format": "tpb",
-		"upc": [
-			"9781799501701"
-		],
-		"issues": {
-			"Power Girl (2023)": "14-20"
-		}
-	},
-	{
-		"id": "019d4988-c404-74db-a898-1f797647fde0",
-		"title": "Return of Wolverine Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9781302965877"
-		],
-		"issues": {
-			"Wolverines (2015)": "1-20",
-			"Hunt for Wolverine (2018)": "1",
-			"Hunt for Wolverine: Weapon Lost (2018)": "1-4",
-			"Hunt for Wolverine: The Adamantium Agenda (2018)": "1-4",
-			"Hunt for Wolverine: The Claws of a Killer (2018)": "1-4",
-			"Hunt for Wolverine: Mystery in Madripoor (2018)": "1-4",
-			"Hunt for Wolverine: Dead Ends (2018)": "1",
-			"Return of Wolverine (2018)": "1-5",
-			"Wolverine: Infinity Watch (2019)": "1-5"
+		{
+			"id": "019d2621-f2f3-76ea-8b0b-198db3718e47",
+			"title": "Deadpool Minibus",
+			"format": "omnibus",
+			"upc": [
+				"9780785190301"
+			],
+			"issues": {
+				"Deadpool Kills the Marvel Universe": "1-4",
+				"Deadpool Killustrated": "1-4",
+				"Deadpool Kills Deadpool": "1-4",
+				"Night of the Living Deadpool": "1-4",
+				"Deadpool vs. Carnage": "1-4"
+			}
 		},
-		"partials": {
-			"Marvel Legacy (2017)": "1"
-		}
-	},
-	{
-		"id": "019d2b12-e265-7397-b1b5-d93409f02793",
-		"title": "Rogue",
-		"format": "tpb",
-		"upc": [
-			"9780785101406"
-		],
-		"issues": {
-			"Rogue (1996)": "1-4"
-		}
-	},
-	{
-		"id": "019d0881-70c9-71bc-bd97-339a2e0f5e3b",
-		"title": "Secret Wars Omnibus",
-		"format": "omnibus",
-		"issues": {
-			"Marvel Super Heroes Secret Wars": "1-12",
-			"Thor (1966)": "383",
-			"She-Hulk (2004)": "10",
-			"What If? (1989)": "4,114"
-		}
-	},
-	{
-		"id": "019d0135-1c93-705b-aacc-faadb3d551fd",
-		"title": "She-Hulk by Charles Soule: The Complete Collection",
-		"format": "tpb",
-		"upc": [
-			"9781302915469"
-		],
-		"issues": {
-			"She-Hulk (2014)": "1-12",
-			"Wolverines": "13"
+		{
+			"id": "019d261e-6299-74bb-a1fb-df5f537c6b0a",
+			"title": "Deadpool Minibus 0",
+			"format": "omnibus",
+			"upc": [
+				"9781302910112"
+			],
+			"issues": {
+				"Deadpool: Suicide Kings": "1-5",
+				"Deadpool: Wade Wilson's War": "1-4",
+				"Deadpool Pulp": "1-4",
+				"Amazing Spider-Man Annual (2009)": "38",
+				"Deadpool Annual (2011)": "1",
+				"Incredible Hulks Annual": "1",
+				"Fear Itself: Deadpool": "1-3"
+			}
 		},
-		"partials": {
-			"Gwenpool Special": "1"
-		}
-	},
-	{
-		"id": "019d0137-1fb2-77ce-875f-ed604640ab43",
-		"title": "She-Hulk by Dan Slott Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9781302925321"
-		],
-		"issues": {
-			"She-Hulk (2004)": "1-12",
-			"She-Hulk (2005)": "1-21",
-			"Marvel Westerns: Two-Gun Kid": "1"
-		}
-	},
-	{
-		"id": "019d0138-81e5-723b-ba09-b4e6a9a3bc63",
-		"title": "She-Hulk by Peter David Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9781302934835"
-		],
-		"issues": {
-			"She-Hulk (2005)": "22-38",
-			"She-Hulk Cosmic Collision": "1",
-			"X-Factor (2005)": "33-34",
-			"Sensational She-Hulk (1989)": "12"
+		{
+			"id": "019d2622-350f-762b-a85c-e23a17a954d0",
+			"title": "Deadpool Minibus 2",
+			"format": "omnibus",
+			"upc": [
+				"9781302901974"
+			],
+			"issues": {
+				"Deadpool vs. X-Force": "1-4",
+				"Hawkeye vs. Deadpool": "0-4",
+				"Deadpool's Art of War'": "1-4",
+				"Return of the Living Deadpool": "1-4",
+				"Deadpool's Secret Secret Wars'": "1-4"
+			}
 		},
-		"partials": {
-			"She-Hulk Sensational": "1"
-		}
-	},
-	{
-		"id": "019d013a-0ee3-73c9-9375-03c8e54534af",
-		"title": "She-Hulk by Rainbow Rowell Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9781302966409"
-		],
-		"issues": {
-			"She-Hulk (2022)": "1-15",
-			"Sensational She-Hulk (2023)": "1-10"
+		{
+			"id": "019d2623-49c6-73af-bc77-473fbb503fa0",
+			"title": "Deadpool Minibus 3",
+			"format": "omnibus",
+			"upc": [
+				"9781302915926"
+			],
+			"issues": {
+				"Mrs. Deadpool and the Howling Commandos": "1-4",
+				"Deadpool vs. Thanos": "1-4",
+				"Deadpool & Cable: Split Second": "1-3",
+				"Deadpool V Gambit": "1-5",
+				"Deadpool: Too Soon?": "1-4"
+			}
 		},
-		"partials": {
-			"Marvel Comics": "1000"
-		}
-	},
-	{
-		"id": "019d2af9-5e35-7676-a25b-df221533cd42",
-		"title": "Showcase Presents All-Star Comics 1",
-		"format": "tpb",
-		"upc": [
-			"9781401233037"
-		],
-		"issues": {
-			"All-Star Comics": "58-74",
-			"DC Comics Special": "29",
-			"Adventure Comics": "461-466"
-		}
-	},
-	{
-		"id": "019d0815-50bf-77a9-a0ea-755cec4adee8",
-		"title": "Swamp Thing: The Bronze Age Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9781401273781"
-		],
-		"issues": {
-			"Swamp Thing": "1-24",
-			"The Saga of the Swamp Thing": "1-19",
-			"The House of Secrets": "92",
-			"The Saga of the Swamp Thing Annual": "1"
-		}
-	},
-	{
-		"id": "019d4944-6615-720c-92e2-5ce92db343a9",
-		"title": "Terra",
-		"format": "tpb",
-		"issues": {
-			"Supergirl (2005)": "12",
-			"Terra (2009)": "1-4"
-		}
-	},
-	{
-		"id": "019d081b-3996-70d6-a6c9-578a33d8882c",
-		"title": "The Doom Patrol Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9781401245627"
-		],
-		"issues": {
-			"Doom Patrol": "19-63",
-			"Doom Force Special": "1"
-		}
-	},
-	{
-		"id": "019d081c-724f-7534-b174-2b408dc57fe3",
-		"title": "The JSA Omnibus Volume 1",
-		"format": "omnibus",
-		"upc": [
-			"9781401247614"
-		],
-		"reference": "https://dc.fandom.com/wiki/JSA_Omnibus_Vol._1_(Collected)",
-		"issues": {
-			"JSA Returns: All Star Comics (1999)": "1-2",
-			"JSA Returns: All American Comics (1999)": "1",
-			"JSA Returns: Adventure Comics (1999)": "1",
-			"JSA Returns: National Comics (1999)": "1",
-			"JSA Returns: Sensation Comics (1999)": "1",
-			"JSA Returns: Smash Comics (1999)": "1",
-			"JSA Returns: Star-Spangled Comics (1999)": "1",
-			"JSA Returns: Thrilling Comics (1999)": "1",
-			"JSA Secret Files and Origins (1999)": "1",
-			"JSA (1999)": "1-25",
-			"Secret Origins of Super Villains (1999)": "1",
-			"JSA: Our Worlds at War (2001)": "1",
-			"JLA/JSA Secret Files and Origins (2003)": "1",
-			"JLA/JSA Virtue and Vice (2003)": "1",
-			"JSA: All Stars (2003)": "1-8"
-		}
-	},
-	{
-		"id": "019d0827-7363-7438-b716-236447867574",
-		"title": "The JSA Omnibus Volume 2",
-		"format": "omnibus",
-		"upc": [
-			"9781401251383"
-		],
-		"reference": "https://dc.fandom.com/wiki/JSA_Omnibus_Vol._2_(Collected)",
-		"issues": {
-			"JSA Annual (1999)": "1",
-			"JSA Secret Files and Origins (1999)": "2",
-			"JSA (1999)": "26-75",
-			"Hawkman (2002)": "23-25"
-		}
-	},
-	{
-		"id": "019d0829-6861-74d9-9401-5bf3679aae3a",
-		"title": "The JSA Omnibus Volume 3",
-		"format": "omnibus",
-		"upc": [
-			"9781401255305"
-		],
-		"reference": "https://dc.fandom.com/wiki/JSA_Omnibus_Vol._3_(Collected)",
-		"issues": {
-			"JSA (1999)": "76-87",
-			"Justice Society of America (2007)": "1-28",
-			"Justice Society of America Annual (2007)": "1",
-			"Justice League of America (2006)": "8-10",
-			"Justice Society of America Kingdom Come Special Superman (2009)": "1",
-			"Justice Society of America Kingdom Come Special Magog (2009)": "1",
-			"Justice Society of America Kingdom Come Special: The Kingdom (2009)": "1"
-		}
-	},
-	{
-		"id": "019d4938-1e72-72b2-9efe-0ef8e907a42c",
-		"title": "The New Mutants Omnibus Volume 1",
-		"format": "omnibus",
-		"upc": [
-			"9781302926885"
-		],
-		"issues": {
-			"Marvel Graphic Novel (1982)": "4",
-			"New Mutants (1983)": "1-34",
-			"New Mutants Annual (1983)": "1",
-			"Marvel Team-Up (1972)": "149",
-			"Marvel Team Up Annual": "6",
-			"The Uncanny X-Men (1981)": "160,167,180,189,194",
-			"Magik (1983)": "1-4"
+		{
+			"id": "019d26ea-9d95-748d-9214-b93082373b1e",
+			"title": "Deadpool by Daniel Way The Complete Collection Volume 1",
+			"format": "omnibus",
+			"upc": [
+				"9781302910068"
+			],
+			"issues": {
+				"Wolverine: Origins": "21-25",
+				"Deadpool (2008)": "1-26",
+				"Thunderbolts (1997)": "130-131",
+				"Hit-Monkey (2010A)": "1",
+				"Hit-Monkey (2010B)": "1-3",
+				"Deadpool Saga": "1"
+			}
 		},
-		"partials": {
-			"Marvel Team-Up (1972)": "100"
-		}
-	},
-	{
-		"id": "019d493a-b93a-73ca-a51f-e781928ed043",
-		"title": "The New Mutants Omnibus Volume 2",
-		"format": "omnibus",
-		"upc": [
-			"9781302932350"
-		],
-		"issues": {
-			"New Mutants (1983)": "35-54",
-			"New Mutants Special Edition": "1",
-			"New Mutants Annual (1983)": "2-3",
-			"The X-Men Annual (1970)": "9-10",
-			"Power Pack (1984)": "20,33",
-			"Fallen Angels (1987)": "1-8",
-			"Firestar (1986)": "1-4",
-			"New Mutants: War Children": "1"
+		{
+			"id": "019d26ed-054e-70fc-aad8-b6b1a13f93d5",
+			"title": "Deadpool by Daniel Way The Complete Collection Volume 2",
+			"format": "omnibus",
+			"upc": [
+				"9781302911416"
+			],
+			"issues": {
+				"Deadpool (2008)": "27-63,33.1,49.1"
+			},
+			"partials": {
+				"Deadpool (2012)": "27"
+			}
 		},
-		"partials": {
-			"Web of Spider-Man Annual": "2"
-		}
-	},
-	{
-		"id": "019d493d-2f93-711f-a021-52e805a5c939",
-		"title": "The New Mutants Omnibus Volume 3",
-		"format": "omnibus",
-		"upc": [
-			"9781302954086"
-		],
-		"issues": {
-			"New Mutants (1983)": "55-85",
-			"New Mutants Annual (1983)": "4",
-			"Spellbound (1988)": "4",
-			"Power Pack (1984)": "40",
-			"The Uncanny X-Men (1981)": "231",
-			"X-Terminators (1988)": "22"
+		{
+			"id": "019d26f1-6a06-77e7-8555-ee343d9703c7",
+			"title": "Deadpool by Joe Kelly Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9780785185598"
+			],
+			"issues": {
+				"Deadpool (1997)": "1-33,-1,0",
+				"Daredevil/Deadpool Annual '97": "1",
+				"Deadpool & Death Annual '98": "1",
+				"Baby's First Deadpool Book": "1",
+				"The Amazing Spider-Man (1963)": "47,611"
+			},
+			"partials": {
+				"Deadpool (2008)": "900"
+			}
 		},
-		"partials": {
-			"Marvel Comics Presents (1988)": "22",
-			"Marvel Fanfare (1982)": "55",
-			"Marvel Super-Heroes (1990)": "1",
-			"X-Men: Odd Men Out": "1"
-		}
-	},
-	{
-		"id": "019d013b-5124-73e0-ad1b-c9531735a8a6",
-		"title": "The Savage She-Hulk Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9781302934231"
-		],
-		"issues": {
-			"The Savage She-Hulk": "1-25",
-			"Marvel Two-In-One (1972)": "88"
-		}
-	},
-	{
-		"id": "019d013c-1ba8-763e-99ce-3f33a90fe642",
-		"title": "The Sensational She-Hulk by John Byrne Omnibus",
-		"reference": "https://marvel.fandom.com/wiki/Sensational_She-Hulk_by_John_Byrne_Omnibus_Vol_1_1",
-		"format": "omnibus",
-		"upc": [
-			"9781302923686"
-		],
-		"issues": {
-			"Marvel Graphic Novel (1982)": "18",
-			"Sensational She-Hulk (1989)": "1-8,31-46,48-50"
+		{
+			"id": "019d4985-3087-72ab-8a71-9e7ec6dd062d",
+			"title": "Death of Wolverine Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302959876"
+			],
+			"issues": {
+				"Wolverine (2013)": "1-13",
+				"Wolverine (2014)": "1-12",
+				"Wolverine Annual (2014)": "1",
+				"Death of Wolverine": "1-4",
+				"Death of Wolverine: The Weapon X Program": "1-5",
+				"Death of Wolverine: The Logan Legacy": "1-7",
+				"Death of Wolverine: Deadpool & Captain Ameria": "1",
+				"Death of Wolverine: Life after Logan": "1",
+				"Nightcrawler (2014)": "7",
+				"Wolverine & the X-Men (2014)": "10-11",
+				"Storm (2014)": "4-5"
+			},
+			"partials": {
+				"Marvel 75th Anniversary Celebration": "1"
+			}
 		},
-		"partials": {
-			"Marvel Comics Presents (1988)": "18"
-		}
-	},
-	{
-		"id": "019cbb89-193b-70fc-a729-9155633466c0",
-		"title": "The Thanos War: Infinity Origin Omnibus",
-		"format": "omnibus",
-		"issues": {
-			"Iron Man (1968)": "55",
-			"Captain Marvel (1968)": "25-34",
-			"Marvel Feature (1971)": "12",
-			"The Avengers (1963)": "125",
-			"Strange Tales (1951)": "178-181",
-			"Warlock (1972)": "9-15",
-			"Marvel Team-Up (1972)": "55",
-			"The Avengers Annual (1967)": "7",
-			"Marvel Two-in-one Annual (1976)": "2",
-			"Marvel Graphic Novel (1982)": "1",
-			"Daredevil (1964)": "105",
-			"Logan's Run (1977)": "6"
-		}
-	},
-	{
-		"id": "019cbb17-eef4-7579-86bc-f4ffa314e96b",
-		"title": "The Uncanny X-Men Omnibus Volume 1",
-		"format": "omnibus",
-		"upc": [
-			"9780785185697"
-		],
-		"issues": {
-			"Giant-Size X-Men": "1",
-			"The X-Men (1963)": "94-131",
-			"The X-Men Annual (1970)": "3"
-		}
-	},
-	{
-		"id": "019cbb85-3e46-779a-95a0-d2fc14411d80",
-		"title": "The Uncanny X-Men Omnibus Volume 2",
-		"format": "omnibus",
-		"upc": [
-			"9780785185727"
-		],
-		"issues": {
-			"The X-Men (1963)": "132-141",
-			"The X-Men Annual (1970)": "4-5",
-			"The Uncanny X-Men (1981)": "142-153",
-			"The Avengers Annual (1967)": "10",
-			"Marvel Fanfare": "1-4",
-			"Marvel Treasury Edition": "26-27",
-			"Marvel Team-Up (1972)": "100",
-			"Bizarre Adventures": "27",
-			"Phoenix: The Untold Story": "1"
-		}
-	},
-	{
-		"id": "019d2546-08fc-73ba-ae86-b65550ed5365",
-		"title": "The Uncanny X-Men Omnibus Volume 3",
-		"format": "omnibus",
-		"upc": [
-			"9780785199229"
-		],
-		"issues": {
-			"The X-Men Annual (1970)": "6-7",
-			"The Uncanny X-Men (1981)": "154-175",
-			"Special Edition X-Men": "1",
-			"Marvel Fanfare": "1-4",
-			"Marvel Graphic Novel (1982)": "5",
-			"Wolverine (1982)": "1-4",
-			"Magik (1983)": "1-4"
-		}
-	},
-	{
-		"id": "019d257a-33a4-703f-8b41-c133c0dc7983",
-		"title": "The Uncanny X-Men Omnibus Volume 4",
-		"format": "omnibus",
-		"upc": [
-			"9781302927042"
-		],
-		"issues": {
-			"The X-Men Annual (1970)": "8",
-			"The Uncanny X-Men (1981)": "176-193",
-			"Kitty Pryde and Wolverine": "1-6",
-			"X-Men and Alpha Flight": "1-2",
-			"Marvel Fanfare": "40"
-		}
-	},
-	{
-		"id": "019d257d-4c0f-728a-9d43-8a316631f849",
-		"title": "The Uncanny X-Men Omnibus Volume 5",
-		"format": "omnibus",
-		"upc": [
-			"9781302948719"
-		],
-		"issues": {
-			"The X-Men Annual (1970)": "9-10",
-			"The Uncanny X-Men (1981)": "194-209",
-			"New Mutants Special Edition": "1",
-			"New Mutants Annual (1983)": "2",
-			"Nightcrawler (1985)": "1-4",
-			"Longshot (1985)": "1-6",
-			"Marvel Fanfare": "33"
-		}
-	},
-	{
-		"id": "019d253d-7528-73fc-b847-2880c44dc2f1",
-		"title": "The X-Men Omnibus Volume 1",
-		"format": "omnibus",
-		"upc": [
-			"9780785129585"
-		],
-		"issues": {
-			"The X-Men (1963)": "1-31"
-		}
-	},
-	{
-		"id": "019d253e-7121-75e6-bc6b-4b9a977b9362",
-		"title": "The X-Men Omnibus Volume 2",
-		"format": "omnibus",
-		"upc": [
-			"9780785153078"
-		],
-		"issues": {
-			"The X-Men (1963)": "32-66",
-			"The Avengers (1963)": "53"
-		}
-	},
-	{
-		"id": "019d0845-feb7-7089-967f-721b3afcdf9e",
-		"title": "Tomb Raider Archives Volume 1",
-		"format": "ohc",
-		"upc": [
-			"9781506703329"
-		],
-		"issues": {
-			"Tomb Raider (1999)": "1-15"
-		}
-	},
-	{
-		"id": "019d0847-352c-75ae-b214-9624c3170696",
-		"title": "Tomb Raider Archives Volume 2",
-		"format": "ohc",
-		"upc": [
-			"9781506703527"
-		],
-		"issues": {
-			"Tomb Raider (1999)": "16-24,26-34"
-		}
-	},
-	{
-		"id": "019d0847-d61b-735d-a742-cf7c3b1dd60d",
-		"title": "Tomb Raider Archives Volume 3",
-		"format": "ohc",
-		"upc": [
-			"9781506703534"
-		],
-		"issues": {
-			"Tomb Raider (1999)": "35-50"
-		}
-	},
-	{
-		"id": "019d0848-343e-70b1-995b-a221af70e472",
-		"title": "Tomb Raider Archives Volume 4",
-		"format": "ohc",
-		"upc": [
-			"9781506703541"
-		],
-		"issues": {
-			"Tomb Raider (1999)": "0,0.5",
-			"Tomb Raider: Journeys": "1-12",
-			"Tomb Raider: Origins": "1",
-			"Tomb Raider: Epihany": "1",
-			"Tomb Raider: Takeover": "1",
-			"Tomb Raider: Arabian Nights": "1",
-			"Tomb Raider: The Greatest Treasure of All": "1"
-		}
-	},
-	{
-		"id": "019d4a26-a839-770b-bdf1-c4207236f914",
-		"title": "Uncanny X-Force Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9781302957735"
-		],
-		"issues": {
-			"Uncanny X-Force": "1-35,5.1,19.1"
+		{
+			"id": "019d2714-a33f-723c-a87d-013afe00148c",
+			"title": "Excalibur Omnibus Volume 1",
+			"format": "omnibus",
+			"upc": [
+				"9781302926663"
+			],
+			"issues": {
+				"Excalibur Special Edition": "1",
+				"Excalibur (1988)": "1-34",
+				"Excalibur: Mojo Mayhem": "1",
+				"Quasar": "11",
+				"Thor (1966)": "427-429"
+			},
+			"partials": {
+				"Marvel Comics Presents (1988)": "31-38"
+			}
 		},
-		"partials": {
-			"Wolverine: The Road to Hell": "1"
-		}
-	},
-	{
-		"id": "019d2b10-f382-7580-9acf-061a900fbc66",
-		"title": "Uncanny X-Men - The New Age: The Cruelest Cut",
-		"format": "tpb",
-		"upc": [
-			"9780785116455"
-		],
-		"issues": {
-			"The Uncanny X-Men (1981)": "450-454"
-		}
-	},
-	{
-		"id": "019d4958-186e-741e-a5a6-805b68323664",
-		"title": "Uncanny X-Men by Brian Michael Bendis Omnibus",
-		"format": "omnibus",
-		"notes": "UXM issue 15.INH has been simplified to just 15.",
-		"issues": {
-			"Uncanny X-Men (2013)": "1-35,600",
-			"All-New X-Men (2012)": "16-17",
-			"Wolverine & the X-Men (2011)": "36-37",
-			"X-Men: Battle of the Atom": "1-2",
-			"X-Men (2013)": "1-5",
-			"Uncanny X-Men Annual (2014)": "1",
-			"All-New X-Men Annual (2014)": "1"
-		}
-	},
-	{
-		"id": "019d26f6-0e33-7762-b018-31e94c9c42a1",
-		"title": "Uncanny X-Men by Kieron Gillen Omnibus",
-		"format": "omnibus",
-		"issues": {
-			"S.W.O.R.D. (2009)": "1-5",
-			"The Uncanny X-Men (1981)": "534.1,535-544",
-			"X-Men: Regenesis (2011)": "1",
-			"Uncanny X-Men (2011)": "1-20",
-			"AVX: Consequences": "1-5"
-		}
-	},
-	{
-		"id": "019d4960-f20b-740e-94d4-8a4579e836cf",
-		"title": "Weapon X: The Return Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9781302911829"
-		],
-		"issues": {
-			"Wolverine (1988)": "162-166,173-174,176",
-			"Deadpool (1997)": "57-60",
-			"Weapon X (2002)": "0.5,1-28",
-			"Weapon X: The Draft - Sauron": "1",
-			"Weapon X: The Draft - Wild Child": "1",
-			"Weapon X: The Draft - Kane": "1",
-			"Weapon X: The Draft - Marrow": "1",
-			"Weapon X: The Draft - Agent Zero": "1",
-			"Weapon X: Days of Future Now": "1-5"
+		{
+			"id": "019d2705-9f95-72f8-b49f-8f6f962681cd",
+			"title": "Excalibur Omnibus Volume 2",
+			"format": "omnibus",
+			"upc": [
+				"9781302932282"
+			],
+			"issues": {
+				"Excalibur (1988)": "35-67",
+				"Excalibur: Weird War Three": "1",
+				"Excalibur: The Possession": "1",
+				"Excalibur: Air Apparent": "1",
+				"Excalibur: XX Crossing": "1",
+				"Sensational She-Hulk (1989)": "26"
+			},
+			"partials": {
+				"Marvel Comics Presents (1988)": "75,110"
+			}
 		},
-		"partials": {
-			"Wolverine (1988)": "175",
-			"Deadpool (2012)": "27"
-		}
-	},
-	{
-		"id": "019d4965-2cf9-7291-ae5e-0b661aa0062f",
-		"title": "Wolverine Omnibus Volume 1",
-		"format": "omnibus",
-		"upc": [
-			"9780785134770"
-		],
-		"issues": {
-			"Marvel Comics Presents (1988)": "1-10,72-84",
-			"Incredible Hulk (1968)": "180-182",
-			"Marvel Treasury Edition": "26",
-			"Best of Marvel Comics: Wolverine (1982)": "1-4",
-			"The Uncanny X-Men (1981)": "172-173",
-			"Kitty Pryde and Wolverine": "1-6",
-			"Captain America Annual": "8",
-			"Spider-Man Versus Wolverine": "1",
-			"Marvel Age Annual": "4",
-			"Wolverine (1988)": "1-10",
-			"Punnisher War Journal": "6-7"
-		}
-	},
-	{
-		"id": "019d4968-5875-7119-a492-67bc0a4569c1",
-		"title": "Wolverine Omnibus Volume 2",
-		"format": "omnibus",
-		"upc": [
-			"9781302929954"
-		],
-		"issues": {
-			"Wolverine (1988)": "11-30",
-			"Havok & Wolverine: Meltdown": "1-4",
-			"Wolverine/Nick Fury: The Scorpio Connection": "1",
-			"Wolverine: The Jungle Adventure": "1",
-			"Wolverins: Bloodlust": "1"
+		{
+			"id": "019d271a-eb2f-735d-8e1c-6adcc58d2f33",
+			"title": "Excalibur Omnibus Volume 3",
+			"format": "omnibus",
+			"upc": [
+				"9781302953744"
+			],
+			"issues": {
+				"Excalibur (1988)": "68-103",
+				"Excalibur Annual (1988)": "1-2",
+				"X-Men Unlimited (1993)": "4",
+				"X-Factor (1986)": "106",
+				"X-Force (1991)": "38",
+				"X-Man": "12",
+				"Pryde and Wisdom": "1-3"
+			},
+			"partials": {
+				"Marvel Comics Presents (1988)": "174",
+				"Marvel Holiday Special 1996": "1"
+			}
 		},
-		"partials": {
-			"Marvel Comics Presents (1988)": "38-71"
-		}
-	},
-	{
-		"id": "019d496a-772a-771a-afac-2de328932e9d",
-		"title": "Wolverine Omnibus Volume 3",
-		"format": "omnibus",
-		"upc": [
-			"9781302946524"
-		],
-		"issues": {
-			"Wolverine (1988)": "31-59",
-			"Wolverine: Bloody Choices": "1",
-			"Wolverine: Rahne of Terra": "1",
-			"Ghost Rider/Wolverine/Punisher: Hearts of Darkness": "1",
-			"X-Men (1991)": "4-7"
+		{
+			"id": "019d271c-cd40-769f-9089-bb8abea1e6e6",
+			"title": "Excalibur Omnibus Volume 4",
+			"format": "omnibus",
+			"upc": [
+				"9781302965426"
+			],
+			"issues": {
+				"Excalibur (1988)": "104-125,-1",
+				"Colossus": "1",
+				"New Mutants: Truth or Death": "1-3",
+				"Kitty Pryde, Agent of S.H.I.E.L.D.": "1-3",
+				"X-Men Unlimited (1993)": "19",
+				"X-Men: True Friends": "1-3",
+				"Excalibur (2001)": "1-4"
+			},
+			"partials": {
+				"Marvel Comics Presents (1988)": "174",
+				"Marvel Holiday Special 1996": "1"
+			}
 		},
-		"partials": {
-			"Marvel Fanfare (1982)": "54-55",
-			"Marvel Comics Presents (1988)": "85-108"
-		}
-	},
-	{
-		"id": "019d496c-e07e-77d1-9635-da8401f2359c",
-		"title": "Wolverine Omnibus Volume 4",
-		"format": "omnibus",
-		"upc": [
-			"9781302954000"
-		],
-		"issues": {
-			"Wolverine (1988)": "60-75",
-			"Wolverine: Inner Fury": "1",
-			"Wolverine: Killing": "1",
-			"Wolverine: Global Jeopardy": "1",
-			"Wolverine: and the Punisher: Damaging Evidence": "1-3",
-			"Sabretooth (1993)": "1-4",
-			"Spider-Man/Punisher/Sabretooth: Designer Genes:": "1",
-			"X-Men (1991)": "25"
+		{
+			"id": "019d2725-f914-740b-896f-e76b98388917",
+			"title": "Fall of the House of X/Rise of the Powers of X Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302956578"
+			],
+			"issues": {
+				"Fall of the House of X": "1-5",
+				"Rise of the Powers of X": "1-5",
+				"X-Men (2021)": "30-34",
+				"Resurrection of Magneto": "1-4",
+				"Dead X-Men": "1-4",
+				"X-Men Forever (2024)": "1-4",
+				"Invincible Iron Man (2022)": "13-20",
+				"Avengers (2023)": "12-13",
+				"Ms. Marvel: Mutant Menace": "1-4",
+				"Cable (2024)": "1-4"
+			}
 		},
-		"partials": {
-			"Marvel Holiday Special (1991)": "2",
-			"Marvel Comics Presents (1988)": "109-142"
-		}
-	},
-	{
-		"id": "019d497a-206f-7472-8d83-2d6add3940bd",
-		"title": "Wolverine Omnibus Volume 5",
-		"format": "omnibus",
-		"upc": [
-			"9781302958060"
-		],
-		"issues": {
-			"Wolverine (1988)": "76-101",
-			"Wolverine Annual '95": "1",
-			"Marvel Comics Presents (1988)": "150-151",
-			"Cable (1993)": "16",
-			"Wolverine: Evilution": "1",
-			"Wolverine & Nick Fury: Scorpio Rising": "1",
-			"Ghost Rider/Wolverine/Punisher: The Dark Design": "1",
-			"Wolverine: Knight of Terra": "1",
-			"Wolverine/Gambit: Victims": "1-4",
-			"The Uncanny X-Men (1981)": "332",
-			"Logan: Path of the Warlord": "1"
+		{
+			"id": "019d0874-e1bf-7344-8fb8-369a615d72d9",
+			"title": "Fantastic Four by John Byrne Omnibus Volume 2",
+			"format": "omnibus",
+			"upc": [
+				"9781302945558"
+			],
+			"issues": {
+				"Fantastic Four (1961)": "261-295",
+				"Fantastic Four Annual (1961)": "18-19",
+				"Alpha Flight (1983)": "4",
+				"Thing (1983)": "10,19",
+				"The Avengers Annual (1967)": "14"
+			},
+			"partials": {
+				"Secret Wars II": "2",
+				"Epic Illustrated": "26-34",
+				"What If? (1977)": "36",
+				"What The--?!": "2, 10",
+				"Thing (1983)": "7",
+				"Fantastic Four Roast": "1",
+				"Fantastic Four Special Edition": "1"
+			}
 		},
-		"partials": {
-			"Marvel Comics Presents (1988)": "152-155"
-		}
-	},
-	{
-		"id": "019d497d-91e5-775c-a26f-8a52b547c08b",
-		"title": "Wolverine Omnibus Volume 6",
-		"format": "omnibus",
-		"upc": [
-			"9781302964313"
-		],
-		"issues": {
-			"Wolverine (1988)": "102-118,-1,0.5,102.5",
-			"Wolverine Annual '96": "1",
-			"Wolverine Annual '97": "1",
-			"Venom: Tooth and Claw": "1-3",
-			"Maverick (1997A)": "1",
-			"Logan: Shadow Society": "1",
-			"Kitty Pryde, Agent of S.H.I.E.L.D.": "1-3",
-			"Wolverine: Doombringer": "1",
-			"Before the Fantastic Four: Ben Grimm and Logan": "1-3",
-			"Wolverine: Days of Future Past": "1-3",
-			"Wolverine Encyclopedia": "1-2"
+		{
+			"id": "019d2ae8-5c77-70bb-9c46-74a62cf36422",
+			"title": "Giant Size X-Men",
+			"format": "ohc",
+			"upc": [
+				"9780785197775"
+			],
+			"issues": {
+				"Giant-Size X-Men": "1,3-4",
+				"Classic X-Men": "1",
+				"X-Men Origins: Colossus": "1",
+				"X-Men Origins: Wolverine": "1",
+				"X-Men: Deadly Genesis": "1-6",
+				"What If? (1989)": "9,23"
+			},
+			"partials": {
+				"X-Men Gold (2017)": "1"
+			}
 		},
-		"partials": {
-			"Marvel: Shadows and Light": "1"
-		}
-	},
-	{
-		"id": "019d26f9-7c45-76dc-90c1-be09da80ce5d",
-		"title": "Wolverine and the X-Men Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9780785190240"
-		],
-		"issues": {
-			"Wolverine & the X-Men (2011)": "1-35,38-42",
-			"Wolverine & the X-Men Annual (2011)": "1"
-		}
-	},
-	{
-		"id": "019d4975-aa1b-7179-9c45-0b34450386c3",
-		"title": "Wolverine by Jason Aaron Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9780785156390"
-		],
-		"issues": {
-			"Wolverine (2003)": "56,62-65",
-			"Wolverine: Manifest Destiny": "1-4",
-			"Wolverine Weapon X": "1-16",
-			"Dark Reign: The List - Wolverine": "1"
+		{
+			"id": "019d086a-d12d-77af-9893-04386e24d245",
+			"title": "Harley Quinn Omnibus Volume 1",
+			"reference": "https://www.dc.com/graphic-novels/harley-quinn-by-amanda-conner-and-jimmy-palmiotti-omnibus-2017/harley-quinn-by-amanda-conner-and-jimmy-palmiotti-omnibus-vol-1",
+			"format": "omnibus",
+			"upc": [
+				"9781401276430"
+			],
+			"issues": {
+				"Harley Quinn (2014)": "0-16",
+				"Harley Quinn: Future's End (2014)": "1",
+				"Harley Quinn Invades Comic-con International: San Diego (2014)": "1",
+				"Harley Quinn Annual (2014)": "1",
+				"Harley Quinn Holiday Special (2015)": "1",
+				"Harley Quinn Valentine's Day Special (2015)": "1",
+				"Harley Quinn and Power Girl (2015)": "1-6"
+			}
 		},
-		"partials": {
-			"Wolverine (2003)": "73-74",
-			"Dark X-Men: The Beginning": "3",
-			"Wolverine (1988)": "175"
-		}
-	},
-	{
-		"id": "019d4982-41e1-743d-b055-65d96fd36789",
-		"title": "Wolverine by Mark Millar Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9780785167969"
-		],
-		"issues": {
-			"Wolverine (2003)": "20-32,66-72",
-			"Wolverine: Old Man Logan Giant-Size": "1"
-		}
-	},
-	{
-		"id": "019d4983-633e-77cb-bb06-d5a417d3dfd8",
-		"title": "Wolverine goes to Hell Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9781302911591"
-		],
-		"issues": {
-			"Astonshing Spider-Man & Wolverine": "1-6",
-			"Wolverine (2010)": "1-20,5.1,300-304",
-			"X-Men: Schism": "1-5"
+		{
+			"id": "019d0872-6233-71e8-8b04-b9258aa15495",
+			"title": "Harley Quinn and Power Girl",
+			"reference": "https://dc.fandom.com/wiki/Harley_Quinn_and_Power_Girl_(Collected)",
+			"format": "tpb",
+			"issues": {
+				"Harley Quinn and Power Girl (2015)": "19-27"
+			}
 		},
-		"partials": {
-			"Wolverine: The Road to Hell": "1"
-		}
-	},
-	{
-		"id": "019d498e-40e0-72e9-b1cd-8abea112b450",
-		"title": "X-23 Omnibus Volume 1",
-		"format": "omnibus",
-		"upc": [
-			"9781302951603"
-		],
-		"issues": {
-			"X-23 (2005)": "1-6",
-			"X-23: Target X": "1-6",
-			"X-23 (2010A)": "1",
-			"X-23 (2010B)": "1-21",
-			"Captain Universe/X-23": "1",
-			"Daken: Dark Wolverine": "8-9"
+		{
+			"id": "019d2b24-0d5d-77dd-97ea-fa4f161ec6bf",
+			"title": "Harley Quinn: 30 Years of the Maid of Mischief",
+			"format": "ohc",
+			"upc": [
+				"9781779517180"
+			],
+			"issues": {
+				"The Batman Adventures (1992)": "12",
+				"The Batman and Robin Adventures (1995)": "18",
+				"Batman: Gotham Adventures (1998)": "10",
+				"Harley Quinn (2000)": "3",
+				"Batman: Gotham Knights (2000)": "14",
+				"Detective Comics": "831",
+				"Gotham City Sirens (2009)": "20-21",
+				"Harley Quinn Holiday Special (2015)": "1",
+				"Harley Quinn 25th Anniversary Special": "1",
+				"Harley Quinn: Be Careful What You Wish For Special Edition": "1",
+				"Harley Quinn: Make 'em Laugh": "3",
+				"Harley Quinn Black + White + Red": "14",
+				"Batman (2016)": "98",
+				"Harley Quinn 30th Anniversary Special": "1"
+			}
 		},
-		"partials": {
-			"X-Men: To Serve and Protect": "2",
-			"Wolverine: The Road to Hell": "1",
-			"All-New Wolverine Saga": "1"
-		}
-	},
-	{
-		"id": "019d499a-0333-763a-8174-0673646539b2",
-		"title": "X-Factor by Peter David Omnibus Volume 1",
-		"format": "omnibus",
-		"upc": [
-			"9781302930660"
-		],
-		"issues": {
-			"X-Factor (1986)": "55,70-92",
-			"X-Factor Annual (1986)": "7-8",
-			"Incredible Hulk (1968)": "390-392"
+		{
+			"id": "019d2b23-2a4b-7228-85e7-0780d371021d",
+			"title": "Harley Quinn: Angry Bird",
+			"format": "tpb",
+			"upc": [
+				"9781401281526"
+			],
+			"issues": {
+				"Harley Quinn (2016)": "35-42"
+			}
 		},
-		"partials": {
-			"X-Factor Annual (1986)": "5-6",
-			"New Mutants Annual (1984)": "6"
-		}
-	},
-	{
-		"id": "019d499c-0257-732d-ae87-5415e51aa996",
-		"title": "X-Factor by Peter David Omnibus Volume 2",
-		"format": "omnibus",
-		"upc": [
-			"9781302945220"
-		],
-		"issues": {
-			"Madrox": "1-5",
-			"X-Factor (2005)": "1-39",
-			"X-Factor: The Quick and the Dead": "1",
-			"X-Factor: Layla Miller": "1",
-			"She-Hulk (2005)": "31"
-		}
-	},
-	{
-		"id": "019d499d-6bc3-72e8-be78-48311827f491",
-		"title": "X-Factor by Peter David Omnibus Volume 3",
-		"format": "omnibus",
-		"upc": [
-			"9781302953300"
-		],
-		"issues": {
-			"X-Factor (2005)": "40-50,200-232,224.1",
-			"Nation X: X-Factor": "1"
-		}
-	},
-	{
-		"id": "019d499e-4ad4-77ba-bbfd-23f3efd2b037",
-		"title": "X-Factor by Peter David Omnibus Volume 4",
-		"format": "omnibus",
-		"upc": [
-			"9781302964252"
-		],
-		"issues": {
-			"X-Factor (2005)": "233-262",
-			"All-New X-Factor": "1-20",
-			"X-Men: Legends (2021)": "5-6"
-		}
-	},
-	{
-		"id": "019d4994-7cee-723d-9afd-b07489a0b02b",
-		"title": "X-Factor: The Original X-Men Volume 1",
-		"format": "omnibus",
-		"upc": [
-			"9781302956974"
-		],
-		"issues": {
-			"The Avengers (1963)": "263",
-			"Fantastic Four (1961)": "286,312",
-			"X-Factor (1986)": "1-26",
-			"X-Factor Annual (1986)": "1-2",
-			"Iron Man Annual (1970)": "8",
-			"The Amazing Spider-Man (1963)": "282",
-			"Thor (1966)": "373-374,377-378",
-			"Power Pack (1984)": "27,35",
-			"Mpehisto vs.": "2",
-			"Incredible Hulk (1968)": "336-337",
-			"Classic X-Men": "8,43",
-			"Secret Wars II": "5"
+		{
+			"id": "019d2b1e-d1c7-71d6-8fd6-7c898e00bcba",
+			"title": "Harley Quinn: Black, White and Red all over",
+			"format": "tpb",
+			"upc": [
+				"9781401271985"
+			],
+			"issues": {
+				"Harley Quinn (2014)": "26-30"
+			}
 		},
-		"partials": {
-			"Marvel Fanfare (1982)": "40"
-		}
-	},
-	{
-		"id": "019cca9f-193f-744a-86b6-49be35379f84",
-		"title": "X-Factor: The Original X-Men Volume 2",
-		"format": "omnibus",
-		"upc": [
-			"9781302966096"
-		],
-		"issues": {
-			"X-Factor (1986)": "27-50",
-			"X-Factor Annual (1986)": "3-4",
-			"X-Terminators (1988)": "1-4",
-			"The Uncanny X-Men (1981)": "240-243",
-			"New Mutants (1983)": "76",
-			"Fantastic Four (1961)": "342"
+		{
+			"id": "019d2b20-6440-702a-a7d6-af3a3fa7cb8a",
+			"title": "Harley Quinn: Red Meat",
+			"format": "tpb",
+			"upc": [
+				"9781401273699"
+			],
+			"issues": {
+				"Harley Quinn (2016)": "14-21"
+			}
 		},
-		"partials": {
-			"New Mutants Annual (1984)": "6",
-			"Marvel Comics Presents (1988)": "15,17-24"
-		}
-	},
-	{
-		"id": "019d4a27-d9e4-73cd-84a6-dae1617cec66",
-		"title": "X-Force Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9780785165958"
-		],
-		"issues": {
-			"New Mutants (1983)": "98-100",
-			"New Mutants Annual (1983)": "7",
-			"The X-Men Annual (1970)": "15",
-			"X-Factor Annual (1986)": "6",
-			"X-Force (1991)": "1-15",
-			"Spider-Man (1990)": "16",
-			"Cable: Blood & Metal": "1-2"
+		{
+			"id": "019d2b21-4828-702a-8cc7-5e77c4ded465",
+			"title": "Harley Quinn: Surprise, Surprise",
+			"format": "tpb",
+			"issues": {
+				"Harley Quinn (2016)": "22-27",
+				"Harley Quinn 25th Anniversary Special": "1"
+			}
 		},
-		"partials": {
-			"New Warriors Annuak": "1",
-			"X-Force Annual (1992)": "1"
-		}
-	},
-	{
-		"id": "019d2b15-2822-72cf-99b2-24b8c6f469c2",
-		"title": "X-Infernus",
-		"format": "tpb",
-		"upc": [
-			"9780785139478"
-		],
-		"issues": {
-			"X-Infernus": "1-4"
-		}
-	},
-	{
-		"id": "019d253f-f4f2-76f9-97a0-2c8b53bd0ce9",
-		"title": "X-Men By Hickman Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9781302929985"
-		],
-		"issues": {
-			"X-Men (2019)": "1-12,16-21",
-			"Giant-Size X-Men: Jean Grey & Emma Frost (2020)": "1",
-			"Giant-Size X-Men: Nightcrawler (2020)": "1",
-			"Giant-Size X-Men: Magneto (2020)": "1",
-			"Giant-Size X-Men: Fantomex (2020)": "1",
-			"Giant-Size X-Men: Storm (2020)": "1"
-		}
-	},
-	{
-		"id": "019d4a35-813d-75cc-a02a-e82145b0e3d9",
-		"title": "X-Men Omnibus Volume 1",
-		"format": "omnibus",
-		"upc": [
-			"9780785158226"
-		],
-		"issues": {
-			"The Uncanny X-Men (1981)": "244-269",
-			"The X-Men Annual (1970)": "13",
-			"Classic X-Men": "39"
-		}
-	},
-	{
-		"id": "019d4a37-06a5-738f-b1db-a59b0bf03b35",
-		"title": "X-Men Omnibus Volume 2",
-		"format": "omnibus",
-		"upc": [
-			"9780785159056"
-		],
-		"issues": {
-			"X-Factor (1986)": "63-70",
-			"The Uncanny X-Men (1981)": "273-280",
-			"X-Men (1991)": "1-9"
+		{
+			"id": "019d2b22-92ca-774a-9ae1-31a52fa4e040",
+			"title": "Harley Quinn: Vote Harley",
+			"format": "tpb",
+			"upc": [
+				"9781401278823"
+			],
+			"issues": {
+				"Harley Quinn (2016)": "28-34"
+			}
 		},
-		"partials": {
-			"X-Men (1991)": "10-11",
-			"Ghost Rider (1990)": "26-27"
-		}
-	},
-	{
-		"id": "019d4a2f-f397-76fe-982d-bf4205b3b223",
-		"title": "X-Men by Marc Guggenheim Omnibus",
-		"format": "omnibus",
-		"upc": [
-			"9781302966164"
-		],
-		"issues": {
-			"Young X-Men": "1-12",
-			"X-Men (2013)": "18-22",
-			"X-Tinction Agenda": "1-4",
-			"X-Men Prime (2017)": "1",
-			"X-Men Gold (2017)": "1-36",
-			"X-Men Gold Annual (2017)": "1",
-			"X-Men Blue": "13-15",
-			"X-Men: The Wedding Special (2018)": "1",
-			"X-Men: Days of Future Past - Doomsday": "1-5"
+		{
+			"id": "019d2b2e-545c-70ba-a8cc-273fcf830fd9",
+			"title": "House of M Companion Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302953768"
+			],
+			"issues": {
+				"Excalibur (2004)": "16-20",
+				"House of M: Avengers": "1-5",
+				"Civil War: House of M": "1-5",
+				"House of M: Masters of Evil": "1-4",
+				"What If? Spider-Man: House of M": "1",
+				"House of M (2015)": "1-4"
+			},
+			"partials": {
+				"What If? House of M": "1"
+			}
 		},
-		"partials": {
-			"X-Men: Manufest Destiny": "3",
-			"X-Men: To Serve and Protect": "3",
-			"Marvel Comics": "1001"
-		}
-	},
-	{
-		"id": "019d2b19-43e5-77b8-94f9-62a6c63eb52b",
-		"title": "X-Men: Beauty and the Beast",
-		"format": "tpb",
-		"upc": [
-			"9780785162735"
-		],
-		"issues": {
-			"Marvel Graphic Novel (1982)": "12",
-			"Beauty and the Beast (1984)": "1-4"
+		{
+			"id": "019d2b31-1ac6-708e-aaa3-2fa86e195570",
+			"title": "House of M Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302948221"
+			],
+			"issues": {
+				"House of M (2005)": "1-8",
+				"Spider-Man: House of M": "1-5",
+				"Fantastic Four: House of M": "1-3",
+				"Iron Man: House of M": "1-3",
+				"New Thunderbolts": "11",
+				"Black Panther (2005)": "7",
+				"The Uncanny X-Men (1981)": "462-465",
+				"Wolverine (2003)": "33-35",
+				"Captain America (2004)": "10",
+				"Pulse (2004)": "10",
+				"Cable & Deadpool": "17",
+				"Incredible Hulk (2000)": "83-87",
+				"New X-Men (2004)": "16-19",
+				"Exiles (2001)": "69-71",
+				"Mutopia X": "1-5",
+				"Descimation: House of M - The Day After": "1",
+				"Giant-Size Ms. Marvel": "1",
+				"secrets of the House of M": "1",
+				"Pulse: House of M Special": "1",
+				"House of M Director's Cut": "1",
+				"House of M Sketchbook": "1"
+			},
+			"partials": {
+				"Hulk: Broken Worlds Book One": "1"
+			}
 		},
-		"partials": {
-			"Marvel Heartbreakers": "1"
-		}
-	},
-	{
-		"id": "019d2b18-917e-703d-b88f-67349e5a808e",
-		"title": "X-Men: God Loves, Man Kills",
-		"format": "tpb",
-		"upc": [
-			"9780785127611"
-		],
-		"issues": {
-			"Marvel Graphic Novel (1982)": "5"
-		}
-	},
-	{
-		"id": "019d2b0e-2b67-75f3-8d46-830502e9440e",
-		"title": "X-Men: Iceman",
-		"format": "tpb",
-		"upc": [
-			"9780785162759"
-		],
-		"issues": {
-			"Iceman (1984)": "1-4"
+		{
+			"id": "019d2b36-cde7-7044-b945-d0581ef86bf9",
+			"title": "House of X/Powers of X",
+			"format": "ohc",
+			"upc": [
+				"9781302915704"
+			],
+			"issues": {
+				"House of X": "1-6",
+				"Powers of X": "1-6"
+			}
 		},
-		"partials": {
-			"Bizarre Adventures": "27"
-		}
-	},
-	{
-		"id": "019ccb27-506b-754c-ad66-a08faeeb09ae",
-		"title": "X-Men: Inferno Prologue Omnibus",
-		"format": "omnibus",
-		"issues": {
-			"X-Factor (1986)": "27-32",
-			"X-Factor Annual (1986)": "3",
-			"The Uncanny X-Men (1981)": "228-238",
-			"New Mutants (1983)": "62-70",
-			"New Mutants Annual (1983)": "4",
-			"The X-Men Annual (1970)": "12"
+		{
+			"id": "019d087a-cf42-70bd-9d47-1f5705517c60",
+			"title": "Howard the Duck Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9780785130239"
+			],
+			"issues": {
+				"Adventure into Fear (2014)": "19",
+				"Man-Thing (1973)": "1",
+				"Giant-Size Man-Thing (1974)": "4-5",
+				"Howard the Duck (1976)": "1-33",
+				"Howard the Duck Annual (1977)": "1",
+				"Marvel Treasury Edition": "12",
+				"Marvel Team-Up (1972)": "96"
+			}
 		},
-		"partials": {
-			"Marvel Age Annual": "4",
-			"Marvel Fanfare (1982)": "40"
-		}
-	},
-	{
-		"id": "019d2b07-2247-7638-8249-5ff9192b1d31",
-		"title": "X-Men: Lifedeath",
-		"format": "tpb",
-		"issues": {
-			"The Uncanny X-Men (1981)": "186,198,205,214"
+		{
+			"id": "019d0853-7f12-741d-9d89-2c4079bf927e",
+			"title": "JSA All-Stars: Constellations",
+			"format": "tpb",
+			"issues": {
+				"JSA All-Stars (2010)": "1-6"
+			}
 		},
-		"partials": {
-			"The X-Men (1963)": "53"
-		}
-	},
-	{
-		"id": "019d2b17-b4a5-73bb-82e3-f5b12b50971f",
-		"title": "X-Men: Longshot",
-		"format": "tpb",
-		"upc": [
-			"759606130917"
-		],
-		"issues": {
-			"Longshot (1985)": "1-6"
-		}
-	},
-	{
-		"id": "019d2b04-6bba-720b-aa4b-cdd522130eac",
-		"title": "X-Men: Phoenix Rising",
-		"format": "tpb",
-		"upc": [
-			"759606139484"
-		],
-		"issues": {
-			"The Avengers (1963)": "293",
-			"Fantastic Four (1961)": "286",
-			"X-Factor (1986)": "1"
+		{
+			"id": "019d0857-fb13-76b8-8b5e-72f1c2bd39fb",
+			"title": "JSA All-Stars: Glory Days",
+			"format": "tpb",
+			"issues": {
+				"JSA All-Stars (2010)": "7-13"
+			}
 		},
-		"partials": {
-			"Classic X-Men": "8,34"
+		{
+			"id": "019d082f-835b-736f-a01e-a331dfb5a926",
+			"title": "Justice League International Omnibus Volume 1",
+			"format": "omnibus",
+			"upc": [
+				"9781401273866"
+			],
+			"reference": "https://dc.fandom.com/wiki/Justice_League_International_Omnibus_Volume_1_(Collected)",
+			"issues": {
+				"Justice League (1987)": "1-6",
+				"Justice League Annual (1987)": "1",
+				"Justice League International (1987)": "7-25",
+				"Justice League International Annual (1987)": "7-25",
+				"Justice League America (1989)": "26-30",
+				"Justice League Europe (1989)": "1-6",
+				"Suicide Squad (1987)": "13"
+			}
+		},
+		{
+			"id": "019d0838-8941-746a-92f5-416a792d7eda",
+			"title": "Justice League International Omnibus Volume 2",
+			"format": "omnibus",
+			"upc": [
+				"9781779502964"
+			],
+			"issues": {
+				"Justice League America (1989)": "31-50",
+				"Justice League Europe (1989)": "7-25",
+				"Justice League America Annual (1989)": "4",
+				"Justice League Europe Annual (1989)": "1",
+				"Justice League International Special (1990)": "1",
+				"Justice League Quarterly (1990)": "1"
+			}
+		},
+		{
+			"id": "019d0838-a6bb-764e-a835-4881336a620e",
+			"title": "Justice League International Omnibus Volume 3",
+			"format": "omnibus",
+			"upc": [
+				"9781779525642"
+			],
+			"issues": {
+				"Justice League America (1989)": "51-60",
+				"Justice League Europe (1989)": "26-36",
+				"Justice League America Annual (1989)": "5",
+				"Justice League Europe Annual (1989)": "2",
+				"Justice League Quarterly (1990)": "2-5",
+				"Formerly known as the Justice League (2003)": "1-6",
+				"JLA Classified (2005)": "33-35"
+			},
+			"partials": {
+				"DC Retroactive: JLA-The '90s": "1",
+				"JLA 80-Page Giant": "1"
+			}
+		},
+		{
+			"id": "019d494d-47b8-748b-b83f-061dbf7b1943",
+			"title": "NYX/X-23",
+			"format": "ohc",
+			"upc": [
+				"9780785118251"
+			],
+			"issues": {
+				"NYX": "1-7",
+				"X-23 (2005)": "1-6"
+			}
+		},
+		{
+			"id": "019d2b16-94ce-77ff-9692-77808f2ea4fc",
+			"title": "NYX: No Way Home",
+			"format": "tpb",
+			"upc": [
+				"9780785128328"
+			],
+			"issues": {
+				"NYX: No Way Home": "1-6"
+			}
+		},
+		{
+			"id": "019d494b-6b13-77eb-b4ea-69fe0f3410de",
+			"title": "New X-Men Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9780785165057"
+			],
+			"issues": {
+				"New X-Men (2001)": "114-154",
+				"New X-Men 2001": "1"
+			}
+		},
+		{
+			"id": "019d2b11-ee99-7789-aa4e-be1c1c5d15c7",
+			"title": "New X-Men: Childhood's End",
+			"format": "tpb",
+			"upc": [
+				"9780785122388"
+			],
+			"issues": {
+				"New X-Men (2001)": "33-36"
+			}
+		},
+		{
+			"id": "019d26fe-32e2-75da-9a9f-44497cb640f0",
+			"title": "Phoenix: The Death & Rebirth of Jean Grey",
+			"format": "omnibus",
+			"upc": [
+				"9781302965501"
+			],
+			"issues": {
+				"New X-Men (2001)": "128,139-141,146-154",
+				"X-Men: Phoenix - Endsong": "1-5",
+				"X-Men: Phoenix - Warsong": "1-5",
+				"Avengers vs. X-Men": "0-12",
+				"Jean Grey (2017)": "1-11",
+				"Generations: Phoenix & Jean Grey": "1",
+				"Phoenix Resurrection: The Return of Jean Grey": "1-5"
+			},
+			"partials": {
+				"Point One (2011)": "1"
+			}
+		},
+		{
+			"id": "019d0858-06d9-72df-be68-90e1af392353",
+			"title": "Power Girl",
+			"format": "tpb",
+			"upc": [
+				"9781401209681"
+			],
+			"issues": {
+				"Showcase (1956)": "97-99",
+				"Secret Origins (1986)": "11",
+				"JSA (1999)": "32,39",
+				"JSA Classified (2005)": "1-4"
+			}
+		},
+		{
+			"id": "019d2617-7d06-7045-8d7c-332d0b267231",
+			"title": "Power Girl Returns",
+			"format": "tpb",
+			"upc": [
+				"9781779524072"
+			],
+			"issues": {
+				"Lazarus Planet: Assault on Krypton": "1",
+				"Action Comics": "1051-1053",
+				"Power Girl Special (2023)": "1",
+				"Knight Terrors: Action Comics": "1-2"
+			}
+		},
+		{
+			"id": "019d0864-b7c9-73bd-b063-b770998324f1",
+			"title": "Power Girl: A New Beginning",
+			"reference": "https://dc.fandom.com/wiki/Power_Girl:_A_New_Beginning_(Collected)",
+			"format": "tpb",
+			"issues": {
+				"Power Girl (2009)": "1-6"
+			}
+		},
+		{
+			"id": "019d0865-1769-732e-83ad-4c5ef804f894",
+			"title": "Power Girl: Aliens and Apes",
+			"reference": "https://dc.fandom.com/wiki/Power_Girl:_Aliens_and_Apes_(Collected)",
+			"format": "tpb",
+			"issues": {
+				"Power Girl (2009)": "7-12"
+			}
+		},
+		{
+			"id": "019d0866-7dca-7755-86c6-addd4c1bb795",
+			"title": "Power Girl: Bomb Squad",
+			"reference": "https://dc.fandom.com/wiki/Power_Girl:_Bomb_Squad_(Collected)",
+			"format": "tpb",
+			"upc": [
+				"9781401231620"
+			],
+			"issues": {
+				"Power Girl (2009)": "13-18"
+			}
+		},
+		{
+			"id": "019d2619-3596-767e-8e97-7d38f49d27dd",
+			"title": "Power Girl: Electric Dreams",
+			"format": "tpb",
+			"upc": [
+				"9781779528148"
+			],
+			"issues": {
+				"Power Girl (2023)": "1-7"
+			}
+		},
+		{
+			"id": "019d2706-e7b0-739a-bf35-2d7c994a64e8",
+			"title": "Power Girl: More Than a Crush",
+			"format": "tpb",
+			"upc": [
+				"9781799500513"
+			],
+			"issues": {
+				"Power Girl (2023)": "8-13"
+			}
+		},
+		{
+			"id": "019d4942-2bc1-7399-8d71-c49cba933e8b",
+			"title": "Power Girl: New Beginnings and Old Friends Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781401225100"
+			],
+			"issues": {
+				"JSA Classified (2005)": "1-4",
+				"Supergirl (2005)": "12",
+				"Terra (2009)": "1-4",
+				"Power Girl (2009)": "1-27",
+				"Wonder Woman (1942)": "600"
+			}
+		},
+		{
+			"id": "019d0865-5ea0-71e8-96f8-63041bad825e",
+			"title": "Power Girl: Old Friends",
+			"reference": "https://dc.fandom.com/wiki/Power_Girl:_Old_Friends_(Collected)",
+			"format": "tpb",
+			"issues": {
+				"Power Girl (2009)": "19-27"
+			}
+		},
+		{
+			"id": "019d0861-88ae-71ad-9c1d-2b9aeb611120",
+			"title": "Power Girl: Power Trip",
+			"reference": "https://dc.fandom.com/wiki/Power_Girl:_Power_Trip_(Collected)",
+			"format": "tpb",
+			"upc": [
+				"9781401243074"
+			],
+			"issues": {
+				"Power Girl (2009)": "1-12",
+				"JSA Classified (2005)": "1-4"
+			}
+		},
+		{
+			"id": "019d261a-6090-70ab-9f91-7e29b04deb69",
+			"title": "Power Girl: The Star",
+			"format": "tpb",
+			"upc": [
+				"9781799501701"
+			],
+			"issues": {
+				"Power Girl (2023)": "14-20"
+			}
+		},
+		{
+			"id": "019d4988-c404-74db-a898-1f797647fde0",
+			"title": "Return of Wolverine Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302965877"
+			],
+			"issues": {
+				"Wolverines (2015)": "1-20",
+				"Hunt for Wolverine (2018)": "1",
+				"Hunt for Wolverine: Weapon Lost (2018)": "1-4",
+				"Hunt for Wolverine: The Adamantium Agenda (2018)": "1-4",
+				"Hunt for Wolverine: The Claws of a Killer (2018)": "1-4",
+				"Hunt for Wolverine: Mystery in Madripoor (2018)": "1-4",
+				"Hunt for Wolverine: Dead Ends (2018)": "1",
+				"Return of Wolverine (2018)": "1-5",
+				"Wolverine: Infinity Watch (2019)": "1-5"
+			},
+			"partials": {
+				"Marvel Legacy (2017)": "1"
+			}
+		},
+		{
+			"id": "019d2b12-e265-7397-b1b5-d93409f02793",
+			"title": "Rogue",
+			"format": "tpb",
+			"upc": [
+				"9780785101406"
+			],
+			"issues": {
+				"Rogue (1996)": "1-4"
+			}
+		},
+		{
+			"id": "019d0881-70c9-71bc-bd97-339a2e0f5e3b",
+			"title": "Secret Wars Omnibus",
+			"format": "omnibus",
+			"issues": {
+				"Marvel Super Heroes Secret Wars": "1-12",
+				"Thor (1966)": "383",
+				"She-Hulk (2004)": "10",
+				"What If? (1989)": "4,114"
+			}
+		},
+		{
+			"id": "019d0135-1c93-705b-aacc-faadb3d551fd",
+			"title": "She-Hulk by Charles Soule: The Complete Collection",
+			"format": "tpb",
+			"upc": [
+				"9781302915469"
+			],
+			"issues": {
+				"She-Hulk (2014)": "1-12",
+				"Wolverines": "13"
+			},
+			"partials": {
+				"Gwenpool Special": "1"
+			}
+		},
+		{
+			"id": "019d0137-1fb2-77ce-875f-ed604640ab43",
+			"title": "She-Hulk by Dan Slott Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302925321"
+			],
+			"issues": {
+				"She-Hulk (2004)": "1-12",
+				"She-Hulk (2005)": "1-21",
+				"Marvel Westerns: Two-Gun Kid": "1"
+			}
+		},
+		{
+			"id": "019d0138-81e5-723b-ba09-b4e6a9a3bc63",
+			"title": "She-Hulk by Peter David Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302934835"
+			],
+			"issues": {
+				"She-Hulk (2005)": "22-38",
+				"She-Hulk Cosmic Collision": "1",
+				"X-Factor (2005)": "33-34",
+				"Sensational She-Hulk (1989)": "12"
+			},
+			"partials": {
+				"She-Hulk Sensational": "1"
+			}
+		},
+		{
+			"id": "019d013a-0ee3-73c9-9375-03c8e54534af",
+			"title": "She-Hulk by Rainbow Rowell Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302966409"
+			],
+			"issues": {
+				"She-Hulk (2022)": "1-15",
+				"Sensational She-Hulk (2023)": "1-10"
+			},
+			"partials": {
+				"Marvel Comics": "1000"
+			}
+		},
+		{
+			"id": "019d2af9-5e35-7676-a25b-df221533cd42",
+			"title": "Showcase Presents All-Star Comics 1",
+			"format": "tpb",
+			"upc": [
+				"9781401233037"
+			],
+			"issues": {
+				"All-Star Comics": "58-74",
+				"DC Comics Special": "29",
+				"Adventure Comics": "461-466"
+			}
+		},
+		{
+			"id": "019d0815-50bf-77a9-a0ea-755cec4adee8",
+			"title": "Swamp Thing: The Bronze Age Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781401273781"
+			],
+			"issues": {
+				"Swamp Thing": "1-24",
+				"The Saga of the Swamp Thing": "1-19",
+				"The House of Secrets": "92",
+				"The Saga of the Swamp Thing Annual": "1"
+			}
+		},
+		{
+			"id": "019d4944-6615-720c-92e2-5ce92db343a9",
+			"title": "Terra",
+			"format": "tpb",
+			"issues": {
+				"Supergirl (2005)": "12",
+				"Terra (2009)": "1-4"
+			}
+		},
+		{
+			"id": "019d081b-3996-70d6-a6c9-578a33d8882c",
+			"title": "The Doom Patrol Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781401245627"
+			],
+			"issues": {
+				"Doom Patrol": "19-63",
+				"Doom Force Special": "1"
+			}
+		},
+		{
+			"id": "019d081c-724f-7534-b174-2b408dc57fe3",
+			"title": "The JSA Omnibus Volume 1",
+			"format": "omnibus",
+			"upc": [
+				"9781401247614"
+			],
+			"reference": "https://dc.fandom.com/wiki/JSA_Omnibus_Vol._1_(Collected)",
+			"issues": {
+				"JSA Returns: All Star Comics (1999)": "1-2",
+				"JSA Returns: All American Comics (1999)": "1",
+				"JSA Returns: Adventure Comics (1999)": "1",
+				"JSA Returns: National Comics (1999)": "1",
+				"JSA Returns: Sensation Comics (1999)": "1",
+				"JSA Returns: Smash Comics (1999)": "1",
+				"JSA Returns: Star-Spangled Comics (1999)": "1",
+				"JSA Returns: Thrilling Comics (1999)": "1",
+				"JSA Secret Files and Origins (1999)": "1",
+				"JSA (1999)": "1-25",
+				"Secret Origins of Super Villains (1999)": "1",
+				"JSA: Our Worlds at War (2001)": "1",
+				"JLA/JSA Secret Files and Origins (2003)": "1",
+				"JLA/JSA Virtue and Vice (2003)": "1",
+				"JSA: All Stars (2003)": "1-8"
+			}
+		},
+		{
+			"id": "019d0827-7363-7438-b716-236447867574",
+			"title": "The JSA Omnibus Volume 2",
+			"format": "omnibus",
+			"upc": [
+				"9781401251383"
+			],
+			"reference": "https://dc.fandom.com/wiki/JSA_Omnibus_Vol._2_(Collected)",
+			"issues": {
+				"JSA Annual (1999)": "1",
+				"JSA Secret Files and Origins (1999)": "2",
+				"JSA (1999)": "26-75",
+				"Hawkman (2002)": "23-25"
+			}
+		},
+		{
+			"id": "019d0829-6861-74d9-9401-5bf3679aae3a",
+			"title": "The JSA Omnibus Volume 3",
+			"format": "omnibus",
+			"upc": [
+				"9781401255305"
+			],
+			"reference": "https://dc.fandom.com/wiki/JSA_Omnibus_Vol._3_(Collected)",
+			"issues": {
+				"JSA (1999)": "76-87",
+				"Justice Society of America (2007)": "1-28",
+				"Justice Society of America Annual (2007)": "1",
+				"Justice League of America (2006)": "8-10",
+				"Justice Society of America Kingdom Come Special Superman (2009)": "1",
+				"Justice Society of America Kingdom Come Special Magog (2009)": "1",
+				"Justice Society of America Kingdom Come Special: The Kingdom (2009)": "1"
+			}
+		},
+		{
+			"id": "019d4938-1e72-72b2-9efe-0ef8e907a42c",
+			"title": "The New Mutants Omnibus Volume 1",
+			"format": "omnibus",
+			"upc": [
+				"9781302926885"
+			],
+			"issues": {
+				"Marvel Graphic Novel (1982)": "4",
+				"New Mutants (1983)": "1-34",
+				"New Mutants Annual (1983)": "1",
+				"Marvel Team-Up (1972)": "149",
+				"Marvel Team Up Annual": "6",
+				"The Uncanny X-Men (1981)": "160,167,180,189,194",
+				"Magik (1983)": "1-4"
+			},
+			"partials": {
+				"Marvel Team-Up (1972)": "100"
+			}
+		},
+		{
+			"id": "019d493a-b93a-73ca-a51f-e781928ed043",
+			"title": "The New Mutants Omnibus Volume 2",
+			"format": "omnibus",
+			"upc": [
+				"9781302932350"
+			],
+			"issues": {
+				"New Mutants (1983)": "35-54",
+				"New Mutants Special Edition": "1",
+				"New Mutants Annual (1983)": "2-3",
+				"The X-Men Annual (1970)": "9-10",
+				"Power Pack (1984)": "20,33",
+				"Fallen Angels (1987)": "1-8",
+				"Firestar (1986)": "1-4",
+				"New Mutants: War Children": "1"
+			},
+			"partials": {
+				"Web of Spider-Man Annual": "2"
+			}
+		},
+		{
+			"id": "019d493d-2f93-711f-a021-52e805a5c939",
+			"title": "The New Mutants Omnibus Volume 3",
+			"format": "omnibus",
+			"upc": [
+				"9781302954086"
+			],
+			"issues": {
+				"New Mutants (1983)": "55-85",
+				"New Mutants Annual (1983)": "4",
+				"Spellbound (1988)": "4",
+				"Power Pack (1984)": "40",
+				"The Uncanny X-Men (1981)": "231",
+				"X-Terminators (1988)": "22"
+			},
+			"partials": {
+				"Marvel Comics Presents (1988)": "22",
+				"Marvel Fanfare (1982)": "55",
+				"Marvel Super-Heroes (1990)": "1",
+				"X-Men: Odd Men Out": "1"
+			}
+		},
+		{
+			"id": "019d013b-5124-73e0-ad1b-c9531735a8a6",
+			"title": "The Savage She-Hulk Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302934231"
+			],
+			"issues": {
+				"The Savage She-Hulk": "1-25",
+				"Marvel Two-In-One (1972)": "88"
+			}
+		},
+		{
+			"id": "019d013c-1ba8-763e-99ce-3f33a90fe642",
+			"title": "The Sensational She-Hulk by John Byrne Omnibus",
+			"reference": "https://marvel.fandom.com/wiki/Sensational_She-Hulk_by_John_Byrne_Omnibus_Vol_1_1",
+			"format": "omnibus",
+			"upc": [
+				"9781302923686"
+			],
+			"issues": {
+				"Marvel Graphic Novel (1982)": "18",
+				"Sensational She-Hulk (1989)": "1-8,31-46,48-50"
+			},
+			"partials": {
+				"Marvel Comics Presents (1988)": "18"
+			}
+		},
+		{
+			"id": "019cbb89-193b-70fc-a729-9155633466c0",
+			"title": "The Thanos War: Infinity Origin Omnibus",
+			"format": "omnibus",
+			"issues": {
+				"Iron Man (1968)": "55",
+				"Captain Marvel (1968)": "25-34",
+				"Marvel Feature (1971)": "12",
+				"The Avengers (1963)": "125",
+				"Strange Tales (1951)": "178-181",
+				"Warlock (1972)": "9-15",
+				"Marvel Team-Up (1972)": "55",
+				"The Avengers Annual (1967)": "7",
+				"Marvel Two-in-one Annual (1976)": "2",
+				"Marvel Graphic Novel (1982)": "1",
+				"Daredevil (1964)": "105",
+				"Logan's Run (1977)": "6"
+			}
+		},
+		{
+			"id": "019cbb17-eef4-7579-86bc-f4ffa314e96b",
+			"title": "The Uncanny X-Men Omnibus Volume 1",
+			"format": "omnibus",
+			"upc": [
+				"9780785185697"
+			],
+			"issues": {
+				"Giant-Size X-Men": "1",
+				"The X-Men (1963)": "94-131",
+				"The X-Men Annual (1970)": "3"
+			}
+		},
+		{
+			"id": "019cbb85-3e46-779a-95a0-d2fc14411d80",
+			"title": "The Uncanny X-Men Omnibus Volume 2",
+			"format": "omnibus",
+			"upc": [
+				"9780785185727"
+			],
+			"issues": {
+				"The X-Men (1963)": "132-141",
+				"The X-Men Annual (1970)": "4-5",
+				"The Uncanny X-Men (1981)": "142-153",
+				"The Avengers Annual (1967)": "10",
+				"Marvel Fanfare": "1-4",
+				"Marvel Treasury Edition": "26-27",
+				"Marvel Team-Up (1972)": "100",
+				"Bizarre Adventures": "27",
+				"Phoenix: The Untold Story": "1"
+			}
+		},
+		{
+			"id": "019d2546-08fc-73ba-ae86-b65550ed5365",
+			"title": "The Uncanny X-Men Omnibus Volume 3",
+			"format": "omnibus",
+			"upc": [
+				"9780785199229"
+			],
+			"issues": {
+				"The X-Men Annual (1970)": "6-7",
+				"The Uncanny X-Men (1981)": "154-175",
+				"Special Edition X-Men": "1",
+				"Marvel Fanfare": "1-4",
+				"Marvel Graphic Novel (1982)": "5",
+				"Wolverine (1982)": "1-4",
+				"Magik (1983)": "1-4"
+			}
+		},
+		{
+			"id": "019d257a-33a4-703f-8b41-c133c0dc7983",
+			"title": "The Uncanny X-Men Omnibus Volume 4",
+			"format": "omnibus",
+			"upc": [
+				"9781302927042"
+			],
+			"issues": {
+				"The X-Men Annual (1970)": "8",
+				"The Uncanny X-Men (1981)": "176-193",
+				"Kitty Pryde and Wolverine": "1-6",
+				"X-Men and Alpha Flight": "1-2",
+				"Marvel Fanfare": "40"
+			}
+		},
+		{
+			"id": "019d257d-4c0f-728a-9d43-8a316631f849",
+			"title": "The Uncanny X-Men Omnibus Volume 5",
+			"format": "omnibus",
+			"upc": [
+				"9781302948719"
+			],
+			"issues": {
+				"The X-Men Annual (1970)": "9-10",
+				"The Uncanny X-Men (1981)": "194-209",
+				"New Mutants Special Edition": "1",
+				"New Mutants Annual (1983)": "2",
+				"Nightcrawler (1985)": "1-4",
+				"Longshot (1985)": "1-6",
+				"Marvel Fanfare": "33"
+			}
+		},
+		{
+			"id": "019d253d-7528-73fc-b847-2880c44dc2f1",
+			"title": "The X-Men Omnibus Volume 1",
+			"format": "omnibus",
+			"upc": [
+				"9780785129585"
+			],
+			"issues": {
+				"The X-Men (1963)": "1-31"
+			}
+		},
+		{
+			"id": "019d253e-7121-75e6-bc6b-4b9a977b9362",
+			"title": "The X-Men Omnibus Volume 2",
+			"format": "omnibus",
+			"upc": [
+				"9780785153078"
+			],
+			"issues": {
+				"The X-Men (1963)": "32-66",
+				"The Avengers (1963)": "53"
+			}
+		},
+		{
+			"id": "019d0845-feb7-7089-967f-721b3afcdf9e",
+			"title": "Tomb Raider Archives Volume 1",
+			"format": "ohc",
+			"upc": [
+				"9781506703329"
+			],
+			"issues": {
+				"Tomb Raider (1999)": "1-15"
+			}
+		},
+		{
+			"id": "019d0847-352c-75ae-b214-9624c3170696",
+			"title": "Tomb Raider Archives Volume 2",
+			"format": "ohc",
+			"upc": [
+				"9781506703527"
+			],
+			"issues": {
+				"Tomb Raider (1999)": "16-24,26-34"
+			}
+		},
+		{
+			"id": "019d0847-d61b-735d-a742-cf7c3b1dd60d",
+			"title": "Tomb Raider Archives Volume 3",
+			"format": "ohc",
+			"upc": [
+				"9781506703534"
+			],
+			"issues": {
+				"Tomb Raider (1999)": "35-50"
+			}
+		},
+		{
+			"id": "019d0848-343e-70b1-995b-a221af70e472",
+			"title": "Tomb Raider Archives Volume 4",
+			"format": "ohc",
+			"upc": [
+				"9781506703541"
+			],
+			"issues": {
+				"Tomb Raider (1999)": "0,0.5",
+				"Tomb Raider: Journeys": "1-12",
+				"Tomb Raider: Origins": "1",
+				"Tomb Raider: Epihany": "1",
+				"Tomb Raider: Takeover": "1",
+				"Tomb Raider: Arabian Nights": "1",
+				"Tomb Raider: The Greatest Treasure of All": "1"
+			}
+		},
+		{
+			"id": "019d4a26-a839-770b-bdf1-c4207236f914",
+			"title": "Uncanny X-Force Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302957735"
+			],
+			"issues": {
+				"Uncanny X-Force": "1-35,5.1,19.1"
+			},
+			"partials": {
+				"Wolverine: The Road to Hell": "1"
+			}
+		},
+		{
+			"id": "019d2b10-f382-7580-9acf-061a900fbc66",
+			"title": "Uncanny X-Men - The New Age: The Cruelest Cut",
+			"format": "tpb",
+			"upc": [
+				"9780785116455"
+			],
+			"issues": {
+				"The Uncanny X-Men (1981)": "450-454"
+			}
+		},
+		{
+			"id": "019d4958-186e-741e-a5a6-805b68323664",
+			"title": "Uncanny X-Men by Brian Michael Bendis Omnibus",
+			"format": "omnibus",
+			"notes": "UXM issue 15.INH has been simplified to just 15.",
+			"issues": {
+				"Uncanny X-Men (2013)": "1-35,600",
+				"All-New X-Men (2012)": "16-17",
+				"Wolverine & the X-Men (2011)": "36-37",
+				"X-Men: Battle of the Atom": "1-2",
+				"X-Men (2013)": "1-5",
+				"Uncanny X-Men Annual (2014)": "1",
+				"All-New X-Men Annual (2014)": "1"
+			}
+		},
+		{
+			"id": "019d26f6-0e33-7762-b018-31e94c9c42a1",
+			"title": "Uncanny X-Men by Kieron Gillen Omnibus",
+			"format": "omnibus",
+			"issues": {
+				"S.W.O.R.D. (2009)": "1-5",
+				"The Uncanny X-Men (1981)": "534.1,535-544",
+				"X-Men: Regenesis (2011)": "1",
+				"Uncanny X-Men (2011)": "1-20",
+				"AVX: Consequences": "1-5"
+			}
+		},
+		{
+			"id": "019d4960-f20b-740e-94d4-8a4579e836cf",
+			"title": "Weapon X: The Return Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302911829"
+			],
+			"issues": {
+				"Wolverine (1988)": "162-166,173-174,176",
+				"Deadpool (1997)": "57-60",
+				"Weapon X (2002)": "0.5,1-28",
+				"Weapon X: The Draft - Sauron": "1",
+				"Weapon X: The Draft - Wild Child": "1",
+				"Weapon X: The Draft - Kane": "1",
+				"Weapon X: The Draft - Marrow": "1",
+				"Weapon X: The Draft - Agent Zero": "1",
+				"Weapon X: Days of Future Now": "1-5"
+			},
+			"partials": {
+				"Wolverine (1988)": "175",
+				"Deadpool (2012)": "27"
+			}
+		},
+		{
+			"id": "019d4965-2cf9-7291-ae5e-0b661aa0062f",
+			"title": "Wolverine Omnibus Volume 1",
+			"format": "omnibus",
+			"upc": [
+				"9780785134770"
+			],
+			"issues": {
+				"Marvel Comics Presents (1988)": "1-10,72-84",
+				"Incredible Hulk (1968)": "180-182",
+				"Marvel Treasury Edition": "26",
+				"Best of Marvel Comics: Wolverine (1982)": "1-4",
+				"The Uncanny X-Men (1981)": "172-173",
+				"Kitty Pryde and Wolverine": "1-6",
+				"Captain America Annual": "8",
+				"Spider-Man Versus Wolverine": "1",
+				"Marvel Age Annual": "4",
+				"Wolverine (1988)": "1-10",
+				"Punnisher War Journal": "6-7"
+			}
+		},
+		{
+			"id": "019d4968-5875-7119-a492-67bc0a4569c1",
+			"title": "Wolverine Omnibus Volume 2",
+			"format": "omnibus",
+			"upc": [
+				"9781302929954"
+			],
+			"issues": {
+				"Wolverine (1988)": "11-30",
+				"Havok & Wolverine: Meltdown": "1-4",
+				"Wolverine/Nick Fury: The Scorpio Connection": "1",
+				"Wolverine: The Jungle Adventure": "1",
+				"Wolverins: Bloodlust": "1"
+			},
+			"partials": {
+				"Marvel Comics Presents (1988)": "38-71"
+			}
+		},
+		{
+			"id": "019d496a-772a-771a-afac-2de328932e9d",
+			"title": "Wolverine Omnibus Volume 3",
+			"format": "omnibus",
+			"upc": [
+				"9781302946524"
+			],
+			"issues": {
+				"Wolverine (1988)": "31-59",
+				"Wolverine: Bloody Choices": "1",
+				"Wolverine: Rahne of Terra": "1",
+				"Ghost Rider/Wolverine/Punisher: Hearts of Darkness": "1",
+				"X-Men (1991)": "4-7"
+			},
+			"partials": {
+				"Marvel Fanfare (1982)": "54-55",
+				"Marvel Comics Presents (1988)": "85-108"
+			}
+		},
+		{
+			"id": "019d496c-e07e-77d1-9635-da8401f2359c",
+			"title": "Wolverine Omnibus Volume 4",
+			"format": "omnibus",
+			"upc": [
+				"9781302954000"
+			],
+			"issues": {
+				"Wolverine (1988)": "60-75",
+				"Wolverine: Inner Fury": "1",
+				"Wolverine: Killing": "1",
+				"Wolverine: Global Jeopardy": "1",
+				"Wolverine: and the Punisher: Damaging Evidence": "1-3",
+				"Sabretooth (1993)": "1-4",
+				"Spider-Man/Punisher/Sabretooth: Designer Genes:": "1",
+				"X-Men (1991)": "25"
+			},
+			"partials": {
+				"Marvel Holiday Special (1991)": "2",
+				"Marvel Comics Presents (1988)": "109-142"
+			}
+		},
+		{
+			"id": "019d497a-206f-7472-8d83-2d6add3940bd",
+			"title": "Wolverine Omnibus Volume 5",
+			"format": "omnibus",
+			"upc": [
+				"9781302958060"
+			],
+			"issues": {
+				"Wolverine (1988)": "76-101",
+				"Wolverine Annual '95": "1",
+				"Marvel Comics Presents (1988)": "150-151",
+				"Cable (1993)": "16",
+				"Wolverine: Evilution": "1",
+				"Wolverine & Nick Fury: Scorpio Rising": "1",
+				"Ghost Rider/Wolverine/Punisher: The Dark Design": "1",
+				"Wolverine: Knight of Terra": "1",
+				"Wolverine/Gambit: Victims": "1-4",
+				"The Uncanny X-Men (1981)": "332",
+				"Logan: Path of the Warlord": "1"
+			},
+			"partials": {
+				"Marvel Comics Presents (1988)": "152-155"
+			}
+		},
+		{
+			"id": "019d497d-91e5-775c-a26f-8a52b547c08b",
+			"title": "Wolverine Omnibus Volume 6",
+			"format": "omnibus",
+			"upc": [
+				"9781302964313"
+			],
+			"issues": {
+				"Wolverine (1988)": "102-118,-1,0.5,102.5",
+				"Wolverine Annual '96": "1",
+				"Wolverine Annual '97": "1",
+				"Venom: Tooth and Claw": "1-3",
+				"Maverick (1997A)": "1",
+				"Logan: Shadow Society": "1",
+				"Kitty Pryde, Agent of S.H.I.E.L.D.": "1-3",
+				"Wolverine: Doombringer": "1",
+				"Before the Fantastic Four: Ben Grimm and Logan": "1-3",
+				"Wolverine: Days of Future Past": "1-3",
+				"Wolverine Encyclopedia": "1-2"
+			},
+			"partials": {
+				"Marvel: Shadows and Light": "1"
+			}
+		},
+		{
+			"id": "019d26f9-7c45-76dc-90c1-be09da80ce5d",
+			"title": "Wolverine and the X-Men Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9780785190240"
+			],
+			"issues": {
+				"Wolverine & the X-Men (2011)": "1-35,38-42",
+				"Wolverine & the X-Men Annual (2011)": "1"
+			}
+		},
+		{
+			"id": "019d4975-aa1b-7179-9c45-0b34450386c3",
+			"title": "Wolverine by Jason Aaron Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9780785156390"
+			],
+			"issues": {
+				"Wolverine (2003)": "56,62-65",
+				"Wolverine: Manifest Destiny": "1-4",
+				"Wolverine Weapon X": "1-16",
+				"Dark Reign: The List - Wolverine": "1"
+			},
+			"partials": {
+				"Wolverine (2003)": "73-74",
+				"Dark X-Men: The Beginning": "3",
+				"Wolverine (1988)": "175"
+			}
+		},
+		{
+			"id": "019d4982-41e1-743d-b055-65d96fd36789",
+			"title": "Wolverine by Mark Millar Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9780785167969"
+			],
+			"issues": {
+				"Wolverine (2003)": "20-32,66-72",
+				"Wolverine: Old Man Logan Giant-Size": "1"
+			}
+		},
+		{
+			"id": "019d4983-633e-77cb-bb06-d5a417d3dfd8",
+			"title": "Wolverine goes to Hell Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302911591"
+			],
+			"issues": {
+				"Astonshing Spider-Man & Wolverine": "1-6",
+				"Wolverine (2010)": "1-20,5.1,300-304",
+				"X-Men: Schism": "1-5"
+			},
+			"partials": {
+				"Wolverine: The Road to Hell": "1"
+			}
+		},
+		{
+			"id": "019d498e-40e0-72e9-b1cd-8abea112b450",
+			"title": "X-23 Omnibus Volume 1",
+			"format": "omnibus",
+			"upc": [
+				"9781302951603"
+			],
+			"issues": {
+				"X-23 (2005)": "1-6",
+				"X-23: Target X": "1-6",
+				"X-23 (2010A)": "1",
+				"X-23 (2010B)": "1-21",
+				"Captain Universe/X-23": "1",
+				"Daken: Dark Wolverine": "8-9"
+			},
+			"partials": {
+				"X-Men: To Serve and Protect": "2",
+				"Wolverine: The Road to Hell": "1",
+				"All-New Wolverine Saga": "1"
+			}
+		},
+		{
+			"id": "019d499a-0333-763a-8174-0673646539b2",
+			"title": "X-Factor by Peter David Omnibus Volume 1",
+			"format": "omnibus",
+			"upc": [
+				"9781302930660"
+			],
+			"issues": {
+				"X-Factor (1986)": "55,70-92",
+				"X-Factor Annual (1986)": "7-8",
+				"Incredible Hulk (1968)": "390-392"
+			},
+			"partials": {
+				"X-Factor Annual (1986)": "5-6",
+				"New Mutants Annual (1984)": "6"
+			}
+		},
+		{
+			"id": "019d499c-0257-732d-ae87-5415e51aa996",
+			"title": "X-Factor by Peter David Omnibus Volume 2",
+			"format": "omnibus",
+			"upc": [
+				"9781302945220"
+			],
+			"issues": {
+				"Madrox": "1-5",
+				"X-Factor (2005)": "1-39",
+				"X-Factor: The Quick and the Dead": "1",
+				"X-Factor: Layla Miller": "1",
+				"She-Hulk (2005)": "31"
+			}
+		},
+		{
+			"id": "019d499d-6bc3-72e8-be78-48311827f491",
+			"title": "X-Factor by Peter David Omnibus Volume 3",
+			"format": "omnibus",
+			"upc": [
+				"9781302953300"
+			],
+			"issues": {
+				"X-Factor (2005)": "40-50,200-232,224.1",
+				"Nation X: X-Factor": "1"
+			}
+		},
+		{
+			"id": "019d499e-4ad4-77ba-bbfd-23f3efd2b037",
+			"title": "X-Factor by Peter David Omnibus Volume 4",
+			"format": "omnibus",
+			"upc": [
+				"9781302964252"
+			],
+			"issues": {
+				"X-Factor (2005)": "233-262",
+				"All-New X-Factor": "1-20",
+				"X-Men: Legends (2021)": "5-6"
+			}
+		},
+		{
+			"id": "019d4994-7cee-723d-9afd-b07489a0b02b",
+			"title": "X-Factor: The Original X-Men Volume 1",
+			"format": "omnibus",
+			"upc": [
+				"9781302956974"
+			],
+			"issues": {
+				"The Avengers (1963)": "263",
+				"Fantastic Four (1961)": "286,312",
+				"X-Factor (1986)": "1-26",
+				"X-Factor Annual (1986)": "1-2",
+				"Iron Man Annual (1970)": "8",
+				"The Amazing Spider-Man (1963)": "282",
+				"Thor (1966)": "373-374,377-378",
+				"Power Pack (1984)": "27,35",
+				"Mpehisto vs.": "2",
+				"Incredible Hulk (1968)": "336-337",
+				"Classic X-Men": "8,43",
+				"Secret Wars II": "5"
+			},
+			"partials": {
+				"Marvel Fanfare (1982)": "40"
+			}
+		},
+		{
+			"id": "019cca9f-193f-744a-86b6-49be35379f84",
+			"title": "X-Factor: The Original X-Men Volume 2",
+			"format": "omnibus",
+			"upc": [
+				"9781302966096"
+			],
+			"issues": {
+				"X-Factor (1986)": "27-50",
+				"X-Factor Annual (1986)": "3-4",
+				"X-Terminators (1988)": "1-4",
+				"The Uncanny X-Men (1981)": "240-243",
+				"New Mutants (1983)": "76",
+				"Fantastic Four (1961)": "342"
+			},
+			"partials": {
+				"New Mutants Annual (1984)": "6",
+				"Marvel Comics Presents (1988)": "15,17-24"
+			}
+		},
+		{
+			"id": "019d4a27-d9e4-73cd-84a6-dae1617cec66",
+			"title": "X-Force Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9780785165958"
+			],
+			"issues": {
+				"New Mutants (1983)": "98-100",
+				"New Mutants Annual (1983)": "7",
+				"The X-Men Annual (1970)": "15",
+				"X-Factor Annual (1986)": "6",
+				"X-Force (1991)": "1-15",
+				"Spider-Man (1990)": "16",
+				"Cable: Blood & Metal": "1-2"
+			},
+			"partials": {
+				"New Warriors Annuak": "1",
+				"X-Force Annual (1992)": "1"
+			}
+		},
+		{
+			"id": "019d2b15-2822-72cf-99b2-24b8c6f469c2",
+			"title": "X-Infernus",
+			"format": "tpb",
+			"upc": [
+				"9780785139478"
+			],
+			"issues": {
+				"X-Infernus": "1-4"
+			}
+		},
+		{
+			"id": "019d253f-f4f2-76f9-97a0-2c8b53bd0ce9",
+			"title": "X-Men By Hickman Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302929985"
+			],
+			"issues": {
+				"X-Men (2019)": "1-12,16-21",
+				"Giant-Size X-Men: Jean Grey & Emma Frost (2020)": "1",
+				"Giant-Size X-Men: Nightcrawler (2020)": "1",
+				"Giant-Size X-Men: Magneto (2020)": "1",
+				"Giant-Size X-Men: Fantomex (2020)": "1",
+				"Giant-Size X-Men: Storm (2020)": "1"
+			}
+		},
+		{
+			"id": "019d4a35-813d-75cc-a02a-e82145b0e3d9",
+			"title": "X-Men Omnibus Volume 1",
+			"format": "omnibus",
+			"upc": [
+				"9780785158226"
+			],
+			"issues": {
+				"The Uncanny X-Men (1981)": "244-269",
+				"The X-Men Annual (1970)": "13",
+				"Classic X-Men": "39"
+			}
+		},
+		{
+			"id": "019d4a37-06a5-738f-b1db-a59b0bf03b35",
+			"title": "X-Men Omnibus Volume 2",
+			"format": "omnibus",
+			"upc": [
+				"9780785159056"
+			],
+			"issues": {
+				"X-Factor (1986)": "63-70",
+				"The Uncanny X-Men (1981)": "273-280",
+				"X-Men (1991)": "1-9"
+			},
+			"partials": {
+				"X-Men (1991)": "10-11",
+				"Ghost Rider (1990)": "26-27"
+			}
+		},
+		{
+			"id": "019d4a2f-f397-76fe-982d-bf4205b3b223",
+			"title": "X-Men by Marc Guggenheim Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302966164"
+			],
+			"issues": {
+				"Young X-Men": "1-12",
+				"X-Men (2013)": "18-22",
+				"X-Tinction Agenda": "1-4",
+				"X-Men Prime (2017)": "1",
+				"X-Men Gold (2017)": "1-36",
+				"X-Men Gold Annual (2017)": "1",
+				"X-Men Blue": "13-15",
+				"X-Men: The Wedding Special (2018)": "1",
+				"X-Men: Days of Future Past - Doomsday": "1-5"
+			},
+			"partials": {
+				"X-Men: Manufest Destiny": "3",
+				"X-Men: To Serve and Protect": "3",
+				"Marvel Comics": "1001"
+			}
+		},
+		{
+			"id": "019d2b19-43e5-77b8-94f9-62a6c63eb52b",
+			"title": "X-Men: Beauty and the Beast",
+			"format": "tpb",
+			"upc": [
+				"9780785162735"
+			],
+			"issues": {
+				"Marvel Graphic Novel (1982)": "12",
+				"Beauty and the Beast (1984)": "1-4"
+			},
+			"partials": {
+				"Marvel Heartbreakers": "1"
+			}
+		},
+		{
+			"id": "019d2b18-917e-703d-b88f-67349e5a808e",
+			"title": "X-Men: God Loves, Man Kills",
+			"format": "tpb",
+			"upc": [
+				"9780785127611"
+			],
+			"issues": {
+				"Marvel Graphic Novel (1982)": "5"
+			}
+		},
+		{
+			"id": "019d2b0e-2b67-75f3-8d46-830502e9440e",
+			"title": "X-Men: Iceman",
+			"format": "tpb",
+			"upc": [
+				"9780785162759"
+			],
+			"issues": {
+				"Iceman (1984)": "1-4"
+			},
+			"partials": {
+				"Bizarre Adventures": "27"
+			}
+		},
+		{
+			"id": "019ccb27-506b-754c-ad66-a08faeeb09ae",
+			"title": "X-Men: Inferno Prologue Omnibus",
+			"format": "omnibus",
+			"issues": {
+				"X-Factor (1986)": "27-32",
+				"X-Factor Annual (1986)": "3",
+				"The Uncanny X-Men (1981)": "228-238",
+				"New Mutants (1983)": "62-70",
+				"New Mutants Annual (1983)": "4",
+				"The X-Men Annual (1970)": "12"
+			},
+			"partials": {
+				"Marvel Age Annual": "4",
+				"Marvel Fanfare (1982)": "40"
+			}
+		},
+		{
+			"id": "019d2b07-2247-7638-8249-5ff9192b1d31",
+			"title": "X-Men: Lifedeath",
+			"format": "tpb",
+			"issues": {
+				"The Uncanny X-Men (1981)": "186,198,205,214"
+			},
+			"partials": {
+				"The X-Men (1963)": "53"
+			}
+		},
+		{
+			"id": "019d2b17-b4a5-73bb-82e3-f5b12b50971f",
+			"title": "X-Men: Longshot",
+			"format": "tpb",
+			"upc": [
+				"759606130917"
+			],
+			"issues": {
+				"Longshot (1985)": "1-6"
+			}
+		},
+		{
+			"id": "019d2b04-6bba-720b-aa4b-cdd522130eac",
+			"title": "X-Men: Phoenix Rising",
+			"format": "tpb",
+			"upc": [
+				"759606139484"
+			],
+			"issues": {
+				"The Avengers (1963)": "293",
+				"Fantastic Four (1961)": "286",
+				"X-Factor (1986)": "1"
+			},
+			"partials": {
+				"Classic X-Men": "8,34"
+			}
+		},
+		{
+			"id": "019d2b14-1207-722f-a62f-39d016cc33d1",
+			"title": "X-Terminators",
+			"format": "tpb",
+			"upc": [
+				"9781302946999"
+			],
+			"issues": {
+				"X-Terminators (2022)": "1-5"
+			}
+		},
+		{
+			"id": "019d2b0f-5a6f-7028-b729-71f9cfe67a50",
+			"title": "X-Women",
+			"format": "tpb",
+			"upc": [
+				"9780785162797"
+			],
+			"issues": {
+				"X-Women": "1",
+				"Women of Marvel: X-23": "1",
+				"Women of Marvel: Cloak & Dagger": "1",
+				"Women of Marvel: Dazzler": "1"
+			}
 		}
-	},
-	{
-		"id": "019d2b14-1207-722f-a62f-39d016cc33d1",
-		"title": "X-Terminators",
-		"format": "tpb",
-		"upc": [
-			"9781302946999"
-		],
-		"issues": {
-			"X-Terminators (2022)": "1-5"
-		}
-	},
-	{
-		"id": "019d2b0f-5a6f-7028-b729-71f9cfe67a50",
-		"title": "X-Women",
-		"format": "tpb",
-		"upc": [
-			"9780785162797"
-		],
-		"issues": {
-			"X-Women": "1",
-			"Women of Marvel: X-23": "1",
-			"Women of Marvel: Cloak & Dagger": "1",
-			"Women of Marvel: Dazzler": "1"
-		}
-	}
-]
+	]
+}
