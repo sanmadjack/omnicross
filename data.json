@@ -770,6 +770,18 @@
 		}
 	},
 	{
+		"id": "019d494b-6b13-77eb-b4ea-69fe0f3410de",
+		"title": "New X-Men Omnibus",
+		"format": "omnibus",
+		"upc": [
+			"9780785165057"
+		],
+		"issues": {
+			"New X-Men (2001)": "114-154",
+			"New X-Men 2001": "1"
+		}
+	},
+	{
 		"id": "019d2b11-ee99-7789-aa4e-be1c1c5d15c7",
 		"title": "New X-Men: Childhood's End",
 		"format": "tpb",
