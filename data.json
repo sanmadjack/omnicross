@@ -759,6 +759,18 @@
 		}
 	},
 	{
+		"id": "019d494d-47b8-748b-b83f-061dbf7b1943",
+		"title": "NYX/X-23",
+		"format": "ohc",
+		"upc": [
+			"9780785118251"
+		],
+		"issues": {
+			"NYX": "1-7",
+			"X-23": "1-7"
+		}
+	},
+	{
 		"id": "019d2b16-94ce-77ff-9692-77808f2ea4fc",
 		"title": "NYX: No Way Home",
 		"format": "tpb",
