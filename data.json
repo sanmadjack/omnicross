@@ -1037,7 +1037,7 @@
 		"format": "omnibus",
 		"issues": {
 			"Marvel Super Heroes Secret Wars": "1-12",
-			"Thor": "383",
+			"Thor (1966)": "383",
 			"She-Hulk (2004)": "10",
 			"What If? (1989)": "4,114"
 		}
@@ -1719,6 +1719,9 @@
 		"id": "019d498e-40e0-72e9-b1cd-8abea112b450",
 		"title": "X-23 Omnibus Volume 1",
 		"format": "omnibus",
+		"upc": [
+			"9781302951603"
+		],
 		"issues": {
 			"X-23 (2005)": "1-6",
 			"X-23: Target X": "1-6",
@@ -1734,9 +1737,94 @@
 		}
 	},
 	{
+		"id": "019d499a-0333-763a-8174-0673646539b2",
+		"title": "X-Factor by Peter David Omnibus Volume 1",
+		"format": "omnibus",
+		"upc": [
+			"9781302930660"
+		],
+		"issues": {
+			"X-Factor (1986)": "55,70-92",
+			"X-Factor Annual (1986)": "7-8",
+			"Incredible Hulk (1968)": "390-392"
+		},
+		"partials": {
+			"X-Factor Annual (1986)": "5-6",
+			"New Mutants Annual (1984)": "6"
+		}
+	},
+	{
+		"id": "019d499c-0257-732d-ae87-5415e51aa996",
+		"title": "X-Factor by Peter David Omnibus Volume 2",
+		"format": "omnibus",
+		"upc": [
+			"9781302945220"
+		],
+		"issues": {
+			"Madrox": "1-5",
+			"X-Factor (2005)": "1-39",
+			"X-Factor: The Quick and the Dead": "1",
+			"X-Factor: Layla Miller": "1",
+			"She-Hulk (2005)": "31"
+		}
+	},
+	{
+		"id": "019d499d-6bc3-72e8-be78-48311827f491",
+		"title": "X-Factor by Peter David Omnibus Volume 3",
+		"format": "omnibus",
+		"upc": [
+			"9781302953300"
+		],
+		"issues": {
+			"X-Factor (2005)": "40-50,200-232,224.1",
+			"Nation X: X-Factor": "1"
+		}
+	},
+	{
+		"id": "019d499e-4ad4-77ba-bbfd-23f3efd2b037",
+		"title": "X-Factor by Peter David Omnibus Volume 4",
+		"format": "omnibus",
+		"upc": [
+			"9781302964252"
+		],
+		"issues": {
+			"X-Factor (2005)": "233-262",
+			"All-New X-Factor": "1-20",
+			"X-Men: Legends (2021)": "5-6"
+		}
+	},
+	{
+		"id": "019d4994-7cee-723d-9afd-b07489a0b02b",
+		"title": "X-Factor: The Original X-Men Volume 1",
+		"format": "omnibus",
+		"upc": [
+			"9781302956974"
+		],
+		"issues": {
+			"The Avengers (1963)": "263",
+			"Fantastic Four (1961)": "286,312",
+			"X-Factor (1986)": "1-26",
+			"X-Factor Annual (1986)": "1-2",
+			"Iron Man Annual (1970)": "8",
+			"The Amazing Spider-Man (1963)": "282",
+			"Thor (1966)": "373-374,377-378",
+			"Power Pack (1984)": "27,35",
+			"Mpehisto vs.": "2",
+			"Incredible Hulk (1968)": "336-337",
+			"Classic X-Men": "8,43",
+			"Secret Wars II": "5"
+		},
+		"partials": {
+			"Marvel Fanfare (1982)": "40"
+		}
+	},
+	{
 		"id": "019cca9f-193f-744a-86b6-49be35379f84",
 		"title": "X-Factor: The Original X-Men Volume 2",
 		"format": "omnibus",
+		"upc": [
+			"9781302966096"
+		],
 		"issues": {
 			"X-Factor (1986)": "27-50",
 			"X-Factor Annual (1986)": "3-4",
