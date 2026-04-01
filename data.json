@@ -3,6 +3,9 @@
 		"id": "019d0818-a821-716a-90c7-64cff9c74898",
 		"title": "Absolute Infinite Crisis",
 		"format": "absolute",
+		"upc": [
+			"9781401265359"
+		],
 		"reference": "https://www.dc.com/graphic-novels/infinite-crisis-2005/absolute-infinite-crisis",
 		"issues": {
 			"Infinite Crisis": "1-7"
@@ -12,6 +15,9 @@
 		"id": "019d081a-25f6-72af-8d6b-05f7cc41dca4",
 		"title": "Absolute Kingdom Come",
 		"format": "absolute",
+		"upc": [
+			"9781401284626"
+		],
 		"issues": {
 			"Kingdom Come": "1-4"
 		}
@@ -668,6 +674,9 @@
 		"id": "019d087a-cf42-70bd-9d47-1f5705517c60",
 		"title": "Howard the Duck Omnibus",
 		"format": "omnibus",
+		"upc": [
+			"9780785130239"
+		],
 		"issues": {
 			"Adventure into Fear (2014)": "19",
 			"Man-Thing (1973)": "1",
@@ -698,6 +707,9 @@
 		"id": "019d082f-835b-736f-a01e-a331dfb5a926",
 		"title": "Justice League International Omnibus Volume 1",
 		"format": "omnibus",
+		"upc": [
+			"9781401273866"
+		],
 		"reference": "https://dc.fandom.com/wiki/Justice_League_International_Omnibus_Volume_1_(Collected)",
 		"issues": {
 			"Justice League (1987)": "1-6",
@@ -713,6 +725,9 @@
 		"id": "019d0838-8941-746a-92f5-416a792d7eda",
 		"title": "Justice League International Omnibus Volume 2",
 		"format": "omnibus",
+		"upc": [
+			"9781779502964"
+		],
 		"issues": {
 			"Justice League America (1989)": "31-50",
 			"Justice League Europe (1989)": "7-25",
@@ -726,6 +741,9 @@
 		"id": "019d0838-a6bb-764e-a835-4881336a620e",
 		"title": "Justice League International Omnibus Volume 3",
 		"format": "omnibus",
+		"upc": [
+			"9781779525642"
+		],
 		"issues": {
 			"Justice League America (1989)": "51-60",
 			"Justice League Europe (1989)": "26-36",
@@ -766,6 +784,9 @@
 		"id": "019d26fe-32e2-75da-9a9f-44497cb640f0",
 		"title": "Phoenix: The Death & Rebirth of Jean Grey",
 		"format": "omnibus",
+		"upc": [
+			"9781302965501"
+		],
 		"issues": {
 			"New X-Men (2001)": "128,139-141,146-154",
 			"X-Men: Phoenix - Endsong": "1-5",
@@ -918,6 +939,9 @@
 		"id": "019d0135-1c93-705b-aacc-faadb3d551fd",
 		"title": "She-Hulk by Charles Soule: The Complete Collection",
 		"format": "tpb",
+		"upc": [
+			"9781302915469"
+		],
 		"issues": {
 			"She-Hulk (2014)": "1-12",
 			"Wolverines": "13"
@@ -930,6 +954,9 @@
 		"id": "019d0137-1fb2-77ce-875f-ed604640ab43",
 		"title": "She-Hulk by Dan Slott Omnibus",
 		"format": "omnibus",
+		"upc": [
+			"9781302925321"
+		],
 		"issues": {
 			"She-Hulk (2004)": "1-12",
 			"She-Hulk (2005)": "1-21",
@@ -940,6 +967,9 @@
 		"id": "019d0138-81e5-723b-ba09-b4e6a9a3bc63",
 		"title": "She-Hulk by Peter David Omnibus",
 		"format": "omnibus",
+		"upc": [
+			"9781302934835"
+		],
 		"issues": {
 			"She-Hulk (2005)": "22-38",
 			"She-Hulk Cosmic Collision": "1",
@@ -954,6 +984,9 @@
 		"id": "019d013a-0ee3-73c9-9375-03c8e54534af",
 		"title": "She-Hulk by Rainbow Rowell Omnibus",
 		"format": "omnibus",
+		"upc": [
+			"9781302966409"
+		],
 		"issues": {
 			"She-Hulk (2022)": "1-15",
 			"Sensational She-Hulk (2023)": "1-10"
@@ -1002,6 +1035,9 @@
 		"id": "019d081c-724f-7534-b174-2b408dc57fe3",
 		"title": "The JSA Omnibus Volume 1",
 		"format": "omnibus",
+		"upc": [
+			"9781401247614"
+		],
 		"reference": "https://dc.fandom.com/wiki/JSA_Omnibus_Vol._1_(Collected)",
 		"issues": {
 			"JSA Returns: All Star Comics (1999)": "1-2",
@@ -1025,6 +1061,9 @@
 		"id": "019d0827-7363-7438-b716-236447867574",
 		"title": "The JSA Omnibus Volume 2",
 		"format": "omnibus",
+		"upc": [
+			"9781401251383"
+		],
 		"reference": "https://dc.fandom.com/wiki/JSA_Omnibus_Vol._2_(Collected)",
 		"issues": {
 			"JSA Annual (1999)": "1",
@@ -1037,6 +1076,9 @@
 		"id": "019d0829-6861-74d9-9401-5bf3679aae3a",
 		"title": "The JSA Omnibus Volume 3",
 		"format": "omnibus",
+		"upc": [
+			"9781401255305"
+		],
 		"reference": "https://dc.fandom.com/wiki/JSA_Omnibus_Vol._3_(Collected)",
 		"issues": {
 			"JSA (1999)": "76-87",
@@ -1049,9 +1091,75 @@
 		}
 	},
 	{
+		"id": "019d4938-1e72-72b2-9efe-0ef8e907a42c",
+		"title": "The New Mutants Omnibus Volume 1",
+		"format": "omnibus",
+		"upc": [
+			"9781302926885"
+		],
+		"issues": {
+			"Marvel Graphic Novel (1982)": "4",
+			"New Mutants (1983)": "1-34",
+			"New Mutants Annual (1983)": "1",
+			"Marvel Team-Up (1972)": "149",
+			"Marvel Team Up Annual": "6",
+			"The Uncanny X-Men (1981)": "160,167,180,189,194",
+			"Magik (1983)": "1-4"
+		},
+		"partials": {
+			"Marvel Team-Up (1972)": "100"
+		}
+	},
+	{
+		"id": "019d493a-b93a-73ca-a51f-e781928ed043",
+		"title": "The New Mutants Omnibus Volume 2",
+		"format": "omnibus",
+		"upc": [
+			"9781302932350"
+		],
+		"issues": {
+			"New Mutants (1983)": "35-54",
+			"New Mutants Special Edition": "1",
+			"New Mutants Annual (1983)": "2-3",
+			"The X-Men Annual (1970)": "9-10",
+			"Power Pack (1984)": "20,33",
+			"Fallen Angels (1987)": "1-8",
+			"Firestar (1986)": "1-4",
+			"New Mutants: War Children": "1"
+		},
+		"partials": {
+			"Web of Spider-Man Annual": "2"
+		}
+	},
+	{
+		"id": "019d493d-2f93-711f-a021-52e805a5c939",
+		"title": "The New Mutants Omnibus Volume 3",
+		"format": "omnibus",
+		"upc": [
+			"9781302954086"
+		],
+		"issues": {
+			"New Mutants (1983)": "55-85",
+			"New Mutants Annual (1983)": "4",
+			"Spellbound (1988)": "4",
+			"Power Pack (1984)": "40",
+			"The Uncanny X-Men (1981)": "231",
+			"X-Terminators (1988)": "22"
+		},
+		"partials": {
+			"Marvel Comics Presents (1988)": "22",
+			"Marvel Fanfare (1982)": "55",
+			"Marvel Super-Heroes (1990)": "1",
+			"X-Men: Odd Men Out": "1"
+		}
+	},
+	{
 		"id": "019d013b-5124-73e0-ad1b-c9531735a8a6",
 		"title": "The Savage She-Hulk Omnibus",
 		"format": "omnibus",
+		"upc": [
+			"9781302934231"
+		],
 		"issues": {
 			"The Savage She-Hulk": "1-25",
 			"Marvel Two-In-One (1972)": "88"
@@ -1062,6 +1170,9 @@
 		"title": "The Sensational She-Hulk by John Byrne Omnibus",
 		"reference": "https://marvel.fandom.com/wiki/Sensational_She-Hulk_by_John_Byrne_Omnibus_Vol_1_1",
 		"format": "omnibus",
+		"upc": [
+			"9781302923686"
+		],
 		"issues": {
 			"Marvel Graphic Novel (1982)": "18",
 			"Sensational She-Hulk (1989)": "1-8,31-46,48-50"
