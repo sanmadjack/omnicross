@@ -555,13 +555,13 @@
 		"issues": {
 			"Giant-Size X-Men": "1,3-4",
 			"Classic X-Men": "1",
-			"X-Men Oirigins: Colossus": "1",
-			"X-Men Oirigins: Wolverine": "1",
+			"X-Men Origins: Colossus": "1",
+			"X-Men Origins: Wolverine": "1",
 			"X-Men: Deadly Genesis": "1-6",
 			"What If? (1989)": "9,23"
 		},
 		"partials": {
-			"X-Men Gold": "1"
+			"X-Men Gold (2017)": "1"
 		}
 	},
 	{
@@ -1421,6 +1421,9 @@
 		"id": "019d253d-7528-73fc-b847-2880c44dc2f1",
 		"title": "The X-Men Omnibus Volume 1",
 		"format": "omnibus",
+		"upc": [
+			"9780785129585"
+		],
 		"issues": {
 			"The X-Men (1963)": "1-31"
 		}
@@ -1429,6 +1432,9 @@
 		"id": "019d253e-7121-75e6-bc6b-4b9a977b9362",
 		"title": "The X-Men Omnibus Volume 2",
 		"format": "omnibus",
+		"upc": [
+			"9780785153078"
+		],
 		"issues": {
 			"The X-Men (1963)": "32-66",
 			"The Avengers (1963)": "53"
@@ -1915,6 +1921,60 @@
 			"Giant-Size X-Men: Magneto (2020)": "1",
 			"Giant-Size X-Men: Fantomex (2020)": "1",
 			"Giant-Size X-Men: Storm (2020)": "1"
+		}
+	},
+	{
+		"id": "019d4a35-813d-75cc-a02a-e82145b0e3d9",
+		"title": "X-Men Omnibus Volume 1",
+		"format": "omnibus",
+		"upc": [
+			"9780785158226"
+		],
+		"issues": {
+			"The Uncanny X-Men (1981)": "244-269",
+			"The X-Men Annual (1970)": "13",
+			"Classic X-Men": "39"
+		}
+	},
+	{
+		"id": "019d4a37-06a5-738f-b1db-a59b0bf03b35",
+		"title": "X-Men Omnibus Volume 2",
+		"format": "omnibus",
+		"upc": [
+			"9780785159056"
+		],
+		"issues": {
+			"X-Factor (1986)": "63-70",
+			"The Uncanny X-Men (1981)": "273-280",
+			"X-Men (1991)": "1-9"
+		},
+		"partials": {
+			"X-Men (1991)": "10-11",
+			"Ghost Rider (1990)": "26-27"
+		}
+	},
+	{
+		"id": "019d4a2f-f397-76fe-982d-bf4205b3b223",
+		"title": "X-Men by Marc Guggenheim Omnibus",
+		"format": "omnibus",
+		"upc": [
+			"9781302966164"
+		],
+		"issues": {
+			"Young X-Men": "1-12",
+			"X-Men (2013)": "18-22",
+			"X-Tinction Agenda": "1-4",
+			"X-Men Prime (2017)": "1",
+			"X-Men Gold (2017)": "1-36",
+			"X-Men Gold Annual (2017)": "1",
+			"X-Men Blue": "13-15",
+			"X-Men: The Wedding Special (2018)": "1",
+			"X-Men: Days of Future Past - Doomsday": "1-5"
+		},
+		"partials": {
+			"X-Men: Manufest Destiny": "3",
+			"X-Men: To Serve and Protect": "3",
+			"Marvel Comics": "1001"
 		}
 	},
 	{
