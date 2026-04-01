@@ -1420,6 +1420,21 @@
 		}
 	},
 	{
+		"id": "019d4958-186e-741e-a5a6-805b68323664",
+		"title": "Uncanny X-Men by Brian Michael Bendis Omnibus",
+		"format": "omnibus",
+		"notes": "UXM issue 15.INH has been simplified to just 15.",
+		"issues": {
+			"Uncanny X-Men (2013)": "1-35,600",
+			"All-New X-Men (2012)": "16-17",
+			"Wolverine & the X-Men (2011)": "36-37",
+			"X-Men: Battle of the Atom": "1-2",
+			"X-Men (2013)": "1-5",
+			"Uncanny X-Men Annual (2014)": "1",
+			"All-New X-Men Annual (2014)": "1"
+		}
+	},
+	{
 		"id": "019d26f6-0e33-7762-b018-31e94c9c42a1",
 		"title": "Uncanny X-Men by Kieron Gillen Omnibus",
 		"format": "omnibus",
