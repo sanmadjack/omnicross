@@ -464,23 +464,27 @@ export class CompilationViewerElement extends HTMLElement {
 
         const tr = document.createElement("tr");
         let th = document.createElement("th");
-        th.innerText = COMPILATIONS_HEADER;
+        th.innerText = SERIES_HEADER;
         tr.appendChild(th);
         th = document.createElement("th");
         th.innerText = ISSUES_HEADER;
         tr.appendChild(th);
         issueTable.appendChild(tr);
-        database.getSeriesByIds(data.series.keys()).forEach(series => {
-            const tr = document.createElement("tr");
-            const nameTd = document.createElement("td");
-            tr.appendChild(nameTd);
-            nameTd.appendChild(createSeriesLink(database, series));
-            const issuesTd = document.createElement("td");
-            tr.appendChild(issuesTd);
-            createIssueLinkListById(database, issuesTd, series.issues);
+        database.getSeriesByIds(data.series.keys()).forEach(
+            /** @param {Series} series */
+            series => {
+                const tr = document.createElement("tr");
+                const nameTd = document.createElement("td");
+                tr.appendChild(nameTd);
+                nameTd.appendChild(createSeriesLink(database, series));
+                const issuesTd = document.createElement("td");
+                tr.appendChild(issuesTd);
+                const compilationSeriesIssues = [...series.issues.keys()].filter(
+                    e => data.issues.has(e));
+                createIssueLinkListById(database, issuesTd, data.series.get(series.id));
 
-            issueTable.appendChild(tr);
-        })
+                issueTable.appendChild(tr);
+            })
 
 
     }

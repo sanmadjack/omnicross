@@ -1,6 +1,6 @@
 "use strict";
 
-import { calculateSortableName, sortByName, sortMapByName, sortSetByName } from "../tools.js";
+import { calculateSortableName, isString, sortByName, sortMapByName, sortSetByName } from "../tools.js";
 import { idRegex, generateComparisonName } from "./tools.js";
 
 export class SavedData {
@@ -104,7 +104,8 @@ export class Parser {
                         series = new Series(key);
                         output.addSeries(series);
                     }
-                    const issueRanges = e.issues[key].split(",");
+
+                    const issueRanges = e.issues[key].toString().split(",");
                     const issueRangeRegex = /^(-?\d+)-(-?\d+)$/;
                     const issueNumberRegex = /^(-?[0-9\.]+)$/;
                     issueRanges.forEach(e => {
