@@ -1264,6 +1264,9 @@
 		"id": "019cbb17-eef4-7579-86bc-f4ffa314e96b",
 		"title": "The Uncanny X-Men Omnibus Volume 1",
 		"format": "omnibus",
+		"upc": [
+			"9780785185697"
+		],
 		"issues": {
 			"Giant-Size X-Men": "1",
 			"The X-Men (1963)": "94-131",
@@ -1274,6 +1277,9 @@
 		"id": "019cbb85-3e46-779a-95a0-d2fc14411d80",
 		"title": "The Uncanny X-Men Omnibus Volume 2",
 		"format": "omnibus",
+		"upc": [
+			"9780785185727"
+		],
 		"issues": {
 			"The X-Men (1963)": "132-141",
 			"The X-Men Annual (1970)": "4-5",
@@ -1290,6 +1296,9 @@
 		"id": "019d2546-08fc-73ba-ae86-b65550ed5365",
 		"title": "The Uncanny X-Men Omnibus Volume 3",
 		"format": "omnibus",
+		"upc": [
+			"9780785199229"
+		],
 		"issues": {
 			"The X-Men Annual (1970)": "6-7",
 			"The Uncanny X-Men (1981)": "154-175",
@@ -1304,6 +1313,9 @@
 		"id": "019d257a-33a4-703f-8b41-c133c0dc7983",
 		"title": "The Uncanny X-Men Omnibus Volume 4",
 		"format": "omnibus",
+		"upc": [
+			"9781302927042"
+		],
 		"issues": {
 			"The X-Men Annual (1970)": "8",
 			"The Uncanny X-Men (1981)": "176-193",
@@ -1316,6 +1328,9 @@
 		"id": "019d257d-4c0f-728a-9d43-8a316631f849",
 		"title": "The Uncanny X-Men Omnibus Volume 5",
 		"format": "omnibus",
+		"upc": [
+			"9781302948719"
+		],
 		"issues": {
 			"The X-Men Annual (1970)": "9-10",
 			"The Uncanny X-Men (1981)": "194-209",
@@ -1347,6 +1362,9 @@
 		"id": "019d0845-feb7-7089-967f-721b3afcdf9e",
 		"title": "Tomb Raider Archives Volume 1",
 		"format": "ohc",
+		"upc": [
+			"9781506703329"
+		],
 		"issues": {
 			"Tomb Raider (1999)": "1-15"
 		}
@@ -1355,6 +1373,9 @@
 		"id": "019d0847-352c-75ae-b214-9624c3170696",
 		"title": "Tomb Raider Archives Volume 2",
 		"format": "ohc",
+		"upc": [
+			"9781506703527"
+		],
 		"issues": {
 			"Tomb Raider (1999)": "16-24,26-34"
 		}
@@ -1363,6 +1384,9 @@
 		"id": "019d0847-d61b-735d-a742-cf7c3b1dd60d",
 		"title": "Tomb Raider Archives Volume 3",
 		"format": "ohc",
+		"upc": [
+			"9781506703534"
+		],
 		"issues": {
 			"Tomb Raider (1999)": "35-50"
 		}
@@ -1371,6 +1395,9 @@
 		"id": "019d0848-343e-70b1-995b-a221af70e472",
 		"title": "Tomb Raider Archives Volume 4",
 		"format": "ohc",
+		"upc": [
+			"9781506703541"
+		],
 		"issues": {
 			"Tomb Raider (1999)": "0,0.5",
 			"Tomb Raider: Journeys": "1-12",
