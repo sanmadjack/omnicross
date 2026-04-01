@@ -813,7 +813,7 @@
 		],
 		"issues": {
 			"NYX": "1-7",
-			"X-23": "1-7"
+			"X-23 (2005)": "1-6"
 		}
 	},
 	{
@@ -1713,6 +1713,24 @@
 		},
 		"partials": {
 			"Wolverine: The Road to Hell": "1"
+		}
+	},
+	{
+		"id": "019d498e-40e0-72e9-b1cd-8abea112b450",
+		"title": "X-23 Omnibus Volume 1",
+		"format": "omnibus",
+		"issues": {
+			"X-23 (2005)": "1-6",
+			"X-23: Target X": "1-6",
+			"X-23 (2010A)": "1",
+			"X-23 (2010B)": "1-21",
+			"Captain Universe/X-23": "1",
+			"Daken: Dark Wolverine": "8-9"
+		},
+		"partials": {
+			"X-Men: To Serve and Protect": "2",
+			"Wolverine: The Road to Hell": "1",
+			"All-New Wolverine Saga": "1"
 		}
 	},
 	{
