@@ -881,6 +881,18 @@
 		}
 	},
 	{
+		"id": "019d4942-2bc1-7399-8d71-c49cba933e8b",
+		"title": "Power Girl: New Beginnings and Old Friends Omnibus",
+		"format": "omnibus",
+		"issues": {
+			"JSA Classified (2005)": "1-4",
+			"Supergirl (2005)": "12",
+			"Terra (2009)": "1-4",
+			"Power Girl (2009)": "1-27",
+			"Wonder Woman (1942)": "600"
+		}
+	},
+	{
 		"id": "019d0865-5ea0-71e8-96f8-63041bad825e",
 		"title": "Power Girl: Old Friends",
 		"reference": "https://dc.fandom.com/wiki/Power_Girl:_Old_Friends_(Collected)",
@@ -1017,6 +1029,15 @@
 			"The Saga of the Swamp Thing": "1-19",
 			"The House of Secrets": "92",
 			"The Saga of the Swamp Thing Annual": "1"
+		}
+	},
+	{
+		"id": "019d4944-6615-720c-92e2-5ce92db343a9",
+		"title": "Terra",
+		"format": "tpb",
+		"issues": {
+			"Supergirl (2005)": "12",
+			"Terra (2009)": "1-4"
 		}
 	},
 	{
