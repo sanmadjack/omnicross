@@ -26,6 +26,9 @@
 		"id": "019d0811-20c6-763c-9917-882fab4fb0ab",
 		"title": "Absolute Swamp Thing By Alan Moore Volume One",
 		"format": "absolute",
+		"upc": [
+			"9781779506955"
+		],
 		"issues": {
 			"The Saga of the Swamp Thing": "20-34",
 			"The Saga of the Swamp Thing Annual": "2"
@@ -35,6 +38,9 @@
 		"id": "019d0812-fe68-7288-b4cd-05010d70299e",
 		"title": "Absolute Swamp Thing By Alan Moore Volume Three",
 		"format": "absolute",
+		"upc": [
+			"9781779512192"
+		],
 		"issues": {
 			"The Saga of the Swamp Thing": "51-64",
 			"DC Comics Presents": "85"
@@ -44,6 +50,9 @@
 		"id": "019d0812-e5e7-736e-8775-9e4eb4c0eb65",
 		"title": "Absolute Swamp Thing By Alan Moore Volume Two",
 		"format": "absolute",
+		"upc": [
+			"9781779502827"
+		],
 		"issues": {
 			"The Saga of the Swamp Thing": "35-50"
 		}
@@ -1051,6 +1060,9 @@
 		"id": "019d0815-50bf-77a9-a0ea-755cec4adee8",
 		"title": "Swamp Thing: The Bronze Age Omnibus",
 		"format": "omnibus",
+		"upc": [
+			"9781401273781"
+		],
 		"issues": {
 			"Swamp Thing": "1-24",
 			"The Saga of the Swamp Thing": "1-19",
