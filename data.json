@@ -1,4 +1,23 @@
 {
+	"series": [
+		{
+			"The Uncanny X-Men (1981)": {
+				"notes": "Using cutoff of issue 142, anything before is X-Men 1963."
+			},
+			"Infinite Crisis": {
+				"tags": [
+					"Superman",
+					"DC"
+				]
+			},
+			"Kingdom Come": {
+				"tags": [
+					"Superman",
+					"DC"
+				]
+			}
+		}
+	],
 	"compilations": [
 		{
 			"id": "019d0818-a821-716a-90c7-64cff9c74898",
@@ -111,7 +130,7 @@
 				"9780785117339"
 			],
 			"issues": {
-				"Astonishing X-Men": "1-12"
+				"Astonishing X-Men (2004)": "1-12"
 			}
 		},
 		{
@@ -122,7 +141,7 @@
 				"9780785122531"
 			],
 			"issues": {
-				"Astonishing X-Men": "13-24",
+				"Astonishing X-Men (2004)": "13-24",
 				"Giant-Size Astonishing X-Men": "1"
 			}
 		},
@@ -711,7 +730,7 @@
 				"New X-Men (2004)": "16-19",
 				"Exiles (2001)": "69-71",
 				"Mutopia X": "1-5",
-				"Descimation: House of M - The Day After": "1",
+				"Decimation: House of M - The Day After": "1",
 				"Giant-Size Ms. Marvel": "1",
 				"secrets of the House of M": "1",
 				"Pulse: House of M Special": "1",
@@ -1909,6 +1928,72 @@
 			}
 		},
 		{
+			"id": "019d4ad8-b456-7057-89c5-a2066c9dc664",
+			"title": "X-Men 2099 Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302952075"
+			],
+			"issues": {
+				"X-Men 2099 (1993)": "1-35",
+				"Spider-Man 2099 (1992)": "16",
+				"Ravage 2099 ": "15",
+				"Dom 2099 (1993)": "14",
+				"Punisher 2099 (1993)": "13",
+				"X-Men 2099 Secial": "1",
+				"X-Men 2099: Oasis": "1",
+				"X-Nation 2099": "1-6"
+			}
+		},
+		{
+			"id": "019d4b02-32fc-737e-b7b2-ead45b510f61",
+			"title": "X-Men Blue & Gold: Bloodties Omnibus",
+			"format": "omnibus",
+			"reference": "https://marvel.fandom.com/wiki/X-Men:_Blue_%26_Gold_-_Bloodties_Omnibus_Vol_1_1",
+			"issues": {
+				"The Uncanny X-Men (1981)": "307-314",
+				"The Uncanny X-Men Annual (1992)": 18,
+				"X-Men (1991)": "26-35",
+				"The Avengers (1963)": "368-369",
+				"Avengers West Coast (1989)": 101,
+				"Cable (1993)": "6-8",
+				"X-Men Unlimited (1993)": "3-5",
+				"X-Men: The Wedding Album (1994)": 1,
+				"What If? (1989)": 60,
+				"Adventures of Cyclops and Phoenix (1994)": "1-4",
+				"X-Men Ashcan Edition (1994)": 1
+			},
+			"partials": {
+				"X-Factor Annual (1986)": 7,
+				"X-Force Annual (1992)": "1",
+				"Marvel Comics Presents (1988)": 89,
+				"X-Men: Odd Men Out": 1
+			}
+		},
+		{
+			"id": "019d4afd-c3a7-76af-83a5-cee515a47342",
+			"title": "X-Men Blue & Gold: Mutant Genesis Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302965365"
+			],
+			"issues": {
+				"X-Men (1991)": "1-16",
+				"The Uncanny X-Men (1981)": "281-297",
+				"The Uncanny X-Men Annual (1992)": 16,
+				"Ghost Rider (1990": "26-27",
+				"X-Factor (1986)": "84-86",
+				"X-Force (1991)": "16-18",
+				"Stryfe's Strike File": 1
+			},
+			"partials": {
+				"X-Factor Annual (1986)": 7,
+				"X-Force Annual (1992)": "1",
+				"Marvel Comics Presents (1988)": 89,
+				"X-Men: Odd Men Out": 1
+			}
+		},
+		{
 			"id": "019d253f-f4f2-76f9-97a0-2c8b53bd0ce9",
 			"title": "X-Men By Hickman Omnibus",
 			"format": "omnibus",
@@ -1922,6 +2007,20 @@
 				"Giant-Size X-Men: Magneto (2020)": "1",
 				"Giant-Size X-Men: Fantomex (2020)": "1",
 				"Giant-Size X-Men: Storm (2020)": "1"
+			}
+		},
+		{
+			"id": "019d4b06-c206-737c-afc8-49286e5f8378",
+			"title": "X-Men Classic Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302908119"
+			],
+			"issues": {
+				"Classic X-Men": "1-44"
+			},
+			"partials": {
+				"Marvel Fanfare (1982)": 60
 			}
 		},
 		{
@@ -1979,6 +2078,42 @@
 			}
 		},
 		{
+			"id": "019d4ae0-0628-76f8-91c8-a25735407a63",
+			"title": "X-Men/Avengers: Onslaught Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9780785192626"
+			],
+			"issues": {
+				"Cable (1993)": "32-36",
+				"The Uncanny X-Men (1981)": "333-337",
+				"X-Force (1991)": "55,57-58",
+				"X-Man": "15-19",
+				"X-Men (1991)": "53-57",
+				"X-Men Unlimited (1993)": "11",
+				"Onslaught: X-Men": "1",
+				"The Avengers (1963)": "401-402",
+				"Fantastic Four (1961)": "415",
+				"Incredible Hulk (1968)": "444-445",
+				"Wolverine (1988)": "104-105",
+				"X-Factor (1986)": "125-126",
+				"The Amazing Spider-Man (1963)": "415",
+				"Green Goblin": "12",
+				"Spider-Man (1990)": "72",
+				"Iron Man (1968)": "332",
+				"Punisher (1995)": "11",
+				"Thor (1966)": "502",
+				"Onslaught: Marvel Universe": "1",
+				"X-Men Annual '96": "1",
+				"Onslaught: Epilogue": "1",
+				"X-Men: The Road to Onslaught": "1"
+			},
+			"partials": {
+				"Excalibur (1988)": "100",
+				"Fantastic Four (1961)": "416"
+			}
+		},
+		{
 			"id": "019d2b19-43e5-77b8-94f9-62a6c63eb52b",
 			"title": "X-Men: Beauty and the Beast",
 			"format": "tpb",
@@ -1991,6 +2126,50 @@
 			},
 			"partials": {
 				"Marvel Heartbreakers": "1"
+			}
+		},
+		{
+			"id": "019d4b08-20f7-75aa-9ab9-78e00a571945",
+			"title": "X-Men: Days of Future Past",
+			"format": "ohc",
+			"upc": [
+				"9780785184423"
+			],
+			"issues": {
+				"The X-Men (1963)": 141,
+				"The Uncanny X-Men (1981)": 142,
+				"The X-Men Annual (1970)": 14,
+				"Excalibur (1988)": "52,66-67",
+				"Wolverine: Days of Future Past": "1-3"
+			},
+			"partials": {
+				"Fantastic Four Annual": 23,
+				"New Mutants Annual (1984)": "6",
+				"X-Factor Annual (1986)": "5",
+				"Hulk: Broken Worlds": "2"
+			}
+		},
+		{
+			"id": "019d4b18-9c6a-738b-a260-c32cef09b8f5",
+			"title": "X-Men: Decimation Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302960254"
+			],
+			"issues": {
+				"House of M (2005)": 8,
+				"Mutopia X": 5,
+				"Decimation: House of M - The Day After": 1,
+				"X-Men (1991)": "177-179",
+				"New X-Men (2004)": "20-24",
+				"X-Factor (2005)": "1-4",
+				"Generation M": "1-5",
+				"Son of M": "1-6",
+				"X-Men: The 198": "1-5",
+				"Sentinel Squad of O*N*E": "1-5",
+				"New Avengers (2004)": "16-20",
+				"X-Men Unlimited (2004)": 13,
+				"X-Men: The 198 Files": 1
 			}
 		},
 		{
@@ -2071,6 +2250,76 @@
 			},
 			"partials": {
 				"Classic X-Men": "8,34"
+			}
+		},
+		{
+			"id": "019d4aec-4b1c-772c-b57a-e03b351acfe1",
+			"title": "X-Men: The Age of Apocalypse Companion Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9780785185147"
+			],
+			"issues": {
+				"X-Men Chronicles": "1-2",
+				"Tales from the Age of Apocalypse": "1-2",
+				"X-Man": "-1,53-54",
+				"Blink": "1-4",
+				"X-Universe": "1-2",
+				"Exiles (2001)": "60-61",
+				"X-Men: Age of Apocalypse": "1-6",
+				"X-Men: Age of Apocalypse One Shot": 1,
+				"What If? (1989)": "77,81",
+				"What If? X-Men: Age of Apocalypse": 1
+			},
+			"partials": {
+				"Hulk: Broken Worlds": 2,
+				"X-Men Prime": 1,
+				"X-Man Annual '96": 1,
+				"X-Men: Endagered Species": 1,
+				"Exiles: Days of Then and Now": 1,
+				"Official Handbook of the Marvel Universe: Age of Apocalypse 2005": 1
+			}
+		},
+		{
+			"id": "019d4af6-0839-74f9-a8c9-aaa27feffc4a",
+			"title": "X-Men: The Age of Apocalypse Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9780785195092"
+			],
+			"issues": {
+				"The Uncanny X-Men (1981)": "320-321",
+				"X-Men (1991)": "40-41",
+				"Cable (1993)": 20,
+				"X-Men Alpha": 1,
+				"Amazing X-Man": "1-4",
+				"Astonishing X-Men (1995)": "1-4",
+				"Factor X": "1-4",
+				"Gambit & the X-Ternals": "1-4",
+				"Geneartion Next": "1-4",
+				"Weapon X (1995)": "1-4",
+				"X-Calibre": "1-4",
+				"X-Man": "1-4",
+				"X-Men Omega": 1,
+				"Age of Apocalypse: The Chosen": 1,
+				"X-Men Ashcan": 2
+			}
+		},
+		{
+			"id": "019d4b14-369a-77fc-b535-8c86050ce120",
+			"title": "X-Men: The Dark Phoenix Saga Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302912123"
+			],
+			"issues": {
+				"The X-Men (1963)": "97-105,107-108,125-138",
+				"Phoenix: The Untold Story": "1"
+			},
+			"partials": {
+				"Classic X-Men": "6,8,13,18,24,43",
+				"Bizarre Adventures": 27,
+				"What If? (1977)": 27
 			}
 		},
 		{
