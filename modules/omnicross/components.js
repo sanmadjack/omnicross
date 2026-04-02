@@ -218,27 +218,6 @@ export class ComparisonViewerElement extends HTMLElement {
     /**
      * 
      * @param {Database} database 
-     * @param {ComparitorResult} result 
-     * @param {Compilation} compilation 
-     * @returns {HTMLAnchorElement}
-     */
-    static #createCompilationLink(database, result, compilation) {
-        const link = createCompilationLink(database, compilation);
-        if (result.uniqueCompilations.has(compilation)) {
-            link.classList.add("uniqueCompilation");
-        }
-        if (result.nonUniqueCompilations.has(compilation)) {
-            link.classList.add("overlapCompilation");
-        }
-        if (result.redundantCompilations.has(compilation)) {
-            link.classList.add("redundantCompilation");
-        }
-        return link;
-    }
-
-    /**
-     * 
-     * @param {Database} database 
      */
     #refreshView(database) {
         /** @type {HTMLUListElement} */
@@ -266,7 +245,7 @@ export class ComparisonViewerElement extends HTMLElement {
                 return;
             }
             const ul = document.createElement("div");
-            const link = ComparisonViewerElement.#createCompilationLink(database, result, compilation);
+            const link = createCompilationLink(database, compilation, result);
             ul.appendChild(link);
             const removeElement = document.createElement("button");
             removeElement.innerText = "Remove";
@@ -336,7 +315,7 @@ export class ComparisonViewerElement extends HTMLElement {
                     compilationsTd.appendChild(compilationList);
                     currentCompilationSet.forEach(c => {
                         const li = document.createElement("li");
-                        li.appendChild(ComparisonViewerElement.#createCompilationLink(database, result, c));
+                        li.appendChild(createCompilationLink(database, c, result));
                         compilationList.appendChild(li);
                     });
 
@@ -397,7 +376,7 @@ export class ComparisonViewerElement extends HTMLElement {
             result.uniques.forEach((seriesMap, compilation) => {
                 /** @type {HTMLTableCellElement} */
                 const compilationTd = document.createElement("td");
-                compilationTd.appendChild(ComparisonViewerElement.#createCompilationLink(database, result, compilation));
+                compilationTd.appendChild(createCompilationLink(database, compilation, result));
                 compilationTd.rowSpan = seriesMap.size;
                 let seriesRows = [];
 
@@ -501,15 +480,20 @@ export class CompilationViewerElement extends HTMLElement {
                 tr.appendChild(issuesTd);
                 const compilationSeriesIssues = [...series.issues.keys()].filter(
                     e => data.issues.has(e));
-                createIssueLinkListById(database, issuesTd, data.series.get(series.id));
+                createIssueLinkListById(database, issuesTd, data.series.get(series.id), database.completeComparisonResult);
 
                 issueTable.appendChild(tr);
             });
         const overlappingCompilationsElement = this.shadowRoot.getElementById("overlappingCompilations");
-        database.getOverlappingCompilations(data.id).forEach(c=>{
+        let overlapsFound = false;
+        database.getOverlappingCompilations(data.id).forEach(c => {
             const newElement = createDraggableCompilationEntry(database, c);
             overlappingCompilationsElement.appendChild(newElement);
-        })
+            overlapsFound = true;
+        });
+        if (overlapsFound === false) {
+            overlappingCompilationsElement.style.display = "none";
+        }
     }
 }
 export class SeriesViewerElement extends HTMLElement {
@@ -539,7 +523,7 @@ export class SeriesViewerElement extends HTMLElement {
         this.appendChild(nameField);
 
         const issueList = this.shadowRoot.querySelector("div.issueList");
-        createIssueLinkListById(database, issueList, new Set([...data.issues.values()]));
+        createIssueLinkListById(database, issueList, new Set([...data.issues.values()]), database.completeComparisonResult);
 
         const compilationList = this.shadowRoot.getElementById("compilationList");
         const compilations = database.getCompilationsWithSeries(data.id);

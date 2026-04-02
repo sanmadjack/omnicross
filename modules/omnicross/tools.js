@@ -2,7 +2,7 @@
 
 import { count, sortByName, sortSetByNumber } from "../tools.js";
 import { SeriesViewerElement, IssueViewerElement, CompilationViewerElement, ComparisonViewerElement, CompilationBrowserEntryElement } from "./components.js";
-import { Compilation, Database, Issue, SavedData, Comparison } from "./data.js";
+import { Compilation, Database, Issue, SavedData, Comparison, ComparitorResult } from "./data.js";
 
 
 export const idRegex = /[0-9a-f]{9}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}/
@@ -98,15 +98,23 @@ export function openComparisonViewer(database, data, saveData, x, y) {
  * 
  * @param {Database} database 
  * @param {Issue} issue 
+ * @param {ComparitorResult} result 
  * @returns {HTMLAnchorElement}
  */
-export function createIssueLink(database, issue) {
+export function createIssueLink(database, issue, result) {
     const anchorElement = document.createElement("a");
     anchorElement.innerText = issue.number;
     anchorElement.href = "#";
     anchorElement.onclick = (e) => {
         openIssueViewer(database, issue, e.clientX, e.clientY);
     };
+    if (result != null) {
+        if (result.overlappingIssues.has(issue.id)) {
+            anchorElement.classList.add("overlapping");
+        } else {
+            anchorElement.classList.add("unique");
+        }
+    }
     return anchorElement;
 }
 /**
@@ -114,8 +122,9 @@ export function createIssueLink(database, issue) {
  * @param {Database} database 
  * @param {HTMLElement} parentElement 
  * @param {Set<string>} issueIds 
+ * @param {ComparitorResult} result 
  */
-export function createIssueLinkListById(database, parentElement, issueIds) {
+export function createIssueLinkListById(database, parentElement, issueIds, result) {
 
     /** @type {Set<Issue>} */
     let issues = new Set();
@@ -123,19 +132,20 @@ export function createIssueLinkListById(database, parentElement, issueIds) {
         const issue = database.getIssueById(v);
         issues.add(issue);
     });
-    createIssueLinkList(database, parentElement, issues);
+    createIssueLinkList(database, parentElement, issues, result);
 }
 /**
  * 
  * @param {Database} database 
  * @param {HTMLElement} parentElement 
  * @param {Set<Issue>} issues 
+ * @param {ComparitorResult} result 
  */
-export function createIssueLinkList(database, parentElement, issues) {
+export function createIssueLinkList(database, parentElement, issues, result) {
     let i = 0;
     sortSetByNumber(issues).forEach(issue => {
         i++;
-        parentElement.appendChild(createIssueLink(database, issue));
+        parentElement.appendChild(createIssueLink(database, issue, result));
         if (i < count(issues)) {
             parentElement.appendChild(document.createTextNode(", "));
         }
@@ -156,15 +166,27 @@ export function createDraggableCompilationEntry(database, data) {
  * 
  * @param {Database} database 
  * @param {Compilation} data
+ * @param {ComparitorResult} result
  * @returns {HTMLAnchorElement}
  */
-export function createCompilationLink(database, data) {
+export function createCompilationLink(database, data, result) {
     const anchorElement = document.createElement("a");
     anchorElement.innerText = data.name;
     anchorElement.href = "#";
     anchorElement.onclick = (e) => {
         openCompilationViewer(database, data, e.clientX, e.clientY);
     };
+    if (result != null) {
+        if (result.uniqueCompilations.has(data)) {
+            anchorElement.classList.add("unique");
+        }
+        if (result.nonUniqueCompilations.has(data)) {
+            anchorElement.classList.add("overlapping");
+        }
+        if (result.redundantCompilations.has(data)) {
+            anchorElement.classList.add("redundant");
+        }
+    }
     return anchorElement;
 }
 

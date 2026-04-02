@@ -181,16 +181,16 @@
                 border: solid 1px gray;
             }
 
-            .uniqueCompilation {
-                color: #8ae234;
+            .unique {
+                color: var(--unique-color);
             }
 
-            .overlapCompilation {
-                color: #fce94f;
+            .overlapping {
+                color: var(--overlap-color);
             }
 
-            .redundantCompilation {
-                color: #ef2929;
+            .redundant {
+                color: var(--redundant-color);
             }
 
             span button {
@@ -221,13 +221,14 @@
                                 <th>Compilation color Key:</th>
                             </tr>
                             <tr>
-                                <td class="uniqueCompilation">Unique</td>
+                                <td class="unique">Unique - Only contains unique issues</td>
                             </tr>
                             <tr>
-                                <td class="overlapCompilation">Overlap</td>
+                                <td class="overlapping">Overlap - Contains some issues that exist in other
+                                    compilations</td>
                             </tr>
                             <tr>
-                                <td class="redundantCompilation">Redundant</td>
+                                <td class="redundant">Redundant - All issues exist in other compilations</td>
                             </tr>
                         </table>
                     </td>
@@ -248,7 +249,15 @@
             }
 
             a {
-                color: var(--link-color) !important;
+                color: var(--link-color);
+            }
+
+            .unique {
+                color: var(--unique-color);
+            }
+
+            .overlapping {
+                color: var(--overlap-color);
             }
 
             div#compilationReference {
@@ -265,6 +274,18 @@
             </b>
             <h3>Contents:</h3>
             <table id="issueTable"></table>
+            <table>
+                <tr>
+                    <th>Issue color Key:</th>
+                </tr>
+                <tr>
+                    <td class="unique">Unique - Issue is not present in any other compilations that this program knows
+                        about</td>
+                </tr>
+                <tr>
+                    <td class="overlapping">Overlap - Issue is also present in other compilation(s)</td>
+                </tr>
+            </table>
             <div id="overlappingCompilations">
                 <h3>Overlapping Compilations:</h3>
             </div>
@@ -295,8 +316,16 @@
                 font-size: 8pt;
             }
 
+            .unique {
+                color: var(--unique-color);
+            }
+
+            .overlapping {
+                color: var(--overlap-color);
+            }
+
             a {
-                color: var(--link-color) !important;
+                color: var(--link-color);
             }
         </style>
         <popup-window width="600px">
@@ -306,6 +335,18 @@
             </b>
             <h3>Issues:</h3>
             <div class="issueList"></div>
+            <table>
+                <tr>
+                    <th>Issue color Key:</th>
+                </tr>
+                <tr>
+                    <td class="unique">Unique - Issue is only present in one compilation that this program knows
+                        about</td>
+                </tr>
+                <tr>
+                    <td class="overlapping">Overlap - Issue is present in multiple compilation(s)</td>
+                </tr>
+            </table>
             <h3>Compilations with this series:</h3>
             <div id="compilationList"></div>
         </popup-window>

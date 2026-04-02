@@ -169,7 +169,7 @@ export class Database {
     #issues = new Map();
 
     /** @type {ComparitorResult} */
-    #completeComparisonResult;
+    completeComparisonResult;
 
     sortData() {
         this.#compilations = sortMapByName(this.#compilations);
@@ -182,7 +182,7 @@ export class Database {
         const globalComparison = new Comparison("complateComparison");
         const globalComparitor = new Comparitor();
         globalComparison.compilations = new Set([...this.getAllCompilationIds()]);
-        this.#completeComparisonResult = globalComparitor.process(this, globalComparison);
+        this.completeComparisonResult = globalComparitor.process(this, globalComparison);
         console.timeEnd("calculateComplateComparison");
     }
     /**
@@ -191,8 +191,8 @@ export class Database {
      * @returns {Set<Compilation>}
      */
     getOverlappingCompilations(string) {
-        if (this.#completeComparisonResult.overlappingCompilations.has(string)) {
-            return this.#completeComparisonResult.overlappingCompilations.get(string);
+        if (this.completeComparisonResult.overlappingCompilations.has(string)) {
+            return this.completeComparisonResult.overlappingCompilations.get(string);
         }
         return new Set();
     }
@@ -490,11 +490,14 @@ export class ComparitorResult {
 
     /** @type {Map<string, Set<Compilation>} */
     overlappingCompilations = new Map();
+    /** @type {Set<string>} */
+    overlappingIssues = new Set();
 
     /** @type {Set<Series>} */
     series = new Set();
     /** @type {Set<Issue>} */
     issues = new Set();
+
 
     /** @type {Map<Series, Map<Issue, Set<Compilation>>>} */
     overlaps = new Map();
@@ -554,6 +557,7 @@ export class ComparitorResult {
 
         this.series.add(series);
         this.issues.add(issue);
+        this.overlappingIssues.add(issue.id);
         this.compilations.add(compilation);
         this.nonUniqueCompilations.add(compilation);
     }

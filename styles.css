@@ -3,6 +3,10 @@
     --text-color: #eeeeec;
     --spacing: 6pt;
     --link-color: #73d216;
+
+    --unique-color: #8ae234;
+    --overlap-color: #fce94f;
+    --redundant-color: #ef2929;
 }
 
 body {
