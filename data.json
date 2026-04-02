@@ -492,7 +492,7 @@
 				"X-Men Unlimited (1993)": "4",
 				"X-Factor (1986)": "106",
 				"X-Force (1991)": "38",
-				"X-Man": "12",
+				"X-Man (1995)": "12",
 				"Pryde and Wisdom": "1-3"
 			},
 			"partials": {
@@ -550,7 +550,7 @@
 			],
 			"issues": {
 				"Fantastic Four (1961)": "261-295",
-				"Fantastic Four Annual (1961)": "18-19",
+				"Fantastic Four Annual (1963)": "18-19",
 				"Alpha Flight (1983)": "4",
 				"Thing (1983)": "10,19",
 				"The Avengers Annual (1967)": "14"
@@ -889,7 +889,7 @@
 		},
 		{
 			"id": "019d26fe-32e2-75da-9a9f-44497cb640f0",
-			"title": "Phoenix: The Death & Rebirth of Jean Grey",
+			"title": "Phoenix: The Death & Rebirth of Jean Grey Omnibus",
 			"format": "omnibus",
 			"upc": [
 				"9781302965501"
@@ -1539,6 +1539,9 @@
 			"id": "019d4958-186e-741e-a5a6-805b68323664",
 			"title": "Uncanny X-Men by Brian Michael Bendis Omnibus",
 			"format": "omnibus",
+			"upc": [
+				"9781302966454"
+			],
 			"notes": "UXM issue 15.INH has been simplified to just 15.",
 			"issues": {
 				"Uncanny X-Men (2013)": "1-35,600",
@@ -1912,7 +1915,7 @@
 				"Cable: Blood & Metal": "1-2"
 			},
 			"partials": {
-				"New Warriors Annuak": "1",
+				"New Warriors Annual": "1",
 				"X-Force Annual (1992)": "1"
 			}
 		},
@@ -2024,6 +2027,55 @@
 			}
 		},
 		{
+			"id": "019d4b2d-2f80-708c-bd84-6aaf25c64ec9",
+			"title": "X-Men Fatal Attractions Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302963514"
+			],
+			"issues": {
+				"The Uncanny X-Men (1981)": "298-305,315",
+				"The X-Men Annual (1970)": 17,
+				"X-Factor (1986)": "87-92",
+				"X-Men Unlimited (1993)": "1-2",
+				"X-Force (1991)": 25,
+				"X-Men (1991)": 25,
+				"Wolverine (1988)": 75,
+				"Excalibur (1988)": 71
+			}
+		},
+		{
+			"id": "019d4b66-65a8-763c-9a3b-ecd23ad087e5",
+			"title": "X-Men Legacy: Legion Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302903923"
+			],
+			"issues": {
+				"X-Men Legacy (2012)": "1-24"
+			}
+		},
+		{
+			"id": "019d4b6c-0959-753a-88ae-e963478d4cc9",
+			"title": "X-Men Legacy: Mutant Massacre Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302931605"
+			],
+			"issues": {
+				"The Uncanny X-Men (1981)": "210-219",
+				"Uncanny X-Men Annual (1970)": 11,
+				"X-Factor (1986)": "9-17",
+				"X-Factor Annual (1986)": 2,
+				"New Mutants (1983)": 46,
+				"Thor (1966)": "373-374,377-378",
+				"Power Pack (1984)": 27,
+				"Daredevil (1964)": 238,
+				"Fantastic Four vs. the X-Men": "1-4",
+				"X-Men vs. the Avengers": "1-4"
+			}
+		},
+		{
 			"id": "019d4a35-813d-75cc-a02a-e82145b0e3d9",
 			"title": "X-Men Omnibus Volume 1",
 			"format": "omnibus",
@@ -2078,6 +2130,33 @@
 			}
 		},
 		{
+			"id": "019d4b82-9437-7082-9553-79acca3a81cb",
+			"title": "X-Men vs Apocalypse: The Twelve Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302922870"
+			],
+			"issues": {
+				"The Uncanny X-Men (1981)": "371-380",
+				"Uncanny X-Men Annual '99": 1,
+				"X-Men (1991)": "91-93,95-99",
+				"X-Men Annual '99": 1,
+				"X-Men Unlimited (1993)": "25-26",
+				"Cable (1993)": "71-78",
+				"Gambit (1999)": "8-9",
+				"Astonishing X-Men (1999)": "1-3",
+				"Wolverine (1988)": "145-149",
+				"X-Man (1995)": "59-60",
+				"X-51 (1999)": 8,
+				"X-Force (1991)": 101,
+				"Marvel Authentix: Astonishing X-Men": 1
+			},
+			"partials": {
+				"X-Men (1991)": 94,
+				"X-Men Unlimited (1993)": 24
+			}
+		},
+		{
 			"id": "019d4ae0-0628-76f8-91c8-a25735407a63",
 			"title": "X-Men/Avengers: Onslaught Omnibus",
 			"format": "omnibus",
@@ -2088,7 +2167,7 @@
 				"Cable (1993)": "32-36",
 				"The Uncanny X-Men (1981)": "333-337",
 				"X-Force (1991)": "55,57-58",
-				"X-Man": "15-19",
+				"X-Man (1995)": "15-19",
 				"X-Men (1991)": "53-57",
 				"X-Men Unlimited (1993)": "11",
 				"Onslaught: X-Men": "1",
@@ -2129,6 +2208,21 @@
 			}
 		},
 		{
+			"id": "019d4ba3-da6d-7245-8e8d-f05ed5ceed31",
+			"title": "X-Men: Bishop's Crossing",
+			"format": "ohc",
+			"upc": [
+				"9780785153498"
+			],
+			"issues": {
+				"The Uncanny X-Men (1981)": "281-293",
+				"X-Men (1991)": "12-13"
+			},
+			"partials": {
+				"X-Men (1991)": "10-11"
+			}
+		},
+		{
 			"id": "019d4b08-20f7-75aa-9ab9-78e00a571945",
 			"title": "X-Men: Days of Future Past",
 			"format": "ohc",
@@ -2143,7 +2237,7 @@
 				"Wolverine: Days of Future Past": "1-3"
 			},
 			"partials": {
-				"Fantastic Four Annual": 23,
+				"Fantastic Four Annual (1963)": 23,
 				"New Mutants Annual (1984)": "6",
 				"X-Factor Annual (1986)": "5",
 				"Hulk: Broken Worlds": "2"
@@ -2184,6 +2278,49 @@
 			}
 		},
 		{
+			"id": "019d4b47-866b-769f-89fb-c71e571ffc33",
+			"title": "X-Men: Grand Design Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302925246"
+			],
+			"issues": {
+				"X-Men: Grand Design": "1-2",
+				"X-Men: Grand Design: Second Genesis": "1-2",
+				"X-Men: Grand Design X-Tinction": "1-2",
+				"The X-Men (1963)": "1",
+				"Giant-Size X-Men (1975)": 1,
+				"The Uncanny X-Men (1981)": 268
+			}
+		},
+		{
+			"id": "019d4b46-4f0e-777c-bd3c-cc91b899831d",
+			"title": "X-Men: Hellfire Gala",
+			"format": "ohc",
+			"upc": [
+				"9781302932374"
+			],
+			"issues": {
+				"X-Men (2019)": 21,
+				"Marauders (2019)": 21,
+				"Excalibur (2019)": 21,
+				"X-Force (2019)": 20,
+				"New Mutants (2019)": 19,
+				"X-Factor (2020)": 10,
+				"Hellions (2020)": 12,
+				"S.W.O.R.D. (2020)": 6,
+				"Way of X (2021)": 3,
+				"X-Corp (2021)": 2,
+				"Wolverine (2020)": 13,
+				"Planet-Size X-Men (2021)": 1,
+				"Hellfire Hala Guide (2021)": 1
+			},
+			"partials": {
+				"Marvel's Voices: Pride": 1,
+				"Classic X-Men": 7
+			}
+		},
+		{
 			"id": "019d2b0e-2b67-75f3-8d46-830502e9440e",
 			"title": "X-Men: Iceman",
 			"format": "tpb",
@@ -2198,9 +2335,75 @@
 			}
 		},
 		{
+			"id": "019d4b5a-e521-7334-9d9e-5f8227e4dc9a",
+			"title": "X-Men: Inferno",
+			"format": "ohc",
+			"upc": [
+				"9780785137771"
+			],
+			"issues": {
+				"X-Factor (1986)": "33-40",
+				"X-Factor Annual (1986)": "4",
+				"The Uncanny X-Men (1981)": "239-243",
+				"X-Terminators (1988)": "1-4",
+				"New Mutants (1983)": "71-73"
+			},
+			"partials": {
+				"Marvel Age Annual": "4",
+				"Marvel Fanfare (1982)": "40"
+			}
+		},
+		{
+			"id": "019d4b5c-20fe-7681-a749-5e22d593438d",
+			"title": "X-Men: Inferno Crossovers",
+			"format": "ohc",
+			"upc": [
+				"9780785146711"
+			],
+			"issues": {
+				"Power Pack (1984)": "40,42-44",
+				"The Avengers (1963)": "298-300",
+				"Fantastic Four (1961)": "322-324",
+				"The Amazing Spider-Man (1963)": "311-313",
+				"Peter Parker, the Spectacular Spider-Man": "146-148",
+				"Web of Spider-Man": "47-48",
+				"Daredevil (1964)": "262-263,265",
+				"Excalibur (1988)": "6-7",
+				"Mutant Misadventures of Cloak and Dagger": 4
+			}
+		},
+		{
+			"id": "019d4b5e-4c11-701c-b5ea-3ecde6056839",
+			"title": "X-Men: Inferno Omnibus",
+			"format": "omnibus",
+			"reference": "https://marvel.fandom.com/wiki/X-Men:_Inferno_Omnibus_Vol_1_1",
+			"issues": {
+				"X-Factor (1986)": "33-40",
+				"X-Terminators (1988)": "1-4",
+				"The Uncanny X-Men (1981)": "239-243",
+				"New Mutants (1983)": "71-73",
+				"Power Pack (1984)": "40,42-44",
+				"The Avengers (1963)": "298-300",
+				"Fantastic Four (1961)": "322-324",
+				"The Amazing Spider-Man (1963)": "311-313",
+				"Peter Parker, the Spectacular Spider-Man": "146-148",
+				"Web of Spider-Man": "47-48",
+				"Daredevil (1964)": "262-263,265",
+				"Excalibur (1988)": "6-7",
+				"Mutant Misadventures of Cloak and Dagger": 4
+			},
+			"partials": {
+				"X-Factor Annual (1986)": "4"
+			}
+		},
+		{
 			"id": "019ccb27-506b-754c-ad66-a08faeeb09ae",
 			"title": "X-Men: Inferno Prologue Omnibus",
 			"format": "omnibus",
+			"notes": "The OHC version has the same contents, so its UPC is included",
+			"upc": [
+				"9780785192732"
+			],
 			"issues": {
 				"X-Factor (1986)": "27-32",
 				"X-Factor Annual (1986)": "3",
@@ -2212,6 +2415,22 @@
 			"partials": {
 				"Marvel Age Annual": "4",
 				"Marvel Fanfare (1982)": "40"
+			}
+		},
+		{
+			"id": "019d4b67-96dd-749b-abaa-6bc5d6a47689",
+			"title": "X-Men: Legion Quest",
+			"format": "ohc",
+			"upc": [
+				"9781302910389"
+			],
+			"issues": {
+				"The Uncanny X-Men (1981)": "318-321",
+				"X-Men (1991)": "38-41",
+				"X-Men Unlimited (1993)": "4-7",
+				"The Uncanny X-Men Annual (1992)": "3",
+				"X-Factor (1986)": "107-109",
+				"Cable (1993)": 20
 			}
 		},
 		{
@@ -2237,6 +2456,47 @@
 			}
 		},
 		{
+			"id": "019d4b70-1368-70c8-a7fc-a1696e5eeb42",
+			"title": "X-Men: Onslaught Aftermath Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302964207"
+			],
+			"issues": {
+				"The Uncanny X-Men (1981)": "338-340",
+				"Uncanny X-Men Annual '96": 1,
+				"Uncanny X-Men Annual '97": 1,
+				"X-Men (1991)": "58-61",
+				"X-Men Annual '97": 1,
+				"X-Men Unlimited (1993)": "12-15",
+				"X-Factor (1986)": 130,
+				"Magneto (1996": "1-4",
+				"XSE": "1-4",
+				"Beast": "1-3",
+				"Juggernaut (1997)": 1
+			},
+			"partials": {
+				"Marvel Holiday Special 1996": 1
+			}
+		},
+		{
+			"id": "019d4b73-add3-7528-9dcc-4cda524e3dd9",
+			"title": "X-Men: Operation Zero Tolerance",
+			"format": "ohc",
+			"upc": [
+				"9780785162407"
+			],
+			"issues": {
+				"Generation X": "26-31",
+				"X-Force (1991)": "67-70",
+				"X-Men (1991)": "65-70",
+				"The Uncanny X-Men (1981)": 346,
+				"Wolverine (1988)": "115-118",
+				"Cable (1993)": "45-47",
+				"X-Man (1995)": 30
+			}
+		},
+		{
 			"id": "019d2b04-6bba-720b-aa4b-cdd522130eac",
 			"title": "X-Men: Phoenix Rising",
 			"format": "tpb",
@@ -2253,6 +2513,48 @@
 			}
 		},
 		{
+			"id": "019d4b7a-a693-76b8-b784-6921a20d256b",
+			"title": "X-Men: Road to Onslaught Omnibus Volume 1",
+			"format": "omnibus",
+			"upc": [
+				"9781302959517"
+			],
+			"issues": {
+				"X-Men Prime (1995)": 1,
+				"The Uncanny X-Men (1981)": "322-328",
+				"Uncanny X-Men Annual '95": 1,
+				"X-Men (1991)": "42-47",
+				"X-Men Annual '95": 1,
+				"X-Men Unlimited (1993)": "8-9",
+				"Sabretooth Special": 1,
+				"Wolverine/Gambit: Victims": "1-4",
+				"Starjammers (1995)": "1-4"
+			}
+		},
+		{
+			"id": "019d4b7e-5c28-7409-a496-3cf5e40a556d",
+			"title": "X-Men: Road to Onslaught Omnibus Volume 2",
+			"format": "omnibus",
+			"upc": [
+				"9781302965488"
+			],
+			"issues": {
+				"X-Men (1991)": "48-52",
+				"The Uncanny X-Men (1981)": "329-332",
+				"Archangel": 1,
+				"X-Men/Brood": "1-2",
+				"X-Men & ClanDestine": "1-2",
+				"X-Men Unlimited (1993)": 10,
+				"Wolverine (1988)": 101,
+				"Storm (1996)": "1-4",
+				"Further Adventures of Cyclops and Phoenix": "1-4",
+				"Rise of Apocalypse": "1-4",
+				"Black Knight: Exodus": 1,
+				"Xavier Institute Alumni Yearbook": 1,
+				"Fantastic Four (1961)": 19
+			}
+		},
+		{
 			"id": "019d4aec-4b1c-772c-b57a-e03b351acfe1",
 			"title": "X-Men: The Age of Apocalypse Companion Omnibus",
 			"format": "omnibus",
@@ -2262,7 +2564,7 @@
 			"issues": {
 				"X-Men Chronicles": "1-2",
 				"Tales from the Age of Apocalypse": "1-2",
-				"X-Man": "-1,53-54",
+				"X-Man (1995)": "-1,53-54",
 				"Blink": "1-4",
 				"X-Universe": "1-2",
 				"Exiles (2001)": "60-61",
@@ -2273,7 +2575,7 @@
 			},
 			"partials": {
 				"Hulk: Broken Worlds": 2,
-				"X-Men Prime": 1,
+				"X-Men Prime (1995)": 1,
 				"X-Man Annual '96": 1,
 				"X-Men: Endagered Species": 1,
 				"Exiles: Days of Then and Now": 1,
@@ -2299,7 +2601,7 @@
 				"Geneartion Next": "1-4",
 				"Weapon X (1995)": "1-4",
 				"X-Calibre": "1-4",
-				"X-Man": "1-4",
+				"X-Man (1995)": "1-4",
 				"X-Men Omega": 1,
 				"Age of Apocalypse: The Chosen": 1,
 				"X-Men Ashcan": 2
@@ -2308,9 +2610,14 @@
 		{
 			"id": "019d4b14-369a-77fc-b535-8c86050ce120",
 			"title": "X-Men: The Dark Phoenix Saga Omnibus",
+			"alt_titles": [
+				"Phoenix Omnibus Volume 1"
+			],
+			"notes": "Phoenix Omnibus Volume 1 is the same content",
 			"format": "omnibus",
 			"upc": [
-				"9781302912123"
+				"9781302912123",
+				"9781302945763"
 			],
 			"issues": {
 				"The X-Men (1963)": "97-105,107-108,125-138",
@@ -2323,6 +2630,136 @@
 			}
 		},
 		{
+			"id": "019d4b3d-d72a-74ed-b890-d6d0c6068e7d",
+			"title": "X-Men: The Fall of the Mutants",
+			"format": "ohc",
+			"upc": [
+				"9780785153122"
+			],
+			"issues": {
+				"X-Factor (1986)": "18-26",
+				"The Uncanny X-Men (1981)": "220-227",
+				"New Mutants (1983)": "55-61",
+				"Incredible Hulk (1968)": "336-337,340",
+				"Power Pack (1984)": "35",
+				"Daredevil (1964)": 252,
+				"Captain Marvel (1968)": 339,
+				"Fantastic Four (1961)": 312
+			}
+		},
+		{
+			"id": "019d4b55-ac4d-7565-9546-cf5925e9cb33",
+			"title": "X-Men: The Hidden Years Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302950217"
+			],
+			"issues": {
+				"X-Men: The Hidden Years": "1-22",
+				"Fantastic Four (1961)": "102-104"
+			},
+			"partials": {
+				"X-Men (1991)": 94,
+				"Amazing Adult Fantasy": 14
+			}
+		},
+		{
+			"id": "019d4b88-95b7-7051-ab39-50d59b97dd36",
+			"title": "X-Men: The Wedding of Cyclops & Phoenix",
+			"format": "ohc",
+			"upc": [
+				"9781302913229"
+			],
+			"issues": {
+				"X-Men (1991)": "26-35",
+				"The Avengers (1963)": "368-369",
+				"Avengers West Coast (1989)": 101,
+				"The Uncanny X-Men (1981)": "307-310",
+				"Cable (1993)": "6-8",
+				"X-Men Unlimited (1993)": 3,
+				"The Uncanny X-Men Annual (1992)": 18,
+				"X-Men: The Wedding Album (1994)": 1,
+				"What If? (1989)": 60,
+				"Adventures of Cyclops and Phoenix (1994)": "1-4"
+			},
+			"partials": {
+				"Marvel Valentine Special": 1
+			}
+		},
+		{
+			"id": "019d4ba1-0f84-737a-bbe9-6acc49bd19fa",
+			"title": "X-Men: X-Cutioner's Song",
+			"format": "ohc",
+			"upc": [
+				"9780785156109"
+			],
+			"issues": {
+				"The Uncanny X-Men (1981)": "294-297",
+				"X-Factor (1986)": "84-86",
+				"X-Men (1991)": "14-16",
+				"X-Force (1991)": "16-18",
+				"Stryfe's Strike File": 1
+			}
+		},
+		{
+			"id": "019d4b9e-4669-775f-a830-ef5b053736ce",
+			"title": "X-Men: X-Tinction Agenda",
+			"format": "ohc",
+			"upc": [
+				"9780785155317"
+			],
+			"issues": {
+				"The Uncanny X-Men (1981)": "235-238,270-272",
+				"New Mutants (1983)": "95-97",
+				"X-Factor (1986)": "60-62"
+			}
+		},
+		{
+			"id": "019d4b8f-1300-757a-823d-7720dfc0a7fd",
+			"title": "X-Men: X-Tinction Agenda Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9781302960117"
+			],
+			"issues": {
+				"The Uncanny X-Men (1981)": "270-272",
+				"New Mutants (1983)": "95-97",
+				"X-Factor (1986)": "60-62",
+				"The X-Men Annual (1970)": "14-15",
+				"X-Men: Spotlight on Starjammers": "1-2"
+			},
+			"partials": {
+				"Fantastic Four Annual (1963)": 23,
+				"New Mutants Annual (1984)": "6-7",
+				"X-Factor Annual (1986)": "5-6",
+				"New Warriors Annual": 1,
+				"Marvel Comics Presents (1988)": "10-17,24-32,41,43,48-49",
+				"Marvel Super-Heroes (1990)": "2,6-8",
+				"Marvel Holiday Special (1991)": 1,
+				"Marvel Tales (1964)": 262
+			}
+		},
+		{
+			"id": "019d4b95-7e07-7012-af57-eb962a9cb0d9",
+			"title": "X-Statix Omnibus",
+			"format": "omnibus",
+			"upc": [
+				"9780785158448"
+			],
+			"issues": {
+				"X-Force (1991)": "116-129",
+				"Brotherhood": 9,
+				"X-Statix": "1-26",
+				"Wolverine/Doop": "1-2",
+				"X-Statix Presents Dead Girl": "1-5"
+			},
+			"partials": {
+				"X-Men Unlimited (1993)": 41,
+				"I (Heart) Marvel: My Mutant Heart": 1,
+				"Nation X": 4
+			}
+		},
+		{
 			"id": "019d2b14-1207-722f-a62f-39d016cc33d1",
 			"title": "X-Terminators",
 			"format": "tpb",
@@ -2331,6 +2768,41 @@
 			],
 			"issues": {
 				"X-Terminators (2022)": "1-5"
+			}
+		},
+		{
+			"id": "019d4b98-956d-70cc-b363-c7ea5a7a910e",
+			"title": "X-Treme X-Men Omnibus Volume 1",
+			"format": "omnibus",
+			"upc": [
+				"9781302946401"
+			],
+			"issues": {
+				"The Uncanny X-Men (1981)": 389,
+				"X-Men (1991)": 109,
+				"X-Treme X-Men (2001)": "1-24",
+				"X-Treme X-Men: Savage Land": "1-4",
+				"X-Treme X-Men Annual 2001": 1,
+				"X-Treme X-Men X-Pose": "1-2"
+			},
+			"partials": {
+				"X-Men Unlimited (1993)": 36
+			}
+		},
+		{
+			"id": "019d4b9b-8fcc-746d-bad5-d42df6db076f",
+			"title": "X-Treme X-Men Omnibus Volume 2",
+			"format": "omnibus",
+			"upc": [
+				"9781302954048"
+			],
+			"issues": {
+				"Mekanix": "1-6",
+				"X-Treme X-Men (2001)": "25-46",
+				"X-Women": 1
+			},
+			"partials": {
+				"X-Men Unlimited (1993)": 39
 			}
 		},
 		{
