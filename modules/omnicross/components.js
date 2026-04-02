@@ -21,7 +21,10 @@ export class SeriesBrowserEntryElement extends FilterableElement {
         super();
         this.data = data;
         const thisElement = this;
-        this.filterableValue = data.name.toLowerCase();
+        const lowerCaseName = data.name.toLowerCase();
+        this.checkFilter = (filterValue) => {
+            return lowerCaseName.includes(filterValue);
+        }
         const template = document.getElementById("series-browser-entry-template");
         const templateContent = template.content;
         const shadowRoot = this.attachShadow({ mode: "open" });
@@ -69,7 +72,24 @@ export class CompilationBrowserEntryElement extends FilterableElement {
         super();
         const thisElement = this;
         this.data = data;
-        this.filterableValue = data.name.toLowerCase();
+
+        const lowerCaseName = data.name.toLowerCase();
+        this.checkFilter = (filterValue) => {
+            if (lowerCaseName.includes(filterValue)) {
+                return true;
+            }
+            if (data.tags != null) {
+                let result = false;
+                data.tags.forEach(e => {
+                    if (e.toLocaleLowerCase().includes(filterValue)) {
+                        result = true;
+                    }
+                });
+                return result;
+            }
+            return false;
+        }
+
         const template = document.getElementById("compilation-browser-entry-template");
         const templateContent = template.content;
         const shadowRoot = this.attachShadow({ mode: "open" });

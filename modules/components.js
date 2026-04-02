@@ -301,7 +301,7 @@ export class FilterableListElement extends HTMLElement {
         this.#elementsContainer.innerHTML = "";
         const filterValue = this.#searchElement.value.toLowerCase().trim();
         this.#elements.forEach(e => {
-            if (filterValue === "" || e.filterableValue.includes(filterValue)) {
+            if (filterValue === "" || e.checkFilter(filterValue)) {
                 this.#elementsContainer.appendChild(e);
             }
         })
@@ -309,7 +309,9 @@ export class FilterableListElement extends HTMLElement {
 }
 export class FilterableElement extends HTMLElement {
     /** @type {string} */
-    filterableValue;
+    checkFilter = (filterValue) => {
+        return true;
+    };
 }
 export function bootstrapComponents() {
     customElements.define("card-box", CardBoxElement);

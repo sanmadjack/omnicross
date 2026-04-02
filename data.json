@@ -99,6 +99,10 @@
 			"id": "019d495f-3e77-720a-b902-3a2bf5fd12ca",
 			"title": "All-New Wolverine Omnibus",
 			"format": "omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"upc": [
 				"9781302926441"
 			],
@@ -125,6 +129,10 @@
 		{
 			"id": "019d25fe-ea64-7796-9467-fc3750bcf41c",
 			"title": "Astonishing X-Men Volume 1",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "ohc",
 			"upc": [
 				"9780785117339"
@@ -136,6 +144,10 @@
 		{
 			"id": "019d2600-1372-71ac-bcd0-9b0bd6e2fa25",
 			"title": "Astonishing X-Men Volume 2",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "ohc",
 			"upc": [
 				"9780785122531"
@@ -148,6 +160,10 @@
 		{
 			"id": "019d2b15-da48-733f-81f8-cb3839c0e56a",
 			"title": "Astonishing X-Men: Xenogenesis",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "tpb",
 			"upc": [
 				"9780785144915"
@@ -159,6 +175,10 @@
 		{
 			"id": "019d25fa-20b3-745b-af01-8c4587c3cb06",
 			"title": "Avengers vs. X-Men Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302946777"
@@ -184,6 +204,11 @@
 		{
 			"id": "019d4a2a-df70-724d-af70-f1bbd8505649",
 			"title": "Cable & X-Force Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men",
+				"X-Force"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302917777"
@@ -201,6 +226,10 @@
 		{
 			"id": "019d2601-013b-75e8-add8-79e10bfab111",
 			"title": "Dazzler Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302959609"
@@ -221,6 +250,10 @@
 		{
 			"id": "019d261c-dc79-74ae-8fdb-7771f1b5c84f",
 			"title": "Deadpool & Cable Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9780785192763"
@@ -236,6 +269,10 @@
 		{
 			"id": "019d26ee-4f45-738e-8ff6-9aba1eee29dc",
 			"title": "Deadpool & Co.",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302910051"
@@ -256,6 +293,10 @@
 		{
 			"id": "019d2629-25d2-7025-8b44-ee4ef10c992a",
 			"title": "Deadpool Beginings Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302904296"
@@ -281,6 +322,10 @@
 		{
 			"id": "019d2627-70c7-7176-b355-04881d67b8af",
 			"title": "Deadpool By Posehn & Duggan Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302902285"
@@ -294,6 +339,10 @@
 		{
 			"id": "019d2625-5c57-701b-86dc-938792ee770e",
 			"title": "Deadpool Classic Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9780785196747"
@@ -311,6 +360,10 @@
 		{
 			"id": "019d2621-f2f3-76ea-8b0b-198db3718e47",
 			"title": "Deadpool Minibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9780785190301"
@@ -326,6 +379,10 @@
 		{
 			"id": "019d261e-6299-74bb-a1fb-df5f537c6b0a",
 			"title": "Deadpool Minibus 0",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302910112"
@@ -343,6 +400,10 @@
 		{
 			"id": "019d2622-350f-762b-a85c-e23a17a954d0",
 			"title": "Deadpool Minibus 2",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302901974"
@@ -358,6 +419,10 @@
 		{
 			"id": "019d2623-49c6-73af-bc77-473fbb503fa0",
 			"title": "Deadpool Minibus 3",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302915926"
@@ -373,6 +438,10 @@
 		{
 			"id": "019d26ea-9d95-748d-9214-b93082373b1e",
 			"title": "Deadpool by Daniel Way The Complete Collection Volume 1",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302910068"
@@ -389,6 +458,10 @@
 		{
 			"id": "019d26ed-054e-70fc-aad8-b6b1a13f93d5",
 			"title": "Deadpool by Daniel Way The Complete Collection Volume 2",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302911416"
@@ -403,6 +476,10 @@
 		{
 			"id": "019d26f1-6a06-77e7-8555-ee343d9703c7",
 			"title": "Deadpool by Joe Kelly Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9780785185598"
@@ -421,6 +498,10 @@
 		{
 			"id": "019d4985-3087-72ab-8a71-9e7ec6dd062d",
 			"title": "Death of Wolverine Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302959876"
@@ -445,6 +526,10 @@
 		{
 			"id": "019d2714-a33f-723c-a87d-013afe00148c",
 			"title": "Excalibur Omnibus Volume 1",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302926663"
@@ -463,6 +548,10 @@
 		{
 			"id": "019d2705-9f95-72f8-b49f-8f6f962681cd",
 			"title": "Excalibur Omnibus Volume 2",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302932282"
@@ -482,6 +571,10 @@
 		{
 			"id": "019d271a-eb2f-735d-8e1c-6adcc58d2f33",
 			"title": "Excalibur Omnibus Volume 3",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302953744"
@@ -503,6 +596,10 @@
 		{
 			"id": "019d271c-cd40-769f-9089-bb8abea1e6e6",
 			"title": "Excalibur Omnibus Volume 4",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302965426"
@@ -524,6 +621,10 @@
 		{
 			"id": "019d2725-f914-740b-896f-e76b98388917",
 			"title": "Fall of the House of X/Rise of the Powers of X Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302956578"
@@ -568,6 +669,10 @@
 		{
 			"id": "019d2ae8-5c77-70bb-9c46-74a62cf36422",
 			"title": "Giant Size X-Men",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "ohc",
 			"upc": [
 				"9780785197775"
@@ -691,6 +796,10 @@
 		{
 			"id": "019d2b2e-545c-70ba-a8cc-273fcf830fd9",
 			"title": "House of M Companion Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302953768"
@@ -710,6 +819,10 @@
 		{
 			"id": "019d2b31-1ac6-708e-aaa3-2fa86e195570",
 			"title": "House of M Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302948221"
@@ -744,6 +857,10 @@
 		{
 			"id": "019d2b36-cde7-7044-b945-d0581ef86bf9",
 			"title": "House of X/Powers of X",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "ohc",
 			"upc": [
 				"9781302915704"
@@ -844,6 +961,10 @@
 		{
 			"id": "019d494d-47b8-748b-b83f-061dbf7b1943",
 			"title": "NYX/X-23",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "ohc",
 			"upc": [
 				"9780785118251"
@@ -856,6 +977,10 @@
 		{
 			"id": "019d2b16-94ce-77ff-9692-77808f2ea4fc",
 			"title": "NYX: No Way Home",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "tpb",
 			"upc": [
 				"9780785128328"
@@ -867,6 +992,10 @@
 		{
 			"id": "019d494b-6b13-77eb-b4ea-69fe0f3410de",
 			"title": "New X-Men Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9780785165057"
@@ -879,6 +1008,10 @@
 		{
 			"id": "019d2b11-ee99-7789-aa4e-be1c1c5d15c7",
 			"title": "New X-Men: Childhood's End",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "tpb",
 			"upc": [
 				"9780785122388"
@@ -890,6 +1023,10 @@
 		{
 			"id": "019d26fe-32e2-75da-9a9f-44497cb640f0",
 			"title": "Phoenix: The Death & Rebirth of Jean Grey Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302965501"
@@ -1038,6 +1175,10 @@
 		{
 			"id": "019d4988-c404-74db-a898-1f797647fde0",
 			"title": "Return of Wolverine Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302965877"
@@ -1060,6 +1201,10 @@
 		{
 			"id": "019d2b12-e265-7397-b1b5-d93409f02793",
 			"title": "Rogue",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "tpb",
 			"upc": [
 				"9780785101406"
@@ -1249,6 +1394,10 @@
 		{
 			"id": "019d4938-1e72-72b2-9efe-0ef8e907a42c",
 			"title": "The New Mutants Omnibus Volume 1",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302926885"
@@ -1269,6 +1418,10 @@
 		{
 			"id": "019d493a-b93a-73ca-a51f-e781928ed043",
 			"title": "The New Mutants Omnibus Volume 2",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302932350"
@@ -1290,6 +1443,10 @@
 		{
 			"id": "019d493d-2f93-711f-a021-52e805a5c939",
 			"title": "The New Mutants Omnibus Volume 3",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302954086"
@@ -1359,6 +1516,10 @@
 		{
 			"id": "019cbb17-eef4-7579-86bc-f4ffa314e96b",
 			"title": "The Uncanny X-Men Omnibus Volume 1",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9780785185697"
@@ -1372,6 +1533,10 @@
 		{
 			"id": "019cbb85-3e46-779a-95a0-d2fc14411d80",
 			"title": "The Uncanny X-Men Omnibus Volume 2",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9780785185727"
@@ -1391,6 +1556,10 @@
 		{
 			"id": "019d2546-08fc-73ba-ae86-b65550ed5365",
 			"title": "The Uncanny X-Men Omnibus Volume 3",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9780785199229"
@@ -1408,6 +1577,10 @@
 		{
 			"id": "019d257a-33a4-703f-8b41-c133c0dc7983",
 			"title": "The Uncanny X-Men Omnibus Volume 4",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302927042"
@@ -1423,6 +1596,10 @@
 		{
 			"id": "019d257d-4c0f-728a-9d43-8a316631f849",
 			"title": "The Uncanny X-Men Omnibus Volume 5",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302948719"
@@ -1440,6 +1617,10 @@
 		{
 			"id": "019d253d-7528-73fc-b847-2880c44dc2f1",
 			"title": "The X-Men Omnibus Volume 1",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9780785129585"
@@ -1451,6 +1632,10 @@
 		{
 			"id": "019d253e-7121-75e6-bc6b-4b9a977b9362",
 			"title": "The X-Men Omnibus Volume 2",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9780785153078"
@@ -1513,6 +1698,10 @@
 		{
 			"id": "019d4a26-a839-770b-bdf1-c4207236f914",
 			"title": "Uncanny X-Force Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302957735"
@@ -1527,6 +1716,10 @@
 		{
 			"id": "019d2b10-f382-7580-9acf-061a900fbc66",
 			"title": "Uncanny X-Men - The New Age: The Cruelest Cut",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "tpb",
 			"upc": [
 				"9780785116455"
@@ -1538,6 +1731,10 @@
 		{
 			"id": "019d4958-186e-741e-a5a6-805b68323664",
 			"title": "Uncanny X-Men by Brian Michael Bendis Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302966454"
@@ -1556,6 +1753,10 @@
 		{
 			"id": "019d26f6-0e33-7762-b018-31e94c9c42a1",
 			"title": "Uncanny X-Men by Kieron Gillen Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"issues": {
 				"S.W.O.R.D. (2009)": "1-5",
@@ -1568,6 +1769,10 @@
 		{
 			"id": "019d4960-f20b-740e-94d4-8a4579e836cf",
 			"title": "Weapon X: The Return Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302911829"
@@ -1591,6 +1796,10 @@
 		{
 			"id": "019d4965-2cf9-7291-ae5e-0b661aa0062f",
 			"title": "Wolverine Omnibus Volume 1",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9780785134770"
@@ -1612,6 +1821,10 @@
 		{
 			"id": "019d4968-5875-7119-a492-67bc0a4569c1",
 			"title": "Wolverine Omnibus Volume 2",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302929954"
@@ -1630,6 +1843,10 @@
 		{
 			"id": "019d496a-772a-771a-afac-2de328932e9d",
 			"title": "Wolverine Omnibus Volume 3",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302946524"
@@ -1649,6 +1866,10 @@
 		{
 			"id": "019d496c-e07e-77d1-9635-da8401f2359c",
 			"title": "Wolverine Omnibus Volume 4",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302954000"
@@ -1671,6 +1892,10 @@
 		{
 			"id": "019d497a-206f-7472-8d83-2d6add3940bd",
 			"title": "Wolverine Omnibus Volume 5",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302958060"
@@ -1695,6 +1920,10 @@
 		{
 			"id": "019d497d-91e5-775c-a26f-8a52b547c08b",
 			"title": "Wolverine Omnibus Volume 6",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302964313"
@@ -1719,6 +1948,10 @@
 		{
 			"id": "019d26f9-7c45-76dc-90c1-be09da80ce5d",
 			"title": "Wolverine and the X-Men Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9780785190240"
@@ -1731,6 +1964,10 @@
 		{
 			"id": "019d4975-aa1b-7179-9c45-0b34450386c3",
 			"title": "Wolverine by Jason Aaron Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9780785156390"
@@ -1750,6 +1987,10 @@
 		{
 			"id": "019d4982-41e1-743d-b055-65d96fd36789",
 			"title": "Wolverine by Mark Millar Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9780785167969"
@@ -1762,6 +2003,10 @@
 		{
 			"id": "019d4983-633e-77cb-bb06-d5a417d3dfd8",
 			"title": "Wolverine goes to Hell Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302911591"
@@ -1778,6 +2023,10 @@
 		{
 			"id": "019d498e-40e0-72e9-b1cd-8abea112b450",
 			"title": "X-23 Omnibus Volume 1",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302951603"
@@ -1799,6 +2048,10 @@
 		{
 			"id": "019d499a-0333-763a-8174-0673646539b2",
 			"title": "X-Factor by Peter David Omnibus Volume 1",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302930660"
@@ -1816,6 +2069,10 @@
 		{
 			"id": "019d499c-0257-732d-ae87-5415e51aa996",
 			"title": "X-Factor by Peter David Omnibus Volume 2",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302945220"
@@ -1831,6 +2088,10 @@
 		{
 			"id": "019d499d-6bc3-72e8-be78-48311827f491",
 			"title": "X-Factor by Peter David Omnibus Volume 3",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302953300"
@@ -1843,6 +2104,10 @@
 		{
 			"id": "019d499e-4ad4-77ba-bbfd-23f3efd2b037",
 			"title": "X-Factor by Peter David Omnibus Volume 4",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302964252"
@@ -1856,6 +2121,10 @@
 		{
 			"id": "019d4994-7cee-723d-9afd-b07489a0b02b",
 			"title": "X-Factor: The Original X-Men Volume 1",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302956974"
@@ -1881,6 +2150,10 @@
 		{
 			"id": "019cca9f-193f-744a-86b6-49be35379f84",
 			"title": "X-Factor: The Original X-Men Volume 2",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302966096"
@@ -1901,6 +2174,10 @@
 		{
 			"id": "019d4a27-d9e4-73cd-84a6-dae1617cec66",
 			"title": "X-Force Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9780785165958"
@@ -1922,6 +2199,10 @@
 		{
 			"id": "019d2b15-2822-72cf-99b2-24b8c6f469c2",
 			"title": "X-Infernus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "tpb",
 			"upc": [
 				"9780785139478"
@@ -1933,6 +2214,10 @@
 		{
 			"id": "019d4ad8-b456-7057-89c5-a2066c9dc664",
 			"title": "X-Men 2099 Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302952075"
@@ -1951,6 +2236,10 @@
 		{
 			"id": "019d4b02-32fc-737e-b7b2-ead45b510f61",
 			"title": "X-Men Blue & Gold: Bloodties Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"reference": "https://marvel.fandom.com/wiki/X-Men:_Blue_%26_Gold_-_Bloodties_Omnibus_Vol_1_1",
 			"issues": {
@@ -1976,6 +2265,10 @@
 		{
 			"id": "019d4afd-c3a7-76af-83a5-cee515a47342",
 			"title": "X-Men Blue & Gold: Mutant Genesis Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302965365"
@@ -1999,6 +2292,10 @@
 		{
 			"id": "019d253f-f4f2-76f9-97a0-2c8b53bd0ce9",
 			"title": "X-Men By Hickman Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302929985"
@@ -2015,6 +2312,10 @@
 		{
 			"id": "019d4b06-c206-737c-afc8-49286e5f8378",
 			"title": "X-Men Classic Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302908119"
@@ -2029,6 +2330,10 @@
 		{
 			"id": "019d4b2d-2f80-708c-bd84-6aaf25c64ec9",
 			"title": "X-Men Fatal Attractions Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302963514"
@@ -2047,6 +2352,10 @@
 		{
 			"id": "019d4b66-65a8-763c-9a3b-ecd23ad087e5",
 			"title": "X-Men Legacy: Legion Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302903923"
@@ -2058,6 +2367,10 @@
 		{
 			"id": "019d4b6c-0959-753a-88ae-e963478d4cc9",
 			"title": "X-Men Legacy: Mutant Massacre Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302931605"
@@ -2078,6 +2391,10 @@
 		{
 			"id": "019d4a35-813d-75cc-a02a-e82145b0e3d9",
 			"title": "X-Men Omnibus Volume 1",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9780785158226"
@@ -2091,6 +2408,10 @@
 		{
 			"id": "019d4a37-06a5-738f-b1db-a59b0bf03b35",
 			"title": "X-Men Omnibus Volume 2",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9780785159056"
@@ -2108,6 +2429,10 @@
 		{
 			"id": "019d4a2f-f397-76fe-982d-bf4205b3b223",
 			"title": "X-Men by Marc Guggenheim Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302966164"
@@ -2132,6 +2457,10 @@
 		{
 			"id": "019d4b82-9437-7082-9553-79acca3a81cb",
 			"title": "X-Men vs Apocalypse: The Twelve Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302922870"
@@ -2159,6 +2488,10 @@
 		{
 			"id": "019d4ae0-0628-76f8-91c8-a25735407a63",
 			"title": "X-Men/Avengers: Onslaught Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9780785192626"
@@ -2195,6 +2528,10 @@
 		{
 			"id": "019d2b19-43e5-77b8-94f9-62a6c63eb52b",
 			"title": "X-Men: Beauty and the Beast",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "tpb",
 			"upc": [
 				"9780785162735"
@@ -2210,6 +2547,10 @@
 		{
 			"id": "019d4ba3-da6d-7245-8e8d-f05ed5ceed31",
 			"title": "X-Men: Bishop's Crossing",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "ohc",
 			"upc": [
 				"9780785153498"
@@ -2225,6 +2566,10 @@
 		{
 			"id": "019d4b08-20f7-75aa-9ab9-78e00a571945",
 			"title": "X-Men: Days of Future Past",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "ohc",
 			"upc": [
 				"9780785184423"
@@ -2246,6 +2591,10 @@
 		{
 			"id": "019d4b18-9c6a-738b-a260-c32cef09b8f5",
 			"title": "X-Men: Decimation Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302960254"
@@ -2269,6 +2618,10 @@
 		{
 			"id": "019d2b18-917e-703d-b88f-67349e5a808e",
 			"title": "X-Men: God Loves, Man Kills",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "tpb",
 			"upc": [
 				"9780785127611"
@@ -2280,6 +2633,10 @@
 		{
 			"id": "019d4b47-866b-769f-89fb-c71e571ffc33",
 			"title": "X-Men: Grand Design Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302925246"
@@ -2296,6 +2653,10 @@
 		{
 			"id": "019d4b46-4f0e-777c-bd3c-cc91b899831d",
 			"title": "X-Men: Hellfire Gala",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "ohc",
 			"upc": [
 				"9781302932374"
@@ -2323,6 +2684,10 @@
 		{
 			"id": "019d2b0e-2b67-75f3-8d46-830502e9440e",
 			"title": "X-Men: Iceman",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "tpb",
 			"upc": [
 				"9780785162759"
@@ -2337,6 +2702,10 @@
 		{
 			"id": "019d4b5a-e521-7334-9d9e-5f8227e4dc9a",
 			"title": "X-Men: Inferno",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "ohc",
 			"upc": [
 				"9780785137771"
@@ -2356,6 +2725,10 @@
 		{
 			"id": "019d4b5c-20fe-7681-a749-5e22d593438d",
 			"title": "X-Men: Inferno Crossovers",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "ohc",
 			"upc": [
 				"9780785146711"
@@ -2375,6 +2748,10 @@
 		{
 			"id": "019d4b5e-4c11-701c-b5ea-3ecde6056839",
 			"title": "X-Men: Inferno Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"reference": "https://marvel.fandom.com/wiki/X-Men:_Inferno_Omnibus_Vol_1_1",
 			"issues": {
@@ -2399,6 +2776,10 @@
 		{
 			"id": "019ccb27-506b-754c-ad66-a08faeeb09ae",
 			"title": "X-Men: Inferno Prologue Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"notes": "The OHC version has the same contents, so its UPC is included",
 			"upc": [
@@ -2420,6 +2801,10 @@
 		{
 			"id": "019d4b67-96dd-749b-abaa-6bc5d6a47689",
 			"title": "X-Men: Legion Quest",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "ohc",
 			"upc": [
 				"9781302910389"
@@ -2436,6 +2821,10 @@
 		{
 			"id": "019d2b07-2247-7638-8249-5ff9192b1d31",
 			"title": "X-Men: Lifedeath",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "tpb",
 			"issues": {
 				"The Uncanny X-Men (1981)": "186,198,205,214"
@@ -2447,6 +2836,10 @@
 		{
 			"id": "019d2b17-b4a5-73bb-82e3-f5b12b50971f",
 			"title": "X-Men: Longshot",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "tpb",
 			"upc": [
 				"759606130917"
@@ -2458,6 +2851,10 @@
 		{
 			"id": "019d4b70-1368-70c8-a7fc-a1696e5eeb42",
 			"title": "X-Men: Onslaught Aftermath Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302964207"
@@ -2482,6 +2879,10 @@
 		{
 			"id": "019d4b73-add3-7528-9dcc-4cda524e3dd9",
 			"title": "X-Men: Operation Zero Tolerance",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "ohc",
 			"upc": [
 				"9780785162407"
@@ -2499,6 +2900,10 @@
 		{
 			"id": "019d2b04-6bba-720b-aa4b-cdd522130eac",
 			"title": "X-Men: Phoenix Rising",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "tpb",
 			"upc": [
 				"759606139484"
@@ -2515,6 +2920,10 @@
 		{
 			"id": "019d4b7a-a693-76b8-b784-6921a20d256b",
 			"title": "X-Men: Road to Onslaught Omnibus Volume 1",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302959517"
@@ -2534,6 +2943,10 @@
 		{
 			"id": "019d4b7e-5c28-7409-a496-3cf5e40a556d",
 			"title": "X-Men: Road to Onslaught Omnibus Volume 2",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302965488"
@@ -2557,6 +2970,10 @@
 		{
 			"id": "019d4aec-4b1c-772c-b57a-e03b351acfe1",
 			"title": "X-Men: The Age of Apocalypse Companion Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9780785185147"
@@ -2585,6 +3002,10 @@
 		{
 			"id": "019d4af6-0839-74f9-a8c9-aaa27feffc4a",
 			"title": "X-Men: The Age of Apocalypse Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9780785195092"
@@ -2610,6 +3031,10 @@
 		{
 			"id": "019d4b14-369a-77fc-b535-8c86050ce120",
 			"title": "X-Men: The Dark Phoenix Saga Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"alt_titles": [
 				"Phoenix Omnibus Volume 1"
 			],
@@ -2632,6 +3057,10 @@
 		{
 			"id": "019d4b3d-d72a-74ed-b890-d6d0c6068e7d",
 			"title": "X-Men: The Fall of the Mutants",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "ohc",
 			"upc": [
 				"9780785153122"
@@ -2650,6 +3079,10 @@
 		{
 			"id": "019d4b55-ac4d-7565-9546-cf5925e9cb33",
 			"title": "X-Men: The Hidden Years Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302950217"
@@ -2666,6 +3099,10 @@
 		{
 			"id": "019d4b88-95b7-7051-ab39-50d59b97dd36",
 			"title": "X-Men: The Wedding of Cyclops & Phoenix",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "ohc",
 			"upc": [
 				"9781302913229"
@@ -2689,6 +3126,10 @@
 		{
 			"id": "019d4ba1-0f84-737a-bbe9-6acc49bd19fa",
 			"title": "X-Men: X-Cutioner's Song",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "ohc",
 			"upc": [
 				"9780785156109"
@@ -2704,6 +3145,10 @@
 		{
 			"id": "019d4b9e-4669-775f-a830-ef5b053736ce",
 			"title": "X-Men: X-Tinction Agenda",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "ohc",
 			"upc": [
 				"9780785155317"
@@ -2717,6 +3162,10 @@
 		{
 			"id": "019d4b8f-1300-757a-823d-7720dfc0a7fd",
 			"title": "X-Men: X-Tinction Agenda Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302960117"
@@ -2742,6 +3191,10 @@
 		{
 			"id": "019d4b95-7e07-7012-af57-eb962a9cb0d9",
 			"title": "X-Statix Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9780785158448"
@@ -2762,6 +3215,10 @@
 		{
 			"id": "019d2b14-1207-722f-a62f-39d016cc33d1",
 			"title": "X-Terminators",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "tpb",
 			"upc": [
 				"9781302946999"
@@ -2773,6 +3230,10 @@
 		{
 			"id": "019d4b98-956d-70cc-b363-c7ea5a7a910e",
 			"title": "X-Treme X-Men Omnibus Volume 1",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302946401"
@@ -2792,6 +3253,10 @@
 		{
 			"id": "019d4b9b-8fcc-746d-bad5-d42df6db076f",
 			"title": "X-Treme X-Men Omnibus Volume 2",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "omnibus",
 			"upc": [
 				"9781302954048"
@@ -2808,6 +3273,10 @@
 		{
 			"id": "019d2b0f-5a6f-7028-b729-71f9cfe67a50",
 			"title": "X-Women",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
 			"format": "tpb",
 			"upc": [
 				"9780785162797"

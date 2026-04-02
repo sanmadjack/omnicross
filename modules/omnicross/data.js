@@ -93,6 +93,9 @@ export class Parser {
                 if (e.reference) {
                     compilation.reference = e.reference;
                 }
+                if (e.tags) {
+                    compilation.tags = new Set(e.tags);
+                }
 
                 if (!e.issues) {
                     console.error(e);
@@ -337,6 +340,8 @@ export class Compilation {
     // A list of series in the compilation, along with the issues for that series
     /** @type {Map<string, Set<string>>} */
     series = new Map();
+    /** @type {Set<string>} */
+    tags = new Set();
 
     constructor(id, name) {
         this.id = id;
