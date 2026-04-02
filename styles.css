@@ -30,6 +30,20 @@ a {
 
 #compilation-browser {}
 
+#loadingScreen {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: calc(50vw - 100px);
+    top: calc(50vh - 25px);
+    z-index: 99999;
+    border: solid 1px white;
+    background-color: black;
+    border-radius: 4pt;
+    text-align: center;
+    padding-top: 30px;
+}
+
 .mainTable td {
     vertical-align: top;
 }

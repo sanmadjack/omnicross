@@ -3,17 +3,22 @@
 import { bootstrapComponents, PopupWindowElement } from "./modules/components.js";
 import { bootstrapOmnicrossComponents, CompilationBrowserElement, SeriesBrowserElement, SeriesBrowserEntryElement } from "./modules/omnicross/components.js";
 import { createDraggableCompilationEntry, openComparisonViewer } from "./modules/omnicross/tools.js";
-import { Comparison, Database, Parser, SavedData } from "./modules/omnicross/data.js";
+import { Comparison, Comparitor, Database, Parser, SavedData } from "./modules/omnicross/data.js";
 
 
 window.addEventListener("load", async (event) => {
+    console.time("everything");
+    console.time("bootstrap");
     bootstrapComponents();
     bootstrapOmnicrossComponents();
-
+    console.timeEnd("bootstrap");
+    const loadingWindow = document.getElementById("loadingScreen");
     const parser = new Parser();
     const database = await parser.parse("data.json");
 
-    console.log(database);
+    database.calculateComplateComparison();
+
+
     const footer = document.querySelector("footer");
     footer.innerHTML += " Data updated " + database.lastModified + ".";
 
@@ -49,4 +54,7 @@ window.addEventListener("load", async (event) => {
 
         openComparisonViewer(database, e, saveData);
     });
+
+    loadingWindow.style.display = "none";
+    console.timeEnd("everything");
 });

@@ -76,10 +76,16 @@ export class Parser {
      * @returns {Database}
      */
     async parse(path) {
-        const output = new Database();
+        console.time("parse");
+        console.time("parseDownload");
         const response = await fetch(path);
+        console.timeEnd("parseDownload");
+        const output = new Database();
         output.lastModified = response.headers.get('Last-Modified');
+        console.time("parsetoJson");
         const data = await response.json();
+        console.timeEnd("parsetoJson");
+        console.time("parseProcess");
         if (data.compilations) {
             data.compilations.forEach(e => {
                 if (output.getCompilationById(e.id) != null) {
@@ -142,7 +148,11 @@ export class Parser {
                 output.addCompilation(compilation);
             });
         }
+        console.timeEnd("parseProcess");
+        console.time("parseSort");
         output.sortData();
+        console.timeEnd("parseSort");
+        console.timeEnd("parse");
         return output;
     }
 }
@@ -158,10 +168,33 @@ export class Database {
     /** @type {Map<string, Issue>} */
     #issues = new Map();
 
+    /** @type {ComparitorResult} */
+    #completeComparisonResult;
+
     sortData() {
         this.#compilations = sortMapByName(this.#compilations);
         this.#series = sortMapByName(this.#series);
         //this.#issues = this.#sortMapByName(this.#issues);
+    }
+
+    calculateComplateComparison() {
+        console.time("calculateComplateComparison");
+        const globalComparison = new Comparison("complateComparison");
+        const globalComparitor = new Comparitor();
+        globalComparison.compilations = new Set([...this.getAllCompilationIds()]);
+        this.#completeComparisonResult = globalComparitor.process(this, globalComparison);
+        console.timeEnd("calculateComplateComparison");
+    }
+    /**
+     * 
+     * @param {string}} string 
+     * @returns {Set<Compilation>}
+     */
+    getOverlappingCompilations(string) {
+        if (this.#completeComparisonResult.overlappingCompilations.has(string)) {
+            return this.#completeComparisonResult.overlappingCompilations.get(string);
+        }
+        return new Set();
     }
 
     /**
@@ -273,6 +306,10 @@ export class Database {
         return this.#issues.get(id);
     }
     /** @returns {MapIterator<Compilation>} */
+
+    getAllCompilationIds() {
+        return this.#compilations.keys();
+    }
     getAllCompilations() {
         return this.#compilations.values();
     }
@@ -447,9 +484,12 @@ export class ComparitorResult {
     /** @type {Set<Compilation>} */
     uniqueCompilations = new Set();
     /** @type {Set<Compilation>} */
-    overlappingCompilations = new Set();
+    nonUniqueCompilations = new Set();
     /** @type {Set<Compilation>} */
     redundantCompilations = new Set();
+
+    /** @type {Map<string, Set<Compilation>} */
+    overlappingCompilations = new Map();
 
     /** @type {Set<Series>} */
     series = new Set();
@@ -467,6 +507,24 @@ export class ComparitorResult {
      */
     addUniqueCompilation(compilation) {
         this.uniqueCompilations.add(compilation);
+    }
+    /**
+     * 
+     * @param {Compilation} c1 
+     * @param {Compilation} c2 
+     */
+    addOverlappingCompilations(c1, c2) {
+        if (!this.overlappingCompilations.has(c1.id)) {
+            this.overlappingCompilations.set(c1.id, new Set());
+        }
+        const set1 = this.overlappingCompilations.get(c1.id);
+        set1.add(c2);
+
+        if (!this.overlappingCompilations.has(c2.id)) {
+            this.overlappingCompilations.set(c2.id, new Set());
+        }
+        const set2 = this.overlappingCompilations.get(c2.id);
+        set2.add(c1);
     }
     /**
      * 
@@ -497,7 +555,7 @@ export class ComparitorResult {
         this.series.add(series);
         this.issues.add(issue);
         this.compilations.add(compilation);
-        this.overlappingCompilations.add(compilation);
+        this.nonUniqueCompilations.add(compilation);
     }
     /**
      * 
@@ -532,6 +590,7 @@ export class Comparitor {
      * @returns {ComparitorResult}
      */
     process(database, comparison) {
+        console.time("comparitorProcess");
         /** @type {ComparitorResult} */
         const output = new ComparitorResult();
 
@@ -556,6 +615,7 @@ export class Comparitor {
                     if (b.issues.has(i)) {
                         output.addOverlapIssue(series, issue, a);
                         output.addOverlapIssue(series, issue, b);
+                        output.addOverlappingCompilations(a, b);
                         found = true;
                     }
                 });
@@ -573,6 +633,7 @@ export class Comparitor {
                 output.addRedundantCompilation(a);
             }
         });
+        console.timeEnd("comparitorProcess");
         return output;
     }
 }

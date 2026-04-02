@@ -227,7 +227,7 @@ export class ComparisonViewerElement extends HTMLElement {
         if (result.uniqueCompilations.has(compilation)) {
             link.classList.add("uniqueCompilation");
         }
-        if (result.overlappingCompilations.has(compilation)) {
+        if (result.nonUniqueCompilations.has(compilation)) {
             link.classList.add("overlapCompilation");
         }
         if (result.redundantCompilations.has(compilation)) {
@@ -504,9 +504,12 @@ export class CompilationViewerElement extends HTMLElement {
                 createIssueLinkListById(database, issuesTd, data.series.get(series.id));
 
                 issueTable.appendChild(tr);
-            })
-
-
+            });
+        const overlappingCompilationsElement = this.shadowRoot.getElementById("overlappingCompilations");
+        database.getOverlappingCompilations(data.id).forEach(c=>{
+            const newElement = createDraggableCompilationEntry(database, c);
+            overlappingCompilationsElement.appendChild(newElement);
+        })
     }
 }
 export class SeriesViewerElement extends HTMLElement {
