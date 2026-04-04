@@ -1,9 +1,9 @@
 "use strict";
 
 import { bootstrapComponents, PopupWindowElement } from "./modules/components.js";
-import { bootstrapOmnicrossComponents, CompilationBrowserElement, SeriesBrowserElement, SeriesBrowserEntryElement } from "./modules/omnicross/components.js";
-import { createDraggableCompilationEntry, openComparisonViewer } from "./modules/omnicross/tools.js";
-import { Comparison, Comparitor, Database, Parser, SavedData } from "./modules/omnicross/data.js";
+import { bootstrapOmnicrossComponents, CompilationBrowserElement, SeriesBrowserElement } from "./modules/omnicross/components.js";
+import { openComparisonViewer } from "./modules/omnicross/tools.js";
+import { Comparison, Parser, SavedData } from "./modules/omnicross/data.js";
 
 
 window.addEventListener("load", async (event) => {
@@ -51,10 +51,40 @@ window.addEventListener("load", async (event) => {
     };
 
     saveData.comparisons.values().forEach(e => {
-
         openComparisonViewer(database, e, saveData);
     });
 
     loadingWindow.style.display = "none";
     console.timeEnd("everything");
+
+
+    window.addEventListener("dragover", (event) => {
+        event.preventDefault();
+    }, false);
+
+    window.addEventListener("drop", async (event) => {
+        event.preventDefault();
+        const files = event.dataTransfer.files;
+
+        if (files.length > 0) {
+            for (const file of files) {
+                const text = await file.text();
+                const data = JSON.parse(text);
+                const comparison = Comparison.load(data);
+                if (comparison != null) {
+                    console.log("Comparison " + comparison.name + " successfuly imported");
+                    comparison.id = crypto.randomUUID();
+                    saveData.addComparison(comparison);
+                    saveData.save();
+                    openComparisonViewer(database, comparison, saveData);
+                } else {
+                    console.error("invalid comparison JSON");
+                }
+
+            }
+        }
+
+
+    }, false);
+
 });

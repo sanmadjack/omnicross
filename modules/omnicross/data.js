@@ -1,7 +1,7 @@
 "use strict";
 
 import { calculateSortableName, isString, sortByName, sortMapByName, sortSetByName } from "../tools.js";
-import { idRegex, generateComparisonName } from "./tools.js";
+import { idRegex, generateComparisonName, jsonStringifyReplacer } from "./tools.js";
 
 export class SavedData {
     static #key = "omnicross.savedData";
@@ -50,15 +50,7 @@ export class SavedData {
             saveData.comparisons.push(c);
         });
 
-        localStorage.setItem(SavedData.#key, JSON.stringify(saveData, (key, value) => {
-            if (value instanceof Set) {
-                if (value.size > 0) {
-                    return [...value];
-                }
-                return [];
-            }
-            return value;
-        }));
+        localStorage.setItem(SavedData.#key, JSON.stringify(saveData, jsonStringifyReplacer));
     }
 
     clear() {

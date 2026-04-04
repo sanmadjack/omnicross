@@ -220,3 +220,13 @@ export function generateComparisonName() {
     }
     return name;
 }
+
+export function jsonStringifyReplacer(key, value) {
+    if (value instanceof Set) {
+        if (value.size > 0) {
+            return [...value];
+        }
+        return [];
+    }
+    return value;
+}

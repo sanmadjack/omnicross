@@ -9,6 +9,16 @@ export function isString(value) {
     return typeof value === 'string' || value instanceof String;
 }
 
+export function isEmpty(value) {
+    if (value === null || value === undefined) {
+        return true;
+    }
+    if (isString(value)) {
+        return value == "";
+    }
+    return count(value) == 0;
+}
+
 /**
  * 
  * @param {*} input 
@@ -113,4 +123,21 @@ export function calculateSortableName(input) {
         output = output.substring(4) + ", " + output.substring(0, 4);
     }
     return output;
+}
+
+/**
+ * 
+ * @param {string} content 
+ * @param {string} fileName 
+ */
+export function downloadJsonFile(content, fileName) {
+    const blob = new Blob([content], { type: "application/json" });
+    const url = window.URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = fileName;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    window.URL.revokeObjectURL(url);
 }

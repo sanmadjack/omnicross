@@ -2,8 +2,8 @@
 
 import { FilterableElement, FilterableListElement, COLLAPSIBLE_ENTRY_EXPANING_EVENT, PopupWindowElement } from "../components.js";
 import { Database, Comparitor, Issue, Series, Compilation, Comparison, SavedData, ComparitorResult } from "./data.js";
-import { areSetsSame } from "../tools.js";
-import { createSeriesLink, createIssueLink, createIssueLinkListById, createCompilationLink, createDraggableCompilationEntry, createIssueLinkList } from "./tools.js";
+import { areSetsSame, downloadJsonFile, isEmpty } from "../tools.js";
+import { createSeriesLink, createIssueLinkListById, createCompilationLink, createDraggableCompilationEntry, createIssueLinkList, jsonStringifyReplacer } from "./tools.js";
 
 const COMPILATIONS_HEADER = "Compilation(s)";
 const SERIES_HEADER = "Series(s)";
@@ -184,6 +184,11 @@ export class ComparisonViewerElement extends HTMLElement {
             event.preventDefault();
             // Get the data, which is the id of the dragged element
             const id = event.dataTransfer.getData("text/plain");
+
+            if (isEmpty(id)) {
+                return;
+            }
+
             // Append the dragged element to the drop target
 
             this.#data.compilations.add(id);
@@ -210,6 +215,12 @@ export class ComparisonViewerElement extends HTMLElement {
                 this.popup.hide();
                 this.parentElement.removeChild(this);
             }
+        };
+        /** @type {HTMLButtonElement} */
+        const exportButton = shadowRoot.querySelector("button.exportButton");
+        exportButton.onclick = (e) => {
+            const content = JSON.stringify(data, jsonStringifyReplacer);
+            downloadJsonFile(content, data.name + ".json");
         };
         this.#refreshView(database);
 
