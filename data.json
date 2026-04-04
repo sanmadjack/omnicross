@@ -2526,6 +2526,58 @@
 			}
 		},
 		{
+			"id": "019d563c-386e-776f-b278-7fffc5767864",
+			"title": "X-Men: Age of Krakoa - Dawn of X Omnibus Volume 1",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
+			"format": "omnibus",
+			"reference": "https://marvel.fandom.com/wiki/X-Men:_Age_of_Krakoa_-_Dawn_of_X_Omnibus_Vol_1_1",
+			"issues": {
+				"X-Men (2019)": "1-7",
+				"X-Force (2019)": "1-8",
+				"Marauders (2019)": "1-8",
+				"Excalibur (2019)": "1-8",
+				"Fallen Angels (2019)": "1-6",
+				"New Mutants (2019)": "1-7",
+				"Wolverine (2020)": "2-3",
+				"Giant-Size X-Men: Jean Grey & Emma Frost (2020)": 1
+			},
+			"partials": {
+				"Wolverine (2020)": 1
+			}
+		},
+		{
+			"id": "019d564b-a163-74fc-a6a3-4200238e7251",
+			"title": "X-Men: Age of Krakoa - Dawn of X Omnibus Volume 2",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
+			"format": "omnibus",
+			"reference": "https://marvel.fandom.com/wiki/X-Men:_Age_of_Krakoa_-_Dawn_of_X_Omnibus_Vol_1_2",
+			"issues": {
+				"New Mutants (2019)": "8-12",
+				"Marauders (2019)": "9-12",
+				"X-Men/Fantastic Four": "1-4",
+				"Cable (2020)": "1-4",
+				"X-Men (2019)": "8-11",
+				"X-Force (2019)": "9-12",
+				"Excalibur (2019)": "9-12",
+				"Giant-Size X-Men: Nightcrawler (2020)": 1,
+				"Hellions (2020)": "1-4",
+				"Wolverine (2020)": "4-5",
+				"Giant-Size X-Men: Magneto (2020)": 1,
+				"Empyre X-Men": "1-4",
+				"Giant-Size X-Men: Fantomex (2020)": 1,
+				"Giant-Size X-Men: Storm (2020)": 1
+			},
+			"partials": {
+				"Wolverine (2020)": 1
+			}
+		},
+		{
 			"id": "019d2b19-43e5-77b8-94f9-62a6c63eb52b",
 			"title": "X-Men: Beauty and the Beast",
 			"tags": [
