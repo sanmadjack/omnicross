@@ -538,7 +538,7 @@
 				"Excalibur Special Edition": "1",
 				"Excalibur (1988)": "1-34",
 				"Excalibur: Mojo Mayhem": "1",
-				"Quasar": "11",
+				"Quasar (1989)": "11",
 				"Thor (1966)": "427-429"
 			},
 			"partials": {
@@ -658,7 +658,7 @@
 			},
 			"partials": {
 				"Secret Wars II": "2",
-				"Epic Illustrated": "26-34",
+				"Epic Illustrated (1980)": "26-34",
 				"What If? (1977)": "36",
 				"What The--?!": "2, 10",
 				"Thing (1983)": "7",
@@ -886,6 +886,27 @@
 				"Marvel Treasury Edition": "12",
 				"Marvel Team-Up (1972)": "96"
 			}
+		},
+		{
+			"id": "019d615f-3b81-77eb-bf8d-c704208711a7",
+			"title": "Infinity Gauntlet Omnibus",
+			"tags": [
+				"Marvel",
+				"Silver Surfer"
+			],
+			"format": "omnibus",
+			"issues": {
+				"Silver Surfer (1987)": "34-38,40,44-60",
+				"Thanos Quest (1990)": "1-2",
+				"Infinity Gauntlet": "1-6",
+				"Cloak & Dagger (1988)": 18,
+				"Spider-Man (1990)": 17,
+				"Incredible Hulk (1968)": "383-385",
+				"Doctor Strange, Sorderer Supreme (1988)": "31-36",
+				"Quasar (1989)": "26-27",
+				"Sleepwalker (1991)": 7
+			},
+			"partials": {}
 		},
 		{
 			"id": "019d0853-7f12-741d-9d89-2c4079bf927e",
@@ -1295,6 +1316,240 @@
 				"All-Star Comics": "58-74",
 				"DC Comics Special": "29",
 				"Adventure Comics": "461-466"
+			}
+		},
+		{
+			"id": "019d614d-e3b9-77fe-8aa1-516aed7125ab",
+			"title": "Silver Surfer Epic Collection 12: Into The Outer Void",
+			"tags": [
+				"Marvel",
+				"Silver Surfer"
+			],
+			"format": "tpb",
+			"issues": {
+				"Silver Surfer (1987)": "111-122",
+				"Silver Surder: Dangerous Artifacts": 1,
+				"Silver Surfer Ashcan": 1,
+				"Spider-Man Team-Up": 2
+			},
+			"partials": {
+				"X-Men Unlimited (1993)": 13,
+				"Marvel Holiday Special 1996": 1
+			}
+		},
+		{
+			"id": "019d614f-aaff-726c-9592-d044e2e4c8bd",
+			"title": "Silver Surfer Epic Collection 13: Inner Demons",
+			"tags": [
+				"Marvel",
+				"Silver Surfer"
+			],
+			"format": "tpb",
+			"issues": {
+				"Silver Surfer (1987)": "123-138,-1",
+				"Silver Surfer Annual '97": 1
+			}
+		},
+		{
+			"id": "019d6151-00a7-774f-b83e-28330922fe12",
+			"title": "Silver Surfer Epic Collection 14: Sun Rise and Shadow Fall",
+			"tags": [
+				"Marvel",
+				"Silver Surfer"
+			],
+			"format": "tpb",
+			"issues": {
+				"Silver Surfer (1987)": "0.5,139-146",
+				"Silver Surfer/Thor Annual '98": 1,
+				"Galactus the Devourer (1999)": "1-6",
+				"Silver Surfer: Loftier Then Mortals (1999)": "1-2"
+			}
+		},
+		{
+			"id": "019d612e-977c-707a-9cef-72871e0cded2",
+			"title": "Silver Surfer Epic Collection 1: When Calls Galactus",
+			"tags": [
+				"Marvel",
+				"Fantastic Four",
+				"Silver Surfer"
+			],
+			"format": "tpb",
+			"issues": {
+				"Fantastic Four (1961)": "48-50,55,57-60,72,74-77"
+			},
+			"partials": {
+				"Fantastic Four (1961)": "56,61",
+				"Fantastic Four Annual (1963)": 5,
+				"Tales to Astonish (1959)": "92-93"
+			}
+		},
+		{
+			"id": "019d6130-9539-70ee-810e-ad0764c8eb5b",
+			"title": "Silver Surfer Epic Collection 3: Freedom",
+			"tags": [
+				"Marvel",
+				"Silver Surfer"
+			],
+			"format": "tpb",
+			"issues": {
+				"Silver Surfer (1982)": 1,
+				"Silver Surfer (1987)": "1-14",
+				"Super-Villain Classics (1983)": 1
+			},
+			"partials": {
+				"Epic Illustrated (1980)": 1,
+				"Marvel Fanfare (1982)": 51
+			}
+		},
+		{
+			"id": "019d613d-6229-758a-b2f2-8e0bd24ba87f",
+			"title": "Silver Surfer Epic Collection 4: Parable",
+			"tags": [
+				"Marvel",
+				"Silver Surfer"
+			],
+			"format": "tpb",
+			"issues": {
+				"Silver Surfer (1987)": "15-23",
+				"Silver Surfer Annual (1988)": "1-2",
+				"Fantastic Four (1961)": 325,
+				"Marvel Graphic Novel: Silver Surfer (1988)": 1,
+				"Silver Surfer (1988)": "1-2"
+			},
+			"partials": {
+				"Marvel Comics Presents (1988)": 1
+			}
+		},
+		{
+			"id": "019d6140-f71b-76bb-86fb-ad8f0f6ea173",
+			"title": "Silver Surfer Epic Collection 5: The Return Of Thanos",
+			"tags": [
+				"Marvel",
+				"Silver Surfer"
+			],
+			"format": "tpb",
+			"issues": {
+				"Silver Surfer (1987)": "24-38",
+				"Marvel Graphic Novel (1982)": 58
+			}
+		},
+		{
+			"id": "019d6143-e954-721c-beca-8b7b43798461",
+			"title": "Silver Surfer Epic Collection 6: Thanos Quest",
+			"tags": [
+				"Marvel",
+				"Silver Surfer"
+			],
+			"format": "tpb",
+			"issues": {
+				"Silver Surfer (1987)": "39-50",
+				"Silver Surfer Annual (1988)": 3,
+				"Thanos Quest (1990)": "1-2"
+			},
+			"partials": {
+				"Marvel Comics Presents (1988)": 50
+			}
+		},
+		{
+			"id": "019d6146-b479-7104-aa56-b743a8d278c3",
+			"title": "Silver Surfer Epic Collection 7: The Infinity Gauntlet",
+			"tags": [
+				"Marvel",
+				"Silver Surfer"
+			],
+			"format": "tpb",
+			"issues": {
+				"Silver Surfer (1987)": "51-66",
+				"Silver Surfer Annual (1988)": 4
+			},
+			"partials": {
+				"Marvel Comics Presents (1988)": "69,93-97"
+			}
+		},
+		{
+			"id": "019d6148-6a7d-749e-9397-8528bbfce5ec",
+			"title": "Silver Surfer Epic Collection 8: The Herald Ordeal",
+			"tags": [
+				"Marvel",
+				"Silver Surfer"
+			],
+			"format": "tpb",
+			"issues": {
+				"Silver Surfer (1987)": "67-75",
+				"Silver Surfer Annual (1988)": 5,
+				"Silver Sufer: Homecoming": 1
+			},
+			"partials": {
+				"Incredible Hulk Annual (1968)": 18,
+				"Namor the Sub-Mariner Annual": 2,
+				"Doctor Strange, Sorcerer Supreme Annual": 2
+			}
+		},
+		{
+			"id": "019d614b-84a2-73e5-bda0-b391cf00d1bc",
+			"title": "Silver Surfer Epic Collection 9: Resurrection",
+			"tags": [
+				"Marvel",
+				"Silver Surfer"
+			],
+			"format": "tpb",
+			"issues": {
+				"Silver Surfer (1987)": "76-85",
+				"Silver Surfer Annual (1988)": 6,
+				"Silver Sufer/ Warlock: Resurrection": "1-4",
+				"Secret Defenders (1993)": "9-10"
+			}
+		},
+		{
+			"id": "019d6159-f1d5-723e-a019-df6ab6713291",
+			"title": "Silver Surfer Omnibus Volume 1",
+			"tags": [
+				"Marvel",
+				"Silver Surfer"
+			],
+			"format": "omnibus",
+			"issues": {
+				"Silver Surfer (1968)": "1-18"
+			}
+		},
+		{
+			"id": "019d615b-766f-703e-99f4-d9e8ea899008",
+			"title": "Silver Surfer by Slott & Allred Omnibus",
+			"tags": [
+				"Marvel",
+				"Silver Surfer"
+			],
+			"format": "omnibus",
+			"issues": {
+				"Silver Surfer (2014)": "1-15",
+				"Silver Surfer (2016)": "1-14"
+			},
+			"partials": {
+				"All-New Marvel Now! Point One": 1
+			}
+		},
+		{
+			"id": "019d6166-0726-751d-bda0-aedc70cd5e0c",
+			"title": "Silver Surfer: Return To The Spaceways Omnibus",
+			"tags": [
+				"Marvel",
+				"Silver Surfer"
+			],
+			"format": "omnibus",
+			"issues": {
+				"Silver Surfer (1982)": 1,
+				"Silver Surfer (1987)": "1-33",
+				"Silver Surfer Annual (1988)": "1-2",
+				"Marvel Graphic Novel: Silver Surfer (1988)": 1,
+				"Silver Surfer (1988)": "1-2",
+				"Marvel Graphic Novel (1982)": 58,
+				"Fantastic Four (1961)": 325,
+				"Super-Villain Classics (1983)": 1
+			},
+			"partials": {
+				"Epic Illustrated (1980)": 1,
+				"Marvel Comics Presents (1988)": 1,
+				"Marvel Fanfare (1982)": 51
 			}
 		},
 		{
