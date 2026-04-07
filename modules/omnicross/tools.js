@@ -122,9 +122,11 @@ export function createIssueLink(database, issue, result) {
  * @param {Database} database 
  * @param {HTMLElement} parentElement 
  * @param {Set<string>} issueIds 
+ * @param {Set<string>} partialIds 
  * @param {ComparitorResult} result 
  */
-export function createIssueLinkListById(database, parentElement, issueIds, result) {
+export function createIssueLinkListById(database, parentElement,
+    issueIds, partialIds, result) {
 
     /** @type {Set<Issue>} */
     let issues = new Set();
@@ -132,20 +134,28 @@ export function createIssueLinkListById(database, parentElement, issueIds, resul
         const issue = database.getIssueById(v);
         issues.add(issue);
     });
-    createIssueLinkList(database, parentElement, issues, result);
+    createIssueLinkList(database, parentElement, issues, partialIds, result);
 }
 /**
  * 
  * @param {Database} database 
  * @param {HTMLElement} parentElement 
  * @param {Set<Issue>} issues 
+ * @param {Set<string>} partialIds 
  * @param {ComparitorResult} result 
  */
-export function createIssueLinkList(database, parentElement, issues, result) {
+export function createIssueLinkList(database, parentElement,
+    issues, partialIds, result) {
     let i = 0;
     sortSetByNumber(issues).forEach(issue => {
         i++;
-        parentElement.appendChild(createIssueLink(database, issue, result));
+        const anchorElement = createIssueLink(database, issue, result);
+        parentElement.appendChild(anchorElement);
+        if (partialIds != null && partialIds.has(issue.id)) {
+            const superEle = document.createElement("sup");
+            superEle.innerText = "†";
+            parentElement.appendChild(superEle);
+        }
         if (i < count(issues)) {
             parentElement.appendChild(document.createTextNode(", "));
         }

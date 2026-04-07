@@ -99,43 +99,11 @@ export class Parser {
                     console.error(e);
                     throw Error("issues property not found for compilation");
                 }
-                Object.keys(e.issues).forEach(function (key, index) {
-                    let series = output.getSeriesNyName(key);
-                    if (series === undefined) {
-                        series = new Series(key);
-                        output.addSeries(series);
-                    }
+                this.#parseIssues(e.issues, output, (i) => compilation.addIssue(i));
 
-                    const issueRanges = e.issues[key].toString().split(",");
-                    const issueRangeRegex = /^(-?\d+)-(-?\d+)$/;
-                    const issueNumberRegex = /^(-?[0-9\.]+)$/;
-                    issueRanges.forEach(e => {
-                        const m = e.match(issueRangeRegex);
-                        if (m) {
-                            const startNumber = parseInt(m[1]);
-                            const endNumber = parseInt(m[2]);
-                            if (endNumber < startNumber) {
-                                console.error(e);
-                                console.error("End number smaller than start number");
-                                return;
-                            }
-                            for (let i = startNumber; i <= endNumber; i++) {
-                                const issue = output.getOrAddIssue(series.id, i);
-                                compilation.addIssue(issue);
-                            }
-                        } else {
-                            const m = e.match(issueNumberRegex);
-                            if (m) {
-                                const issueNumber = parseFloat(e);
-                                const issue = output.getOrAddIssue(series.id, issueNumber);
-                                compilation.addIssue(issue);
-                            } else {
-                                console.error("Could not parse issue range: " + e);
-                                return;
-                            }
-                        }
-                    });
-                });
+                if (e.partials) {
+                    this.#parseIssues(e.partials, output, (i) => compilation.addPartial(i));
+                }
 
                 output.addCompilation(compilation);
             });
@@ -146,6 +114,52 @@ export class Parser {
         console.timeEnd("parseSort");
         console.timeEnd("parse");
         return output;
+    }
+    /**
+     * 
+     * @param {object} issues 
+     * @param {Database} database 
+     */
+    #parseIssues(issues, database, addIssueToCompilation) {
+        Object.keys(issues).forEach(function (key, index) {
+            let series = database.getSeriesNyName(key);
+            if (series === undefined) {
+                series = new Series(key);
+                database.addSeries(series);
+            }
+            const issueRanges = issues[key].toString().split(",");
+            const issueRangeRegex = /^(-?\d+)-(-?\d+)$/;
+            const issueNumberRegex = /^(-?[0-9\.]+)$/;
+
+            issueRanges.forEach(e => {
+                e = e.trim();
+                const m = e.match(issueRangeRegex);
+                if (m) {
+                    const startNumber = parseInt(m[1]);
+                    const endNumber = parseInt(m[2]);
+                    if (endNumber < startNumber) {
+                        console.error(e);
+                        console.error("End number smaller than start number");
+                        return;
+                    }
+                    for (let i = startNumber; i <= endNumber; i++) {
+                        const issue = database.getOrAddIssue(series.id, i);
+                        addIssueToCompilation(issue);
+                    }
+                } else {
+                    const m = e.match(issueNumberRegex);
+                    if (m) {
+                        const issueNumber = parseFloat(e);
+                        const issue = database.getOrAddIssue(series.id, issueNumber);
+                        addIssueToCompilation(issue);
+                    } else {
+                        console.error("Could not parse issue range: " + e);
+                        return;
+                    }
+                }
+            });
+
+        });
     }
 }
 
@@ -325,7 +339,8 @@ export class Database {
     getCompilationsWithIssue(issueId) {
         let output = new Set();
         this.#compilations.forEach((v, k) => {
-            if (v.issues.has(issueId)) {
+            if (v.issues.has(issueId)
+                || v.partials.has(issueId)) {
                 output.add(v);
             }
         });
@@ -387,6 +402,14 @@ export class Compilation {
             this.series.set(issue.seriesId, new Set());
         }
         this.series.get(issue.seriesId).add(issue.id);
+    }
+    /**
+     * 
+     * @param {Issue} issue 
+     */
+    addPartial(issue) {
+        this.partials.add(issue.id);
+        this.addIssue(issue);
     }
 }
 // Represents the series an issue is part of

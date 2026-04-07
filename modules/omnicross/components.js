@@ -63,6 +63,8 @@ export class SeriesBrowserEntryElement extends FilterableElement {
 export class CompilationBrowserEntryElement extends FilterableElement {
     /** @type {Compilation} */
     data;
+    /** @type {HTMLElement} */
+    #nameElement;
     /**
      * 
      * @param {Database} database 
@@ -95,10 +97,10 @@ export class CompilationBrowserEntryElement extends FilterableElement {
         const shadowRoot = this.attachShadow({ mode: "open" });
         shadowRoot.appendChild(document.importNode(templateContent, true));
 
-        const setName = document.createElement("b");
-        setName.slot = "name";
-        setName.appendChild(createCompilationLink(database, data));
-        this.appendChild(setName);
+        this.#nameElement = document.createElement("b");
+        this.#nameElement.slot = "name";
+        this.#nameElement.appendChild(createCompilationLink(database, data));
+        this.appendChild(this.#nameElement);
 
         let rendered = false;
 
@@ -130,6 +132,11 @@ export class CompilationBrowserEntryElement extends FilterableElement {
             });
     }
 
+    addSuperScript(text) {
+        const superEle = document.createElement("sup");
+        superEle.innerText = text;
+        this.#nameElement.appendChild(superEle);
+    }
     attributeChangedCallback(name, oldValue, newValue) {
         console.log(
             `Attribute ${name} has changed from ${oldValue} to ${newValue}.`,
@@ -491,10 +498,18 @@ export class CompilationViewerElement extends HTMLElement {
                 tr.appendChild(issuesTd);
                 const compilationSeriesIssues = [...series.issues.keys()].filter(
                     e => data.issues.has(e));
-                createIssueLinkListById(database, issuesTd, data.series.get(series.id), database.completeComparisonResult);
+                createIssueLinkListById(database, issuesTd,
+                    data.series.get(series.id),
+                    data.partials,
+                    database.completeComparisonResult);
 
                 issueTable.appendChild(tr);
             });
+        const keyPartialElement = this.shadowRoot.getElementById("keyPartial");
+        if (isEmpty(data.partials)) {
+            keyPartialElement.style.display = "none";
+        }
+
         const overlappingCompilationsElement = this.shadowRoot.getElementById("overlappingCompilations");
         let overlapsFound = false;
         database.getOverlappingCompilations(data.id).forEach(c => {
@@ -534,7 +549,10 @@ export class SeriesViewerElement extends HTMLElement {
         this.appendChild(nameField);
 
         const issueList = this.shadowRoot.querySelector("div.issueList");
-        createIssueLinkListById(database, issueList, new Set([...data.issues.values()]), database.completeComparisonResult);
+        createIssueLinkListById(database, issueList,
+            new Set([...data.issues.values()]),
+            null,
+            database.completeComparisonResult);
 
         const compilationList = this.shadowRoot.getElementById("compilationList");
         const compilations = database.getCompilationsWithSeries(data.id);
@@ -576,10 +594,19 @@ export class IssueViewerElement extends HTMLElement {
 
         const compilationList = this.shadowRoot.getElementById("compilationList");
         const compilations = database.getCompilationsWithIssue(data.id);
+        let partialFound = false;
         compilations.forEach(e => {
             const element = createDraggableCompilationEntry(database, e);
             compilationList.appendChild(element);
+            if (e.partials.has(data.id)) {
+                partialFound = true;
+                element.addSuperScript("†");
+            }
         });
+        const keyPartialElement = this.shadowRoot.getElementById("keyPartial");
+        if (partialFound !== true) {
+            keyPartialElement.style.display = "none";
+        }
     }
 }
 
@@ -620,7 +647,6 @@ export class CompilationBrowserElement extends FilterableListElement {
             element.add(ele);
         });
         this.refresh();
-
     }
 }
 
