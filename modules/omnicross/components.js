@@ -514,6 +514,22 @@ export class CompilationViewerElement extends HTMLElement {
         let overlapsFound = false;
         database.getOverlappingCompilations(data.id).forEach(c => {
             const newElement = createDraggableCompilationEntry(database, c);
+            newElement.addEventListener("mouseenter", (event) => {
+                c.issues.forEach(i => {
+                    const link = this.shadowRoot.querySelector('[data-id="' + i + '"]');
+                    if (link != null) {
+                        link.classList.add("highlight");
+                    }
+                });
+            });
+            newElement.addEventListener("mouseleave", (event) => {
+                c.issues.forEach(i => {
+                    const link = this.shadowRoot.querySelector('[data-id="' + i + '"');
+                    if (link != null) {
+                        link.classList.remove("highlight");
+                    }
+                });
+            });
             overlappingCompilationsElement.appendChild(newElement);
             overlapsFound = true;
         });
@@ -556,8 +572,26 @@ export class SeriesViewerElement extends HTMLElement {
 
         const compilationList = this.shadowRoot.getElementById("compilationList");
         const compilations = database.getCompilationsWithSeries(data.id);
-        compilations.forEach(e => {
-            const element = createDraggableCompilationEntry(database, e);
+        compilations.forEach(c => {
+            const element = createDraggableCompilationEntry(database, c);
+            element.addEventListener("mouseenter", (event) => {
+                c.issues.forEach(i => {
+                    const link = this.shadowRoot.querySelector('[data-id="' + i + '"]');
+                    if (link != null) {
+                        link.classList.add("highlight");
+                    }
+                });
+            });
+            element.addEventListener("mouseleave", (event) => {
+                c.issues.forEach(i => {
+                    const link = this.shadowRoot.querySelector('[data-id="' + i + '"');
+                    if (link != null) {
+                        link.classList.remove("highlight");
+                    }
+                });
+            });
+
+
             compilationList.appendChild(element);
         })
 

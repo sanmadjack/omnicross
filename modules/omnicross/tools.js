@@ -105,6 +105,7 @@ export function createIssueLink(database, issue, result) {
     const anchorElement = document.createElement("a");
     anchorElement.innerText = issue.number;
     anchorElement.href = "#";
+    anchorElement.dataset["id"] = issue.id;
     anchorElement.onclick = (e) => {
         openIssueViewer(database, issue, e.clientX, e.clientY);
     };
