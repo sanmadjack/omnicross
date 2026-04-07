@@ -113,6 +113,19 @@
 			}
 		},
 		{
+			"id": "019d65be-fb62-75b8-94e5-62e2d01542cb",
+			"title": "All-New X-Men by Brian Michael Bendis Omnibus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
+			"format": "omnibus",
+			"issues": {
+				"All-New X-Men (2012)": "1-15,18-41",
+				"Guardians of the Galaxy (2013)": "11-13"
+			}
+		},
+		{
 			"id": "019d2707-438f-757c-86d8-62fb1c1cf543",
 			"title": "Aphrodite IX: The Complete Series",
 			"format": "omnibus",
@@ -633,7 +646,7 @@
 				"Fall of the House of X": "1-5",
 				"Rise of the Powers of X": "1-5",
 				"X-Men (2021)": "30-34",
-				"Resurrection of Magneto": "1-4",
+				"Resurrection of Magneto (2023)": "1-4",
 				"Dead X-Men": "1-4",
 				"X-Men Forever (2024)": "1-4",
 				"Invincible Iron Man (2022)": "13-20",
@@ -898,15 +911,14 @@
 			"issues": {
 				"Silver Surfer (1987)": "34-38,40,44-60",
 				"Thanos Quest (1990)": "1-2",
-				"Infinity Gauntlet": "1-6",
+				"Infinity Gauntlet (1991)": "1-6",
 				"Cloak & Dagger (1988)": 18,
 				"Spider-Man (1990)": 17,
 				"Incredible Hulk (1968)": "383-385",
 				"Doctor Strange, Sorcerer Supreme (1988)": "31-36",
 				"Quasar (1989)": "26-27",
 				"Sleepwalker (1991)": 7
-			},
-			"partials": {}
+			}
 		},
 		{
 			"id": "019d0853-7f12-741d-9d89-2c4079bf927e",
@@ -1526,6 +1538,24 @@
 			},
 			"partials": {
 				"All-New Marvel Now! Point One": 1
+			}
+		},
+		{
+			"id": "019d65a4-8ed8-732a-a74b-04229f8f4eea",
+			"title": "Silver Surfer: Infinity Gauntlet Omnibus",
+			"tags": [
+				"Marvel",
+				"Silver Surfer"
+			],
+			"format": "omnibus",
+			"issues": {
+				"Silver Surfer (1987)": "34-60",
+				"Silver Surfer Annual (1988)": "3-4",
+				"Thanos Quest (1990)": "1-2",
+				"Infinity Gauntlet (1991)": "1-6"
+			},
+			"partials": {
+				"Marvel Comics Presents (1988)": "50,69,93-97"
 			}
 		},
 		{
@@ -2545,6 +2575,24 @@
 			}
 		},
 		{
+			"id": "019d65b9-6c53-77bf-9146-0a61bab2522c",
+			"title": "X-Men By Al Ewing Ominbus",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
+			"format": "omnibus",
+			"issues": {
+				"S.W.O.R.D. (2020)": "1-11",
+				"X-Men Red (2022)": "1-15,16A,17-18",
+				"Storm & the Brotherhood of Mutants (2023)": "1-3",
+				"Resurrection of Magneto (2023)": "1-4",
+				"Cable Reloaded (2021)": 1,
+				"X-Men: Before the Fall - Heralds of Apocalypse (2023)": 1,
+				"Marvel's Voices: X-Men": 1
+			}
+		},
+		{
 			"id": "019d253f-f4f2-76f9-97a0-2c8b53bd0ce9",
 			"title": "X-Men By Hickman Omnibus",
 			"tags": [
@@ -3153,6 +3201,32 @@
 			],
 			"issues": {
 				"Longshot (1985)": "1-6"
+			}
+		},
+		{
+			"id": "019d65b1-c6ab-73f4-bab6-871e8046f244",
+			"title": "X-Men: Mutant Massacre Prelude Omnibus",
+			"tags": [
+				"Marvel"
+			],
+			"format": "omnibus",
+			"issues": {
+				"The Uncanny X-Men (1981)": "194-209",
+				"The X-Men Annual (1970)": "9-10",
+				"New Mutants Special Edition": 1,
+				"New Mutants Annual (1983)": 2,
+				"Nightcrawler (1985)": "1-4",
+				"Longshot (1985)": "1-6",
+				"The Avengers (1963)": 263,
+				"Fantastic Four (1961)": 286,
+				"X-Factor (1986)": "1-8",
+				"X-Factor Annual (1986)": 1,
+				"Iron Man Annual (1970)": 8,
+				"The Amazing Spider-Man (1963)": 282
+			},
+			"partials": {
+				"Marvel Fanfare (1982)": 33,
+				"Classic X-Men": "8,43"
 			}
 		},
 		{
