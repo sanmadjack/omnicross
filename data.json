@@ -237,6 +237,29 @@
 			}
 		},
 		{
+			"id": "019d65c4-0e48-71f8-88c4-948e3e11c8f2",
+			"title": "Daken: Dark Wolverine Omnibus (Pre-Release)",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
+			"format": "omnibus",
+			"issues": {
+				"Dark Wolverine (2009)": "75-90",
+				"Daken: Dark Wolverine (2010)": "1-23,9.1",
+				"Dark Reign: The List - Punisher (2009)": 1,
+				"Wolverine: Origins (2006)": "47-48",
+				"Franken-Castle (2010)": "19-20",
+				"X-23 (2010B)": "7-9",
+				"What If? Wolverine: Father (2010)": 1,
+				"Dark Wolverine Saga (2009)": 1,
+				"Daken Saga (2010)": 1
+			},
+			"partials": {
+				"Wolverine: The Road to Hell (2010)": 1
+			}
+		},
+		{
 			"id": "019d2601-013b-75e8-add8-79e10bfab111",
 			"title": "Dazzler Omnibus",
 			"tags": [
@@ -460,7 +483,7 @@
 				"9781302910068"
 			],
 			"issues": {
-				"Wolverine: Origins": "21-25",
+				"Wolverine: Origins (2006)": "21-25",
 				"Deadpool (2008)": "1-26",
 				"Thunderbolts (1997)": "130-131",
 				"Hit-Monkey (2010A)": "1",
@@ -2302,7 +2325,25 @@
 				"X-Men: Schism": "1-5"
 			},
 			"partials": {
-				"Wolverine: The Road to Hell": "1"
+				"Wolverine: The Road to Hell (2010)": "1"
+			}
+		},
+		{
+			"id": "019d65c9-f349-72ac-8975-0620b0f33bf1",
+			"title": "Wolverine: Not Dead Yet Omnibus (Pre-Release)",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
+			"format": "omnibus",
+			"issues": {
+				"Wolverine (1988)": "119-158",
+				"Wolverine Annual 1999": 1,
+				"Wolverine: Black Rio (1998)": 1,
+				"Wolverine/Cable (1999)": 1,
+				"Wolverine/Punisher: Revelation (1999)": "1-4",
+				"Iron Fist/Wolverine (2000)": "1-4",
+				"Hulk (1999)": 8
 			}
 		},
 		{
@@ -2322,7 +2363,7 @@
 				"X-23 (2010A)": "1",
 				"X-23 (2010B)": "1-21",
 				"Captain Universe/X-23": "1",
-				"Daken: Dark Wolverine": "8-9"
+				"Daken: Dark Wolverine (2010)": "8-9"
 			},
 			"partials": {
 				"X-Men: To Serve and Protect": "2",
