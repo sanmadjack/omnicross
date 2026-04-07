@@ -27,6 +27,7 @@ export class PopupWindowElement extends HTMLElement {
     static observedAttributes = ["height", "width", "scrolling"];
     /** @type {Array<PopupWindowElement>} */
     static #visibleWindows = [];
+
     /** @type {Array<HTMLElement>} */
     #hostElement;
     /** @type {Array<CardBoxElement>} */
