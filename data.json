@@ -726,8 +726,17 @@
 			}
 		},
 		{
+			"id": "019d0872-6233-71e8-8b04-b9258aa15495",
+			"title": "Harley Quinn and Power Girl",
+			"reference": "https://dc.fandom.com/wiki/Harley_Quinn_and_Power_Girl_(Collected)",
+			"format": "tpb",
+			"issues": {
+				"Harley Quinn and Power Girl (2015)": "19-27"
+			}
+		},
+		{
 			"id": "019d086a-d12d-77af-9893-04386e24d245",
-			"title": "Harley Quinn Omnibus Volume 1",
+			"title": "Harley Quinn by Amanda Conner & Jimmy Palmiotti Omnibus Volume 2",
 			"reference": "https://www.dc.com/graphic-novels/harley-quinn-by-amanda-conner-and-jimmy-palmiotti-omnibus-2017/harley-quinn-by-amanda-conner-and-jimmy-palmiotti-omnibus-vol-1",
 			"format": "omnibus",
 			"upc": [
@@ -744,12 +753,25 @@
 			}
 		},
 		{
-			"id": "019d0872-6233-71e8-8b04-b9258aa15495",
-			"title": "Harley Quinn and Power Girl",
-			"reference": "https://dc.fandom.com/wiki/Harley_Quinn_and_Power_Girl_(Collected)",
-			"format": "tpb",
+			"id": "019d65d4-6b89-72c9-b18f-a96cee642d01",
+			"title": "Harley Quinn by Amanda Conner & Jimmy Palmiotti Omnibus Volume 2",
+			"format": "omnibus",
 			"issues": {
-				"Harley Quinn and Power Girl (2015)": "19-27"
+				"Harley Quinn (2014)": "17-30",
+				"DC Sneak Peek: Harley Quinn": 1,
+				"Harley Quinn Road Trip Special": 1,
+				"Harley Quinn: Be Careful What You Wish For Special Edition": 1,
+				"Harley Quinn and Her Gang of Harleys": "1-6",
+				"Harley's Little Black Book": "1-6"
+			}
+		},
+		{
+			"id": "019d65d6-54cf-74be-847a-504d2aa83bcb",
+			"title": "Harley Quinn by Amanda Conner & Jimmy Palmiotti Omnibus Volume 3",
+			"format": "omnibus",
+			"issues": {
+				"Harley Quinn (2016)": "1-34",
+				"Harley Quinn 25th Anniversary Special": 1
 			}
 		},
 		{
