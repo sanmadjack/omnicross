@@ -3599,6 +3599,31 @@
 			}
 		},
 		{
+			"id": "019eacd1-2b82-722b-b7d1-ade9430928ed",
+			"title": "X-Men: The Trial of Gambit Omnibus (Pre-release)",
+			"tags": [
+				"Marvel",
+				"X-Men"
+			],
+			"format": "omnibus",
+			"upc": [
+				"9781302968908"
+			],
+			"issues": {
+				"Uncanny X-Men (1981)": "341-350, -1",
+				"X-Men (1991)": "62-64, -1",
+				"Imperial Guard (1997)": "1-3",
+				"Psylocke & Archangel: Crimson Dawn (1997)": "1-4",
+				"Gambit (1997)": "1-4",
+				"Bishop: Xavier Security Enforcer (1998)": "1-3",
+				"Marvel Fanfare (1996)": "4-5",
+				"Longshot (1998)": 1
+			},
+			"partials": {
+				"Marvel Valentine Special (1997)": 1
+			}
+		},
+		{
 			"id": "019d4b88-95b7-7051-ab39-50d59b97dd36",
 			"title": "X-Men: The Wedding of Cyclops & Phoenix",
 			"tags": [
